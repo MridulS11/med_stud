@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Lock, Eye, EyeOff, Sparkles, ArrowRight, User, School, CheckCircle2, UserPlus, LogIn } from 'lucide-react';
+import { Mail, Lock, Eye, EyeOff, ArrowRight, User, School, CheckCircle2, UserPlus, LogIn } from 'lucide-react';
 
 interface LoginViewProps {
   onLoginSuccess: (email: string, userName?: string) => void;
@@ -16,9 +16,9 @@ interface RegisteredUser {
 export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
   const [tab, setTab] = useState<'signin' | 'register'>('signin');
 
-  // Sign in state
-  const [email, setEmail] = useState('student@marrow.med');
-  const [password, setPassword] = useState('pathology2026');
+  // Sign in state (empty by default, no pre-filled credentials)
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(true);
 
@@ -51,7 +51,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
 
     const cleanEmail = email.trim().toLowerCase();
     if (!cleanEmail) {
-      setError('Please enter a valid email address.');
+      setError('Please enter your email address.');
       return;
     }
     if (!password.trim()) {
@@ -64,7 +64,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
 
     if (registeredUser) {
       if (registeredUser.password && registeredUser.password !== password) {
-        setError('Incorrect password for this registered account.');
+        setError('Incorrect password. Please verify and try again.');
         return;
       }
       if (rememberMe) {
@@ -75,16 +75,8 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
       return;
     }
 
-    // Default demo login check
-    if (cleanEmail === 'student@marrow.med' || cleanEmail.includes('@')) {
-      if (rememberMe) {
-        localStorage.setItem('marrow_auth_user', cleanEmail);
-        localStorage.setItem('marrow_auth_name', 'Student');
-      }
-      onLoginSuccess(cleanEmail, 'Student');
-    } else {
-      setError('Invalid email or password.');
-    }
+    // If user is not yet registered
+    setError('Account not found with this email. Please switch to "New Registration" to create your account.');
   };
 
   const handleRegister = (e: React.FormEvent) => {
@@ -138,14 +130,6 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
     setTimeout(() => {
       onLoginSuccess(cleanEmail, newUser.name);
     }, 600);
-  };
-
-  const handleQuickDemo = () => {
-    setEmail('student@marrow.med');
-    setPassword('pathology2026');
-    localStorage.setItem('marrow_auth_user', 'student@marrow.med');
-    localStorage.setItem('marrow_auth_name', 'Student Doctor');
-    onLoginSuccess('student@marrow.med', 'Student Doctor');
   };
 
   return (
@@ -236,7 +220,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="doctor@marrow.med"
+                    placeholder="Enter your registered email"
                     required
                     className="w-full pl-10 pr-4 py-2.5 bg-stone-50 border border-stone-200 rounded-xl text-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-800/20 focus:border-teal-800 transition-all font-sans"
                   />
@@ -255,7 +239,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                     type={showPassword ? 'text' : 'password'}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="••••••••••••"
+                    placeholder="Enter your password"
                     required
                     className="w-full pl-10 pr-10 py-2.5 bg-stone-50 border border-stone-200 rounded-xl text-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-800/20 focus:border-teal-800 transition-all font-sans"
                   />
@@ -284,7 +268,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                   href="#forgot"
                   onClick={(e) => {
                     e.preventDefault();
-                    alert('Demo credentials: student@marrow.med / pathology2026, or use any newly registered account.');
+                    alert('If you forgot your password or need a new account, please register via the "New Registration" tab.');
                   }}
                   className="text-xs text-teal-800 hover:text-teal-900 font-medium hover:underline"
                 >
@@ -337,7 +321,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                     type="email"
                     value={regEmail}
                     onChange={(e) => setRegEmail(e.target.value)}
-                    placeholder="priya@college.ac.in"
+                    placeholder="name@college.ac.in"
                     required
                     className="w-full pl-10 pr-4 py-2.5 bg-stone-50 border border-stone-200 rounded-xl text-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-800/20 focus:border-teal-800 transition-all font-sans"
                   />
@@ -434,21 +418,6 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
               </button>
             </form>
           )}
-
-          {/* Quick Demo Access (available on both tabs) */}
-          <div className="mt-5 pt-5 border-t border-stone-100">
-            <button
-              type="button"
-              onClick={handleQuickDemo}
-              className="w-full py-2.5 px-4 bg-amber-50 hover:bg-amber-100/80 border border-amber-200/80 text-amber-900 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-colors"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-              1-Click Instant Demo Login
-            </button>
-            <p className="text-[11px] text-stone-400 text-center mt-2 font-sans">
-              Instant access without password • Preloaded INC Semester IV curriculum
-            </p>
-          </div>
         </div>
 
         {/* Footer info & switcher */}

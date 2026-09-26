@@ -22,7 +22,7 @@ export const App: React.FC = () => {
   });
 
   const [userEmail, setUserEmail] = useState<string>(() => {
-    return localStorage.getItem('marrow_auth_user') || 'student@marrow.med';
+    return localStorage.getItem('marrow_auth_user') || '';
   });
 
   const [userName, setUserName] = useState<string>(() => {
