@@ -33,8 +33,8 @@ export const ch14: Chapter = {
         "The triad of nephrotic syndrome: Proteinuria >3.5 g/24hr, Serum Albumin <3 g/dL, Generalized Edema.",
         "Loss of Antithrombin III in nephrotic syndrome causes a hypercoagulable state with high risk of deep vein thrombosis and renal vein thrombosis."
       ],
-      "imagePath": "/images/ch14_img_1.jpeg",
-      "imageCaption": "Gross and microscopic histology of acute glomerulonephritis demonstrating hypercellular glomeruli with obliterative capillary loops."
+      "imagePath": "/images/ch14_glomerulonephritis.png",
+      "imageCaption": "Figure 14.3: Pathogenesis and clinical symptoms of Glomerulonephritis leading to decreased GFR, proteinuria, and azotemia."
     },
     {
       "id": "ch14_t2",
@@ -61,8 +61,8 @@ export const ch14: Chapter = {
         "'Thyroidization of kidney' is the hallmark microscopic description of chronic pyelonephritis.",
         "Vesicoureteral reflux (VUR) is the most common predisposing structural defect in pediatric chronic pyelonephritis."
       ],
-      "imagePath": "/images/ch14_img_2.jpeg",
-      "imageCaption": "Microscopic appearance of chronic pyelonephritis displaying tubular atrophy with colloid-like casts (thyroidization) and chronic interstitial infiltrates."
+      "imagePath": "/images/ch14_pyelonephritis.jpeg",
+      "imageCaption": "Figure 14.12: Chronic pyelonephritis histological section demonstrating chronic inflammatory cell infiltrates, tubular atrophy, and thyroidization of tubules."
     },
     {
       "id": "ch14_t3",
@@ -90,8 +90,8 @@ export const ch14: Chapter = {
         "Uric acid stones are completely radiolucent on plain KUB radiography but clearly visible on non-contrast CT.",
         "Hexagonal crystals in urine are diagnostic of cystinuria."
       ],
-      "imagePath": "/images/ch14_img_3.png",
-      "imageCaption": "Staghorn calculus branching throughout the renal pelvicalyceal system causing pelvicalyceal dilatation."
+      "imagePath": "/images/ch14_kidney_stones.jpeg",
+      "imageCaption": "Figure 14.14: Characteristic gross appearances and crystalline shapes of common renal calculi (calcium oxalate, struvite, uric acid, and cystine)."
     },
     {
       "id": "ch14_t4",
@@ -119,8 +119,8 @@ export const ch14: Chapter = {
         "Absence of WBC casts is the key distinguishing factor separating lower UTI (cystitis) from upper UTI (pyelonephritis).",
         "Positive nitrite test is specific for Gram-negative coliforms (E. coli, Klebsiella, Proteus); Enterococcus does not produce nitrite."
       ],
-      "imagePath": "/images/ch14_img_4.png",
-      "imageCaption": "Microscopic view of urinary sediment highlighting abundant polymorphonuclear leukocytes and bacterial clusters."
+      "imagePath": "/images/ch14_ascending_uti.png",
+      "imageCaption": "Pathogenesis and progression of Ascending Urinary Tract Infection: Urethral colonization to bladder cystitis and pyelonephritis."
     },
     {
       "id": "ch14_t5",
@@ -148,8 +148,8 @@ export const ch14: Chapter = {
         "Painless gross hematuria is the most common presenting sign of renal cell carcinoma in adults.",
         "Never palpate the abdomen of a child suspected of Wilms tumor due to risk of capsule rupture and tumor spillage."
       ],
-      "imagePath": "/images/ch14_img_1.jpeg",
-      "imageCaption": "Gross nephrectomy specimen revealing a large, bright golden-yellow clear cell renal cell carcinoma occupying the upper pole of the kidney."
+      "imagePath": "/images/ch14_rcc_histology.png",
+      "imageCaption": "Figure 14.16: Renal Cell Carcinoma (Clear Cell RCC): Polygonal cells with clear cytoplasm and delicate vascular septa."
     },
     {
       "id": "ch14_t6",
@@ -176,8 +176,8 @@ export const ch14: Chapter = {
         "Broad waxy casts in urine are pathognomonic of End-Stage Chronic Kidney Disease.",
         "FENa <1% indicates prerenal azotemia, whereas FENa >2% signifies intrinsic renal tubular damage."
       ],
-      "imagePath": "/images/ch14_img_2.jpeg",
-      "imageCaption": "Gross specimen of end-stage contracted kidney showing granular cobblestone cortical surface and markedly thinned parenchyma."
+      "imagePath": "/images/ch14_diabetic_nephropathy.jpeg",
+      "imageCaption": "Figure 14.8: Gross and histological features of diabetic nephropathy showing diffuse glomerulosclerosis and contracted kidney."
     }
   ],
   "mindMap": {

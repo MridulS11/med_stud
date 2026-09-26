@@ -43,8 +43,8 @@ export const ch23: Chapter = {
         "Clay-colored (acholic) stool indicates complete biliary tract obstruction (obstructive jaundice).",
         "Steatorrhea is characterized by bulky, pale, frothy, greasy, foul-smelling stools that float."
       ],
-      "imagePath": "/images/ch23_img_1.jpeg",
-      "imageCaption": "Macroscopic stool variations: formed normal stool, tarry black melena, and liquid rice-water stool."
+      "imagePath": "/images/ch23_bristol_stool_chart.jpeg",
+      "imageCaption": "Figure 23.1: The Bristol Stool Form Scale: Assessing stool consistency from Type 1 constipation to Type 7 diarrhea."
     },
     {
       "id": "ch23_t2",
@@ -78,8 +78,8 @@ export const ch23: Chapter = {
         "Bacillary dysentery stool has sheets of pus cells and is alkaline; amoebic dysentery stool has few pus cells, Charcot-Leyden crystals, and is acidic.",
         "Deep 'flask-shaped ulcers' in the colon and 'anchovy paste' liver abscesses are classic morphological hallmarks of Entamoeba histolytica."
       ],
-      "imagePath": "/images/ch23_img_2.png",
-      "imageCaption": "Microscopic view of an Entamoeba histolytica trophozoite demonstrating actively ingested erythrocytes in its cytoplasm."
+      "imagePath": "/images/ch23_dysentery_comparison.png",
+      "imageCaption": "Microscopic differential between Amoebic dysentery (trophozoites with erythrophagocytosis) and Bacillary dysentery (sheets of PMNs)."
     },
     {
       "id": "ch23_t3",
@@ -115,8 +115,8 @@ export const ch23: Chapter = {
         "Hookworm ova have a thin, clear transparent shell; heavy infection is a major cause of microcytic hypochromic iron deficiency anemia.",
         "Trichuris trichiura (whipworm) eggs are characteristically barrel-shaped with prominent bipolar plugs."
       ],
-      "imagePath": "/images/ch23_img_3.jpeg",
-      "imageCaption": "Composite microscopic plate displaying eggs of Ascaris lumbricoides, Hookworm, and Trichuris trichiura."
+      "imagePath": "/images/ch23_parasite_ova.jpeg",
+      "imageCaption": "Figure 23.2: Morphology of common intestinal helminth ova (Ascaris, Hookworm, Trichuris) and protozoan cysts."
     },
     {
       "id": "ch23_t4",
@@ -149,8 +149,8 @@ export const ch23: Chapter = {
         "TCBS (Thiosulfate Citrate Bile Salts Sucrose) agar is the selective culture medium of choice for isolating Vibrio cholerae.",
         "Stool pH < 5.5 and positive reducing substances (>0.5%) confirm carbohydrate (lactose) malabsorption."
       ],
-      "imagePath": "/images/ch23_img_4.jpeg",
-      "imageCaption": "Laboratory stool test methods: Fecal Immunochemical Test (FIT) cassette and yellow Vibrio cholerae colonies on TCBS agar."
+      "imagePath": "/images/ch23_occult_blood_test.jpeg",
+      "imageCaption": "Figure 23.7: Fecal Immunochemical Test (FIT) kit for detection of lower gastrointestinal micro-bleeding."
     }
   ],
   "mindMap": {

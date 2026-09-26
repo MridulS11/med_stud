@@ -34,8 +34,8 @@ export const ch28: Chapter = {
         "Standard dose of folic acid is 400 µg/day for average-risk women, whereas high-risk women (prior affected child) require 4 mg/day (10-fold higher dose).",
         "Amniotic fluid acetylcholinesterase (AChE) confirms open neural tube defects because AChE is a specific neural enzyme that transudates only when the nervous system is unepithelialized."
       ],
-      "imagePath": "/images/ch28_img_1.jpeg",
-      "imageCaption": "Spectrum of neural tube defects (Anencephaly, Meningocele, Myelomeningocele) and prenatal ultrasound lemon/banana signs."
+      "imagePath": "/images/ch28_neural_tube_defect_basis.jpeg",
+      "imageCaption": "Figure 28.2: Genetic and embryological basis of neural tube defects (Anencephaly and Spina bifida)."
     },
     {
       "id": "ch28_t2",
@@ -66,8 +66,8 @@ export const ch28: Chapter = {
         "Atrioventricular Septal Defect (AVSD / endocardial cushion defect) is the most specific and characteristic congenital cardiac anomaly in Down syndrome.",
         "The APP gene is located on chromosome 21; trisomy of APP causes virtually all individuals with Down syndrome to develop Alzheimer's disease neuropathology by age 50."
       ],
-      "imagePath": "/images/ch28_img_2.jpeg",
-      "imageCaption": "Down syndrome physical phenotype, cardiac AVSD defect, and APP gene locus on chromosome 21."
+      "imagePath": "/images/ch28_down_syndrome_features.jpeg",
+      "imageCaption": "Figure 28.4: Down syndrome (Trisomy 21): Cardinal physical hallmarks including epicanthal folds, upslanting fissures, and simian crease."
     },
     {
       "id": "ch28_t3",
@@ -96,8 +96,8 @@ export const ch28: Chapter = {
         "Presence of Y chromosome material in Turner syndrome (e.g., 45,X/46,XY mosaicism) demands prophylactic bilateral gonadectomy due to high risk of malignant gonadoblastoma.",
         "Klinefelter syndrome (47,XXY) is the most common genetic cause of male hypogonadism and azoospermia."
       ],
-      "imagePath": "/images/ch28_img_3.jpeg",
-      "imageCaption": "Clinical features of Turner syndrome (45,X) and Klinefelter syndrome (47,XXY) with endocrine axes."
+      "imagePath": "/images/ch28_turner_syndrome.jpeg",
+      "imageCaption": "Figure 28.7: Clinical features of Turner syndrome (45,X monosomy X) including short stature, webbed neck, and streak gonads."
     },
     {
       "id": "ch28_t4",
@@ -127,8 +127,8 @@ export const ch28: Chapter = {
         "Bilateral caudate nucleus atrophy resulting in ballooning of the frontal horns of the lateral ventricles is the hallmark neuroimaging finding in Huntington disease.",
         "APOE-ε4 is the primary genetic susceptibility risk factor for late-onset sporadic Alzheimer's disease on chromosome 19."
       ],
-      "imagePath": "/images/ch28_img_4.jpeg",
-      "imageCaption": "Huntington disease: Striatal caudate atrophy, CAG repeat expansion, and autosomal dominant pedigree."
+      "imagePath": "/images/ch28_huntington_caudate_atrophy.jpeg",
+      "imageCaption": "Figure 28.11: Huntington disease coronal brain section demonstrating marked bilateral atrophy of the caudate nuclei."
     },
     {
       "id": "ch28_t5",
@@ -160,8 +160,8 @@ export const ch28: Chapter = {
         "BRCA1 and BRCA2 genes function in DNA double-strand break repair via homologous recombination; PARP inhibitors exploit synthetic lethality in BRCA-mutant tumors.",
         "Lynch syndrome is caused by germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2) resulting in microsatellite instability (MSI-H)."
       ],
-      "imagePath": "/images/ch28_img_5.jpeg",
-      "imageCaption": "Knudson two-hit hypothesis in tumor suppressor genes, Lynch MMR repair, and Sickle Cell beta-6 mutation."
+      "imagePath": "/images/ch28_cancer_sickle_mechanisms.png",
+      "imageCaption": "Molecular genetics: Knudson two-hit hypothesis (BRCA1/2) and Sickle Cell Disease point mutation (β6 Glu->Val)."
     }
   ],
   "quiz": [

@@ -36,8 +36,8 @@ export const ch26: Chapter = {
         "Maternal age >= 35 years at delivery is the classic indication for offering prenatal diagnostic testing.",
         "Prenatal genetic counseling must always be non-directive and voluntary."
       ],
-      "imagePath": "/images/ch26_img_1.jpeg",
-      "imageCaption": "Clinical flowchart outlining the decision pathway from non-invasive screening to definitive prenatal diagnostic procedures."
+      "imagePath": "/images/ch26_afp_algorithm.jpeg",
+      "imageCaption": "Figure 26.8: Clinical management algorithm for maternal prenatal screening and AFP evaluation."
     },
     {
       "id": "ch26_t2",
@@ -68,8 +68,8 @@ export const ch26: Chapter = {
         "NIPT has a >99% detection rate for Down syndrome with a false-positive rate <0.1%.",
         "A minimum fetal fraction of >= 4% is required to obtain a valid NIPT result."
       ],
-      "imagePath": "/images/ch26_img_2.png",
-      "imageCaption": "Diagram illustrating the placental origin of cell-free fetal DNA in maternal circulation and its sequencing analysis."
+      "imagePath": "/images/ch26_nipt_cffdna_biology.png",
+      "imageCaption": "Biology of Non-Invasive Prenatal Testing (NIPT): Shedding of apoptotic syncytiotrophoblast cell-free DNA into maternal circulation."
     },
     {
       "id": "ch26_t3",
@@ -103,8 +103,8 @@ export const ch26: Chapter = {
         "Markedly ELEVATED maternal serum AFP indicates open neural tube defects (spina bifida, anencephaly), ventral wall defects, or multiple gestation.",
         "Accurate gestational age dating is the single most critical factor in avoiding false-positive maternal serum screening results."
       ],
-      "imagePath": "/images/ch26_img_3.jpeg",
-      "imageCaption": "Ultrasound measurement of fetal nuchal translucency (NT) at 12 weeks gestation alongside the Quad screen analyte profile."
+      "imagePath": "/images/ch26_quad_screen_markers.png",
+      "imageCaption": "Second-trimester Quadruple Screen biomarker patterns: 'HI' is High (hCG & Inhibin A) in Down syndrome vs elevated AFP in NTDs."
     },
     {
       "id": "ch26_t4",
@@ -142,8 +142,8 @@ export const ch26: Chapter = {
         "A second-trimester nuchal fold thickness >= 6 mm is the strongest individual ultrasonographic soft marker for Down syndrome.",
         "The 'double-bubble' sign on fetal ultrasound is diagnostic of duodenal atresia, frequently associated with Trisomy 21."
       ],
-      "imagePath": "/images/ch26_img_4.jpeg",
-      "imageCaption": "Ultrasound images showing the 'double bubble' sign of duodenal atresia and increased nuchal fold thickness."
+      "imagePath": "/images/ch26_prenatal_ultrasound.jpeg",
+      "imageCaption": "Figure 26.5: Level II targeted anomaly ultrasound scan evaluating fetal organ biometry and structural integrity."
     },
     {
       "id": "ch26_t5",
@@ -185,8 +185,8 @@ export const ch26: Chapter = {
         "CVS cannot detect open neural tube defects because it does not collect amniotic fluid for AFP analysis.",
         "All Rh-negative unsensitized mothers undergoing amniocentesis or CVS MUST receive Anti-D Rh immunoglobulin (RhoGAM) to prevent isoimmunization."
       ],
-      "imagePath": "/images/ch26_img_1.jpeg",
-      "imageCaption": "Ultrasound-guided transabdominal amniocentesis procedure diagram demonstrating needle insertion into the amniotic sac."
+      "imagePath": "/images/ch26_amniocentesis.jpeg",
+      "imageCaption": "Figure 26.2: Ultrasound-guided transabdominal amniocentesis for definitive fetal karyotyping."
     }
   ],
   "mindMap": {

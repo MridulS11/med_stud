@@ -32,8 +32,8 @@ export const ch15: Chapter = {
         "The classic 'bell-clapper deformity' predisposes to bilateral testicular torsion; bilateral orchidopexy is therefore mandatory during surgery.",
         "Absence of the cremasteric reflex is the most reliable clinical sign of testicular torsion."
       ],
-      "imagePath": "/images/ch15_img_1.jpeg",
-      "imageCaption": "Gross hemorrhagic infarction of the testis following acute spermatic cord torsion."
+      "imagePath": "/images/ch15_cryptorchidism.jpeg",
+      "imageCaption": "Figure 15.1: Anatomical migration route of the testes and common ectopic arrest sites in cryptorchidism."
     },
     {
       "id": "ch15_t2",
@@ -60,8 +60,8 @@ export const ch15: Chapter = {
         "In testicular atrophy, Leydig cells are typically preserved while germinal epithelium is selectively lost, leading to elevated FSH.",
         "In men <35 years, epididymo-orchitis is most often caused by Chlamydia trachomatis and Neisseria gonorrhoeae."
       ],
-      "imagePath": "/images/ch15_img_2.jpeg",
-      "imageCaption": "Histological section of atrophic testis showing thickened basement membranes and absence of mature spermatozoa."
+      "imagePath": "/images/ch15_testicular_atrophy.jpeg",
+      "imageCaption": "Figure 15.4: Testicular atrophy microscopic section demonstrating marked peritubular hyalinization, thickened basement membranes, and loss of spermatogenesis."
     },
     {
       "id": "ch15_t3",
@@ -88,8 +88,8 @@ export const ch15: Chapter = {
         "5-alpha reductase type 2 converts testosterone to DHT, the ultimate mediator of prostatic hyperplasia.",
         "BPH is NOT a premalignant lesion and does not increase the risk of prostate cancer."
       ],
-      "imagePath": "/images/ch15_img_3.png",
-      "imageCaption": "Gross transversal section of prostate demonstrating multiple nodular hyperplastic masses compressing the urethral lumen."
+      "imagePath": "/images/ch15_bph_pathology.jpeg",
+      "imageCaption": "Figure 15.7: Benign Prostatic Hyperplasia (BPH): Nodular hyperplasia of transition zone compressing the prostatic urethra with glandular and stromal proliferation."
     },
     {
       "id": "ch15_t4",
@@ -118,8 +118,8 @@ export const ch15: Chapter = {
         "Gleason score is calculated by adding the primary and secondary predominant histological architectural patterns (scores 2-10).",
         "Absence of the basal cell layer is the definitive histological hallmark distinguishing prostatic adenocarcinoma from benign hyperplasia."
       ],
-      "imagePath": "/images/ch15_img_4.png",
-      "imageCaption": "Microscopic view of prostate adenocarcinoma demonstrating crowded small malignant glands infiltrating the stroma with prominent nucleoli."
+      "imagePath": "/images/ch15_prostate_cancer.jpeg",
+      "imageCaption": "Figure 15.9: Prostatic adenocarcinoma: Malignant small crowded glands infiltrating stroma with prominent nucleoli."
     },
     {
       "id": "ch15_t5",
@@ -147,8 +147,8 @@ export const ch15: Chapter = {
         "High-risk HPV types 16 and 18 account for approximately 50% of penile squamous cell carcinomas.",
         "Metastatic spread occurs via superficial and deep inguinal lymph nodes before spreading to iliac and retroperitoneal nodes."
       ],
-      "imagePath": "/images/ch15_img_1.jpeg",
-      "imageCaption": "Gross photograph of an exophytic ulcerating squamous cell carcinoma involving the glans penis and coronal sulcus."
+      "imagePath": "/images/ch15_penile_carcinoma.jpeg",
+      "imageCaption": "Figure 15.10 & 15.11: Invasive squamous cell carcinoma of the penis displaying exophytic papillary ulcerated mass."
     }
   ],
   "mindMap": {

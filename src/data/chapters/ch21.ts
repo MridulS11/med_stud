@@ -33,8 +33,8 @@ export const ch21: Chapter = {
         "Normal semen liquefies completely within 15 to 30 minutes under the enzymatic action of prostatic PSA.",
         "The mandatory abstinence period for diagnostic semen analysis is strictly 2 to 7 days."
       ],
-      "imagePath": "/images/ch21_img_1.jpeg",
-      "imageCaption": "Overview of male reproductive anatomy and the glandular contributions to seminal plasma."
+      "imagePath": "/images/ch21_sperm_morphology.png",
+      "imageCaption": "Figure 21.1: Anatomical structure of normal spermatozoon: Acrosome, head, mitochondrial midpiece, and tail."
     },
     {
       "id": "ch21_t2",
@@ -66,8 +66,8 @@ export const ch21: Chapter = {
         "Normal seminal pH is alkaline (>= 7.2 to 8.0); an acidic pH (<7.0) indicates bilateral seminal vesicle absence or duct obstruction.",
         "The first fraction of the ejaculate contains the vast majority of spermatozoa and prostatic fluid."
       ],
-      "imagePath": "/images/ch21_img_2.png",
-      "imageCaption": "Laboratory evaluation of seminal fluid volume and viscosity using graduated pipettes."
+      "imagePath": "/images/ch21_semen_collection_timeline.png",
+      "imageCaption": "WHO standardized semen collection protocol: 2-7 days abstinence, temperature control, and 15-60 min liquefaction."
     },
     {
       "id": "ch21_t3",
@@ -99,8 +99,8 @@ export const ch21: Chapter = {
         "Progressive motility (PR) must be >= 32% to achieve natural cervical mucus penetration and fertilization.",
         "Strict Kruger criteria requires only >= 4% normal forms to predict successful in vitro fertilization."
       ],
-      "imagePath": "/images/ch21_img_3.jpeg",
-      "imageCaption": "Microscopic view of stained spermatozoa illustrating normal oval morphology alongside various head, neck, and tail defects."
+      "imagePath": "/images/ch21_abnormal_sperm.png",
+      "imageCaption": "Figure 21.2: WHO criteria for abnormal sperm morphology: Macrocephalic, tapered heads, bent necks, and double tails."
     },
     {
       "id": "ch21_t4",
@@ -135,8 +135,8 @@ export const ch21: Chapter = {
         "High serum FSH in an azoospermic patient confirms primary non-obstructive testicular failure.",
         "Two consecutive azoospermic semen analyses at 12 weeks are mandatory before discontinuing barrier contraception after vasectomy."
       ],
-      "imagePath": "/images/ch21_img_4.png",
-      "imageCaption": "Diagnostic flowchart for the clinical evaluation of azoospermia differentiating obstructive from non-obstructive etiologies."
+      "imagePath": "/images/ch21_semen_parameters_table.png",
+      "imageCaption": "WHO 6th Edition lower reference limits: Defining Oligozoospermia, Asthenozoospermia, Teratozoospermia, and Azoospermia."
     }
   ],
   "mindMap": {

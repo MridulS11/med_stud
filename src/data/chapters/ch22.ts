@@ -35,8 +35,8 @@ export const ch22: Chapter = {
         "First-morning voided urine is the most concentrated and acidic, making it optimal for finding casts and evaluating proteinuria.",
         "If unpreserved urine stands at room temperature, bacteria proliferate, urea is converted to ammonia, pH becomes alkaline, and casts/cells dissolve."
       ],
-      "imagePath": "/images/ch22_img_1.jpeg",
-      "imageCaption": "Clinical urine specimens demonstrating spectrum of color: normal amber, dark tea-colored (bilirubinuria), and frank red (hematuria)."
+      "imagePath": "/images/ch22_urine_color_chart.png",
+      "imageCaption": "Figure 22.1: Clinical spectrum of urine coloration on the basis of hydration and pathological pigments."
     },
     {
       "id": "ch22_t2",
@@ -68,8 +68,8 @@ export const ch22: Chapter = {
         "Bence-Jones proteins precipitate at 56°C and redissolve completely at 100°C.",
         "High doses of Vitamin C (ascorbic acid) can cause false-negative dipstick reactions for glucose, blood, and nitrite."
       ],
-      "imagePath": "/images/ch22_img_2.png",
-      "imageCaption": "Urine reagent dipstick colorimetric comparison chart demonstrating chemical reaction pads."
+      "imagePath": "/images/ch22_dipstick_chart.png",
+      "imageCaption": "Figure 22.9: Multistix reagent strip colorimetric interpretation chart for pH, specific gravity, protein, glucose, and ketones."
     },
     {
       "id": "ch22_t3",
@@ -107,8 +107,8 @@ export const ch22: Chapter = {
         "Broad waxy casts = End-stage Chronic Kidney Disease.",
         "Fatty casts with Maltese-cross pattern = Nephrotic Syndrome."
       ],
-      "imagePath": "/images/ch22_img_3.png",
-      "imageCaption": "Microscopic view of urinary sediment showing red blood cell casts, white blood cell casts, and broad waxy casts."
+      "imagePath": "/images/ch22_urinary_casts_guide.png",
+      "imageCaption": "Diagnostic atlas of urinary casts: RBC casts in glomerulonephritis, WBC casts in pyelonephritis, and muddy brown casts in ATN."
     },
     {
       "id": "ch22_t4",
@@ -146,8 +146,8 @@ export const ch22: Chapter = {
         "Triple phosphate crystals look like 'coffin lids' and indicate infection with urease-producing bacteria (Proteus).",
         "Calcium oxalate dihydrate crystals appear as small octahedral 'envelopes'."
       ],
-      "imagePath": "/images/ch22_img_4.jpeg",
-      "imageCaption": "Microscopic gallery of urinary crystals: coffin-lid triple phosphate, envelope calcium oxalate, and hexagonal cystine."
+      "imagePath": "/images/ch22_urine_crystals.jpeg",
+      "imageCaption": "Figure 22.4 & 22.5: Microscopic identification of urinary crystals: Calcium oxalate envelope crystals and uric acid plates."
     },
     {
       "id": "ch22_t5",
@@ -177,8 +177,8 @@ export const ch22: Chapter = {
         "ANY bacterial growth obtained via suprapubic bladder aspiration is considered diagnostic of UTI.",
         "Never obtain urine for culture from the drainage bag of an indwelling catheter."
       ],
-      "imagePath": "/images/ch22_img_1.jpeg",
-      "imageCaption": "MacConkey agar plate showing bright pink lactose-fermenting colonies of Escherichia coli."
+      "imagePath": "/images/ch22_urine_culture_kass.png",
+      "imageCaption": "Urine culture interpretation and Kass criteria: Significant bacteriuria (>=10^5 CFU/mL) and antimicrobial sensitivity."
     }
   ],
   "mindMap": {

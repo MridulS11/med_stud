@@ -33,8 +33,8 @@ export const ch24: Chapter = {
         "Meiotic non-disjunction during maternal oogenesis (Meiosis I) is the mechanism responsible for >95% of Down syndrome cases.",
         "Crossing over occurs during the Pachytene stage of Prophase I in Meiosis."
       ],
-      "imagePath": "/images/ch24_img_1.jpeg",
-      "imageCaption": "Diagram of chromosome anatomy and human G-banded normal male karyotype (46,XY)."
+      "imagePath": "/images/ch24_chromosome_structure.jpeg",
+      "imageCaption": "Figure 24.2: Anatomy of human chromosome and organization of nucleosomes."
     },
     {
       "id": "ch24_t2",
@@ -66,8 +66,8 @@ export const ch24: Chapter = {
         "The number of Barr bodies in a cell always equals the total number of X chromosomes minus one (N - 1).",
         "Turner syndrome (45,X) has ZERO Barr bodies; Klinefelter syndrome (47,XXY) has ONE Barr body."
       ],
-      "imagePath": "/images/ch24_img_2.png",
-      "imageCaption": "Buccal mucosal cell showing an inner nuclear Barr body, alongside the N-1 rule for sex chromosome aneuploidies."
+      "imagePath": "/images/ch24_human_karyotype.png",
+      "imageCaption": "Figure 24.3: Normal human G-banded female (46,XX) and male (46,XY) karyotypes."
     },
     {
       "id": "ch24_t3",
@@ -97,8 +97,8 @@ export const ch24: Chapter = {
         "Genetic Anticipation is the worsening severity and earlier onset of a disease in successive generations, characteristic of trinucleotide repeat disorders.",
         "Fragile X syndrome is caused by a CGG trinucleotide repeat expansion in the FMR1 gene on chromosome X."
       ],
-      "imagePath": "/images/ch24_img_3.png",
-      "imageCaption": "Diagram of trinucleotide repeat expansion mechanisms and the phenomenon of genetic anticipation across family generations."
+      "imagePath": "/images/ch24_robertsonian_translocation.png",
+      "imageCaption": "Figure 24.12: Robertsonian translocation mechanism involving human acrocentric chromosomes."
     },
     {
       "id": "ch24_t4",
@@ -126,8 +126,8 @@ export const ch24: Chapter = {
         "Autosomal recessive disorders carry a 25% recurrence risk for each subsequent pregnancy between two carrier parents.",
         "Marfan syndrome is an autosomal dominant connective tissue disorder caused by mutations in the FBN1 (fibrillin-1) gene on chromosome 15."
       ],
-      "imagePath": "/images/ch24_img_4.jpeg",
-      "imageCaption": "Pedigree charts illustrating classical Autosomal Dominant, Autosomal Recessive, and X-Linked Recessive inheritance patterns."
+      "imagePath": "/images/ch24_autosomal_dominant_pedigree.jpeg",
+      "imageCaption": "Figure 24.19: Autosomal dominant inheritance pedigree demonstrating vertical transmission in every generation."
     },
     {
       "id": "ch24_t5",
@@ -158,8 +158,8 @@ export const ch24: Chapter = {
         "Microdeletion of paternal 15q11-q13 causes Prader-Willi syndrome; microdeletion of maternal 15q11-q13 causes Angelman syndrome.",
         "'Ragged red fibers' on muscle biopsy are characteristic of mitochondrial encephalomyopathies."
       ],
-      "imagePath": "/images/ch24_img_1.jpeg",
-      "imageCaption": "Mitochondrial maternal transmission pedigree chart and muscle biopsy showing subsarcolemmal ragged red fibers."
+      "imagePath": "/images/ch24_mitochondrial_pedigree.png",
+      "imageCaption": "Figure 24.21: Mitochondrial maternal inheritance: 100% transmission by affected mothers, 0% by fathers."
     }
   ],
   "mindMap": {

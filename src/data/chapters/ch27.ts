@@ -36,8 +36,8 @@ export const ch27: Chapter = {
         "The lateral and medial plantar aspects of the heel are the only safe anatomical puncture sites; puncturing the posterior curvature risks calcaneal osteomyelitis.",
         "Congenital hypothyroidism is the most common treatable cause of preventable intellectual disability identified on newborn screening worldwide (1 in 2,000-3,000 live births)."
       ],
-      "imagePath": "/images/ch27_img_1.jpeg",
-      "imageCaption": "Dried blood spot Guthrie filter paper collection and tandem mass spectrometry screening workflow."
+      "imagePath": "/images/ch27_guthrie_heel_prick.png",
+      "imageCaption": "Newborn dried blood spot screening (Guthrie card): Plantar lateral heel prick collection at 24-72h for MS/MS metabolic profiling."
     },
     {
       "id": "ch27_t2",
@@ -66,8 +66,8 @@ export const ch27: Chapter = {
         "CMA cannot detect balanced chromosomal translocations, inversions, or low-level mosaicism (<15-20%); conventional karyotype is required for balanced rearrangements.",
         "Whole Exome Sequencing covers the ~1.5-2% of the genome that codes for proteins but accounts for ~85% of recognized disease-causing pathogenic mutations."
       ],
-      "imagePath": "/images/ch27_img_2.jpeg",
-      "imageCaption": "Comparison of cytogenetic and genomic resolutions: Karyotyping vs FISH vs Chromosomal Microarray (CMA)."
+      "imagePath": "/images/ch27_genomic_resolution_ladder.png",
+      "imageCaption": "Diagnostic resolution hierarchy: Comparing G-banded karyotyping (5-10 Mb), targeted FISH (100 kb), and CMA (10-50 kb)."
     },
     {
       "id": "ch27_t3",
@@ -95,8 +95,8 @@ export const ch27: Chapter = {
         "Full mutation in Fragile X requires >200 CGG repeats in the FMR1 gene resulting in promoter methylation and transcriptional silencing.",
         "Post-pubertal macroorchidism, long face, prominent ears, and tactile defensiveness are classic phenotypic hallmarks of Fragile X syndrome in males."
       ],
-      "imagePath": "/images/ch27_img_3.jpeg",
-      "imageCaption": "Fragile X syndrome facial morphology, post-pubertal macroorchidism, and FMR1 CGG repeat expansion mechanism."
+      "imagePath": "/images/ch27_fragile_x_expansion.png",
+      "imageCaption": "Fragile X syndrome: FMR1 5'-UTR CGG repeat expansion leading to promoter hypermethylation, silencing, and macroorchidism."
     },
     {
       "id": "ch27_t4",
@@ -125,8 +125,8 @@ export const ch27: Chapter = {
         "Clubfoot secondary to oligohydramnios is a classic Deformation (extrinsic mechanical compression), whereas cleft lip is a Malformation (intrinsic error of morphogenesis).",
         "Amniotic band constriction and digital amputation represent a Disruption (destructive breakdown of previously normal fetal tissue)."
       ],
-      "imagePath": "/images/ch27_img_4.jpeg",
-      "imageCaption": "Classification of developmental defects: Malformation, Deformation, Disruption, and Dysplasia with clinical examples."
+      "imagePath": "/images/ch27_dysmorphology_classes.png",
+      "imageCaption": "Pathogenetic categories in human dysmorphology: Malformation (cleft lip), Deformation (clubfoot), Disruption (amniotic band), and Dysplasia."
     },
     {
       "id": "ch27_t5",
@@ -156,8 +156,8 @@ export const ch27: Chapter = {
         "Hyperammonemia with respiratory alkalosis is the hallmark of a Urea Cycle Disorder; hyperammonemia with severe high anion gap metabolic acidosis indicates an Organic Acidemia.",
         "Plasma ammonia specimens must be drawn without tourniquet, placed immediately on ice, and processed within 15 minutes to avoid in vitro false elevations."
       ],
-      "imagePath": "/images/ch27_img_5.jpeg",
-      "imageCaption": "Diagnostic flowchart for acute neonatal metabolic crisis: Evaluating blood gas, anion gap, ammonia, and ketones."
+      "imagePath": "/images/ch27_newborn_testing_algorithm.jpeg",
+      "imageCaption": "Figure 27.1: Algorithm for genetic and metabolic evaluation of an acutely decompensating newborn."
     }
   ],
   "quiz": [

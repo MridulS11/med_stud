@@ -33,8 +33,8 @@ export const ch25: Chapter = {
         "The first 2 weeks post-fertilization represent the 'all-or-none' period of teratogenic exposure.",
         "Preconception folic acid supplementation prevents up to 70% of neural tube defects."
       ],
-      "imagePath": "/images/ch25_img_1.jpeg",
-      "imageCaption": "Gestational timeline diagram illustrating organogenesis periods of maximum teratogenic susceptibility."
+      "imagePath": "/images/ch25_teratogenesis_timeline.png",
+      "imageCaption": "Critical gestational timeline of human teratogenesis: Peak structural malformation susceptibility during embryonic organogenesis."
     },
     {
       "id": "ch25_t2",
@@ -62,8 +62,8 @@ export const ch25: Chapter = {
         "Maternal PKU syndrome causes severe microcephaly and heart defects unless the mother adheres to a strict low-phenylalanine diet BEFORE conception.",
         "Transplacental Anti-Ro (SSA) and Anti-La (SSB) antibodies cause irreversible congenital complete heart block in the fetus."
       ],
-      "imagePath": "/images/ch25_img_2.png",
-      "imageCaption": "Diagram illustrating the teratogenic mechanisms of maternal hyperglycemia and transplacental autoantibodies on the fetus."
+      "imagePath": "/images/ch25_congenital_malformations.jpeg",
+      "imageCaption": "Figure 25.2: Spectrum of congenital structural defects including anencephaly, microcephaly, and cleft lip."
     },
     {
       "id": "ch25_t3",
@@ -95,8 +95,8 @@ export const ch25: Chapter = {
         "The classic triad of Congenital Toxoplasmosis: Chorioretinitis, Hydrocephalus, and Intracranial Calcifications.",
         "Hutchinson's triad in late congenital syphilis: Hutchinson's notched teeth, Interstitial keratitis, and Eighth nerve deafness."
       ],
-      "imagePath": "/images/ch25_img_3.jpeg",
-      "imageCaption": "Clinical signs of congenital TORCH infections: blueberry muffin rash, Hutchinson teeth, and periventricular calcifications on head CT."
+      "imagePath": "/images/ch25_torch_infections.png",
+      "imageCaption": "Clinical constellation of congenital TORCH infections: Chorioretinitis, microcephaly, intracranial calcifications, and sensorineural deafness."
     },
     {
       "id": "ch25_t4",
@@ -131,8 +131,8 @@ export const ch25: Chapter = {
         "ACE inhibitors and ARBs cause fetal renal failure, oligohydramnios, and hypocalvaria; they are strictly contraindicated in pregnancy.",
         "Warfarin crosses the placenta causing nasal hypoplasia and stippled epiphyses; Heparin does NOT cross the placenta and is safe."
       ],
-      "imagePath": "/images/ch25_img_4.png",
-      "imageCaption": "Facial features of Fetal Alcohol Syndrome: smooth philtrum, thin upper lip, and short palpebral fissures."
+      "imagePath": "/images/ch25_fas_diagnostic_features.png",
+      "imageCaption": "Cardinal diagnostic facial phenotype of Fetal Alcohol Syndrome: Smooth philtrum, thin vermilion border, and short palpebral fissures."
     },
     {
       "id": "ch25_t5",
@@ -161,8 +161,8 @@ export const ch25: Chapter = {
         "Trisomy 16 is the single most common chromosomal trisomy identified in spontaneous miscarriages (it is never viable to term).",
         "Rh-negative mothers experiencing any spontaneous abortion or bleeding MUST receive Anti-D Rh immunoglobulin (RhoGAM) within 72 hours."
       ],
-      "imagePath": "/images/ch25_img_1.jpeg",
-      "imageCaption": "Distribution of chromosomal abnormalities in first-trimester spontaneous pregnancy loss."
+      "imagePath": "/images/ch25_consanguinity.jpeg",
+      "imageCaption": "Figure 25.1: Consanguineous mating pedigree and genetic risk of autosomal recessive conditions and recurrent pregnancy loss."
     }
   ],
   "mindMap": {

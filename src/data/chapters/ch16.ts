@@ -32,8 +32,8 @@ export const ch16: Chapter = {
         "HPV 16 E6 degrades p53; HPV 16 E7 inactivates the retinoblastoma (Rb) protein.",
         "The squamocolumnar junction (transformation zone) is the most vulnerable anatomical site for cervical neoplasia."
       ],
-      "imagePath": "/images/ch16_img_1.jpeg",
-      "imageCaption": "Cervical cytology smear showing characteristic koilocytes with perinuclear halos and hyperchromatic wrinkled nuclei."
+      "imagePath": "/images/ch16_cervical_cin.jpeg",
+      "imageCaption": "Figure 16.8: Spectrum of Cervical Intraepithelial Neoplasia (CIN 1 to CIN 3 / Carcinoma in Situ) showing progressive dysplastic atypia."
     },
     {
       "id": "ch16_t2",
@@ -61,8 +61,8 @@ export const ch16: Chapter = {
         "Squamous cell carcinoma accounts for 80-85% of all cervical carcinomas.",
         "FIGO staging of cervical cancer is predominantly clinical, incorporating examination under anesthesia."
       ],
-      "imagePath": "/images/ch16_img_2.png",
-      "imageCaption": "Gross surgical specimen of a fungating invasive squamous cell carcinoma replacing the exocervix."
+      "imagePath": "/images/ch16_cervical_carcinoma.jpeg",
+      "imageCaption": "Figure 16.7: Gross surgical specimen of an exophytic, fungating invasive squamous cell carcinoma of the cervix."
     },
     {
       "id": "ch16_t3",
@@ -90,8 +90,8 @@ export const ch16: Chapter = {
         "PTEN mutation is the most frequent genetic aberration in Type I endometrioid carcinoma, while TP53 is mutated in Type II serous carcinoma.",
         "Obesity increases endometrial cancer risk up to 10-fold due to peripheral conversion of androstenedione to estrone by aromatase in adipose tissue."
       ],
-      "imagePath": "/images/ch16_img_3.jpeg",
-      "imageCaption": "Hysterectomy specimen cut open to display a large, polypoid, friable endometrial adenocarcinoma invading the fundal myometrium."
+      "imagePath": "/images/ch16_endometrial_cancer.jpeg",
+      "imageCaption": "Figure 16.10: Endometrial adenocarcinoma: Polypoid friable mass invading myometrium with crowded cribriform glands."
     },
     {
       "id": "ch16_t4",
@@ -119,8 +119,8 @@ export const ch16: Chapter = {
         "Classic ultrasound finding of complete hydatidiform mole is the 'snowstorm' or 'grape-like' cystic pattern.",
         "Serial serum beta-hCG monitoring post-molar evacuation is mandatory to rule out progression to choriocarcinoma."
       ],
-      "imagePath": "/images/ch16_img_4.png",
-      "imageCaption": "Gross appearance of evacuated complete hydatidiform mole showing hundreds of swollen, grape-like cystic chorionic vesicles."
+      "imagePath": "/images/ch16_hydatidiform_mole.jpeg",
+      "imageCaption": "Figure 16.12: Complete Hydatidiform Mole: Swollen, vesicular chorionic villi with classical 'bunch of grapes' gross appearance."
     },
     {
       "id": "ch16_t5",
@@ -148,8 +148,8 @@ export const ch16: Chapter = {
         "Submucosal leiomyomas are most frequently associated with severe menorrhagia and infertility.",
         "Leiomyosarcoma does NOT arise from pre-existing leiomyomas; it arises de novo as a solitary, bulky, necrotic malignancy."
       ],
-      "imagePath": "/images/ch16_img_1.jpeg",
-      "imageCaption": "Cut surface of a hysterectomy specimen displaying multiple well-demarcated intramural and subserosal leiomyomas with whorled white surfaces."
+      "imagePath": "/images/ch16_uterine_leiomyoma.jpeg",
+      "imageCaption": "Figure 16.15: Uterine Leiomyoma: Multiple well-circumscribed, firm intramural fibroids displaying characteristic whorled cut surfaces."
     },
     {
       "id": "ch16_t6",
@@ -177,8 +177,8 @@ export const ch16: Chapter = {
         "CA-125 is the clinical biomarker of choice for epithelial ovarian cancer monitoring.",
         "Krukenberg tumor represents bilateral ovarian metastases from a primary gastric signet-ring cell carcinoma."
       ],
-      "imagePath": "/images/ch16_img_2.png",
-      "imageCaption": "Gross photograph of a bisected mature cystic teratoma (dermoid cyst) containing greasy sebaceous fluid and a tangled ball of hair."
+      "imagePath": "/images/ch16_ovarian_cysts.jpeg",
+      "imageCaption": "Figure 16.2: Polycystic ovarian syndrome showing enlarged ovaries with multiple subcapsular follicular cysts."
     }
   ],
   "mindMap": {

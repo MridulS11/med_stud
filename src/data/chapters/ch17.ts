@@ -33,8 +33,8 @@ export const ch17: Chapter = {
         "Non-proliferative fibrocystic changes carry NO increased risk of breast carcinoma.",
         "Atypical Ductal Hyperplasia (ADH) confers a 4- to 5-fold increased relative risk of invasive breast cancer."
       ],
-      "imagePath": "/images/ch17_img_1.jpeg",
-      "imageCaption": "Histological section showing fibrocystic change with dilated cysts lined by apocrine metaplastic epithelium and dense stromal fibrosis."
+      "imagePath": "/images/ch17_fibrocystic_disease.png",
+      "imageCaption": "Figure 17.2: Pathogenesis of fibrocystic breast change showing cyst formation, apocrine metaplasia, and stromal fibrosis."
     },
     {
       "id": "ch17_t2",
@@ -61,8 +61,8 @@ export const ch17: Chapter = {
         "Popcorn-like calcifications on mammography are pathognomonic for an involuting, hyalinized fibroadenoma in older women.",
         "Phyllodes tumor is distinguished by its leaf-like architecture and malignant stromal sarcoma potential, which metastasizes hematogenously to the lungs."
       ],
-      "imagePath": "/images/ch17_img_2.jpeg",
-      "imageCaption": "Gross lumpectomy specimen of a fibroadenoma showing a sharply defined, lobulated, grayish-white rubbery surface with slit-like clefts."
+      "imagePath": "/images/ch17_fibroadenoma.jpeg",
+      "imageCaption": "Figure 17.6: Breast Fibroadenoma: Well-circumscribed, lobulated, rubbery gray-white mobile mass showing biphasic proliferation."
     },
     {
       "id": "ch17_t3",
@@ -91,8 +91,8 @@ export const ch17: Chapter = {
         "Loss of E-cadherin (CDH1 mutation) causing a single-file 'Indian-file' infiltrative pattern is pathognomonic for Invasive Lobular Carcinoma.",
         "Invasive Lobular Carcinoma is frequently bilateral and multicentric with occult mammographic presentation."
       ],
-      "imagePath": "/images/ch17_img_3.png",
-      "imageCaption": "Microscopic view of invasive ductal carcinoma demonstrating pleomorphic malignant cells infiltrating through a dense desmoplastic fibrous stroma."
+      "imagePath": "/images/ch17_invasive_breast_cancer.jpeg",
+      "imageCaption": "Figure 17.8: Invasive Ductal Carcinoma (IDC): Gritty, hard scirrhous mass infiltrating surrounding adipose tissue."
     },
     {
       "id": "ch17_t4",
@@ -121,8 +121,8 @@ export const ch17: Chapter = {
         "Paget disease of the nipple represents malignant ductal carcinoma in situ cells migrating into the nipple epidermis.",
         "Trastuzumab (Herceptin) targets the HER2/neu receptor tyrosine kinase; its chief adverse effect is reversible cardiotoxicity."
       ],
-      "imagePath": "/images/ch17_img_4.png",
-      "imageCaption": "Clinical photograph of peau d'orange skin changes and nipple retraction characteristic of advanced inflammatory breast carcinoma."
+      "imagePath": "/images/ch17_breast_subtypes.png",
+      "imageCaption": "Molecular taxonomy of breast carcinoma: Luminal A, Luminal B, HER2-enriched, and Triple-Negative receptor profiles and targeted therapy."
     }
   ],
   "mindMap": {

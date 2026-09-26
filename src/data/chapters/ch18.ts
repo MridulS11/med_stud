@@ -37,8 +37,8 @@ export const ch18: Chapter = {
         "Dense gelatinous exudate at the base of the brain with a 'spiderweb clot' on standing is pathognomonic for Tuberculous Meningitis.",
         "Waterhouse-Friderichsen syndrome is bilateral adrenal hemorrhagic necrosis and septic shock in meningococcal meningitis."
       ],
-      "imagePath": "/images/ch18_img_1.jpeg",
-      "imageCaption": "Gross brain autopsy displaying dense purulent yellowish-white exudate covering the leptomeninges and engorged cortical vessels in acute bacterial meningitis."
+      "imagePath": "/images/ch18_bacterial_meningitis.jpeg",
+      "imageCaption": "Figure 18.2: Pathogenesis and gross leptomeningeal purulent exudate in acute pyogenic meningitis."
     },
     {
       "id": "ch18_t2",
@@ -66,8 +66,8 @@ export const ch18: Chapter = {
         "Cowdry A eosinophilic intranuclear inclusions are found in neurons in HSV encephalitis.",
         "Negri bodies (intracytoplasmic inclusions in Purkinje cells of cerebellum and hippocampus) are diagnostic for Rabies."
       ],
-      "imagePath": "/images/ch18_img_2.jpeg",
-      "imageCaption": "Brain MRI demonstrating asymmetric bilateral temporal lobe hyperintensity and edema characteristic of Herpes Simplex Virus encephalitis."
+      "imagePath": "/images/ch18_viral_encephalitis.png",
+      "imageCaption": "Diagnostic differential of acute viral encephalitis: HSV temporal lobe predilection, Rabies Negri bodies, and CSF PCR."
     },
     {
       "id": "ch18_t3",
@@ -96,8 +96,8 @@ export const ch18: Chapter = {
         "Rupture of Charcot-Bouchard microaneurysms in hypertensive patients most frequently causes hemorrhage in the Putamen (basal ganglia).",
         "Rupture of a berry aneurysm at the Circle of Willis causes Subarachnoid Hemorrhage ('thunderclap headache')."
       ],
-      "imagePath": "/images/ch18_img_3.png",
-      "imageCaption": "Gross coronal section of brain displaying a massive hypertensive intracerebral hemorrhage centered in the basal ganglia with ventricular rupture."
+      "imagePath": "/images/ch18_stroke_pathology.jpeg",
+      "imageCaption": "Figure 18.6: Cerebrovascular accidents: Gross coronal section demonstrating ischemic cerebral infarction vs hemorrhagic stroke."
     },
     {
       "id": "ch18_t4",
@@ -126,8 +126,8 @@ export const ch18: Chapter = {
         "Whorled fascicles and Psammoma bodies are typical of benign extra-axial Meningioma.",
         "Verocay bodies and alternating Antoni A and Antoni B patterns characterize Schwannoma (Acoustic Neuroma)."
       ],
-      "imagePath": "/images/ch18_img_4.png",
-      "imageCaption": "Microscopic appearance of glioblastoma multiforme showing prominent pseudopalisading tumor cells surrounding central areas of necrosis."
+      "imagePath": "/images/ch18_brain_tumors.jpeg",
+      "imageCaption": "Figure 18.8: Intracranial neoplasms: Histological appearance of glioblastoma multiforme with pseudopalisading necrosis."
     }
   ],
   "mindMap": {

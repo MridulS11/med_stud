@@ -37,8 +37,8 @@ export const ch20: Chapter = {
         "Xanthochromia (yellow supernatant after centrifugation) is diagnostic of subarachnoid hemorrhage, persisting for up to 2-3 weeks.",
         "Post-LP headache is caused by persistent CSF leakage through the dural puncture site, relieved by lying flat and aggravated by standing."
       ],
-      "imagePath": "/images/ch20_img_1.jpeg",
-      "imageCaption": "Laboratory CSF tubes demonstrating clear normal fluid compared with turbid cloudy purulent fluid in acute bacterial meningitis."
+      "imagePath": "/images/ch20_csf_differential.png",
+      "imageCaption": "Diagnostic profile of Cerebrospinal Fluid (CSF) in Bacterial, Viral, TB, and Fungal meningitis."
     },
     {
       "id": "ch20_t2",
@@ -69,8 +69,8 @@ export const ch20: Chapter = {
         "Rusty sputum is classic for Streptococcus pneumoniae lobar pneumonia; currant jelly sputum indicates Klebsiella pneumoniae.",
         "Charcot-Leyden crystals and Curschmann spirals in sputum are diagnostic hallmarks of bronchial asthma."
       ],
-      "imagePath": "/images/ch20_img_2.png",
-      "imageCaption": "Acid-fast bacilli (Mycobacterium tuberculosis) appearing as bright pink beaded rods on Ziehl-Neelsen stained sputum smear."
+      "imagePath": "/images/ch20_sputum_collection.jpeg",
+      "imageCaption": "Figure 20.1: Standardized deep productive sputum collection protocol, specimen rejection criteria, and cytology."
     },
     {
       "id": "ch20_t3",
@@ -100,8 +100,8 @@ export const ch20: Chapter = {
         "Ascitic fluid absolute neutrophil count (PMN) >= 250/uL is diagnostic of Spontaneous Bacterial Peritonitis (SBP).",
         "Patients must empty their bladder immediately before abdominal paracentesis to prevent bladder perforation."
       ],
-      "imagePath": "/images/ch20_img_3.png",
-      "imageCaption": "Peritoneal paracentesis procedure and ascitic fluid laboratory evaluation diagram."
+      "imagePath": "/images/ch20_ascites_saag.png",
+      "imageCaption": "Serum-Ascites Albumin Gradient (SAAG) flowchart: Differentiating portal hypertension (>=1.1 g/dL) from peritoneal exudates."
     },
     {
       "id": "ch20_t4",
@@ -133,8 +133,8 @@ export const ch20: Chapter = {
         "A pleural fluid pH < 7.20 or frank pus signifies an empyema requiring urgent tube thoracostomy drainage.",
         "Removing >1,500 mL of pleural fluid at once carries high risk of life-threatening re-expansion pulmonary edema."
       ],
-      "imagePath": "/images/ch20_img_4.jpeg",
-      "imageCaption": "Thoracentesis pleural fluid specimens: clear straw-colored transudate compared with turbid, purulent empyema exudate."
+      "imagePath": "/images/ch20_lights_criteria.png",
+      "imageCaption": "Light's Criteria flowchart for pleural fluid differentiation: Distinguishing transudates from inflammatory exudates."
     },
     {
       "id": "ch20_t5",
@@ -162,8 +162,8 @@ export const ch20: Chapter = {
         "Achlorhydria (failure of gastric pH to drop below 6.0 after pentagastrin stimulation) is characteristic of Pernicious Anemia.",
         "Wound cultures must always be sampled from viable, cleansed tissue using the Levine technique, never from uncleaned superficial slough."
       ],
-      "imagePath": "/images/ch20_img_1.jpeg",
-      "imageCaption": "Gram stain of surgical wound discharge revealing clusters of Gram-positive cocci (Staphylococcus aureus) surrounded by pus cells."
+      "imagePath": "/images/ch20_wound_swab.jpeg",
+      "imageCaption": "Figure 20.4: Levine technique for surgical wound culture swab collection from viable granulation tissue."
     }
   ],
   "mindMap": {

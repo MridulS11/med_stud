@@ -37,8 +37,8 @@ export const ch29: Chapter = {
         "HLA-B*5701 testing is mandatory prior to abacavir prescription to prevent fatal systemic hypersensitivity reactions.",
         "TPMT testing is required prior to azathioprine or 6-mercaptopurine administration to prevent life-threatening bone marrow suppression."
       ],
-      "imagePath": "/images/ch29_img_1.jpeg",
-      "imageCaption": "Timeline of Human Genome Project and pharmacogenomic loci (TPMT, HLA-B*5701, CYP2D6)."
+      "imagePath": "/images/ch29_hgp_pharmacogenomics.png",
+      "imageCaption": "Human Genome Project architecture (3.1B bp, ~20k genes) and clinical pharmacogenomics (HLA-B*5701, TPMT, CYP2D6)."
     },
     {
       "id": "ch29_t2",
@@ -68,8 +68,8 @@ export const ch29: Chapter = {
         "Luxturna (RPE65 retinal dystrophy) and Zolgensma (SMA1 SMN1) are landmark FDA-approved in vivo AAV gene therapies.",
         "Pre-existing anti-AAV neutralizing antibodies can completely block systemic AAV gene delivery and must be screened prior to infusion."
       ],
-      "imagePath": "/images/ch29_img_2.jpeg",
-      "imageCaption": "Mechanisms of Ex Vivo vs In Vivo gene transfer and AAV vs Lentivirus vector biology."
+      "imagePath": "/images/ch29_gene_therapy_methods.jpeg",
+      "imageCaption": "Figure 29.1: Gene therapy methods: In vivo non-integrating AAV viral vectors vs ex vivo integrating lentivirus platforms."
     },
     {
       "id": "ch29_t3",
@@ -99,8 +99,8 @@ export const ch29: Chapter = {
         "Casgevy disrupts the BCL11A enhancer, which de-represses fetal hemoglobin (HbF) to cure Sickle Cell Disease and Beta-Thalassemia.",
         "Human germline genome editing for reproduction is prohibited due to profound ethical, safety, and transgenerational concerns."
       ],
-      "imagePath": "/images/ch29_img_3.jpeg",
-      "imageCaption": "CRISPR-Cas9 mechanism of action: Cas9 endonuclease, sgRNA, PAM site, NHEJ knockout vs HDR repair."
+      "imagePath": "/images/ch29_crispr_cas9_mechanism.png",
+      "imageCaption": "Mechanism of CRISPR-Cas9 genome editing: sgRNA targeting, PAM motif, Cas9 cleavage, and NHEJ knockout vs HDR repair."
     },
     {
       "id": "ch29_t4",
@@ -132,8 +132,8 @@ export const ch29: Chapter = {
         "Male-to-male transmission of a condition completely rules out X-linked inheritance.",
         "Mitochondrial conditions are transmitted exclusively through maternal inheritance; affected males never transmit mitochondrial mutations to their offspring."
       ],
-      "imagePath": "/images/ch29_img_4.jpeg",
-      "imageCaption": "Standard genetic pedigree nomenclature symbols and patterns of inheritance (AD, AR, X-linked, Mitochondrial)."
+      "imagePath": "/images/ch29_pedigree_symbols_standard.png",
+      "imageCaption": "Standardized medical genetic pedigree nomenclature: Standard symbols for males, females, obligate carriers, and consanguinity."
     },
     {
       "id": "ch29_t5",
@@ -166,8 +166,8 @@ export const ch29: Chapter = {
         "Male breast cancer is a major red flag warranting immediate referral for hereditary cancer genetic testing (BRCA2).",
         "The historical Eugenics Movement was based on state coercion and forced sterilization; modern medical genetics is strictly non-coercive and voluntary."
       ],
-      "imagePath": "/images/ch29_img_5.jpeg",
-      "imageCaption": "Overview of GINA 2008 coverage vs exclusions, and clinical genomic red flags for nursing referral."
+      "imagePath": "/images/ch29_eugenics_ethics.jpeg",
+      "imageCaption": "Figure 29.6: Ethical, Legal, and Social Implications in Medical Genetics: Distinguishing voluntary genomics from historical eugenics."
     }
   ],
   "quiz": [
