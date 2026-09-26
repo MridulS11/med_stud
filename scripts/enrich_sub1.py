@@ -1,6 +1,16 @@
-import { Chapter } from '../../types';
+import json, os
 
-export const ch14: Chapter = {
+def save_chapter(ch_num, data):
+    filepath = f"src/data/chapters/ch{ch_num}.ts"
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("import { Chapter } from '../../types';\n\n")
+        f.write(f"export const ch{ch_num}: Chapter = ")
+        f.write(json.dumps(data, indent=2, ensure_ascii=False))
+        f.write(";\n")
+    print(f"Enriched ch{ch_num}.ts successfully ({len(data['topics'])} topics, {len(data['quiz'])} questions, {len(data['mindMap']['nodes'])} nodes)")
+
+# CHAPTER 14: Kidneys & Lower Urinary Tract
+ch14_data = {
   "id": "ch14",
   "subjectId": "sub1",
   "number": 14,
@@ -183,116 +193,26 @@ export const ch14: Chapter = {
   "mindMap": {
     "centralConcept": "Renal Pathophysiology & Urinary Tract Diseases",
     "nodes": [
-      {
-        "id": "n1",
-        "label": "Immune Complex GN",
-        "category": "core",
-        "description": "Type III hypersensitivity causing Nephritic vs Nephrotic syndrome"
-      },
-      {
-        "id": "n2",
-        "label": "Streptococcal Pharyngitis",
-        "category": "etiology",
-        "description": "Group A Streptococcus leading to post-streptococcal GN"
-      },
-      {
-        "id": "n3",
-        "label": "Podocyte Effacement",
-        "category": "pathophysiology",
-        "description": "Disruption of filtration barrier causing massive proteinuria >3.5g/d"
-      },
-      {
-        "id": "n4",
-        "label": "Ascending Coliform UTI",
-        "category": "etiology",
-        "description": "E. coli with P-fimbriae ascending via ureters causing pyelonephritis"
-      },
-      {
-        "id": "n5",
-        "label": "Calyceal Blunting & Scarring",
-        "category": "pathophysiology",
-        "description": "Chronic pyelonephritis with thyroidization of renal tubules"
-      },
-      {
-        "id": "n6",
-        "label": "Supersaturation & Stones",
-        "category": "pathophysiology",
-        "description": "Precipitation of calcium oxalate, struvite, and uric acid calculi"
-      },
-      {
-        "id": "n7",
-        "label": "VHL Mutation (3p-)",
-        "category": "etiology",
-        "description": "HIF-1a upregulation driving clear cell renal cell carcinoma"
-      },
-      {
-        "id": "n8",
-        "label": "Acute Tubular Necrosis",
-        "category": "pathophysiology",
-        "description": "Ischemic or nephrotoxic injury generating muddy brown casts"
-      },
-      {
-        "id": "n9",
-        "label": "Uremic Syndrome",
-        "category": "clinical",
-        "description": "End-stage renal failure with hyperkalemia, acidosis, and anemia"
-      },
-      {
-        "id": "n10",
-        "label": "Pathognomonic Casts",
-        "category": "diagnostic",
-        "description": "RBC casts (GN), WBC casts (Pyelonephritis), Broad waxy casts (CKD)"
-      }
+      { "id": "n1", "label": "Immune Complex GN", "category": "core", "description": "Type III hypersensitivity causing Nephritic vs Nephrotic syndrome" },
+      { "id": "n2", "label": "Streptococcal Pharyngitis", "category": "etiology", "description": "Group A Streptococcus leading to post-streptococcal GN" },
+      { "id": "n3", "label": "Podocyte Effacement", "category": "pathophysiology", "description": "Disruption of filtration barrier causing massive proteinuria >3.5g/d" },
+      { "id": "n4", "label": "Ascending Coliform UTI", "category": "etiology", "description": "E. coli with P-fimbriae ascending via ureters causing pyelonephritis" },
+      { "id": "n5", "label": "Calyceal Blunting & Scarring", "category": "pathophysiology", "description": "Chronic pyelonephritis with thyroidization of renal tubules" },
+      { "id": "n6", "label": "Supersaturation & Stones", "category": "pathophysiology", "description": "Precipitation of calcium oxalate, struvite, and uric acid calculi" },
+      { "id": "n7", "label": "VHL Mutation (3p-)", "category": "etiology", "description": "HIF-1a upregulation driving clear cell renal cell carcinoma" },
+      { "id": "n8", "label": "Acute Tubular Necrosis", "category": "pathophysiology", "description": "Ischemic or nephrotoxic injury generating muddy brown casts" },
+      { "id": "n9", "label": "Uremic Syndrome", "category": "clinical", "description": "End-stage renal failure with hyperkalemia, acidosis, and anemia" },
+      { "id": "n10", "label": "Pathognomonic Casts", "category": "diagnostic", "description": "RBC casts (GN), WBC casts (Pyelonephritis), Broad waxy casts (CKD)" }
     ],
     "edges": [
-      {
-        "from": "n2",
-        "to": "n1",
-        "relationship": "triggers",
-        "explanation": "Nephritogenic streptococcal antigens deposit in glomeruli initiating immune complex formation."
-      },
-      {
-        "from": "n1",
-        "to": "n3",
-        "relationship": "causes",
-        "explanation": "Complement activation and inflammatory mediators strip podocyte foot processes."
-      },
-      {
-        "from": "n1",
-        "to": "n10",
-        "relationship": "produces",
-        "explanation": "Glomerular capillary rupture allows RBCs to enter tubules and form red cell casts."
-      },
-      {
-        "from": "n4",
-        "to": "n5",
-        "relationship": "leads to",
-        "explanation": "Repeated bouts of ascending pyelonephritis cause coarse corticomedullary scarring and calyceal blunting."
-      },
-      {
-        "from": "n4",
-        "to": "n10",
-        "relationship": "reveals",
-        "explanation": "Medullary suppuration causes neutrophils to coalesce into WBC casts."
-      },
-      {
-        "from": "n6",
-        "to": "n8",
-        "relationship": "induces",
-        "explanation": "Obstructive uropathy from kidney stones causes increased retrograde intratubular pressure and renal failure."
-      },
-      {
-        "from": "n7",
-        "to": "n1",
-        "relationship": "originates from",
-        "explanation": "Proximal tubular epithelial malignant transformation gives rise to clear cell RCC."
-      },
-      {
-        "from": "n8",
-        "to": "n9",
-        "relationship": "progresses to",
-        "explanation": "Unresolved tubular necrosis leads to irreversible nephron loss and end-stage uremic syndrome."
-      }
+      { "from": "n2", "to": "n1", "relationship": "triggers", "explanation": "Nephritogenic streptococcal antigens deposit in glomeruli initiating immune complex formation." },
+      { "from": "n1", "to": "n3", "relationship": "causes", "explanation": "Complement activation and inflammatory mediators strip podocyte foot processes." },
+      { "from": "n1", "to": "n10", "relationship": "produces", "explanation": "Glomerular capillary rupture allows RBCs to enter tubules and form red cell casts." },
+      { "from": "n4", "to": "n5", "relationship": "leads to", "explanation": "Repeated bouts of ascending pyelonephritis cause coarse corticomedullary scarring and calyceal blunting." },
+      { "from": "n4", "to": "n10", "relationship": "reveals", "explanation": "Medullary suppuration causes neutrophils to coalesce into WBC casts." },
+      { "from": "n6", "to": "n8", "relationship": "induces", "explanation": "Obstructive uropathy from kidney stones causes increased retrograde intratubular pressure and renal failure." },
+      { "from": "n7", "to": "n1", "relationship": "originates from", "explanation": "Proximal tubular epithelial malignant transformation gives rise to clear cell RCC." },
+      { "from": "n8", "to": "n9", "relationship": "progresses to", "explanation": "Unresolved tubular necrosis leads to irreversible nephron loss and end-stage uremic syndrome." }
     ]
   },
   "quiz": [
@@ -301,12 +221,7 @@ export const ch14: Chapter = {
       "topic": "Glomerulonephritis",
       "difficulty": "Easy",
       "question": "Which of the following urinary sediment findings is considered pathognomonic for acute glomerulonephritis?",
-      "options": [
-        "White blood cell casts",
-        "Red blood cell casts",
-        "Hyaline casts",
-        "Broad waxy casts"
-      ],
+      "options": ["White blood cell casts", "Red blood cell casts", "Hyaline casts", "Broad waxy casts"],
       "correctIndex": 1,
       "explanation": "Red blood cell (RBC) casts are pathognomonic of acute glomerulonephritis and nephritic syndrome, confirming that hematuria originates from the glomerular capillaries rather than the lower urinary tract."
     },
@@ -315,12 +230,7 @@ export const ch14: Chapter = {
       "topic": "Glomerulonephritis",
       "difficulty": "Medium",
       "question": "What is the hallmark diagnostic 24-hour urinary protein threshold required to define Nephrotic Syndrome?",
-      "options": [
-        ">1.0 g / 24 hours",
-        ">2.0 g / 24 hours",
-        ">3.5 g / 24 hours",
-        ">5.0 g / 24 hours"
-      ],
+      "options": [">1.0 g / 24 hours", ">2.0 g / 24 hours", ">3.5 g / 24 hours", ">5.0 g / 24 hours"],
       "correctIndex": 2,
       "explanation": "Massive proteinuria defined as >3.5 g per 24 hours (or >3.5 g/g creatinine) is the defining sine qua non feature of nephrotic syndrome, resulting in severe hypoalbuminemia and generalized edema."
     },
@@ -343,12 +253,7 @@ export const ch14: Chapter = {
       "topic": "Pyelonephritis",
       "difficulty": "Easy",
       "question": "Which laboratory finding definitively differentiates acute pyelonephritis from lower urinary tract cystitis?",
-      "options": [
-        "Presence of dysuria and frequency",
-        "Pyuria (>10 WBCs/HPF)",
-        "Presence of White Blood Cell (WBC) casts",
-        "Hematuria on dipstick"
-      ],
+      "options": ["Presence of dysuria and frequency", "Pyuria (>10 WBCs/HPF)", "Presence of White Blood Cell (WBC) casts", "Hematuria on dipstick"],
       "correctIndex": 2,
       "explanation": "WBC casts are formed specifically within the renal tubules where inflammatory leukocytes coalesce with Tamm-Horsfall mucoprotein. Their presence definitively confirms upper urinary tract (renal) involvement."
     },
@@ -357,12 +262,7 @@ export const ch14: Chapter = {
       "topic": "Pyelonephritis",
       "difficulty": "Medium",
       "question": "The classic histopathological description of 'thyroidization of the kidney' is characteristic of which condition?",
-      "options": [
-        "Acute glomerulonephritis",
-        "Chronic pyelonephritis",
-        "Renal amyloidosis",
-        "Renal cell carcinoma"
-      ],
+      "options": ["Acute glomerulonephritis", "Chronic pyelonephritis", "Renal amyloidosis", "Renal cell carcinoma"],
       "correctIndex": 1,
       "explanation": "In chronic pyelonephritis, damaged atrophic tubules become dilated and filled with pink, glassy, proteinaceous colloid-like casts that closely resemble thyroid follicles under light microscopy."
     },
@@ -371,12 +271,7 @@ export const ch14: Chapter = {
       "topic": "Renal Calculi",
       "difficulty": "Easy",
       "question": "What is the most common chemical composition of renal calculi encountered in clinical practice?",
-      "options": [
-        "Calcium oxalate",
-        "Struvite (triple phosphate)",
-        "Uric acid",
-        "Cystine"
-      ],
+      "options": ["Calcium oxalate", "Struvite (triple phosphate)", "Uric acid", "Cystine"],
       "correctIndex": 0,
       "explanation": "Calcium stones (predominantly calcium oxalate, alone or mixed with calcium phosphate) account for approximately 75-80% of all renal calculi."
     },
@@ -385,12 +280,7 @@ export const ch14: Chapter = {
       "topic": "Renal Calculi",
       "difficulty": "Medium",
       "question": "Staghorn calculi occupying the entire renal pelvicalyceal system are most commonly composed of which material?",
-      "options": [
-        "Pure calcium phosphate",
-        "Uric acid",
-        "Magnesium ammonium phosphate (Struvite)",
-        "Cystine"
-      ],
+      "options": ["Pure calcium phosphate", "Uric acid", "Magnesium ammonium phosphate (Struvite)", "Cystine"],
       "correctIndex": 2,
       "explanation": "Staghorn calculi are typically composed of magnesium ammonium phosphate (struvite), which precipitates in alkaline urine produced by urease-splitting organisms such as Proteus mirabilis."
     },
@@ -399,12 +289,7 @@ export const ch14: Chapter = {
       "topic": "Renal Calculi",
       "difficulty": "Hard",
       "question": "Which type of kidney stone is completely radiolucent on conventional plain KUB radiographs but easily visualized on non-contrast CT?",
-      "options": [
-        "Calcium oxalate monohydrate",
-        "Calcium phosphate (apatite)",
-        "Uric acid calculi",
-        "Struvite calculi"
-      ],
+      "options": ["Calcium oxalate monohydrate", "Calcium phosphate (apatite)", "Uric acid calculi", "Struvite calculi"],
       "correctIndex": 2,
       "explanation": "Uric acid calculi contain low atomic number atoms and are radiolucent on plain X-rays, making them invisible on KUB but highly visible as dense objects on non-contrast computed tomography."
     },
@@ -413,12 +298,7 @@ export const ch14: Chapter = {
       "topic": "Cystitis",
       "difficulty": "Easy",
       "question": "What is the single most common causative microorganism of uncomplicated community-acquired acute cystitis?",
-      "options": [
-        "Staphylococcus saprophyticus",
-        "Pseudomonas aeruginosa",
-        "Escherichia coli",
-        "Klebsiella pneumoniae"
-      ],
+      "options": ["Staphylococcus saprophyticus", "Pseudomonas aeruginosa", "Escherichia coli", "Klebsiella pneumoniae"],
       "correctIndex": 2,
       "explanation": "Uropathogenic Escherichia coli (UPEC) accounts for 80% to 85% of all uncomplicated community-acquired urinary tract infections."
     },
@@ -427,12 +307,7 @@ export const ch14: Chapter = {
       "topic": "Cystitis",
       "difficulty": "Medium",
       "question": "A urine dipstick tests positive for leukocyte esterase and negative for nitrite. Which organism is most likely responsible?",
-      "options": [
-        "Escherichia coli",
-        "Klebsiella oxytoca",
-        "Enterococcus faecalis",
-        "Proteus mirabilis"
-      ],
+      "options": ["Escherichia coli", "Klebsiella oxytoca", "Enterococcus faecalis", "Proteus mirabilis"],
       "correctIndex": 2,
       "explanation": "Gram-negative enterobacteria (E. coli, Klebsiella, Proteus) convert dietary nitrate to nitrite (positive test). Gram-positive bacteria like Enterococci and Staphylococcus do NOT reduce nitrate, yielding a negative nitrite test despite active infection."
     },
@@ -441,12 +316,7 @@ export const ch14: Chapter = {
       "topic": "Renal Neoplasms",
       "difficulty": "Easy",
       "question": "What is the most frequent clinical presentation sign observed in adult patients with Renal Cell Carcinoma?",
-      "options": [
-        "Palpable flank mass",
-        "Painless gross or microscopic hematuria",
-        "Severe costovertebral colic",
-        "Unexplained polycythemia"
-      ],
+      "options": ["Palpable flank mass", "Painless gross or microscopic hematuria", "Severe costovertebral colic", "Unexplained polycythemia"],
       "correctIndex": 1,
       "explanation": "Painless hematuria (gross or microscopic) is the most frequent presenting sign of RCC, occurring in over 60% of cases. The classic triad of flank pain, mass, and hematuria occurs in only 10% of advanced cases."
     },
@@ -455,12 +325,7 @@ export const ch14: Chapter = {
       "topic": "Renal Neoplasms",
       "difficulty": "Medium",
       "question": "Clear Cell Renal Cell Carcinoma characteristically arises from which specific segment of the nephron?",
-      "options": [
-        "Glomerular parietal epithelium",
-        "Proximal convoluted tubular epithelium",
-        "Loop of Henle thick ascending limb",
-        "Cortical collecting duct"
-      ],
+      "options": ["Glomerular parietal epithelium", "Proximal convoluted tubular epithelium", "Loop of Henle thick ascending limb", "Cortical collecting duct"],
       "correctIndex": 1,
       "explanation": "Clear cell RCC arises from the epithelial cells of the proximal convoluted tubules. The cells appear clear on histology due to abundance of intracytoplasmic lipid and glycogen washed out during processing."
     },
@@ -469,12 +334,7 @@ export const ch14: Chapter = {
       "topic": "Renal Neoplasms",
       "difficulty": "Hard",
       "question": "Loss or inactivation of which tumor suppressor gene on chromosome 3p is strongly implicated in both familial and sporadic Clear Cell RCC?",
-      "options": [
-        "WT1 gene",
-        "VHL (Von Hippel-Lindau) gene",
-        "TP53 gene",
-        "RB1 gene"
-      ],
+      "options": ["WT1 gene", "VHL (Von Hippel-Lindau) gene", "TP53 gene", "RB1 gene"],
       "correctIndex": 1,
       "explanation": "Loss or mutation of the VHL (Von Hippel-Lindau) tumor suppressor gene on chromosome 3p25 is found in over 80% of sporadic clear cell RCC cases and in hereditary VHL syndrome."
     },
@@ -497,12 +357,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Easy",
       "question": "Which urinary cast finding is pathognomonic for Acute Tubular Necrosis (ATN)?",
-      "options": [
-        "Hyaline casts",
-        "'Muddy brown' granular casts",
-        "Red blood cell casts",
-        "Fatty casts"
-      ],
+      "options": ["Hyaline casts", "'Muddy brown' granular casts", "Red blood cell casts", "Fatty casts"],
       "correctIndex": 1,
       "explanation": "Coarse 'muddy brown' pigmented granular casts composed of necrotic tubular epithelial cells and debris are pathognomonic of Acute Tubular Necrosis (ATN)."
     },
@@ -511,12 +366,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Medium",
       "question": "A Fractional Excretion of Sodium (FENa) of less than 1% (<1%) points towards which category of Acute Kidney Injury?",
-      "options": [
-        "Intrinsic acute tubular necrosis",
-        "Prerenal azotemia",
-        "Postrenal obstructive uropathy",
-        "Acute interstitial nephritis"
-      ],
+      "options": ["Intrinsic acute tubular necrosis", "Prerenal azotemia", "Postrenal obstructive uropathy", "Acute interstitial nephritis"],
       "correctIndex": 1,
       "explanation": "In prerenal azotemia, the tubular reabsorptive machinery remains intact; the kidney avidly conserves sodium and water to restore intravascular volume, keeping FENa <1%. In ATN, tubular damage results in FENa >2%."
     },
@@ -525,12 +375,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Hard",
       "question": "Broad waxy casts found on microscopic examination of urinary sediment signify which pathology?",
-      "options": [
-        "Early post-streptococcal glomerulonephritis",
-        "Advanced chronic kidney disease with severe tubular dilatation",
-        "Acute pyelonephritis",
-        "Prerenal hypovolemia"
-      ],
+      "options": ["Early post-streptococcal glomerulonephritis", "Advanced chronic kidney disease with severe tubular dilatation", "Acute pyelonephritis", "Prerenal hypovolemia"],
       "correctIndex": 1,
       "explanation": "Broad waxy casts (often called 'renal failure casts') are formed in dilated, atrophic collecting ducts of diseased surviving nephrons in end-stage chronic kidney disease."
     },
@@ -539,12 +384,7 @@ export const ch14: Chapter = {
       "topic": "Glomerulonephritis",
       "difficulty": "Medium",
       "question": "The classic gross anatomical appearance of kidneys in Acute Post-Streptococcal Glomerulonephritis is described as:",
-      "options": [
-        "Horseshoe kidney",
-        "'Flea-bitten' kidney",
-        "Polycystic kidney",
-        "Contracted granular kidney"
-      ],
+      "options": ["Horseshoe kidney", "'Flea-bitten' kidney", "Polycystic kidney", "Contracted granular kidney"],
       "correctIndex": 1,
       "explanation": "Grossly, the kidneys in acute PSGN are enlarged and pale with multiple punctate petechial hemorrhages on the subcapsular surface, termed the 'flea-bitten kidney'."
     },
@@ -567,12 +407,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Easy",
       "question": "What is the primary endocrine cause of normocytic normochromic anemia observed in Chronic Kidney Disease?",
-      "options": [
-        "Decreased production of erythropoietin by peritubular interstitial cells",
-        "Excessive loss of transferrin in urine",
-        "Decreased vitamin B12 absorption",
-        "Hemolysis from uremic toxins"
-      ],
+      "options": ["Decreased production of erythropoietin by peritubular interstitial cells", "Excessive loss of transferrin in urine", "Decreased vitamin B12 absorption", "Hemolysis from uremic toxins"],
       "correctIndex": 0,
       "explanation": "The peritubular interstitial cells of the renal cortex produce 90% of the body's erythropoietin (EPO). In CKD, progressive parenchymal destruction leads to EPO deficiency and normocytic anemia."
     },
@@ -581,12 +416,7 @@ export const ch14: Chapter = {
       "topic": "Renal Neoplasms",
       "difficulty": "Medium",
       "question": "Renal cell carcinoma has an extraordinary biological propensity to invade which vascular structure?",
-      "options": [
-        "Abdominal aorta",
-        "Renal vein and Inferior Vena Cava",
-        "Celiac trunk",
-        "Portal vein"
-      ],
+      "options": ["Abdominal aorta", "Renal vein and Inferior Vena Cava", "Celiac trunk", "Portal vein"],
       "correctIndex": 1,
       "explanation": "RCC is notorious for extending directly into the renal vein as a solid tumor thrombus, propagating up the inferior vena cava (IVC), and occasionally reaching the right atrium."
     },
@@ -595,12 +425,7 @@ export const ch14: Chapter = {
       "topic": "Renal Calculi",
       "difficulty": "Medium",
       "question": "Hexagonal benzene-ring shaped crystals identified in acidic urine are diagnostic for which condition?",
-      "options": [
-        "Gouty arthritis",
-        "Primary hyperparathyroidism",
-        "Cystinuria",
-        "Ethylene glycol poisoning"
-      ],
+      "options": ["Gouty arthritis", "Primary hyperparathyroidism", "Cystinuria", "Ethylene glycol poisoning"],
       "correctIndex": 2,
       "explanation": "Clear hexagonal plate-like crystals are pathognomonic for cystinuria, an autosomal recessive defect in the dibasic amino acid transporter (COLA: cystine, ornithine, lysine, arginine)."
     },
@@ -609,12 +434,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Easy",
       "question": "Which electrolyte disturbance in Acute Kidney Injury poses the most immediate threat of fatal cardiac arrest?",
-      "options": [
-        "Hyponatremia",
-        "Hyperkalemia",
-        "Hypocalcemia",
-        "Hypophosphatemia"
-      ],
+      "options": ["Hyponatremia", "Hyperkalemia", "Hypocalcemia", "Hypophosphatemia"],
       "correctIndex": 1,
       "explanation": "Hyperkalemia (>6.0-6.5 mEq/L) causes peaked T waves, widened QRS complexes, sine waves, and fatal ventricular fibrillation or asystole."
     },
@@ -623,12 +443,7 @@ export const ch14: Chapter = {
       "topic": "Glomerulonephritis",
       "difficulty": "Medium",
       "question": "Lipoid nephrosis (Minimal Change Disease) is the most common cause of nephrotic syndrome in which patient demographic?",
-      "options": [
-        "Elderly males >65 years",
-        "Children aged 2 to 6 years",
-        "Pregnant females",
-        "Diabetic adults"
-      ],
+      "options": ["Elderly males >65 years", "Children aged 2 to 6 years", "Pregnant females", "Diabetic adults"],
       "correctIndex": 1,
       "explanation": "Minimal Change Disease causes >85% of nephrotic syndrome cases in young children (ages 2-6), characterized by normal light microscopy and diffuse podocyte foot process effacement on electron microscopy."
     },
@@ -637,12 +452,7 @@ export const ch14: Chapter = {
       "topic": "Renal Calculi",
       "difficulty": "Easy",
       "question": "Which conservative measure is universally recommended to prevent recurrent nephrolithiasis across all stone types?",
-      "options": [
-        "Restricting dietary calcium to zero",
-        "Maintaining high fluid intake to produce >=2.0 to 2.5 L of urine per day",
-        "Alkalinizing urine with orange juice in all patients",
-        "Complete avoidance of all dietary protein"
-      ],
+      "options": ["Restricting dietary calcium to zero", "Maintaining high fluid intake to produce >=2.0 to 2.5 L of urine per day", "Alkalinizing urine with orange juice in all patients", "Complete avoidance of all dietary protein"],
       "correctIndex": 1,
       "explanation": "Increasing oral fluid intake to ensure a daily urine output of >=2.0-2.5 liters lowers the urinary concentration of all lithogenic solutes below their crystallization threshold."
     },
@@ -651,12 +461,7 @@ export const ch14: Chapter = {
       "topic": "Pyelonephritis",
       "difficulty": "Hard",
       "question": "Xanthogranulomatous pyelonephritis (XGP) is an uncommon form of chronic pyelonephritis characterized microscopically by:",
-      "options": [
-        "Sheets of lipid-laden foamy macrophages mimicking clear cell RCC",
-        "Caseating granulomas with Langhans giant cells",
-        "Non-caseating sarcoid granulomas",
-        "Massive eosinophilic infiltration"
-      ],
+      "options": ["Sheets of lipid-laden foamy macrophages mimicking clear cell RCC", "Caseating granulomas with Langhans giant cells", "Non-caseating sarcoid granulomas", "Massive eosinophilic infiltration"],
       "correctIndex": 0,
       "explanation": "Xanthogranulomatous pyelonephritis (XGP) shows massive destruction of renal parenchyma replaced by sheets of lipid-laden foamy macrophages (xanthoma cells), frequently associated with Proteus staghorn calculi."
     },
@@ -679,12 +484,7 @@ export const ch14: Chapter = {
       "topic": "Renal Neoplasms",
       "difficulty": "Hard",
       "question": "Which paraneoplastic phenomenon in Renal Cell Carcinoma is driven by ectopic tumor secretion of erythropoietin?",
-      "options": [
-        "Hypercalcemia",
-        "Secondary Polycythemia",
-        "Cushingoid facies",
-        "Hypoglycemia"
-      ],
+      "options": ["Hypercalcemia", "Secondary Polycythemia", "Cushingoid facies", "Hypoglycemia"],
       "correctIndex": 1,
       "explanation": "RCC tumors frequently produce ectopic erythropoietin, stimulating bone marrow erythropoiesis and causing paraneoplastic erythrocytosis (polycythemia) in 5-10% of patients."
     },
@@ -693,12 +493,7 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Hard",
       "question": "Which histological lesion is the earliest and most specific hallmark of Diabetic Nephropathy?",
-      "options": [
-        "Kimmelstiel-Wilson nodular glomerulosclerosis",
-        "Focal segmental glomerulosclerosis",
-        "Crescentic glomerulonephritis",
-        "Medullary sponge kidney"
-      ],
+      "options": ["Kimmelstiel-Wilson nodular glomerulosclerosis", "Focal segmental glomerulosclerosis", "Crescentic glomerulonephritis", "Medullary sponge kidney"],
       "correctIndex": 0,
       "explanation": "Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) are ovoid, laminated, acellular PAS-positive mesangial nodules pathognomonic for advanced diabetic nephropathy."
     },
@@ -707,14 +502,11 @@ export const ch14: Chapter = {
       "topic": "Renal Failure",
       "difficulty": "Easy",
       "question": "In caring for a patient with an arteriovenous (AV) fistula created for hemodialysis, which nursing action is contraindicated?",
-      "options": [
-        "Palpating for a thrill over the anastomosis",
-        "Auscultating for a continuous bruit",
-        "Taking blood pressure or performing venipuncture on the fistula arm",
-        "Checking distal radial pulses"
-      ],
+      "options": ["Palpating for a thrill over the anastomosis", "Auscultating for a continuous bruit", "Taking blood pressure or performing venipuncture on the fistula arm", "Checking distal radial pulses"],
       "correctIndex": 2,
       "explanation": "Blood pressure cuffs, venipuncture, or IV cannulation on the extremity with an AV fistula can cause thrombosis, vessel collapse, or infection, leading to loss of vascular access."
     }
   ]
-};
+}
+
+save_chapter(14, ch14_data)

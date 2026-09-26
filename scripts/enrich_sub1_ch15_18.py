@@ -1,9 +1,17 @@
-import { Chapter } from '../../types';
+import json
 
-export const ch15: Chapter = {
-  "id": "ch15",
-  "subjectId": "sub1",
-  "number": 15,
+def save_ch(num, data):
+    path = f"src/data/chapters/ch{num}.ts"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("import { Chapter } from '../../types';\n\n")
+        f.write(f"export const ch{num}: Chapter = ")
+        f.write(json.dumps(data, indent=2, ensure_ascii=False))
+        f.write(";\n")
+    print(f"Generated ch{num}.ts ({len(data['topics'])} topics, {len(data['quiz'])} Qs)")
+
+# ----------------- CHAPTER 15: Male Genital System -----------------
+ch15 = {
+  "id": "ch15", "subjectId": "sub1", "number": 15,
   "title": "Male Genital System Diseases",
   "subtitle": "Cryptorchidism, testicular torsion, benign prostatic hyperplasia (BPH), prostatic carcinoma, and penile lesions.",
   "topics": [
@@ -154,357 +162,154 @@ export const ch15: Chapter = {
   "mindMap": {
     "centralConcept": "Male Genital Pathology & Oncology",
     "nodes": [
-      {
-        "id": "m1",
-        "label": "Bell-Clapper Deformity",
-        "category": "etiology",
-        "description": "High tunica vaginalis attachment allowing testicular torsion"
-      },
-      {
-        "id": "m2",
-        "label": "Hemorrhagic Infarction",
-        "category": "pathophysiology",
-        "description": "Venous obstruction and ischemia within 6 hours of cord twisting"
-      },
-      {
-        "id": "m3",
-        "label": "Cryptorchidism",
-        "category": "core",
-        "description": "Undescended testis causing germ cell loss and seminoma risk"
-      },
-      {
-        "id": "m4",
-        "label": "DHT & 5-alpha Reductase",
-        "category": "pathophysiology",
-        "description": "Driver of periurethral transition zone stromal/epithelial hyperplasia"
-      },
-      {
-        "id": "m5",
-        "label": "BPH (Transition Zone)",
-        "category": "clinical",
-        "description": "Prostate enlargement causing bladder outlet obstruction and LUTS"
-      },
-      {
-        "id": "m6",
-        "label": "TMPRSS2-ERG / PTEN",
-        "category": "etiology",
-        "description": "Genetic drivers of peripheral zone prostatic adenocarcinoma"
-      },
-      {
-        "id": "m7",
-        "label": "Gleason Grade & PSA",
-        "category": "diagnostic",
-        "description": "Architectural scoring and screening marker for prostate cancer"
-      },
-      {
-        "id": "m8",
-        "label": "Osteoblastic Metastasis",
-        "category": "clinical",
-        "description": "Bone-forming axial skeleton lesions via Batson venous plexus"
-      },
-      {
-        "id": "m9",
-        "label": "HPV 16/18 & Phimosis",
-        "category": "etiology",
-        "description": "Risk factors for squamous cell carcinoma of the glans penis"
-      }
+      { "id": "m1", "label": "Bell-Clapper Deformity", "category": "etiology", "description": "High tunica vaginalis attachment allowing testicular torsion" },
+      { "id": "m2", "label": "Hemorrhagic Infarction", "category": "pathophysiology", "description": "Venous obstruction and ischemia within 6 hours of cord twisting" },
+      { "id": "m3", "label": "Cryptorchidism", "category": "core", "description": "Undescended testis causing germ cell loss and seminoma risk" },
+      { "id": "m4", "label": "DHT & 5-alpha Reductase", "category": "pathophysiology", "description": "Driver of periurethral transition zone stromal/epithelial hyperplasia" },
+      { "id": "m5", "label": "BPH (Transition Zone)", "category": "clinical", "description": "Prostate enlargement causing bladder outlet obstruction and LUTS" },
+      { "id": "m6", "label": "TMPRSS2-ERG / PTEN", "category": "etiology", "description": "Genetic drivers of peripheral zone prostatic adenocarcinoma" },
+      { "id": "m7", "label": "Gleason Grade & PSA", "category": "diagnostic", "description": "Architectural scoring and screening marker for prostate cancer" },
+      { "id": "m8", "label": "Osteoblastic Metastasis", "category": "clinical", "description": "Bone-forming axial skeleton lesions via Batson venous plexus" },
+      { "id": "m9", "label": "HPV 16/18 & Phimosis", "category": "etiology", "description": "Risk factors for squamous cell carcinoma of the glans penis" }
     ],
     "edges": [
-      {
-        "from": "m1",
-        "to": "m2",
-        "relationship": "predisposes to",
-        "explanation": "Anatomical mobility allows spermatic cord twisting leading to hemorrhagic gangrene."
-      },
-      {
-        "from": "m3",
-        "to": "m2",
-        "relationship": "increases risk",
-        "explanation": "Cryptorchid testes have higher rates of both torsion and malignant seminoma."
-      },
-      {
-        "from": "m4",
-        "to": "m5",
-        "relationship": "mediates",
-        "explanation": "DHT binding to androgen receptors triggers transition zone nodular hyperplasia."
-      },
-      {
-        "from": "m6",
-        "to": "m7",
-        "relationship": "manifests as",
-        "explanation": "Malignant glandular proliferation elevates serum PSA and determines Gleason grade."
-      },
-      {
-        "from": "m7",
-        "to": "m8",
-        "relationship": "spreads to",
-        "explanation": "Advanced prostate carcinoma spreads hematogenously to vertebrae causing sclerotic metastases."
-      },
-      {
-        "from": "m9",
-        "to": "m5",
-        "relationship": "contrasts with",
-        "explanation": "Penile carcinoma is an HPV-driven SCC of the external genitalia, distinct from BPH."
-      }
+      { "from": "m1", "to": "m2", "relationship": "predisposes to", "explanation": "Anatomical mobility allows spermatic cord twisting leading to hemorrhagic gangrene." },
+      { "from": "m3", "to": "m2", "relationship": "increases risk", "explanation": "Cryptorchid testes have higher rates of both torsion and malignant seminoma." },
+      { "from": "m4", "to": "m5", "relationship": "mediates", "explanation": "DHT binding to androgen receptors triggers transition zone nodular hyperplasia." },
+      { "from": "m6", "to": "m7", "relationship": "manifests as", "explanation": "Malignant glandular proliferation elevates serum PSA and determines Gleason grade." },
+      { "from": "m7", "to": "m8", "relationship": "spreads to", "explanation": "Advanced prostate carcinoma spreads hematogenously to vertebrae causing sclerotic metastases." },
+      { "from": "m9", "to": "m5", "relationship": "contrasts with", "explanation": "Penile carcinoma is an HPV-driven SCC of the external genitalia, distinct from BPH." }
     ]
   },
   "quiz": [
     {
-      "id": "ch15_q1",
-      "topic": "Testicular Disorders",
-      "difficulty": "Easy",
+      "id": "ch15_q1", "topic": "Testicular Disorders", "difficulty": "Easy",
       "question": "What is the critical surgical time window for detorsion of the spermatic cord to prevent irreversible testicular necrosis?",
-      "options": [
-        "<6 hours",
-        "<24 hours",
-        "<48 hours",
-        "<1 week"
-      ],
+      "options": ["<6 hours", "<24 hours", "<48 hours", "<1 week"],
       "correctIndex": 0,
       "explanation": "Testicular salvage rates are >90% if surgical detorsion is performed within 6 hours of symptom onset, declining sharply to <10% after 24 hours."
     },
     {
-      "id": "ch15_q2",
-      "topic": "Cryptorchidism",
-      "difficulty": "Medium",
+      "id": "ch15_q2", "topic": "Cryptorchidism", "difficulty": "Medium",
       "question": "Which long-term neoplasm is an individual with uncorrected cryptorchidism at greatest risk of developing?",
-      "options": [
-        "Leydig cell tumor",
-        "Seminoma (germ cell tumor)",
-        "Adenocarcinoma",
-        "Sertoli cell tumor"
-      ],
+      "options": ["Leydig cell tumor", "Seminoma (germ cell tumor)", "Adenocarcinoma", "Sertoli cell tumor"],
       "correctIndex": 1,
       "explanation": "Cryptorchidism carries a 5- to 10-fold increased risk of developing testicular germ cell tumors, predominantly Seminoma."
     },
     {
-      "id": "ch15_q3",
-      "topic": "BPH",
-      "difficulty": "Easy",
+      "id": "ch15_q3", "topic": "BPH", "difficulty": "Easy",
       "question": "Benign Prostatic Hyperplasia (BPH) arises characteristically in which anatomical zone of the prostate gland?",
-      "options": [
-        "Peripheral zone",
-        "Transition (periurethral) zone",
-        "Anterior fibromuscular stroma",
-        "Outer subcapsular zone"
-      ],
+      "options": ["Peripheral zone", "Transition (periurethral) zone", "Anterior fibromuscular stroma", "Outer subcapsular zone"],
       "correctIndex": 1,
       "explanation": "BPH originates in the inner transition (periurethral) zone, explaining why it causes early urinary obstructive symptoms."
     },
     {
-      "id": "ch15_q4",
-      "topic": "Prostate Cancer",
-      "difficulty": "Easy",
+      "id": "ch15_q4", "topic": "Prostate Cancer", "difficulty": "Easy",
       "question": "Prostatic adenocarcinoma arises most frequently in which anatomical zone of the prostate?",
-      "options": [
-        "Transition zone",
-        "Peripheral (posterior) zone",
-        "Central zone",
-        "Periurethral glands"
-      ],
+      "options": ["Transition zone", "Peripheral (posterior) zone", "Central zone", "Periurethral glands"],
       "correctIndex": 1,
       "explanation": "Approximately 70-80% of prostatic carcinomas arise in the peripheral zone, usually posteriorly where they are palpable on DRE."
     },
     {
-      "id": "ch15_q5",
-      "topic": "Prostate Cancer",
-      "difficulty": "Medium",
+      "id": "ch15_q5", "topic": "Prostate Cancer", "difficulty": "Medium",
       "question": "Bony metastases from prostatic adenocarcinoma are classically characterized by which radiological appearance?",
-      "options": [
-        "Purely osteolytic 'punched-out' lesions",
-        "Osteoblastic (sclerotic / bone-forming) lesions",
-        "Soap-bubble appearance",
-        "Onion-skin periosteal reaction"
-      ],
+      "options": ["Purely osteolytic 'punched-out' lesions", "Osteoblastic (sclerotic / bone-forming) lesions", "Soap-bubble appearance", "Onion-skin periosteal reaction"],
       "correctIndex": 1,
       "explanation": "Prostate cancer metastases to the axial skeleton are characteristically osteoblastic (dense, sclerotic), stimulating new woven bone formation."
     },
     {
-      "id": "ch15_q6",
-      "topic": "BPH",
-      "difficulty": "Hard",
+      "id": "ch15_q6", "topic": "BPH", "difficulty": "Hard",
       "question": "What is the primary hormonal mediator directly responsible for stimulating prostatic cellular hyperplasia in BPH?",
-      "options": [
-        "Circulating testosterone",
-        "Dihydrotestosterone (DHT)",
-        "Estradiol",
-        "Luteinizing hormone (LH)"
-      ],
+      "options": ["Circulating testosterone", "Dihydrotestosterone (DHT)", "Estradiol", "Luteinizing hormone (LH)"],
       "correctIndex": 1,
       "explanation": "DHT, synthesized locally from testosterone by 5-alpha reductase type 2 in stromal cells, is 10 times more potent and is the ultimate driver of BPH."
     },
     {
-      "id": "ch15_q7",
-      "topic": "Prostate Cancer",
-      "difficulty": "Hard",
+      "id": "ch15_q7", "topic": "Prostate Cancer", "difficulty": "Hard",
       "question": "The definitive histological hallmark distinguishing prostatic adenocarcinoma from benign hyperplasia under light microscopy is:",
-      "options": [
-        "Presence of glandular crowding",
-        "Complete absence of the outer basal cell layer",
-        "Enlarged prostate volume",
-        "Presence of corpora amylacea"
-      ],
+      "options": ["Presence of glandular crowding", "Complete absence of the outer basal cell layer", "Enlarged prostate volume", "Presence of corpora amylacea"],
       "correctIndex": 1,
       "explanation": "Benign prostatic glands have a two-cell layer (secretory and basal cells). In adenocarcinoma, the outer basal cell layer is completely lost."
     },
     {
-      "id": "ch15_q8",
-      "topic": "Penile Lesions",
-      "difficulty": "Easy",
+      "id": "ch15_q8", "topic": "Penile Lesions", "difficulty": "Easy",
       "question": "Carcinoma of the penis is exceptionally rare among which population?",
-      "options": [
-        "Uncircumcised males with phimosis",
-        "Males circumcised neonatally",
-        "Men with multiple sexual partners",
-        "Smokers"
-      ],
+      "options": ["Uncircumcised males with phimosis", "Males circumcised neonatally", "Men with multiple sexual partners", "Smokers"],
       "correctIndex": 1,
       "explanation": "Neonatal circumcision confers near-complete protection against penile cancer by eliminating smegma accumulation and chronic inflammation."
     },
     {
-      "id": "ch15_q9",
-      "topic": "Penile Lesions",
-      "difficulty": "Medium",
+      "id": "ch15_q9", "topic": "Penile Lesions", "difficulty": "Medium",
       "question": "Which high-risk human papillomavirus (HPV) subtypes are strongly implicated in penile squamous cell carcinoma?",
-      "options": [
-        "HPV 6 and 11",
-        "HPV 16 and 18",
-        "HPV 1 and 2",
-        "HPV 3 and 4"
-      ],
+      "options": ["HPV 6 and 11", "HPV 16 and 18", "HPV 1 and 2", "HPV 3 and 4"],
       "correctIndex": 1,
       "explanation": "High-risk oncogenic HPV types 16 and 18 account for approximately half of all penile squamous cell carcinomas."
     },
     {
-      "id": "ch15_q10",
-      "topic": "Testicular Disorders",
-      "difficulty": "Medium",
+      "id": "ch15_q10", "topic": "Testicular Disorders", "difficulty": "Medium",
       "question": "Mumps orchitis occurring in postpubertal males leads to testicular atrophy primarily through which mechanism?",
-      "options": [
-        "Autoantibody destruction of testosterone",
-        "Severe parenchymal edema and compartment ischemia within the inextensible tunica albuginea",
-        "Complete loss of Leydig cells with intact Sertoli cells",
-        "Direct malignant transformation"
-      ],
+      "options": ["Autoantibody destruction of testosterone", "Severe parenchymal edema and compartment ischemia within the inextensible tunica albuginea", "Complete loss of Leydig cells with intact Sertoli cells", "Direct malignant transformation"],
       "correctIndex": 1,
       "explanation": "Intense inflammatory edema causes elevated pressure inside the rigid tunica albuginea, compressing microvasculature and causing ischemic atrophy."
     },
     {
-      "id": "ch15_q11",
-      "topic": "Prostate Cancer",
-      "difficulty": "Medium",
+      "id": "ch15_q11", "topic": "Prostate Cancer", "difficulty": "Medium",
       "question": "What is the normal upper limit cutoff for serum Prostate-Specific Antigen (PSA) used in routine clinical practice?",
-      "options": [
-        "1.0 ng/mL",
-        "4.0 ng/mL",
-        "10.0 ng/mL",
-        "20.0 ng/mL"
-      ],
+      "options": ["1.0 ng/mL", "4.0 ng/mL", "10.0 ng/mL", "20.0 ng/mL"],
       "correctIndex": 1,
       "explanation": "A total serum PSA level of 4.0 ng/mL is conventionally used as the upper threshold of normal; values >4.0 ng/mL warrant further investigation."
     },
     {
-      "id": "ch15_q12",
-      "topic": "Testicular Disorders",
-      "difficulty": "Hard",
+      "id": "ch15_q12", "topic": "Testicular Disorders", "difficulty": "Hard",
       "question": "The congenital anatomical abnormality most frequently predisposing to testicular torsion is known as:",
-      "options": [
-        "Patent processus vaginalis",
-        "Bell-clapper deformity",
-        "Spermatocele",
-        "Varicocele"
-      ],
+      "options": ["Patent processus vaginalis", "Bell-clapper deformity", "Spermatocele", "Varicocele"],
       "correctIndex": 1,
       "explanation": "The bell-clapper deformity occurs when the tunica vaginalis completely encircles the testis and spermatic cord, allowing the testis to twist freely."
     },
     {
-      "id": "ch15_q13",
-      "topic": "BPH",
-      "difficulty": "Medium",
+      "id": "ch15_q13", "topic": "BPH", "difficulty": "Medium",
       "question": "Which class of medication reduces prostate gland size in BPH by blocking the conversion of testosterone to DHT?",
-      "options": [
-        "Alpha-1 adrenergic blockers (e.g., Tamsulosin)",
-        "5-alpha reductase inhibitors (e.g., Finasteride)",
-        "Phosphodiesterase-5 inhibitors",
-        "Anticholinergics"
-      ],
+      "options": ["Alpha-1 adrenergic blockers (e.g., Tamsulosin)", "5-alpha reductase inhibitors (e.g., Finasteride)", "Phosphodiesterase-5 inhibitors", "Anticholinergics"],
       "correctIndex": 1,
       "explanation": "5-alpha reductase inhibitors like finasteride and dutasteride inhibit the conversion of testosterone to DHT, shrinking prostate volume by 20-30%."
     },
     {
-      "id": "ch15_q14",
-      "topic": "Testicular Disorders",
-      "difficulty": "Easy",
+      "id": "ch15_q14", "topic": "Testicular Disorders", "difficulty": "Easy",
       "question": "On physical examination of a patient with acute testicular torsion, what is the expected finding on testing the cremasteric reflex?",
-      "options": [
-        "Hyperactive reflex",
-        "Normal ipsilateral testicular elevation",
-        "Absence of the cremasteric reflex on the affected side",
-        "Contralateral retraction"
-      ],
+      "options": ["Hyperactive reflex", "Normal ipsilateral testicular elevation", "Absence of the cremasteric reflex on the affected side", "Contralateral retraction"],
       "correctIndex": 2,
       "explanation": "The cremasteric reflex is characteristically absent in testicular torsion, making it a very sensitive physical examination sign."
     },
     {
-      "id": "ch15_q15",
-      "topic": "Prostate Cancer",
-      "difficulty": "Hard",
+      "id": "ch15_q15", "topic": "Prostate Cancer", "difficulty": "Hard",
       "question": "Via which anatomical venous network do prostatic carcinoma cells classically migrate to cause lumbar vertebral bone metastases?",
-      "options": [
-        "Portal venous system",
-        "Batson's vertebral venous plexus",
-        "Inferior mesenteric vein",
-        "Internal pudendal vein"
-      ],
+      "options": ["Portal venous system", "Batson's vertebral venous plexus", "Inferior mesenteric vein", "Internal pudendal vein"],
       "correctIndex": 1,
       "explanation": "Batson's valveless vertebral venous plexus connects the prostatic venous plexus directly to the vertebral column veins, facilitating metastasis to the spine."
     },
     {
-      "id": "ch15_q16",
-      "topic": "BPH",
-      "difficulty": "Easy",
+      "id": "ch15_q16", "topic": "BPH", "difficulty": "Easy",
       "question": "Following a Transurethral Resection of the Prostate (TURP), continuous bladder irrigation (CBI) is primarily maintained to:",
-      "options": [
-        "Administer systemic chemotherapy",
-        "Prevent blood clot formation and catheter obstruction",
-        "Alkalinize the urine",
-        "Measure renal clearance of urea"
-      ],
+      "options": ["Administer systemic chemotherapy", "Prevent blood clot formation and catheter obstruction", "Alkalinize the urine", "Measure renal clearance of urea"],
       "correctIndex": 1,
       "explanation": "Continuous bladder irrigation is maintained post-TURP to flush out resected bed bleeding and prevent intravesical blood clot retention."
     },
     {
-      "id": "ch15_q17",
-      "topic": "Penile Lesions",
-      "difficulty": "Hard",
+      "id": "ch15_q17", "topic": "Penile Lesions", "difficulty": "Hard",
       "question": "Erythroplasia of Queyrat clinically presents as:",
-      "options": [
-        "A fungating mass on the scrotal skin",
-        "A glistening, velvety red plaque located on the glans penis representing carcinoma in situ",
-        "A hard painless ulcer on the shaft with induration",
-        "Multiple painful vesicles"
-      ],
+      "options": ["A fungating mass on the scrotal skin", "A glistening, velvety red plaque located on the glans penis representing carcinoma in situ", "A hard painless ulcer on the shaft with induration", "Multiple painful vesicles"],
       "correctIndex": 1,
       "explanation": "Erythroplasia of Queyrat is squamous cell carcinoma in situ presenting as a solitary, moist, bright red velvety plaque on the glans penis or prepuce."
     },
     {
-      "id": "ch15_q18",
-      "topic": "Cryptorchidism",
-      "difficulty": "Medium",
+      "id": "ch15_q18", "topic": "Cryptorchidism", "difficulty": "Medium",
       "question": "At what age is surgical orchiopexy recommended for an infant with an undescended testis to prevent germ cell loss?",
-      "options": [
-        "Between 6 and 12 months of age",
-        "At 5 years of age",
-        "At puberty (12-14 years)",
-        "Only if symptoms appear"
-      ],
+      "options": ["Between 6 and 12 months of age", "At 5 years of age", "At puberty (12-14 years)", "Only if symptoms appear"],
       "correctIndex": 0,
       "explanation": "Current pediatric surgical guidelines recommend orchiopexy between 6 and 12 months (no later than 18 months) to preserve testicular architecture."
     },
     {
-      "id": "ch15_q19",
-      "topic": "Prostate Cancer",
-      "difficulty": "Medium",
+      "id": "ch15_q19", "topic": "Prostate Cancer", "difficulty": "Medium",
       "question": "How is the Gleason score determined for a prostatic adenocarcinoma biopsy specimen?",
       "options": [
         "By measuring the physical tumor diameter in centimeters",
@@ -516,158 +321,83 @@ export const ch15: Chapter = {
       "explanation": "The Gleason score sums the primary and secondary histological architectural grade patterns (each graded 1 to 5), yielding a score from 2 to 10."
     },
     {
-      "id": "ch15_q20",
-      "topic": "BPH",
-      "difficulty": "Medium",
+      "id": "ch15_q20", "topic": "BPH", "difficulty": "Medium",
       "question": "Which histological component proliferates in Benign Prostatic Hyperplasia?",
-      "options": [
-        "Only columnar glandular epithelium",
-        "Only smooth muscle stroma",
-        "Both glandular epithelial and fibromuscular stromal elements",
-        "Only neuroendocrine cells"
-      ],
+      "options": ["Only columnar glandular epithelium", "Only smooth muscle stroma", "Both glandular epithelial and fibromuscular stromal elements", "Only neuroendocrine cells"],
       "correctIndex": 2,
       "explanation": "BPH is a nodular hyperplasia composed of both epithelial glands and fibromuscular stroma in varying proportions."
     },
     {
-      "id": "ch15_q21",
-      "topic": "Testicular Disorders",
-      "difficulty": "Hard",
+      "id": "ch15_q21", "topic": "Testicular Disorders", "difficulty": "Hard",
       "question": "What is the consequence of uncorrected testicular atrophy on pituitary gonadotropin hormone levels?",
-      "options": [
-        "Markedly low FSH and low LH",
-        "Elevated serum FSH with normal or elevated LH (hypergonadotropic hypogonadism)",
-        "Suppression of ACTH",
-        "Hyperprolactinemia"
-      ],
+      "options": ["Markedly low FSH and low LH", "Elevated serum FSH with normal or elevated LH (hypergonadotropic hypogonadism)", "Suppression of ACTH", "Hyperprolactinemia"],
       "correctIndex": 1,
       "explanation": "Loss of Sertoli cells and germinal epithelium removes negative feedback inhibition by inhibin B, resulting in elevated serum FSH."
     },
     {
-      "id": "ch15_q22",
-      "topic": "Prostate Cancer",
-      "difficulty": "Hard",
+      "id": "ch15_q22", "topic": "Prostate Cancer", "difficulty": "Hard",
       "question": "Which recurrent chromosomal rearrangement is detected in approximately 50% of prostatic adenocarcinomas?",
-      "options": [
-        "BCR-ABL translocation",
-        "TMPRSS2-ERG gene fusion",
-        "PML-RARA translocation",
-        "EML4-ALK fusion"
-      ],
+      "options": ["BCR-ABL translocation", "TMPRSS2-ERG gene fusion", "PML-RARA translocation", "EML4-ALK fusion"],
       "correctIndex": 1,
       "explanation": "The TMPRSS2-ERG gene fusion places the ETS transcription factor ERG under the control of the androgen-responsive TMPRSS2 promoter."
     },
     {
-      "id": "ch15_q23",
-      "topic": "Penile Lesions",
-      "difficulty": "Medium",
+      "id": "ch15_q23", "topic": "Penile Lesions", "difficulty": "Medium",
       "question": "Initial lymphatic metastasis from invasive penile squamous cell carcinoma first spreads to:",
-      "options": [
-        "Para-aortic lymph nodes",
-        "Superficial and deep inguinal lymph nodes",
-        "Axillary lymph nodes",
-        "Mediastinal lymph nodes"
-      ],
+      "options": ["Para-aortic lymph nodes", "Superficial and deep inguinal lymph nodes", "Axillary lymph nodes", "Mediastinal lymph nodes"],
       "correctIndex": 1,
       "explanation": "The lymphatic drainage of the penile skin, glans, and urethra flows primarily to the superficial and deep inguinal lymph nodes."
     },
     {
-      "id": "ch15_q24",
-      "topic": "Prostate Cancer",
-      "difficulty": "Easy",
+      "id": "ch15_q24", "topic": "Prostate Cancer", "difficulty": "Easy",
       "question": "On digital rectal examination (DRE), a prostate harboring adenocarcinoma typically feels:",
-      "options": [
-        "Soft and spongy",
-        "Smooth, symmetric, and rubbery",
-        "Hard, nodular, and irregular with loss of median sulcus",
-        "Boggy and exquisitely tender"
-      ],
+      "options": ["Soft and spongy", "Smooth, symmetric, and rubbery", "Hard, nodular, and irregular with loss of median sulcus", "Boggy and exquisitely tender"],
       "correctIndex": 2,
       "explanation": "Carcinoma in the peripheral zone feels stony-hard, nodular, and asymmetrical on digital rectal examination."
     },
     {
-      "id": "ch15_q25",
-      "topic": "BPH",
-      "difficulty": "Easy",
+      "id": "ch15_q25", "topic": "BPH", "difficulty": "Easy",
       "question": "Which of the following is considered an 'irritative' symptom of bladder outlet obstruction in BPH?",
-      "options": [
-        "Hesitancy",
-        "Urinary frequency and nocturia",
-        "Weak urinary stream",
-        "Post-void dribbling"
-      ],
+      "options": ["Hesitancy", "Urinary frequency and nocturia", "Weak urinary stream", "Post-void dribbling"],
       "correctIndex": 1,
       "explanation": "Irritative symptoms stem from bladder muscle hypertrophy and instability, including urgency, frequency, and nocturia."
     },
     {
-      "id": "ch15_q26",
-      "topic": "Testicular Disorders",
-      "difficulty": "Medium",
+      "id": "ch15_q26", "topic": "Testicular Disorders", "difficulty": "Medium",
       "question": "What is the primary diagnostic imaging used to evaluate suspected acute testicular torsion?",
-      "options": [
-        "Contrast abdominal CT",
-        "Color Doppler Scrotal Ultrasonography",
-        "Excretory urography",
-        "Pelvic MRI"
-      ],
+      "options": ["Contrast abdominal CT", "Color Doppler Scrotal Ultrasonography", "Excretory urography", "Pelvic MRI"],
       "correctIndex": 1,
       "explanation": "Color Doppler ultrasound is the modality of choice to assess testicular perfusion, demonstrating decreased or absent blood flow in torsion."
     },
     {
-      "id": "ch15_q27",
-      "topic": "Penile Lesions",
-      "difficulty": "Hard",
+      "id": "ch15_q27", "topic": "Penile Lesions", "difficulty": "Hard",
       "question": "Bowen disease of the penile shaft differs clinically from Erythroplasia of Queyrat in that Bowen disease:",
-      "options": [
-        "Presents as a solitary crusting red scaly plaque on the shaft skin",
-        "Is never associated with HPV",
-        "Is a benign proliferation",
-        "Always causes painful ulceration"
-      ],
+      "options": ["Presents as a solitary crusting red scaly plaque on the shaft skin", "Is never associated with HPV", "Is a benign proliferation", "Always causes painful ulceration"],
       "correctIndex": 0,
       "explanation": "Bowen disease affects the keratinized shaft skin as a solitary scaly plaque, while Erythroplasia of Queyrat affects mucosal glans as a velvety red plaque."
     },
     {
-      "id": "ch15_q28",
-      "topic": "Prostate Cancer",
-      "difficulty": "Medium",
+      "id": "ch15_q28", "topic": "Prostate Cancer", "difficulty": "Medium",
       "question": "Which immunohistochemical marker stains positive in benign prostatic basal cells but is negative in prostatic adenocarcinoma?",
-      "options": [
-        "p63 / High molecular weight cytokeratin",
-        "AMACR (Racemase)",
-        "PSA",
-        "Prostatic Acid Phosphatase"
-      ],
+      "options": ["p63 / High molecular weight cytokeratin", "AMACR (Racemase)", "PSA", "Prostatic Acid Phosphatase"],
       "correctIndex": 0,
       "explanation": "p63 and HMW-CK stain basal cell nuclei and cytoplasm in benign glands; their absence confirms adenocarcinoma."
     },
     {
-      "id": "ch15_q29",
-      "topic": "BPH",
-      "difficulty": "Medium",
+      "id": "ch15_q29", "topic": "BPH", "difficulty": "Medium",
       "question": "Longstanding untreated BPH with chronic urinary retention can cause which serious upper urinary tract complication?",
-      "options": [
-        "Renal amyloidosis",
-        "Bilateral hydronephrosis and renal failure",
-        "Polycystic kidney disease",
-        "Renal vein thrombosis"
-      ],
+      "options": ["Renal amyloidosis", "Bilateral hydronephrosis and renal failure", "Polycystic kidney disease", "Renal vein thrombosis"],
       "correctIndex": 1,
       "explanation": "Severe chronic bladder outlet obstruction leads to bilateral ureteral dilatation (hydroureter) and hydronephrosis, impairing renal function."
     },
     {
-      "id": "ch15_q30",
-      "topic": "Testicular Disorders",
-      "difficulty": "Easy",
+      "id": "ch15_q30", "topic": "Testicular Disorders", "difficulty": "Easy",
       "question": "Why is orchidopexy performed on both sides when a patient undergoes surgery for unilateral testicular torsion?",
-      "options": [
-        "The 'bell-clapper' anatomical deformity is almost always bilateral",
-        "To remove the contralateral testis",
-        "To prevent mumps infection",
-        "To improve cosmetic appearance only"
-      ],
+      "options": ["The 'bell-clapper' anatomical deformity is almost always bilateral", "To remove the contralateral testis", "To prevent mumps infection", "To improve cosmetic appearance only"],
       "correctIndex": 0,
       "explanation": "The underlying anatomical predisposition (bell-clapper deformity) is bilateral in up to 80% of individuals; fixing both testes prevents future torsion."
     }
   ]
-};
+}
+
+save_ch(15, ch15)

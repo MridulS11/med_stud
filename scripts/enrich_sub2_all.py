@@ -1,9 +1,17 @@
-import { Chapter } from '../../types';
+import json
 
-export const ch20: Chapter = {
-  "id": "ch20",
-  "subjectId": "sub2",
-  "number": 20,
+def save_ch(num, data):
+    path = f"src/data/chapters/ch{num}.ts"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("import { Chapter } from '../../types';\n\n")
+        f.write(f"export const ch{num}: Chapter = ")
+        f.write(json.dumps(data, indent=2, ensure_ascii=False))
+        f.write(";\n")
+    print(f"Generated ch{num}.ts ({len(data['topics'])} topics, {len(data['quiz'])} Qs)")
+
+# ----------------- CHAPTER 20: Body Cavity Fluids -----------------
+ch20 = {
+  "id": "ch20", "subjectId": "sub2", "number": 20,
   "title": "Examination of Body Cavity Fluids",
   "subtitle": "Cerebrospinal fluid (CSF), sputum examination, gastric juice, wound discharge, peritoneal fluid (ascites), and pleural fluid analysis.",
   "topics": [
@@ -169,147 +177,49 @@ export const ch20: Chapter = {
   "mindMap": {
     "centralConcept": "Body Cavity Fluids Examination",
     "nodes": [
-      {
-        "id": "cf1",
-        "label": "Lumbar Puncture (L3-L5)",
-        "category": "core",
-        "description": "Safe access below conus medullaris for CSF collection"
-      },
-      {
-        "id": "cf2",
-        "label": "Pyogenic CSF Profile",
-        "category": "pathophysiology",
-        "description": "Turbid, neutrophils >1000, high protein, low glucose <40%"
-      },
-      {
-        "id": "cf3",
-        "label": "Xanthochromia",
-        "category": "diagnostic",
-        "description": "Yellow supernatant confirming true subarachnoid hemorrhage"
-      },
-      {
-        "id": "cf4",
-        "label": "Bartlett's Criteria",
-        "category": "diagnostic",
-        "description": ">25 PMNs and <10 squamous cells per LPF for valid sputum"
-      },
-      {
-        "id": "cf5",
-        "label": "Asthma Biomarkers",
-        "category": "clinical",
-        "description": "Charcot-Leyden crystals and Curschmann spirals in sputum"
-      },
-      {
-        "id": "cf6",
-        "label": "SAAG Gradient",
-        "category": "core",
-        "description": ">=1.1 g/dL indicates portal hypertension; <1.1 indicates non-portal"
-      },
-      {
-        "id": "cf7",
-        "label": "Spontaneous Bacterial Peritonitis",
-        "category": "clinical",
-        "description": "Ascitic fluid absolute neutrophil count >=250/uL"
-      },
-      {
-        "id": "cf8",
-        "label": "Light's Criteria",
-        "category": "core",
-        "description": "Protein ratio >0.5 or LDH ratio >0.6 classifies exudative effusion"
-      },
-      {
-        "id": "cf9",
-        "label": "Zollinger-Ellison Syndrome",
-        "category": "clinical",
-        "description": "Gastric BAO >15 mEq/hr and intractable peptic ulceration"
-      }
+      { "id": "cf1", "label": "Lumbar Puncture (L3-L5)", "category": "core", "description": "Safe access below conus medullaris for CSF collection" },
+      { "id": "cf2", "label": "Pyogenic CSF Profile", "category": "pathophysiology", "description": "Turbid, neutrophils >1000, high protein, low glucose <40%" },
+      { "id": "cf3", "label": "Xanthochromia", "category": "diagnostic", "description": "Yellow supernatant confirming true subarachnoid hemorrhage" },
+      { "id": "cf4", "label": "Bartlett's Criteria", "category": "diagnostic", "description": ">25 PMNs and <10 squamous cells per LPF for valid sputum" },
+      { "id": "cf5", "label": "Asthma Biomarkers", "category": "clinical", "description": "Charcot-Leyden crystals and Curschmann spirals in sputum" },
+      { "id": "cf6", "label": "SAAG Gradient", "category": "core", "description": ">=1.1 g/dL indicates portal hypertension; <1.1 indicates non-portal" },
+      { "id": "cf7", "label": "Spontaneous Bacterial Peritonitis", "category": "clinical", "description": "Ascitic fluid absolute neutrophil count >=250/uL" },
+      { "id": "cf8", "label": "Light's Criteria", "category": "core", "description": "Protein ratio >0.5 or LDH ratio >0.6 classifies exudative effusion" },
+      { "id": "cf9", "label": "Zollinger-Ellison Syndrome", "category": "clinical", "description": "Gastric BAO >15 mEq/hr and intractable peptic ulceration" }
     ],
     "edges": [
-      {
-        "from": "cf1",
-        "to": "cf2",
-        "relationship": "collects specimen for",
-        "explanation": "CSF analysis reveals classic bacterial profile with marked neutrophilia and hypoglycemia."
-      },
-      {
-        "from": "cf1",
-        "to": "cf3",
-        "relationship": "differentiates via",
-        "explanation": "Xanthochromia identifies subarachnoid hemorrhage and excludes traumatic tap."
-      },
-      {
-        "from": "cf4",
-        "to": "cf5",
-        "relationship": "validates specimen for",
-        "explanation": "Adequate lower respiratory sputum reveals specific asthma or infection cytology."
-      },
-      {
-        "from": "cf6",
-        "to": "cf7",
-        "relationship": "complements",
-        "explanation": "SAAG classifies ascites etiology while PMN count detects acute bacterial infection."
-      },
-      {
-        "from": "cf8",
-        "to": "cf6",
-        "relationship": "analogous to",
-        "explanation": "Light's criteria stratify pleural fluid just as SAAG stratifies ascitic fluid."
-      },
-      {
-        "from": "cf9",
-        "to": "cf1",
-        "relationship": "analyzed like",
-        "explanation": "Both represent biochemical evaluations of specialized body cavity secretions."
-      }
+      { "from": "cf1", "to": "cf2", "relationship": "collects specimen for", "explanation": "CSF analysis reveals classic bacterial profile with marked neutrophilia and hypoglycemia." },
+      { "from": "cf1", "to": "cf3", "relationship": "differentiates via", "explanation": "Xanthochromia identifies subarachnoid hemorrhage and excludes traumatic tap." },
+      { "from": "cf4", "to": "cf5", "relationship": "validates specimen for", "explanation": "Adequate lower respiratory sputum reveals specific asthma or infection cytology." },
+      { "from": "cf6", "to": "cf7", "relationship": "complements", "explanation": "SAAG classifies ascites etiology while PMN count detects acute bacterial infection." },
+      { "from": "cf8", "to": "cf6", "relationship": "analogous to", "explanation": "Light's criteria stratify pleural fluid just as SAAG stratifies ascitic fluid." },
+      { "from": "cf9", "to": "cf1", "relationship": "analyzed like", "explanation": "Both represent biochemical evaluations of specialized body cavity secretions." }
     ]
   },
   "quiz": [
     {
-      "id": "ch20_q1",
-      "topic": "CSF Analysis",
-      "difficulty": "Easy",
+      "id": "ch20_q1", "topic": "CSF Analysis", "difficulty": "Easy",
       "question": "What is the normal opening pressure of cerebrospinal fluid (CSF) in an adult in the lateral decubitus position?",
-      "options": [
-        "10-30 mm H2O",
-        "70-180 mm H2O",
-        "250-350 mm H2O",
-        "400-500 mm H2O"
-      ],
+      "options": ["10-30 mm H2O", "70-180 mm H2O", "250-350 mm H2O", "400-500 mm H2O"],
       "correctIndex": 1,
       "explanation": "Normal adult CSF opening pressure in the relaxed lateral decubitus position ranges from 70 to 180 mm H2O (or up to 200 mm H2O in obese individuals)."
     },
     {
-      "id": "ch20_q2",
-      "topic": "CSF Analysis",
-      "difficulty": "Medium",
+      "id": "ch20_q2", "topic": "CSF Analysis", "difficulty": "Medium",
       "question": "Xanthochromia in the cerebrospinal fluid supernatant is diagnostic for which condition?",
-      "options": [
-        "Traumatic lumbar puncture",
-        "Subarachnoid hemorrhage",
-        "Multiple sclerosis",
-        "Viral meningitis"
-      ],
+      "options": ["Traumatic lumbar puncture", "Subarachnoid hemorrhage", "Multiple sclerosis", "Viral meningitis"],
       "correctIndex": 1,
       "explanation": "Xanthochromia (yellow discoloration of centrifuged CSF supernatant due to hemoglobin degradation into bilirubin) confirms true Subarachnoid Hemorrhage and rules out a traumatic tap."
     },
     {
-      "id": "ch20_q3",
-      "topic": "CSF Analysis",
-      "difficulty": "Hard",
+      "id": "ch20_q3", "topic": "CSF Analysis", "difficulty": "Hard",
       "question": "India ink preparation of CSF is used to rapidly visualize the prominent gelatinous capsule of which pathogen?",
-      "options": [
-        "Streptococcus pneumoniae",
-        "Cryptococcus neoformans",
-        "Neisseria meningitidis",
-        "Mycobacterium tuberculosis"
-      ],
+      "options": ["Streptococcus pneumoniae", "Cryptococcus neoformans", "Neisseria meningitidis", "Mycobacterium tuberculosis"],
       "correctIndex": 1,
       "explanation": "India ink creates negative staining where the wide polysaccharide capsule of Cryptococcus neoformans stands out as a clear, translucent halo against the dark background."
     },
     {
-      "id": "ch20_q4",
-      "topic": "Sputum Examination",
-      "difficulty": "Easy",
+      "id": "ch20_q4", "topic": "Sputum Examination", "difficulty": "Easy",
       "question": "According to Bartlett's criteria, a sputum specimen is considered acceptable for bacteriological culture if it contains:",
       "options": [
         ">25 squamous epithelial cells and <10 neutrophils per LPF",
@@ -321,177 +231,91 @@ export const ch20: Chapter = {
       "explanation": "To ensure a specimen represents lower respiratory tract secretions rather than saliva, it must have >25 leukocytes/macrophages and <10 squamous epithelial cells per low-power field."
     },
     {
-      "id": "ch20_q5",
-      "topic": "Sputum Examination",
-      "difficulty": "Medium",
+      "id": "ch20_q5", "topic": "Sputum Examination", "difficulty": "Medium",
       "question": "The production of thick, tenacious, 'red currant jelly' sputum is classically characteristic of pneumonia caused by:",
-      "options": [
-        "Streptococcus pneumoniae",
-        "Mycoplasma pneumoniae",
-        "Klebsiella pneumoniae",
-        "Legionella pneumophila"
-      ],
+      "options": ["Streptococcus pneumoniae", "Mycoplasma pneumoniae", "Klebsiella pneumoniae", "Legionella pneumophila"],
       "correctIndex": 2,
       "explanation": "Klebsiella pneumoniae produces massive capsular mucoid material mixed with blood, generating the classic 'red currant jelly' sputum."
     },
     {
-      "id": "ch20_q6",
-      "topic": "Sputum Examination",
-      "difficulty": "Hard",
+      "id": "ch20_q6", "topic": "Sputum Examination", "difficulty": "Hard",
       "question": "Charcot-Leyden crystals found in the sputum of patients with bronchial asthma are derived from the breakdown products of:",
-      "options": [
-        "Basophils",
-        "Eosinophils (major basic protein)",
-        "Neutrophils (myeloperoxidase)",
-        "Lymphocytes"
-      ],
+      "options": ["Basophils", "Eosinophils (major basic protein)", "Neutrophils (myeloperoxidase)", "Lymphocytes"],
       "correctIndex": 1,
       "explanation": "Charcot-Leyden crystals are hexagonal, bipyramidal crystals composed of lysophospholipase formed from damaged, degenerated eosinophils."
     },
     {
-      "id": "ch20_q7",
-      "topic": "Peritoneal Fluid",
-      "difficulty": "Easy",
+      "id": "ch20_q7", "topic": "Peritoneal Fluid", "difficulty": "Easy",
       "question": "A Serum-Ascites Albumin Gradient (SAAG) of >= 1.1 g/dL indicates which underlying mechanism?",
-      "options": [
-        "Peritoneal carcinomatosis",
-        "Tuberculous peritonitis",
-        "Portal Hypertension (e.g., Cirrhosis)",
-        "Nephrotic syndrome"
-      ],
+      "options": ["Peritoneal carcinomatosis", "Tuberculous peritonitis", "Portal Hypertension (e.g., Cirrhosis)", "Nephrotic syndrome"],
       "correctIndex": 2,
       "explanation": "A SAAG >= 1.1 g/dL is approximately 97% accurate in establishing Portal Hypertension (cirrhosis, alcoholic hepatitis, congestive heart failure) as the cause of ascites."
     },
     {
-      "id": "ch20_q8",
-      "topic": "Peritoneal Fluid",
-      "difficulty": "Medium",
+      "id": "ch20_q8", "topic": "Peritoneal Fluid", "difficulty": "Medium",
       "question": "Spontaneous Bacterial Peritonitis (SBP) is diagnosed when the ascitic fluid absolute polymorphonuclear (PMN) neutrophil count exceeds:",
-      "options": [
-        ">=50 cells/uL",
-        ">=100 cells/uL",
-        ">=250 cells/uL",
-        ">=1,000 cells/uL"
-      ],
+      "options": [">=50 cells/uL", ">=100 cells/uL", ">=250 cells/uL", ">=1,000 cells/uL"],
       "correctIndex": 2,
       "explanation": "An ascitic absolute neutrophil count (ANC) of >= 250 PMNs/uL is the definitive diagnostic criterion for Spontaneous Bacterial Peritonitis, requiring immediate empirical antibiotic therapy."
     },
     {
-      "id": "ch20_q9",
-      "topic": "Pleural Fluid",
-      "difficulty": "Easy",
+      "id": "ch20_q9", "topic": "Pleural Fluid", "difficulty": "Easy",
       "question": "According to Light's Criteria, a pleural effusion is classified as an EXUDATE if the pleural fluid to serum protein ratio is:",
-      "options": [
-        ">0.1",
-        ">0.3",
-        ">0.5",
-        ">1.0"
-      ],
+      "options": [">0.1", ">0.3", ">0.5", ">1.0"],
       "correctIndex": 2,
       "explanation": "A pleural fluid protein to serum protein ratio > 0.5 meets the first parameter of Light's criteria, classifying the effusion as an exudate."
     },
     {
-      "id": "ch20_q10",
-      "topic": "Pleural Fluid",
-      "difficulty": "Medium",
+      "id": "ch20_q10", "topic": "Pleural Fluid", "difficulty": "Medium",
       "question": "Which of the following pleural fluid findings indicates an Empyema requiring urgent chest tube (tube thoracostomy) drainage?",
-      "options": [
-        "Pleural fluid pH > 7.45",
-        "Clear amber appearance with normal LDH",
-        "Frank pus, pleural fluid pH < 7.20, and low glucose",
-        "Transudative fluid with low protein"
-      ],
+      "options": ["Pleural fluid pH > 7.45", "Clear amber appearance with normal LDH", "Frank pus, pleural fluid pH < 7.20, and low glucose", "Transudative fluid with low protein"],
       "correctIndex": 2,
       "explanation": "The presence of frank pus, pleural fluid pH < 7.20, glucose < 40 mg/dL, and elevated LDH defines an empyema or complicated parapneumonic effusion requiring urgent tube drainage."
     },
     {
-      "id": "ch20_q11",
-      "topic": "Gastric Juice",
-      "difficulty": "Hard",
+      "id": "ch20_q11", "topic": "Gastric Juice", "difficulty": "Hard",
       "question": "In Zollinger-Ellison Syndrome (gastrinoma), what is the typical Basal Acid Output (BAO) finding on gastric analysis?",
-      "options": [
-        "Achlorhydria (BAO = 0)",
-        "BAO < 2 mEq/hr",
-        "BAO > 15 mEq/hr and BAO/MAO ratio > 0.6",
-        "Normal BAO with high pH"
-      ],
+      "options": ["Achlorhydria (BAO = 0)", "BAO < 2 mEq/hr", "BAO > 15 mEq/hr and BAO/MAO ratio > 0.6", "Normal BAO with high pH"],
       "correctIndex": 2,
       "explanation": "Autonomous gastrin secretion in Zollinger-Ellison syndrome drives marked basal acid hypersecretion (BAO >15 mEq/hr in unoperated patients) with a BAO to MAO ratio >0.6."
     },
     {
-      "id": "ch20_q12",
-      "topic": "Wound Discharge",
-      "difficulty": "Easy",
+      "id": "ch20_q12", "topic": "Wound Discharge", "difficulty": "Easy",
       "question": "A postoperative wound draining sweet-smelling, blue-green purulent exudate is most likely infected with which organism?",
-      "options": [
-        "Staphylococcus aureus",
-        "Pseudomonas aeruginosa",
-        "Escherichia coli",
-        "Streptococcus pyogenes"
-      ],
+      "options": ["Staphylococcus aureus", "Pseudomonas aeruginosa", "Escherichia coli", "Streptococcus pyogenes"],
       "correctIndex": 1,
       "explanation": "Pseudomonas aeruginosa characteristically produces the blue-green pigment pyocyanin and a sweet, grape-like or corn taco odor."
     },
     {
-      "id": "ch20_q13",
-      "topic": "CSF Analysis",
-      "difficulty": "Medium",
+      "id": "ch20_q13", "topic": "CSF Analysis", "difficulty": "Medium",
       "question": "What is the primary rationale for having a patient lie flat in the supine position for 4 to 6 hours following a lumbar puncture?",
-      "options": [
-        "To prevent venous thrombosis",
-        "To minimize CSF leakage from the dural puncture site and prevent post-LP spinal headache",
-        "To allow antibiotics to absorb",
-        "To measure urine output"
-      ],
+      "options": ["To prevent venous thrombosis", "To minimize CSF leakage from the dural puncture site and prevent post-LP spinal headache", "To allow antibiotics to absorb", "To measure urine output"],
       "correctIndex": 1,
       "explanation": "Lying supine decreases hydrostatic pressure at the lumbar puncture site, minimizing persistent CSF leakage and preventing low-pressure post-dural puncture cephalalgia."
     },
     {
-      "id": "ch20_q14",
-      "topic": "Peritoneal Fluid",
-      "difficulty": "Easy",
+      "id": "ch20_q14", "topic": "Peritoneal Fluid", "difficulty": "Easy",
       "question": "What critical nursing instruction must be verified immediately before a patient undergoes an abdominal paracentesis?",
-      "options": [
-        "Have the patient drink 1 liter of water",
-        "Instruct the patient to empty their bladder completely",
-        "Administer high-dose heparin",
-        "Place the patient in Trendelenburg position"
-      ],
+      "options": ["Have the patient drink 1 liter of water", "Instruct the patient to empty their bladder completely", "Administer high-dose heparin", "Place the patient in Trendelenburg position"],
       "correctIndex": 1,
       "explanation": "A distended urinary bladder extends superiorly toward the umbilicus and can easily be punctured by the paracentesis trocar; emptying the bladder minimizes this risk."
     },
     {
-      "id": "ch20_q15",
-      "topic": "Pleural Fluid",
-      "difficulty": "Hard",
+      "id": "ch20_q15", "topic": "Pleural Fluid", "difficulty": "Hard",
       "question": "An ascitic or pleural fluid containing a triglyceride concentration >110 mg/dL with a milky appearance is diagnostic of:",
-      "options": [
-        "Empyema",
-        "Chylothorax / Chylous ascites",
-        "Hemothorax",
-        "Bilious effusion"
-      ],
+      "options": ["Empyema", "Chylothorax / Chylous ascites", "Hemothorax", "Bilious effusion"],
       "correctIndex": 1,
       "explanation": "A triglyceride level >110 mg/dL and presence of chylomicrons confirms disruption of the thoracic duct or lymphatic channels, defining a chylous effusion."
     },
     {
-      "id": "ch20_q16",
-      "topic": "Sputum Examination",
-      "difficulty": "Easy",
+      "id": "ch20_q16", "topic": "Sputum Examination", "difficulty": "Easy",
       "question": "On a Ziehl-Neelsen (ZN) stain, Acid-Fast Bacilli (Mycobacterium tuberculosis) appear as:",
-      "options": [
-        "Blue cocci in clusters",
-        "Slender, beaded, bright pink-red rods against a light blue background",
-        "Large brown budding yeasts",
-        "Gram-negative spiral rods"
-      ],
+      "options": ["Blue cocci in clusters", "Slender, beaded, bright pink-red rods against a light blue background", "Large brown budding yeasts", "Gram-negative spiral rods"],
       "correctIndex": 1,
       "explanation": "Mycolic acid in the cell wall of mycobacteria binds carbolfuchsin, resisting decolorization with acid-alcohol and appearing as bright red/pink rods against a methylene blue background."
     },
     {
-      "id": "ch20_q17",
-      "topic": "Wound Discharge",
-      "difficulty": "Medium",
+      "id": "ch20_q17", "topic": "Wound Discharge", "difficulty": "Medium",
       "question": "When obtaining a wound culture using the Levine technique, the nurse should:",
       "options": [
         "Swab old purulent exudate resting on the wound dressing",
@@ -503,163 +327,84 @@ export const ch20: Chapter = {
       "explanation": "The Levine technique requires cleansing superficial colonization with saline, then pressing and rotating the swab over viable wound tissue to express true underlying pathogens."
     },
     {
-      "id": "ch20_q18",
-      "topic": "Pleural Fluid",
-      "difficulty": "Medium",
+      "id": "ch20_q18", "topic": "Pleural Fluid", "difficulty": "Medium",
       "question": "Why is pleural fluid evacuation during a single therapeutic thoracentesis typically limited to a maximum of 1,000 to 1,500 mL?",
-      "options": [
-        "To avoid hypocalcemia",
-        "To prevent Re-expansion Pulmonary Edema and severe hypotension",
-        "To preserve pleural surfactant",
-        "To prevent chest tube blockage"
-      ],
+      "options": ["To avoid hypocalcemia", "To prevent Re-expansion Pulmonary Edema and severe hypotension", "To preserve pleural surfactant", "To prevent chest tube blockage"],
       "correctIndex": 1,
       "explanation": "Rapid evacuation of >1.5 liters of pleural fluid can generate extreme negative intrapleural pressures and reperfusion injury, causing life-threatening unilateral re-expansion pulmonary edema."
     },
     {
-      "id": "ch20_q19",
-      "topic": "CSF Analysis",
-      "difficulty": "Medium",
+      "id": "ch20_q19", "topic": "CSF Analysis", "difficulty": "Medium",
       "question": "A normal cerebrospinal fluid glucose concentration is approximately what percentage of the simultaneous blood glucose level?",
-      "options": [
-        "10-20%",
-        "60-70%",
-        "100%",
-        "150%"
-      ],
+      "options": ["10-20%", "60-70%", "100%", "150%"],
       "correctIndex": 1,
       "explanation": "CSF glucose normally reflects carrier-mediated transport across the blood-brain barrier, equilibrating at approximately 60% to 70% of the simultaneous plasma glucose."
     },
     {
-      "id": "ch20_q20",
-      "topic": "Gastric Juice",
-      "difficulty": "Hard",
+      "id": "ch20_q20", "topic": "Gastric Juice", "difficulty": "Hard",
       "question": "Achlorhydria (complete failure of gastric acid secretion following pentagastrin stimulation) is most characteristically associated with:",
-      "options": [
-        "Duodenal peptic ulcer",
-        "Zollinger-Ellison syndrome",
-        "Autoimmune Pernicious Anemia with anti-parietal cell antibodies",
-        "Cushing ulcer"
-      ],
+      "options": ["Duodenal peptic ulcer", "Zollinger-Ellison syndrome", "Autoimmune Pernicious Anemia with anti-parietal cell antibodies", "Cushing ulcer"],
       "correctIndex": 2,
       "explanation": "Autoimmune gastritis targets gastric parietal cells and intrinsic factor, leading to total destruction of acid-secreting mucosa, achlorhydria, and vitamin B12 deficiency (pernicious anemia)."
     },
     {
-      "id": "ch20_q21",
-      "topic": "Pleural Fluid",
-      "difficulty": "Medium",
+      "id": "ch20_q21", "topic": "Pleural Fluid", "difficulty": "Medium",
       "question": "Markedly elevated Pleural Fluid Adenosine Deaminase (ADA > 40 U/L) is a valuable screening marker for:",
-      "options": [
-        "Tuberculous Pleurisy",
-        "Congestive heart failure",
-        "Mesothelioma",
-        "Rheumatoid arthritis"
-      ],
+      "options": ["Tuberculous Pleurisy", "Congestive heart failure", "Mesothelioma", "Rheumatoid arthritis"],
       "correctIndex": 0,
       "explanation": "Pleural ADA >40 U/L has high sensitivity and specificity for Tuberculous pleurisy, driven by activation of T-lymphocytes responding to mycobacterial antigens."
     },
     {
-      "id": "ch20_q22",
-      "topic": "Peritoneal Fluid",
-      "difficulty": "Hard",
+      "id": "ch20_q22", "topic": "Peritoneal Fluid", "difficulty": "Hard",
       "question": "During a large-volume paracentesis (>5 liters), what intravenous medication is infused to prevent post-paracentesis circulatory dysfunction?",
-      "options": [
-        "Packed red blood cells",
-        "Salt-poor human albumin (6-8 g per liter of ascites removed)",
-        "Dextrose 50%",
-        "Fresh frozen plasma"
-      ],
+      "options": ["Packed red blood cells", "Salt-poor human albumin (6-8 g per liter of ascites removed)", "Dextrose 50%", "Fresh frozen plasma"],
       "correctIndex": 1,
       "explanation": "Large-volume paracentesis removes large quantities of protein and fluid, risking systemic arterial vasodilation and hepatorenal syndrome; infusing 6-8 g of albumin per liter removed prevents this."
     },
     {
-      "id": "ch20_q23",
-      "topic": "Sputum Examination",
-      "difficulty": "Medium",
+      "id": "ch20_q23", "topic": "Sputum Examination", "difficulty": "Medium",
       "question": "Curschmann spirals observed microscopically in the sputum of an asthmatic patient represent:",
-      "options": [
-        "Clusters of mycobacteria",
-        "Twisted mucoid casts formed within small terminal bronchioles",
-        "Degenerated polymorphonuclear cells",
-        "Fungal pseudohyphae"
-      ],
+      "options": ["Clusters of mycobacteria", "Twisted mucoid casts formed within small terminal bronchioles", "Degenerated polymorphonuclear cells", "Fungal pseudohyphae"],
       "correctIndex": 1,
       "explanation": "Curschmann spirals are microscopic corkscrew-shaped mucous plugs formed by inspissated mucus in the small bronchioles of patients with severe asthma."
     },
     {
-      "id": "ch20_q24",
-      "topic": "CSF Analysis",
-      "difficulty": "Easy",
+      "id": "ch20_q24", "topic": "CSF Analysis", "difficulty": "Easy",
       "question": "Which cerebrospinal fluid tube is typically designated for microbiological culture and Gram stain to avoid skin contaminant artifacts?",
-      "options": [
-        "Tube 1",
-        "Tube 2",
-        "The waste bottle",
-        "Only the last tube drawn"
-      ],
+      "options": ["Tube 1", "Tube 2", "The waste bottle", "Only the last tube drawn"],
       "correctIndex": 1,
       "explanation": "Tube 2 is standardly used for microbiology. Tube 1 may contain minor epidermal contaminants or traumatic blood from needle insertion."
     },
     {
-      "id": "ch20_q25",
-      "topic": "Pleural Fluid",
-      "difficulty": "Easy",
+      "id": "ch20_q25", "topic": "Pleural Fluid", "difficulty": "Easy",
       "question": "Which of the following conditions produces a purely TRANSUDATIVE pleural effusion?",
-      "options": [
-        "Pneumonia with parapneumonic effusion",
-        "Congestive Heart Failure",
-        "Metastatic adenocarcinoma",
-        "Tuberculosis"
-      ],
+      "options": ["Pneumonia with parapneumonic effusion", "Congestive Heart Failure", "Metastatic adenocarcinoma", "Tuberculosis"],
       "correctIndex": 1,
       "explanation": "Congestive heart failure increases pulmonary capillary hydrostatic pressure, producing a low-protein, low-LDH transudative effusion without pleural inflammation."
     },
     {
-      "id": "ch20_q26",
-      "topic": "Wound Discharge",
-      "difficulty": "Medium",
+      "id": "ch20_q26", "topic": "Wound Discharge", "difficulty": "Medium",
       "question": "Thick, creamy, golden-yellow purulent wound exudate without foul odor is most characteristic of infection by:",
-      "options": [
-        "Staphylococcus aureus",
-        "Bacteroides fragilis",
-        "Proteus mirabilis",
-        "Clostridium perfringens"
-      ],
+      "options": ["Staphylococcus aureus", "Bacteroides fragilis", "Proteus mirabilis", "Clostridium perfringens"],
       "correctIndex": 0,
       "explanation": "Staphylococcus aureus typically produces thick, opaque, creamy golden-yellow pus (pyogenic infection) due to carotenoid pigments produced by the bacteria."
     },
     {
-      "id": "ch20_q27",
-      "topic": "Peritoneal Fluid",
-      "difficulty": "Hard",
+      "id": "ch20_q27", "topic": "Peritoneal Fluid", "difficulty": "Hard",
       "question": "A patient with ascites has a serum albumin of 3.8 g/dL and an ascitic fluid albumin of 1.2 g/dL. What is the calculated SAAG and likely etiology?",
-      "options": [
-        "SAAG = 5.0 g/dL (Peritoneal carcinomatosis)",
-        "SAAG = 2.6 g/dL (Portal hypertension / Cirrhosis)",
-        "SAAG = 0.3 g/dL (Nephrotic syndrome)",
-        "SAAG = 1.0 g/dL (Tuberculosis)"
-      ],
+      "options": ["SAAG = 5.0 g/dL (Peritoneal carcinomatosis)", "SAAG = 2.6 g/dL (Portal hypertension / Cirrhosis)", "SAAG = 0.3 g/dL (Nephrotic syndrome)", "SAAG = 1.0 g/dL (Tuberculosis)"],
       "correctIndex": 1,
       "explanation": "SAAG = Serum Albumin (3.8) - Ascitic Albumin (1.2) = 2.6 g/dL. Because 2.6 is >= 1.1 g/dL, it indicates Portal Hypertension (most commonly cirrhosis)."
     },
     {
-      "id": "ch20_q28",
-      "topic": "Sputum Examination",
-      "difficulty": "Easy",
+      "id": "ch20_q28", "topic": "Sputum Examination", "difficulty": "Easy",
       "question": "A sputum sample displaying a characteristic 'rusty' appearance is classic for which clinical condition?",
-      "options": [
-        "Pulmonary edema",
-        "Pneumococcal lobar pneumonia (Streptococcus pneumoniae)",
-        "Bronchogenic adenocarcinoma",
-        "Bronchial asthma"
-      ],
+      "options": ["Pulmonary edema", "Pneumococcal lobar pneumonia (Streptococcus pneumoniae)", "Bronchogenic adenocarcinoma", "Bronchial asthma"],
       "correctIndex": 1,
       "explanation": "In pneumococcal lobar pneumonia (red hepatization stage), alveolar extravasation of RBCs undergoing lysis produces the classic rusty-colored sputum."
     },
     {
-      "id": "ch20_q29",
-      "topic": "CSF Analysis",
-      "difficulty": "Hard",
+      "id": "ch20_q29", "topic": "CSF Analysis", "difficulty": "Hard",
       "question": "Why is a non-contrast CT head scan mandated prior to performing a lumbar puncture in a patient presenting with altered mental status and focal neurological deficits?",
       "options": [
         "To assess for cervical spine fractures",
@@ -671,18 +416,13 @@ export const ch20: Chapter = {
       "explanation": "If a space-occupying lesion creates a pressure gradient, sudden lumbar dural puncture decompresses the spinal canal, causing brain tissue to herniate through the foramen magnum (tonsillar herniation)."
     },
     {
-      "id": "ch20_q30",
-      "topic": "Pleural Fluid",
-      "difficulty": "Medium",
+      "id": "ch20_q30", "topic": "Pleural Fluid", "difficulty": "Medium",
       "question": "During thoracentesis, which anatomical position is optimal to help widen the posterior intercostal spaces?",
-      "options": [
-        "Supine",
-        "Sitting upright leaning forward over a bedside padded table",
-        "Left lateral Trendelenburg",
-        "Prone"
-      ],
+      "options": ["Supine", "Sitting upright leaning forward over a bedside padded table", "Left lateral Trendelenburg", "Prone"],
       "correctIndex": 1,
       "explanation": "Sitting upright leaning forward onto an overbed table opens the posterior rib spaces and allows gravity to pool pleural fluid in the dependent posterior costodiaphragmatic recess."
     }
   ]
-};
+}
+
+save_ch(20, ch20)

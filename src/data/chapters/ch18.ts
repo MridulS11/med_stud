@@ -5,205 +5,231 @@ export const ch18: Chapter = {
   "subjectId": "sub1",
   "number": 18,
   "title": "Central Nervous System Diseases",
-  "subtitle": "Meningitis, viral encephalitis, ischemic and hemorrhagic stroke, and primary/metastatic central nervous system tumors.",
+  "subtitle": "Meningitis, viral encephalitis, cerebrovascular accidents (stroke), and primary central nervous system neoplasms.",
   "topics": [
     {
       "id": "ch18_t1",
-      "name": "Meningitis: Bacterial, Viral, Tuberculous & Fungal",
-      "summary": "Infection and inflammation of the leptomeninges (pia mater, arachnoid mater, and subarachnoid space), categorized by etiology and distinctive CSF abnormalities.",
-      "pathophysiology": "Pathogens enter via hematogenous dissemination, retrograde spread from nasopharynx/sinuses, or direct traumatic/surgical defect. Multiplication in subarachnoid space triggers intense neutrophil/lymphocyte recruitment, purulent exudate in basal cisterns and sulci, endothelial vasculitis, cerebral edema, and elevated intracranial pressure (ICP).",
+      "name": "Meningitis (Acute Pyogenic, Viral & Tuberculous)",
+      "summary": "Inflammation of the arachnoid and pia mater (leptomeninges) and the subarachnoid space containing cerebrospinal fluid (CSF), categorized by etiology into bacterial, viral (aseptic), and chronic tuberculous/fungal forms.",
+      "pathophysiology": "Microorganisms colonize the nasopharynx or enter via bacteremia, cross the blood-brain barrier into the subarachnoid space, and multiply in the nutrient-rich, complement-poor CSF. Neutrophil degranulation and bacterial endotoxins release TNF-alpha and IL-1, increasing vascular permeability, causing massive cerebral vasogenic and cytotoxic edema, exudate obstruction of CSF outflow (hydrocephalus), and intracranial hypertension.",
       "clinicalFeatures": [
-        "Classical triad: Sudden high fever, severe headache, and nuchal rigidity (neck stiffness).",
-        "Meningeal signs: Positive Kernig's sign (resistance/pain upon knee extension with hip flexed at 90\u00b0) and Brudzinski's sign (passive neck flexion prompts involuntary flexion of hips and knees).",
-        "Signs of elevated ICP: Projectile vomiting without nausea, altered sensorium, seizures, photophobia, papilledema, and Cushing's triad (bradycardia, systolic hypertension with widening pulse pressure, irregular respirations)."
+        "Classic Meningeal Triad: High fever, severe headache, and nuchal rigidity (stiff neck).",
+        "Positive Physical Signs: Kernig sign (resistance and pain on knee extension with hip flexed at 90 degrees) and Brudzinski sign (involuntary hip and knee flexion upon passive neck flexion).",
+        "Petechial and purpuric skin rash characteristic of Neisseria meningitidis (meningococcemia), which can progress rapidly to Waterhouse-Friderichsen syndrome (bilateral adrenal hemorrhage, shock, and DIC).",
+        "Altered mental status: Lethargy, confusion, photophobia, projectile vomiting, and seizures."
       ],
       "diagnostics": [
-        "Lumbar Puncture & CSF Analysis (gold standard, after ruling out mass lesion / herniation risk via CT brain).",
-        "Bacterial (Pyogenic): Turbid/cloudy CSF, opening pressure markedly elevated (>200-300 mmH2O), high polymorphonuclear neutrophils (PMNs >1000/mm\u00b3), marked protein elevation (>100-500 mg/dL), and severely decreased CSF glucose (<40% of blood glucose / <40 mg/dL).",
-        "Viral (Aseptic): Clear CSF, normal/slightly elevated opening pressure, lymphocytic pleocytosis (100-500/mm\u00b3), normal or mildly elevated protein, and NORMAL glucose.",
-        "Tuberculous: Clear or slightly turbid with 'cobweb / spider-web coagulum' on standing, markedly elevated protein (often >500 mg/dL), low glucose, lymphocytic predominance, positive AFB / GeneXpert."
+        "Lumbar Puncture (LP) & CSF Analysis (performed at L3-L4 or L4-L5):",
+        "  - Acute Pyogenic (Bacterial): Turbid/cloudy CSF; opening pressure markedly elevated (>200-300 mm H2O); WBC count massively elevated (1,000-10,000/uL, >80% PMNs/neutrophils); Protein markedly elevated (>100-500 mg/dL); Glucose markedly decreased (<40 mg/dL or CSF:plasma ratio <0.4). Gram stain and culture positive.",
+        "  - Viral (Aseptic): Clear CSF; opening pressure normal or slightly high; WBC moderately elevated (50-500/uL, predominantly lymphocytes); Protein normal or mildly elevated (50-100 mg/dL); Glucose completely normal (CSF:plasma ratio >0.6).",
+        "  - Tuberculous: Opaque/viscous CSF forming a delicate 'cobweb/spiderweb clot' upon standing; WBC elevated (100-500/uL, predominantly lymphocytes); Protein extremely high (>100-500 mg/dL); Glucose markedly reduced (<30 mg/dL); Acid-fast bacilli on Ziehl-Neelsen stain or GeneXpert MTB/RIF.",
+        "Neuroimaging (CT head): Mandatory prior to LP if focal neurological signs or papilledema are present to rule out a space-occupying lesion and prevent fatal brain herniation."
       ],
-      "morphology": "Acute bacterial meningitis displays thick, yellowish-green purulent exudate filling the subarachnoid space over the cerebral convexities (S. pneumoniae) or base of the brain (H. influenzae, N. meningitidis). Microscopically, engorged meningeal vessels, extensive fibrin network, and dense neutrophilic infiltration.",
+      "morphology": "Pyogenic: Thick, yellowish-green purulent exudate sheets covering the leptomeninges over the cerebral convexities (S. pneumoniae) or base of brain (H. influenzae). Tuberculous: Dense, gelatinous, thick exudate primarily concentrated at the base of the brain ('basal meningitis') entrapping cranial nerves (III, VI, VII) and causing obliterative endarteritis with cerebral infarction.",
       "nursingManagement": [
-        "Emergency initiation of empiric IV bactericidal antibiotics (ceftriaxone + vancomycin) + IV dexamethasone immediately following LP (or blood cultures if LP delayed).",
-        "Strict Droplet Isolation precautions for suspected Neisseria meningitidis until 24 hours of effective antimicrobial therapy.",
-        "Continuous neurological monitoring (Glasgow Coma Scale), seizure precautions, head of bed elevated 30 degrees, avoidance of neck flexion to maintain venous drainage."
+        "Initiate droplet isolation precautions immediately for suspected bacterial meningitis until 24 hours of effective antimicrobial therapy.",
+        "Emergency administration of empiric IV antibiotics (vancomycin + ceftriaxone) and adjunctive IV dexamethasone to dampen inflammatory edema.",
+        "Maintain quiet, dark room to alleviate photophobia; monitor Glasgow Coma Scale (GCS), pupillary reflexes, and neurological status hourly."
       ],
       "examPearls": [
-        "Low CSF glucose (<40% of simultaneous plasma glucose) is the hallmark differentiating bacterial and tuberculous meningitis from viral meningitis (where glucose is NORMAL).",
-        "Kernig and Brudzinski signs indicate meningeal irritation.",
-        "Petechial or purpuric skin rash in a febrile patient with meningitis is strongly indicative of Neisseria meningitidis (meningococcemia / Waterhouse-Friderichsen syndrome)."
+        "CSF in bacterial meningitis shows high pressure, high neutrophils, very high protein, and low glucose (<40% of blood glucose).",
+        "CSF in viral meningitis shows normal glucose and lymphocytic pleocytosis.",
+        "Dense gelatinous exudate at the base of the brain with a 'spiderweb clot' on standing is pathognomonic for Tuberculous Meningitis.",
+        "Waterhouse-Friderichsen syndrome is bilateral adrenal hemorrhagic necrosis and septic shock in meningococcal meningitis."
       ],
       "imagePath": "/images/ch18_img_1.jpeg",
-      "imageCaption": "Purulent leptomeningeal exudate over cerebral gyri in acute pyogenic meningitis."
+      "imageCaption": "Gross brain autopsy displaying dense purulent yellowish-white exudate covering the leptomeninges and engorged cortical vessels in acute bacterial meningitis."
     },
     {
       "id": "ch18_t2",
-      "name": "Viral Encephalitis",
-      "summary": "Direct parenchymal infection and inflammation of the brain tissue itself, most frequently of acute viral origin.",
-      "pathophysiology": "Viruses cross the blood-brain barrier via hematogenous spread or retrograde axonal transport (e.g., Rabies via peripheral nerves, Herpes Simplex Virus Type 1 via olfactory or trigeminal nerves). Viral replication causes direct neuronal lysis, glial nodule formation, perivascular lymphocytic cuffing, and focal necrotizing hemorrhage.",
+      "name": "Encephalitis & Viral Neuroinfections",
+      "summary": "Parenchymal inflammation of the brain tissue (cerebrum), most commonly caused by neurotropic viral pathogens presenting with cognitive decline, seizures, and focal neurological deficits.",
+      "pathophysiology": "Direct viral neurotropism and retrograde axonal transport (HSV along the trigeminal nerve to the temporal lobe; Rabies along peripheral sensory axons to the brainstem) or hematogenous viremic seeding (Arboviruses). Viral replication within neurons and glia causes microglial activation (microglial nodules), perivascular lymphocytic cuffing, neuronophagia, and hemorrhagic necrotizing encephalitis.",
       "clinicalFeatures": [
-        "Fever, headache, altered mental status (confusion, behavioral changes, psychosis, hallucinations), focal neurological deficits, and new-onset seizures.",
-        "Herpes Simplex Virus-1 (HSV-1): Classical predilection for the temporal and inferior frontal lobes, manifesting as aphasia, anosmia, temporal seizures, and bizarreness.",
-        "Rabies: Hydrophobia, aerophobia, autonomic instability, violent agitation followed by paralysis and fatal coma."
+        "Altered level of consciousness: Confusion, delirium, bizarre behavioral changes, emotional lability, and memory loss (temporal lobe dysfunction).",
+        "Focal neurological deficits, cranial nerve palsies, and generalized or focal seizures.",
+        "Rabies: Hydrophobia (pharyngeal spasms triggered by attempts to swallow liquid), agitation, autonomic instability, and flaccid paralysis."
       ],
       "diagnostics": [
-        "CSF PCR (Polymerase Chain Reaction): High sensitivity and specificity for HSV-1, Enteroviruses, VZV, and Arboviruses.",
-        "Brain MRI: In HSV encephalitis, hyperintensity on T2/FLAIR images localized to the unilateral or bilateral temporal and inferior frontal lobes.",
-        "Electroencephalogram (EEG): Periodic Lateralized Epileptiform Discharges (PLEDs) over the temporal leads."
+        "Brain MRI: Hyperintense T2/FLAIR lesions with edema and petechial hemorrhage localized to the inferior and medial temporal lobes and orbitofrontal cortex is pathognomonic for Herpes Simplex Virus (HSV-1) encephalitis.",
+        "CSF PCR: Highly sensitive and specific gold standard for detecting HSV DNA, Enterovirus, and Arbovirus RNA.",
+        "Histopathology: Characteristic viral inclusion bodies: Intranuclear eosinophilic Cowdry A inclusions in HSV; Eosinophilic intracytoplasmic Negri bodies in pyramidal hippocampal and cerebellar Purkinje neurons in Rabies."
       ],
-      "morphology": "HSV-1 encephalitis shows hemorrhagic, necrotizing softening of the temporal lobes. Microscopically: Perivascular lymphocytic cuffing, neuronophagia (microglia engulfing necrotic neurons), microglial nodules, and Cowdry type A eosinophilic intranuclear inclusion bodies. Rabies features pathognomonic cytoplasmic Negri bodies in Purkinje cells of cerebellum and pyramidal neurons of hippocampus.",
+      "morphology": "HSV-1: Extensive asymmetric hemorrhagic necrosis and softening localized to the temporal and inferior frontal lobes. Microscopically: Perivascular lymphocytic cuffing, microglial nodules, neuronophagia, and eosinophilic Cowdry A inclusion bodies inside neuronal nuclei.",
       "nursingManagement": [
-        "Empirical high-dose IV Acyclovir started immediately upon clinical suspicion of viral encephalitis without waiting for PCR results.",
-        "Airway maintenance and aspiration precautions in encephalopathic/comatose patients.",
-        "Close monitoring for status epilepticus and increased intracranial pressure."
+        "Immediate empirical administration of high-dose intravenous Acyclovir upon clinical suspicion of viral encephalitis without waiting for PCR results.",
+        "Implement seizure precautions (padded bed rails, suction apparatus, oxygen at bedside, IV access).",
+        "Monitor for increased intracranial pressure (ICP) and signs of uncal transtentorial herniation (unilateral dilated pupil, hemiparesis)."
       ],
       "examPearls": [
-        "HSV-1 characteristically targets the TEMPORAL lobes, producing hemorrhagic necrotizing encephalitis and aphasia.",
-        "Cowdry A viral inclusions are seen in HSV; Negri bodies (cytoplasmic) are pathognomonic of Rabies.",
-        "Acyclovir is the first-line antiviral therapy for HSV-1 encephalitis."
+        "HSV-1 encephalitis has an exquisite predilection for the temporal lobes and inferior frontal lobes.",
+        "Cowdry A eosinophilic intranuclear inclusions are found in neurons in HSV encephalitis.",
+        "Negri bodies (intracytoplasmic inclusions in Purkinje cells of cerebellum and hippocampus) are diagnostic for Rabies."
       ],
       "imagePath": "/images/ch18_img_2.jpeg",
-      "imageCaption": "Temporal lobe hemorrhagic necrosis in HSV-1 encephalitis and Negri bodies in rabies."
+      "imageCaption": "Brain MRI demonstrating asymmetric bilateral temporal lobe hyperintensity and edema characteristic of Herpes Simplex Virus encephalitis."
     },
     {
       "id": "ch18_t3",
-      "name": "Cerebrovascular Accident (Stroke): Ischemic vs Hemorrhagic",
-      "summary": "Rapid development of focal neurological deficit due to cerebrovascular disturbance, divided into Ischemic (85%) and Hemorrhagic (15%) etiologies.",
-      "pathophysiology": "Ischemic Stroke: Caused by in situ atherothrombosis (large arteries like carotid/middle cerebral) or thromboembolism (cardioembolic: atrial fibrillation, mural thrombus). Cellular ATP depletion halts Na+/K+ ATPase, causing glutamate excitotoxicity, intracellular calcium influx, and liquefactive necrosis. The surrounding ischemic 'penumbra' is salvageable tissue. Hemorrhagic Stroke: Intracerebral hemorrhage (ICH) commonly results from rupture of Charcot-Bouchard microaneurysms in penetrating lenticulostriate arteries driven by chronic hypertension; Subarachnoid hemorrhage (SAH) arises from rupture of saccular 'berry' aneurysms in the Circle of Willis (anterior communicating artery).",
+      "name": "Cerebrovascular Accidents (Ischemic & Hemorrhagic Stroke)",
+      "summary": "Acute neurological deficit lasting >24 hours caused by vascular disturbance of cerebral perfusion, divided into Ischemic Infarction (85%) and Intracranial Hemorrhage (15%).",
+      "pathophysiology": "Ischemic Stroke: Thrombotic occlusion of an atherosclerotic artery (e.g. middle cerebral artery) or thromboembolic occlusion (cardiogenic from atrial fibrillation or carotid plaque). Deprivation of oxygen and glucose triggers energy failure, glutamate excitotoxicity, massive intracellular calcium influx, and liquefactive necrosis of brain tissue. Hemorrhagic Stroke: 1. Hypertensive Intracerebral Hemorrhage: Rupture of Charcot-Bouchard microaneurysms in small penetrating lenticulostriate branches of the MCA supplying the basal ganglia (putamen 50-60%, thalamus, pons). 2. Subarachnoid Hemorrhage (SAH): Rupture of a saccular (berry) aneurysm at bifurcations in the anterior circle of Willis.",
       "clinicalFeatures": [
-        "FAST assessment: Face drooping, Arm weakness, Speech difficulty, Time to call emergency.",
-        "MCA stroke: Contralateral hemiparesis and hemisensory loss (face and upper extremity > leg), contralateral homonymous hemianopia, aphasia (dominant hemisphere).",
-        "Subarachnoid Hemorrhage (SAH): Sudden onset of the 'worst headache of my life' (thunderclap headache), vomiting, meningismus, and loss of consciousness."
+        "Ischemic Stroke: Sudden onset of contralateral hemiplegia, contralateral hemisensory loss, facial droop, and aphasia (expressive Broca's or receptive Wernicke's if dominant hemisphere MCA affected).",
+        "Hypertensive Hemorrhage: Sudden severe headache, projectile vomiting, rapid loss of consciousness, and hemiplegia during periods of physical exertion or emotional stress.",
+        "Subarachnoid Hemorrhage: Sudden, excruciating headache classically described as the 'worst headache of my life' (thunderclap headache), brief syncope, nuchal rigidity without focal deficits."
       ],
       "diagnostics": [
-        "Emergent Non-contrast CT Head: Essential initial test to immediately rule out hemorrhage before considering thrombolytic therapy.",
-        "Diffusion-Weighted MRI (DWI): Detects cytotoxic edema in ischemic stroke within minutes of onset.",
-        "CT Angiography / MR Angiography: Identifies vessel occlusion, carotid stenosis, or berry aneurysms."
+        "Emergency Non-Contrast Head CT: Gold standard initial test to immediately rule out hemorrhage before thrombolytic therapy; ischemic infarction appears normal in the first 6 hours, followed by subtle loss of gray-white differentiation.",
+        "Diffusion-Weighted MRI (DWI): Detects ischemic cytotoxic edema within minutes of symptom onset.",
+        "CT Angiography (CTA): Identifies large vessel occlusion (LVO) and saccular berry aneurysms."
       ],
-      "morphology": "Brain infarcts undergo LIQUEFACTIVE necrosis. Grossly: At 24-48 hours, pale, soft, swollen tissue with blurred gray-white junction; by weeks, a cystic fluid-filled cavity lined by a dense network of fibrillary astrocytic processes (gliosis). Microscopically: At 12-24 hours, 'red neurons' (eosinophilic cytoplasm, pyknotic nuclei); at 48 hours to 2 weeks, abundant lipid-laden foamy macrophages (gitter cells).",
+      "morphology": "Brain tissue undergoes Liquefactive Necrosis. Within 12-24 hours: 'Red neurons' (eosinophilic shrinkage of cytoplasm, pyknotic nuclei). 24-72 hours: Infiltration by neutrophils followed by abundant foamy lipid-laden macrophages (microglia) phagocytosing myelin breakdown products. Weeks to months: Formation of a fluid-filled cystic cavity surrounded by a dense meshwork of reactive gemistocytic astrocytes (glial scar / astrogliosis).",
       "nursingManagement": [
-        "Thrombolysis window: Administer IV alteplase / tenecteplase within 4.5 hours of symptom onset if no contraindications.",
-        "Blood pressure management: Do not aggressively drop BP in ischemic stroke unless >220/120 mmHg (or >185/110 if thrombolysis planned) to maintain penumbral perfusion.",
-        "Positioning: Head of bed 30 degrees, aspiration precautions (strict NPO until bedside swallow screen passed), mobilize to prevent DVT."
+        "Assess using the FAST tool (Face drooping, Arm weakness, Speech difficulty, Time to call).",
+        "For acute ischemic stroke: Screen eligibility for IV tissue plasminogen activator (tPA / alteplase) within the 4.5-hour therapeutic window.",
+        "Frequent neurological checks (NIHSS scale); maintain blood pressure within target parameters (avoid over-aggressive lowering to preserve ischemic penumbra perfusion)."
       ],
       "examPearls": [
-        "Brain tissue undergoes LIQUEFACTIVE necrosis following ischemic infarction.",
-        "'Red neurons' appear 12 to 24 hours after an acute ischemic insult.",
-        "Rupture of saccular (berry) aneurysms in the Circle of Willis is the leading cause of non-traumatic Subarachnoid Hemorrhage.",
-        "Charcot-Bouchard microaneurysms from chronic hypertension are the primary cause of intraparenchymal hemorrhage (basal ganglia/putamen)."
+        "Brain tissue heals through Liquefactive Necrosis followed by Astrogliosis (glial scar formation), NOT collagenous scarring.",
+        "'Red neurons' with eosinophilic cytoplasm and pyknotic nuclei are the earliest microscopic sign of acute neuronal ischemic injury (12-24 hrs).",
+        "Rupture of Charcot-Bouchard microaneurysms in hypertensive patients most frequently causes hemorrhage in the Putamen (basal ganglia).",
+        "Rupture of a berry aneurysm at the Circle of Willis causes Subarachnoid Hemorrhage ('thunderclap headache')."
       ],
-      "imagePath": "/images/ch18_img_3.jpeg",
-      "imageCaption": "Liquefactive necrosis in cerebral infarction and ruptured berry aneurysm in the Circle of Willis."
+      "imagePath": "/images/ch18_img_3.png",
+      "imageCaption": "Gross coronal section of brain displaying a massive hypertensive intracerebral hemorrhage centered in the basal ganglia with ventricular rupture."
     },
     {
       "id": "ch18_t4",
-      "name": "Tumors of the Central Nervous System",
-      "summary": "Neoplasms arising from neuroepithelial tissue, meninges, or metastatic spread from distant primaries.",
-      "pathophysiology": "Adults: 1. Glioblastoma Multiforme (GBM, WHO Grade 4 astrocytoma): Highly malignant astrocytic tumor with EGFR amplification, PTEN loss, IDH-wildtype status. 2. Meningioma (WHO Grade 1): Benign extra-axial tumor arising from arachnoid cap cells, linked to NF2 gene loss (chromosome 22q). 3. Schwannoma (Acoustic neuroma): Arises from cranial nerve VIII at the cerebellopontine angle. Children: 1. Pilocytic Astrocytoma (WHO Grade 1, cerebellar, benign, cystic with mural nodule, BRAF mutation). 2. Medulloblastoma (WHO Grade 4 primitive neuroectodermal embryonal tumor of cerebellar vermis). Metastases: Most common intracranial tumors in adults (lungs, breast, melanoma, renal).",
+      "name": "Intracranial Neoplasms (Gliomas, Meningioma & Metastases)",
+      "summary": "Primary and secondary tumors within the cranial vault, ranging from highly aggressive infiltrative astrocytic gliomas to benign extra-axial meningiomas.",
+      "pathophysiology": "Adult primary brain tumors arise from glial cells (astrocytes, oligodendrocytes) or meninges. Glioblastoma Multiforme (Grade IV astrocytoma) exhibits IDH wild-type status, EGFR amplification, and PTEN loss, driving aggressive neoangiogenesis and diffuse infiltrative invasion along white matter tracts. Meningioma arises from arachnoid cap cells, linked to NF2 gene loss on chromosome 22q. Metastatic brain tumors (from lung, breast, melanoma, renal carcinoma) reach the junction of gray and white matter via hematogenous spread.",
       "clinicalFeatures": [
-        "Progressive localized headache worse in morning, worsening with coughing or bending forward.",
-        "Focal neurological deficits, personality changes, cognitive decline, and new-onset adult seizures.",
-        "Acoustic Neuroma: Unilateral sensorineural hearing loss, tinnitus, and vertigo.",
-        "Pediatric posterior fossa tumors: Ataxia, clumsiness, hydrocephalus, and vomiting."
+        "Headache that is characteristically worse in the early morning and exacerbated by coughing, bending forward, or straining (Valsalva).",
+        "Unexplained projectile vomiting without nausea, papilledema (optic disc swelling on fundoscopy due to raised ICP).",
+        "New-onset adult seizures, progressive cognitive/personality decline, and focal lateralizing neurological signs."
       ],
       "diagnostics": [
-        "Contrast-enhanced Brain MRI (gold standard): Identifies tumor margins, edema, mass effect, and midline shift.",
-        "GBM: Classical irregular, thick, ring-enhancing mass with extensive central necrosis and surrounding vasogenic edema ('butterfly glioma' crossing corpus callosum).",
-        "Meningioma: Dural-based, intensely homogeneously enhancing extra-axial mass with a 'dural tail'."
+        "Contrast-Enhanced Brain MRI: Gold standard imaging modality; glioblastoma displays a classic thick, irregular ring-enhancing mass with central dark necrosis and surrounding vasogenic edema.",
+        "Stereotactic Needle Biopsy or Surgical Craniotomy Resection: Confirms histological grade and molecular markers (IDH1/2 mutation, MGMT promoter methylation, 1p/19q codeletion).",
+        "Fundoscopic Examination: Bilateral papilledema confirming increased intracranial pressure."
       ],
-      "morphology": "GBM shows pleomorphic astrocytic cells with marked mitotic activity, serpentine areas of coagulative necrosis rimmed by crowded tumor nuclei ('pseudopalisading necrosis'), and florid microvascular endothelial proliferation. Meningioma shows whorled fascicles of meningothelial cells and psammoma bodies. Schwannoma shows biphasic pattern: dense Antoni A areas with Verocay bodies (palisading nuclei) and loose hypocellular Antoni B areas.",
+      "morphology": "1. Glioblastoma (Grade IV Astrocytoma): Variegated mass with areas of yellow necrosis and red hemorrhage crossing the corpus callosum ('butterfly glioma'); microscopically shows marked nuclear pleomorphism, brisk mitoses, serpentine geographic necrosis bordered by pseudopalisading tumor nuclei, and glomeruloid microvascular endothelial proliferation. 2. Oligodendroglioma: Sheets of uniform cells with rounded nuclei surrounded by clear halos ('fried-egg' appearance) in a network of delicate branching capillaries ('chicken-wire' pattern); associated with 1p/19q codeletion. 3. Meningioma: Well-demarcated, firm, rubbery extra-axial mass attached to the dura; microscopically shows whorled nests of meningothelial cells and calcified Psammoma bodies. 4. Schwannoma: Benign tumor of cranial nerve VIII (acoustic neuroma) showing alternating cellular Antoni A areas (with Verocay bodies) and hypocellular myxoid Antoni B areas.",
       "nursingManagement": [
-        "Administer dexamethasone to reduce peritumoral vasogenic edema; monitor blood glucose and GI bleed risk.",
-        "Seizure precautions and administration of antiepileptic drugs (e.g. levetiracetam).",
-        "Post-craniotomy nursing care: Monitor ICP, GCS, pupil reactivity, CSF leak from dressing, and prevent straining."
+        "Administer high-dose IV corticosteroids (dexamethasone) to reduce tumor-associated vasogenic brain edema.",
+        "Implement seizure precautions and monitor anticonvulsant therapeutic levels (levetiracetam, phenytoin).",
+        "Monitor for acute signs of brain herniation (Cushing's Triad: severe hypertension with widening pulse pressure, bradycardia, and irregular/Cheyne-Stokes respirations)."
       ],
       "examPearls": [
-        "Pseudopalisading necrosis and microvascular proliferation are diagnostic of Glioblastoma (WHO Grade 4).",
-        "Psammoma bodies and 'dural tail' on MRI are hallmarks of Meningioma.",
-        "Schwannomas display Antoni A (hypercellular with Verocay bodies) and Antoni B (loose myxoid) tissue.",
-        "Rosenthal fibers are characteristic of Pilocytic Astrocytoma in children."
+        "Pseudopalisading necrosis and glomeruloid microvascular proliferation are pathognomonic histological features of Glioblastoma (Grade IV Astrocytoma).",
+        "'Fried-egg' cell appearance and 'chicken-wire' capillary network with 1p/19q codeletion characterize Oligodendroglioma.",
+        "Whorled fascicles and Psammoma bodies are typical of benign extra-axial Meningioma.",
+        "Verocay bodies and alternating Antoni A and Antoni B patterns characterize Schwannoma (Acoustic Neuroma)."
       ],
       "imagePath": "/images/ch18_img_4.png",
-      "imageCaption": "Glioblastoma ring enhancement and histology showing pseudopalisading necrosis."
+      "imageCaption": "Microscopic appearance of glioblastoma multiforme showing prominent pseudopalisading tumor cells surrounding central areas of necrosis."
     }
   ],
   "mindMap": {
-    "centralConcept": "CNS Diseases and Pathologies",
+    "centralConcept": "Central Nervous System Pathology",
     "nodes": [
       {
         "id": "c1",
-        "label": "Blood-Brain Barrier Breakdown",
-        "category": "etiology",
-        "description": "Infection or ischemia breaches tight junctions, triggering vasogenic edema."
+        "label": "Pyogenic Meningitis",
+        "category": "core",
+        "description": "Cloudy CSF, high neutrophils, high protein, and low glucose"
       },
       {
         "id": "c2",
-        "label": "Meningeal Exudate & Pleocytosis",
-        "category": "pathophysiology",
-        "description": "Purulent neutrophil collection in subarachnoid space causing nuchal rigidity and low CSF glucose."
+        "label": "Tuberculous Meningitis",
+        "category": "core",
+        "description": "Basal brain exudate, cranial nerve palsies, and spiderweb clot"
       },
       {
         "id": "c3",
-        "label": "Viral Neuronal Lysis (Encephalitis)",
-        "category": "core",
-        "description": "HSV-1 necrotic temporal encephalitis; confusion, aphasia, and bizarre behavior."
+        "label": "HSV-1 Encephalitis",
+        "category": "etiology",
+        "description": "Temporal lobe hemorrhagic necrosis with Cowdry A inclusions"
       },
       {
         "id": "c4",
-        "label": "Cerebrovascular Occlusion (Ischemic Stroke)",
-        "category": "core",
-        "description": "Thrombosis/embolism causing ATP depletion, red neurons, and liquefactive necrosis."
+        "label": "Liquefactive Necrosis",
+        "category": "pathophysiology",
+        "description": "Ischemic stroke process yielding red neurons, foamy macrophages, and astrogliosis"
       },
       {
         "id": "c5",
-        "label": "Vascular Rupture (Hemorrhagic Stroke)",
+        "label": "Hypertensive Hemorrhage",
         "category": "pathophysiology",
-        "description": "Charcot-Bouchard or berry aneurysm rupture causing thunderclap headache and ICH/SAH."
+        "description": "Charcot-Bouchard microaneurysms in basal ganglia (putamen)"
       },
       {
         "id": "c6",
-        "label": "Elevated Intracranial Pressure (ICP)",
-        "category": "clinical",
-        "description": "Mass effect, papilledema, vomiting, and brainstem herniation (Cushing's triad)."
+        "label": "Berry Aneurysm Rupture",
+        "category": "etiology",
+        "description": "Circle of Willis bifurcation causing subarachnoid hemorrhage"
       },
       {
         "id": "c7",
-        "label": "Intracranial Neoplasms",
-        "category": "diagnostic",
-        "description": "GBM (pseudopalisading necrosis), meningioma (psammoma bodies), and brain metastases."
+        "label": "Glioblastoma Multiforme",
+        "category": "core",
+        "description": "Grade IV astrocytoma with pseudopalisading necrosis and butterfly shape"
+      },
+      {
+        "id": "c8",
+        "label": "Meningioma",
+        "category": "core",
+        "description": "Benign extra-axial dural tumor with whorls and Psammoma bodies"
+      },
+      {
+        "id": "c9",
+        "label": "Cushing's Triad",
+        "category": "clinical",
+        "description": "Hypertension, bradycardia, and irregular respirations in herniation"
       }
     ],
     "edges": [
       {
         "from": "c1",
-        "to": "c2",
-        "relationship": "Permits bacterial entry",
-        "explanation": "Circulating pathogens cross choroid plexus or damaged BBB into subarachnoid space to create purulent meningitis."
+        "to": "c9",
+        "relationship": "can progress to",
+        "explanation": "Severe purulent meningitis causes obstructive hydrocephalus and herniation."
       },
       {
-        "from": "c2",
-        "to": "c6",
-        "relationship": "Elevates ICP",
-        "explanation": "Purulent exudate blocks arachnoid villi resorption of CSF, triggering communicating hydrocephalus and high ICP."
+        "from": "c3",
+        "to": "c1",
+        "relationship": "contrasts with",
+        "explanation": "Encephalitis targets parenchyma with normal CSF glucose, while meningitis targets leptomeninges."
       },
       {
         "from": "c4",
-        "to": "c6",
-        "relationship": "Generates mass effect",
-        "explanation": "Cytotoxic edema within the ischemic core and penumbra expands brain volume, compromising intracranial compliance."
+        "to": "c9",
+        "relationship": "induces",
+        "explanation": "Large ischemic strokes cause cytotoxic edema, midline shift, and brain herniation."
       },
       {
         "from": "c5",
-        "to": "c6",
-        "relationship": "Causes acute expansion",
-        "explanation": "Rapid arterial bleeding into the parenchyma or subarachnoid space abruptly surges intracranial pressure."
+        "to": "c4",
+        "relationship": "contrasts with",
+        "explanation": "Hemorrhagic stroke involves arterial rupture into parenchyma, distinct from ischemic infarct."
+      },
+      {
+        "from": "c6",
+        "to": "c1",
+        "relationship": "mimics",
+        "explanation": "SAH presents with severe headache and nuchal rigidity resembling acute meningitis."
       },
       {
         "from": "c7",
-        "to": "c6",
-        "relationship": "Expands space",
-        "explanation": "Neoplastic proliferation and peritumoral vasogenic edema displace brain tissue, risking life-threatening uncal or tonsillar herniation."
+        "to": "c9",
+        "relationship": "triggers",
+        "explanation": "High-grade glioma with extensive vasogenic edema elevates ICP leading to Cushing's triad."
+      },
+      {
+        "from": "c8",
+        "to": "c7",
+        "relationship": "contrasts with",
+        "explanation": "Meningioma is a slow-growing extra-axial tumor, unlike aggressive infiltrating glioblastoma."
       }
     ]
   },
@@ -212,21 +238,203 @@ export const ch18: Chapter = {
       "id": "ch18_q1",
       "topic": "Meningitis",
       "difficulty": "Easy",
-      "question": "Which CSF parameter is characteristically markedly decreased in Acute Bacterial Meningitis compared to viral meningitis?",
+      "question": "Which of the following sets of CSF findings is characteristic of Acute Pyogenic (Bacterial) Meningitis?",
       "options": [
-        "Protein level",
-        "CSF Glucose (<40% of blood glucose)",
-        "Opening pressure",
-        "Neutrophil count"
+        "Normal opening pressure, lymphocytic pleocytosis, normal glucose, normal protein",
+        "Markedly elevated opening pressure, neutrophilic pleocytosis, high protein, and markedly decreased glucose",
+        "Clear CSF, normal cells, elevated glucose, normal protein",
+        "Xanthochromic CSF with exclusively eosinophilic infiltration"
       ],
       "correctIndex": 1,
-      "explanation": "Bacteria and proliferating leukocytes consume glucose, driving CSF glucose below 40 mg/dL (<40% of simultaneous plasma glucose), whereas CSF glucose is normal in viral meningitis."
+      "explanation": "Bacterial meningitis presents with turbid CSF under high pressure, massive neutrophilic pleocytosis (>1,000/uL), markedly elevated protein, and low glucose (<40 mg/dL or <40% of blood glucose)."
     },
     {
       "id": "ch18_q2",
       "topic": "Meningitis",
+      "difficulty": "Medium",
+      "question": "Formation of a delicate 'cobweb' or 'spiderweb' clot upon standing of the CSF is pathognomonic for:",
+      "options": [
+        "Aseptic viral meningitis",
+        "Tuberculous meningitis",
+        "Cryptococcal meningitis",
+        "Meningococcal meningitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "In tuberculous meningitis, exceptionally high CSF protein and fibrinogen content cause a delicate pellicle ('spiderweb clot') to form on the surface after standing undisturbed."
+    },
+    {
+      "id": "ch18_q3",
+      "topic": "Meningitis",
+      "difficulty": "Hard",
+      "question": "Waterhouse-Friderichsen syndrome is a catastrophic complication of meningococcal meningitis characterized by:",
+      "options": [
+        "Bilateral hemorrhagic infarction of the adrenal glands accompanied by overwhelming septic shock and DIC",
+        "Acute bilateral cortical blindness",
+        "Massive hepatic vein thrombosis",
+        "Transverse myelitis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waterhouse-Friderichsen syndrome is characterized by rapid fulminant meningococcemia with purpura, disseminated intravascular coagulation (DIC), and bilateral adrenal hemorrhage."
+    },
+    {
+      "id": "ch18_q4",
+      "topic": "Encephalitis",
       "difficulty": "Easy",
-      "question": "A clinical sign of meningeal irritation where passive flexion of the patient's neck elicits involuntary flexion of the hips and knees is:",
+      "question": "Herpes Simplex Virus Type 1 (HSV-1) encephalitis exhibits a strong anatomical predilection for which lobes of the brain?",
+      "options": [
+        "Occipital lobes",
+        "Temporal and inferior frontal lobes",
+        "Parietal lobes",
+        "Cerebellum"
+      ],
+      "correctIndex": 1,
+      "explanation": "HSV-1 encephalitis typically causes necrotizing, hemorrhagic inflammation localized to the medial and inferior temporal lobes and orbitofrontal cortex."
+    },
+    {
+      "id": "ch18_q5",
+      "topic": "Encephalitis",
+      "difficulty": "Medium",
+      "question": "Eosinophilic intracytoplasmic inclusions termed 'Negri bodies' in cerebellar Purkinje cells and hippocampal pyramidal neurons are diagnostic of:",
+      "options": [
+        "Poliomyelitis",
+        "Rabies encephalitis",
+        "Herpes simplex encephalitis",
+        "Subacute sclerosing panencephalitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Negri bodies are pathognomonic intracytoplasmic round eosinophilic viral inclusions found in the neurons of individuals infected with Rabies virus."
+    },
+    {
+      "id": "ch18_q6",
+      "topic": "Stroke",
+      "difficulty": "Easy",
+      "question": "What type of tissue necrosis is characteristically seen in ischemic infarction of the brain?",
+      "options": [
+        "Coagulative necrosis",
+        "Liquefactive necrosis",
+        "Caseous necrosis",
+        "Fibrinoid necrosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike most other solid organs which undergo coagulative necrosis following ischemia, brain tissue undergoes Liquefactive Necrosis, leaving a fluid-filled cavity."
+    },
+    {
+      "id": "ch18_q7",
+      "topic": "Stroke",
+      "difficulty": "Medium",
+      "question": "What is the earliest histological indicator of irreversible acute neuronal ischemic injury seen within 12-24 hours of stroke onset?",
+      "options": [
+        "Formation of a dense glial scar",
+        "Appearance of 'red neurons' with intense cytoplasmic eosinophilia and pyknotic nuclei",
+        "Deposition of amyloid plaques",
+        "Calcification of capillary walls"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Red neurons' (eosinophilic necrosis) are seen within 12-24 hours of ischemic insult, featuring intense cytoplasmic eosinophilia, loss of Nissl substance, and nuclear pyknosis."
+    },
+    {
+      "id": "ch18_q8",
+      "topic": "Stroke",
+      "difficulty": "Hard",
+      "question": "Hypertensive intracerebral hemorrhage most frequently results from rupture of Charcot-Bouchard microaneurysms located in which anatomical site?",
+      "options": [
+        "Cerebellar cortex",
+        "Putamen and basal ganglia (lenticulostriate arteries)",
+        "Splenium of corpus callosum",
+        "Medulla oblongata"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chronic hypertension produces Charcot-Bouchard microaneurysms in small penetrating lenticulostriate branches of the middle cerebral artery, making the Putamen (50-60%) the most common site of hypertensive hemorrhage."
+    },
+    {
+      "id": "ch18_q9",
+      "topic": "Stroke",
+      "difficulty": "Medium",
+      "question": "Rupture of a saccular (berry) aneurysm in the Circle of Willis characteristically results in which condition?",
+      "options": [
+        "Epidural hematoma",
+        "Subdural hematoma",
+        "Subarachnoid hemorrhage",
+        "Lacunar infarction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berry aneurysms lie in the subarachnoid space at arterial bifurcations of the Circle of Willis; their rupture bleeds directly into the CSF, causing a Subarachnoid Hemorrhage."
+    },
+    {
+      "id": "ch18_q10",
+      "topic": "Brain Tumors",
+      "difficulty": "Easy",
+      "question": "Which of the following is the most common and aggressive primary malignant brain tumor in adults?",
+      "options": [
+        "Pilocytic astrocytoma",
+        "Glioblastoma (Grade IV Astrocytoma)",
+        "Ependymoma",
+        "Medulloblastoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glioblastoma (WHO Grade IV) is the most frequent and most lethal primary malignant central nervous system tumor in adults."
+    },
+    {
+      "id": "ch18_q11",
+      "topic": "Brain Tumors",
+      "difficulty": "Hard",
+      "question": "Pseudopalisading necrosis and glomeruloid microvascular endothelial proliferation are pathognomonic histological features of:",
+      "options": [
+        "Oligodendroglioma",
+        "Meningioma",
+        "Glioblastoma Multiforme",
+        "Schwannoma"
+      ],
+      "correctIndex": 2,
+      "explanation": "Glioblastoma is histologically defined by hypercellularity, pleomorphism, serpentine geographic necrosis bordered by palisading tumor nuclei (pseudopalisading), and glomeruloid vascular proliferation."
+    },
+    {
+      "id": "ch18_q12",
+      "topic": "Brain Tumors",
+      "difficulty": "Medium",
+      "question": "Sheets of uniform tumor cells with clear rounded halos ('fried-egg' appearance) and a branching 'chicken-wire' capillary network are diagnostic of:",
+      "options": [
+        "Oligodendroglioma",
+        "Medulloblastoma",
+        "Glioblastoma",
+        "Craniopharyngioma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oligodendrogliomas characteristically display 'fried-egg' cells (perinuclear cytoplasmic halos due to delayed fixation artifact) and delicate 'chicken-wire' branching capillary vasculature."
+    },
+    {
+      "id": "ch18_q13",
+      "topic": "Brain Tumors",
+      "difficulty": "Medium",
+      "question": "Meningiomas characteristically exhibit which microscopic features under light microscopy?",
+      "options": [
+        "Palisading necrosis and microvascular proliferation",
+        "Whorled fascicular patterns of meningothelial cells and calcified Psammoma bodies",
+        "Signet-ring cells and mucinous pools",
+        "Sheets of small blue round cells with Homer-Wright rosettes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meningiomas arise from arachnoid cap cells and typically show cells arranged in tight concentric whorls with concentric laminated calcifications called Psammoma bodies."
+    },
+    {
+      "id": "ch18_q14",
+      "topic": "Brain Tumors",
+      "difficulty": "Hard",
+      "question": "Antoni A areas (cellular with Verocay bodies) alternating with hypocellular myxoid Antoni B areas are pathognomonic for:",
+      "options": [
+        "Meningioma",
+        "Schwannoma (Neurilemmoma)",
+        "Ependymoma",
+        "Neuroblastoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schwannomas (such as acoustic neuromas of the 8th cranial nerve) show alternating compact cellular areas (Antoni A) with nuclear palisading around acellular fibrillar eosinophilic processes (Verocay bodies) and loose hypocellular areas (Antoni B)."
+    },
+    {
+      "id": "ch18_q15",
+      "topic": "Meningitis",
+      "difficulty": "Easy",
+      "question": "What is the primary physical examination sign elicited when passive flexion of the patient's neck causes involuntary flexion of the hips and knees?",
       "options": [
         "Kernig's sign",
         "Brudzinski's sign",
@@ -234,399 +442,217 @@ export const ch18: Chapter = {
         "Chvostek's sign"
       ],
       "correctIndex": 1,
-      "explanation": "Brudzinski's neck sign is positive when passive neck flexion produces reflexive involuntary flexion of both hips and knees."
-    },
-    {
-      "id": "ch18_q3",
-      "topic": "Stroke",
-      "difficulty": "Easy",
-      "question": "What type of tissue necrosis is characteristically seen following cerebral ischemic infarction?",
-      "options": [
-        "Coagulative necrosis",
-        "Liquefactive necrosis",
-        "Caseous necrosis",
-        "Fat necrosis"
-      ],
-      "correctIndex": 1,
-      "explanation": "Ischemic brain injury results in liquefactive necrosis due to high lysosomal enzyme release and hydrolytic digestion of brain parenchyma, eventually leaving a fluid-filled cystic cavity."
-    },
-    {
-      "id": "ch18_q4",
-      "topic": "Stroke",
-      "difficulty": "Easy",
-      "question": "A sudden, excruciating thunderclap headache famously described by patients as 'the worst headache of my life' is the hallmark of:",
-      "options": [
-        "Subarachnoid Hemorrhage (SAH)",
-        "Migraine headache",
-        "Tension-type headache",
-        "Acoustic neuroma"
-      ],
-      "correctIndex": 0,
-      "explanation": "Rupture of a cerebral berry aneurysm releases high-pressure arterial blood into the subarachnoid space, producing an instantaneous, excruciating thunderclap headache."
-    },
-    {
-      "id": "ch18_q5",
-      "topic": "Encephalitis",
-      "difficulty": "Easy",
-      "question": "Herpes Simplex Virus Type 1 (HSV-1) encephalitis has a notorious anatomical predilection for which brain lobes?",
-      "options": [
-        "Occipital lobes",
-        "Temporal and inferior frontal lobes",
-        "Parietal lobes",
-        "Cerebellar hemispheres"
-      ],
-      "correctIndex": 1,
-      "explanation": "HSV-1 encephalitis classically causes severe hemorrhagic necrotizing inflammation localized to the temporal and orbitofrontal lobes."
-    },
-    {
-      "id": "ch18_q6",
-      "topic": "CNS Tumors",
-      "difficulty": "Easy",
-      "question": "What is the most common primary malignant central nervous system tumor in adults?",
-      "options": [
-        "Meningioma",
-        "Glioblastoma Multiforme (GBM)",
-        "Oligodendroglioma",
-        "Ependymoma"
-      ],
-      "correctIndex": 1,
-      "explanation": "Glioblastoma (WHO Grade 4) is the most frequent and most aggressive primary malignant brain neoplasm in adult patients."
-    },
-    {
-      "id": "ch18_q7",
-      "topic": "CNS Tumors",
-      "difficulty": "Easy",
-      "question": "A benign, extra-axial, dural-based brain tumor that characteristically exhibits psammoma bodies and a 'dural tail' on contrast MRI is a:",
-      "options": [
-        "Glioblastoma",
-        "Meningioma",
-        "Medulloblastoma",
-        "Craniopharyngioma"
-      ],
-      "correctIndex": 1,
-      "explanation": "Meningiomas arise from arachnoid cap cells, attach to the dura ('dural tail'), and frequently display microscopic concentric laminated calcifications called psammoma bodies."
-    },
-    {
-      "id": "ch18_q8",
-      "topic": "Meningitis",
-      "difficulty": "Easy",
-      "question": "Which predominant white blood cell type is elevated in the CSF of a patient with viral (aseptic) meningitis?",
-      "options": [
-        "Neutrophils",
-        "Lymphocytes",
-        "Eosinophils",
-        "Basophils"
-      ],
-      "correctIndex": 1,
-      "explanation": "Viral meningitis produces a moderate lymphocytic pleocytosis (mononuclear cells), contrasting with the intense neutrophilic predominance of bacterial meningitis."
-    },
-    {
-      "id": "ch18_q9",
-      "topic": "Stroke",
-      "difficulty": "Easy",
-      "question": "What is the primary diagnostic imaging test performed emergently in a suspected acute stroke patient to differentiate ischemic stroke from intracerebral hemorrhage?",
-      "options": [
-        "Non-contrast Computed Tomography (CT) of the head",
-        "Electroencephalogram (EEG)",
-        "Carotid Doppler ultrasound",
-        "Spinal tap"
-      ],
-      "correctIndex": 0,
-      "explanation": "An emergent non-contrast head CT detects acute intracranial hemorrhage immediately (hyperdense bright blood), ruling it out before administering IV thrombolytic therapy."
-    },
-    {
-      "id": "ch18_q10",
-      "topic": "CNS Tumors",
-      "difficulty": "Easy",
-      "question": "Acoustic neuroma (vestibular schwannoma) arises from which cranial nerve?",
-      "options": [
-        "Cranial Nerve V (Trigeminal)",
-        "Cranial Nerve VII (Facial)",
-        "Cranial Nerve VIII (Vestibulocochlear)",
-        "Cranial Nerve XII (Hypoglossal)"
-      ],
-      "correctIndex": 2,
-      "explanation": "Schwannomas at the cerebellopontine angle arise from the Schwann cell sheath of the vestibular branch of Cranial Nerve VIII, producing progressive unilateral hearing loss and tinnitus."
-    },
-    {
-      "id": "ch18_q11",
-      "topic": "Stroke",
-      "difficulty": "Medium",
-      "question": "Histologically, microscopic examination of brain tissue 12 to 24 hours after an acute ischemic infarct reveals characteristic 'red neurons'. What are their features?",
-      "options": [
-        "Swollen neurons with loss of Nissl substance, intensely eosinophilic cytoplasm, and pyknotic shrunken nuclei",
-        "Cells containing abundant hemosiderin pigment",
-        "Multinucleated giant cells forming granulomas",
-        "Neurons filled with neurofibrillary tangles"
-      ],
-      "correctIndex": 0,
-      "explanation": "'Red neurons' are the earliest histological indicator of neuronal ischemic death, characterized by intense eosinophilic (bright red/pink) cytoplasm, loss of Nissl bodies, and condensed pyknotic nuclei."
-    },
-    {
-      "id": "ch18_q12",
-      "topic": "Stroke",
-      "difficulty": "Medium",
-      "question": "The ischemic penumbra in acute stroke refers to:",
-      "options": [
-        "The central permanently infarcted core of necrotic tissue",
-        "The rim of hypoperfused, metabolically compromised but viable tissue surrounding the infarct core that can be salvaged with timely reperfusion",
-        "The scarred glial cyst formed 6 months later",
-        "The ruptured berry aneurysm wall"
-      ],
-      "correctIndex": 1,
-      "explanation": "The penumbra is the under-perfused zone around the core that remains viable for a few hours. Salvaging this penumbral tissue is the fundamental goal of acute thrombolysis and thrombectomy."
-    },
-    {
-      "id": "ch18_q13",
-      "topic": "CNS Tumors",
-      "difficulty": "Medium",
-      "question": "Which two histological hallmarks are required to classify an astrocytic neoplasm as Glioblastoma (WHO Grade 4)?",
-      "options": [
-        "Pseudopalisading necrosis and microvascular endothelial proliferation",
-        "Psammoma bodies and Antoni A areas",
-        "Rosenthal fibers and eosinophilic granular bodies",
-        "Homer-Wright rosettes and Homer-Wright rosettes alone"
-      ],
-      "correctIndex": 0,
-      "explanation": "Glioblastoma is defined microscopically by the presence of serpentine necrosis bordered by crowded tumor nuclei ('pseudopalisading') and florid glomeruloid microvascular proliferation."
-    },
-    {
-      "id": "ch18_q14",
-      "topic": "Meningitis",
-      "difficulty": "Medium",
-      "question": "A fine 'cobweb' or 'spider-web' clot forming in the CSF when left standing at room temperature is classically associated with:",
-      "options": [
-        "Aseptic enteroviral meningitis",
-        "Tuberculous meningitis",
-        "Cryptococcal meningitis",
-        "Subdural hematoma"
-      ],
-      "correctIndex": 1,
-      "explanation": "In tuberculous meningitis, exceptionally high protein levels and abundant fibrinogen in the CSF precipitate upon standing into a delicate 'cobweb' or 'pellicle' coagulum."
-    },
-    {
-      "id": "ch18_q15",
-      "topic": "Encephalitis",
-      "difficulty": "Medium",
-      "question": "Pathognomonic eosinophilic intracytoplasmic inclusion bodies found in the Purkinje cells of the cerebellum and hippocampal neurons in Rabies encephalitis are called:",
-      "options": [
-        "Cowdry A bodies",
-        "Negri bodies",
-        "Lewy bodies",
-        "Pick bodies"
-      ],
-      "correctIndex": 1,
-      "explanation": "Negri bodies are round, sharply defined, eosinophilic viral inclusions found in the cytoplasm of Purkinje cells and pyramidal neurons in rabies."
+      "explanation": "Brudzinski's sign is positive when passive neck flexion elicits reflex flexion of the hips and knees, indicating severe meningeal irritation."
     },
     {
       "id": "ch18_q16",
       "topic": "Stroke",
-      "difficulty": "Medium",
-      "question": "What is the approved therapeutic time window for administering intravenous tissue plasminogen activator (IV alteplase) from the onset of ischemic stroke symptoms?",
+      "difficulty": "Easy",
+      "question": "Before administering intravenous tissue plasminogen activator (tPA) for acute stroke, which test is mandatory to perform first?",
       "options": [
-        "Within 4.5 hours",
-        "Within 12 hours",
-        "Within 24 hours",
-        "Up to 48 hours"
+        "Lumbar puncture",
+        "Non-contrast head CT to rule out intracranial hemorrhage",
+        "Electroencephalogram (EEG)",
+        "Carotid endarterectomy"
       ],
-      "correctIndex": 0,
-      "explanation": "Intravenous alteplase is approved for administration within 3 to 4.5 hours of ischemic stroke symptom onset in carefully screened eligible patients without contraindications."
+      "correctIndex": 1,
+      "explanation": "An emergent non-contrast head CT is mandatory before thrombolysis to exclude intracranial hemorrhage, as administering tPA in hemorrhagic stroke is fatal."
     },
     {
       "id": "ch18_q17",
       "topic": "Meningitis",
       "difficulty": "Medium",
-      "question": "In an infant or neonate with bacterial meningitis, the most common causative organism is:",
+      "question": "In infants and neonates (<1 month old), what are the most common bacterial etiologies of acute pyogenic meningitis?",
       "options": [
-        "Streptococcus agalactiae (Group B Streptococcus) and Escherichia coli",
-        "Neisseria meningitidis",
-        "Streptococcus pneumoniae",
-        "Cryptococcus neoformans"
+        "Neisseria meningitidis and Streptococcus pneumoniae",
+        "Group B Streptococcus (Streptococcus agalactiae) and Escherichia coli",
+        "Staphylococcus aureus and Pseudomonas",
+        "Haemophilus influenzae type b"
       ],
-      "correctIndex": 0,
-      "explanation": "Group B Streptococcus (GBS), E. coli, and Listeria monocytogenes are the leading bacterial pathogens causing meningitis in newborns during vaginal birth."
+      "correctIndex": 1,
+      "explanation": "In neonates, Group B Streptococcus (S. agalactiae), E. coli, and Listeria monocytogenes acquired during passage through the birth canal are the primary pathogens."
     },
     {
       "id": "ch18_q18",
-      "topic": "CNS Tumors",
-      "difficulty": "Medium",
-      "question": "Schwannomas demonstrate a distinctive biphasic histological pattern consisting of:",
+      "topic": "Stroke",
+      "difficulty": "Hard",
+      "question": "What cells are responsible for clearing necrotic cellular debris in a cerebral infarct starting 48 to 72 hours after ischemia?",
       "options": [
-        "Antoni A (cellular with Verocay bodies) and Antoni B (hypocellular, loose myxoid) areas",
-        "Signet ring cells and extracellular mucin pools",
-        "Osteoblasts and osteoclasts in lacunae",
-        "Chorionic villi with central cisterns"
+        "Neutrophils only",
+        "Foamy, lipid-laden macrophages (activated microglia)",
+        "Mast cells",
+        "Erythrocytes"
       ],
-      "correctIndex": 0,
-      "explanation": "Schwannomas exhibit alternating hypercellular Antoni A areas (with nuclear palisading around acellular eosinophilic zones called Verocay bodies) and hypocellular, microcystic Antoni B areas."
+      "correctIndex": 1,
+      "explanation": "Blood-derived monocytes and resident microglia transform into abundant foamy, lipid-laden macrophages that ingest necrotic myelin and cellular debris."
     },
     {
       "id": "ch18_q19",
       "topic": "Stroke",
       "difficulty": "Medium",
-      "question": "Saccular 'berry' aneurysms that rupture causing subarachnoid hemorrhage are most frequently located at:",
+      "question": "A sudden, catastrophic 'thunderclap' headache described as 'the worst headache of my life' accompanied by nuchal rigidity strongly suggests:",
       "options": [
-        "Arterial branch points of the anterior circulation in the Circle of Willis (e.g. Anterior Communicating Artery)",
-        "Basilar artery bifurcation alone",
-        "External carotid artery in the neck",
-        "Spinal anterior median artery"
+        "Migraine with aura",
+        "Ruptured intracranial saccular berry aneurysm causing subarachnoid hemorrhage",
+        "Acute sinusitis",
+        "Temporal arteritis"
       ],
-      "correctIndex": 0,
-      "explanation": "Berry aneurysms occur predominantly (>85-90%) at arterial bifurcations within the anterior circulation of the Circle of Willis, especially at the junction of the anterior communicating artery."
+      "correctIndex": 1,
+      "explanation": "A sudden, maximum-intensity 'thunderclap' headache with meningismus is the classic hallmark presentation of an aneurysmal subarachnoid hemorrhage."
     },
     {
       "id": "ch18_q20",
-      "topic": "CNS Tumors",
-      "difficulty": "Medium",
-      "question": "Which cerebellar tumor of childhood is benign (WHO Grade 1), cystic with a mural nodule, and histologically displays Rosenthal fibers?",
+      "topic": "Brain Tumors",
+      "difficulty": "Hard",
+      "question": "A Glioblastoma that crosses the corpus callosum to involve both cerebral hemispheres symmetrically is colloquially referred to as a:",
       "options": [
-        "Medulloblastoma",
-        "Pilocytic Astrocytoma",
-        "Ependymoma",
-        "Glioblastoma"
+        "'Horseshoe' glioma",
+        "'Butterfly' glioma",
+        "'Dumbbell' neuroma",
+        "'Target' astrocytoma"
       ],
       "correctIndex": 1,
-      "explanation": "Pilocytic astrocytoma is a slow-growing childhood brain tumor typically in the cerebellum, featuring corkscrew-like eosinophilic structures termed Rosenthal fibers."
+      "explanation": "Glioblastoma frequently infiltrates across the corpus callosum into the opposite cerebral hemisphere, forming a bilateral symmetric mass called a 'butterfly glioma'."
     },
     {
       "id": "ch18_q21",
-      "topic": "Meningitis",
-      "difficulty": "Hard",
-      "question": "A 19-year-old college student presents with high fever, neck stiffness, confusion, and a rapidly expanding purpuric petechial rash on his lower extremities. Blood pressure drops to 70/40 mmHg. What fatal complication of meningococcemia is occurring?",
+      "topic": "Encephalitis",
+      "difficulty": "Medium",
+      "question": "Intranuclear eosinophilic Cowdry A viral inclusion bodies in degenerate neurons and glial cells are characteristic of:",
       "options": [
-        "Waterhouse-Friderichsen syndrome (massive bilateral adrenal hemorrhage)",
-        "Acute pulmonary embolism",
-        "Thyroid storm",
-        "Rupture of thoracic aortic aneurysm"
+        "Cytomegalovirus",
+        "Herpes Simplex Virus (HSV) encephalitis",
+        "Rabies",
+        "Progressive multifocal leukoencephalopathy"
       ],
-      "correctIndex": 0,
-      "explanation": "Severe Neisseria meningitidis septicemia triggers disseminated intravascular coagulation (DIC), endotoxic shock, and bilateral hemorrhagic necrosis of the adrenal glands (Waterhouse-Friderichsen syndrome)."
+      "correctIndex": 1,
+      "explanation": "Cowdry A inclusions are large, round, pink-purple intranuclear inclusions surrounded by a clear halo, characteristic of Herpes simplex and Varicella zoster viruses."
     },
     {
       "id": "ch18_q22",
-      "topic": "Stroke",
-      "difficulty": "Hard",
-      "question": "A 68-year-old man with uncontrolled hypertension presents with sudden stupor, contralateral dense hemiplegia, and conjugate eye deviation towards the side of the lesion. CT shows a large hyperdense hematoma in the putamen/internal capsule. What vascular pathology caused this?",
+      "topic": "Meningitis",
+      "difficulty": "Easy",
+      "question": "What is the recommended patient positioning for performing a diagnostic lumbar puncture?",
       "options": [
-        "Rupture of a Charcot-Bouchard microaneurysm in a lenticulostriate branch of the middle cerebral artery",
-        "Embolic occlusion of the vertebral artery",
-        "Amyloid angiopathy of superficial cortical vessels",
-        "Dissection of the internal jugular vein"
+        "Prone with neck hyperextended",
+        "Lateral recumbent (fetal position) with spine maximally flexed",
+        "Standing upright",
+        "Supine with legs extended"
       ],
-      "correctIndex": 0,
-      "explanation": "Chronic hypertension causes lipohyalinosis and Charcot-Bouchard microaneurysms in small deep penetrating vessels (lenticulostriate arteries). Their rupture causes deep intraparenchymal basal ganglia hemorrhage."
+      "correctIndex": 1,
+      "explanation": "The patient is positioned in the lateral decubitus (fetal) position with knees drawn up to the chest and chin touching the knees to widen the intervertebral spaces (L3-L4/L4-L5)."
     },
     {
       "id": "ch18_q23",
-      "topic": "Encephalitis",
-      "difficulty": "Hard",
-      "question": "A 42-year-old male presents with acute fever, olfactory hallucinations, behavioral disinhibition, and receptive aphasia. CSF PCR is sent for HSV. Why must intravenous Acyclovir be administered IMMEDIATELY without waiting for PCR results?",
+      "topic": "Brain Tumors",
+      "difficulty": "Medium",
+      "question": "Cushing's Triad, an ominous sign of critically elevated intracranial pressure and impending brain herniation, consists of:",
       "options": [
-        "Acyclovir is ineffective if delayed past the first 24-48 hours, and mortality from untreated HSV encephalitis exceeds 70%",
-        "Acyclovir will prevent all bacterial forms of pneumonia",
-        "HSV-1 spontaneously mutates into rabies if untreated",
-        "PCR results take 6 months to process"
+        "Tachycardia, hypotension, and tachypnea",
+        "Hypertension (with widening pulse pressure), bradycardia, and irregular/Cheyne-Stokes respirations",
+        "Hypothermia, hypoglycemia, and hypokalemia",
+        "Miosis, ptosis, and anhidrosis"
       ],
-      "correctIndex": 0,
-      "explanation": "HSV encephalitis causes rapidly progressive necrotizing necrosis of the temporal lobes. Early empiric acyclovir drops mortality from >70% to under 20-30% and dramatically reduces permanent neurological disability."
+      "correctIndex": 1,
+      "explanation": "Cushing's triad reflects brainstem compression from elevated ICP: severe hypertension with widened pulse pressure, reflex bradycardia, and irregular breathing."
     },
     {
       "id": "ch18_q24",
-      "topic": "CNS Tumors",
-      "difficulty": "Hard",
-      "question": "A 55-year-old man presents with progressive headaches and left hemiparesis. Brain MRI reveals a massive heterogeneously enhancing lesion that crosses the midline through the corpus callosum into both hemispheres ('butterfly glioma'). Biopsy reveals high GFAP positivity. This is:",
+      "topic": "Stroke",
+      "difficulty": "Medium",
+      "question": "In cerebral healing following an infarction, what process replaces traditional fibrous scar tissue formation?",
       "options": [
-        "Glioblastoma (IDH-wildtype)",
-        "Pilocytic astrocytoma",
-        "Primary CNS lymphoma",
-        "Metastatic melanoma"
+        "Osteogenesis",
+        "Reactive Astrogliosis (glial scar formation by gemistocytic astrocytes)",
+        "Caseation",
+        "Coagulation"
       ],
-      "correctIndex": 0,
-      "explanation": "A 'butterfly glioma' classically represents Glioblastoma invading across the corpus callosum into bilateral cerebral hemispheres, staining strongly positive for Glial Fibrillary Acidic Protein (GFAP)."
+      "correctIndex": 1,
+      "explanation": "The brain contains minimal connective tissue fibroblasts; tissue repair is mediated by proliferating astrocytes (gliosis), forming a glial scar around the cystic cavity."
     },
     {
       "id": "ch18_q25",
-      "topic": "Stroke",
-      "difficulty": "Hard",
-      "question": "In a patient presenting with acute ischemic stroke who has a blood pressure of 195/105 mmHg, why is rapid aggressive normalization of blood pressure contraindicated?",
+      "topic": "Meningitis",
+      "difficulty": "Medium",
+      "question": "Why is adjunctive intravenous Dexamethasone administered along with initial antibiotics in suspected bacterial meningitis?",
       "options": [
-        "Collateral blood flow to the ischemic penumbra depends directly on mean arterial pressure; rapid lowering precipitates extensive infarct expansion",
-        "High blood pressure helps dissolve blood clots mechanically",
-        "Beta-blockers cause sudden cerebral hemorrhage",
-        "The kidneys require extreme pressure to filter lactic acid"
+        "To destroy the bacterial cell wall",
+        "To blunt the intense inflammatory cytokine response from antibiotic-induced bacterial lysis, reducing neurological hearing loss and cerebral edema",
+        "To increase blood pressure",
+        "To stimulate appetite"
       ],
-      "correctIndex": 0,
-      "explanation": "Autoregulation is lost in the ischemic penumbra, making tissue perfusion passive and pressure-dependent. Drastically dropping BP starves the penumbra, expanding the irreversible infarct core."
+      "correctIndex": 1,
+      "explanation": "Corticosteroids inhibit the release of TNF-alpha and IL-1 triggered by antibiotic-induced bacterial lysis, significantly reducing sensorineural hearing loss and mortality."
     },
     {
       "id": "ch18_q26",
-      "topic": "CNS Tumors",
+      "topic": "Brain Tumors",
       "difficulty": "Hard",
-      "question": "A 6-year-old boy presents with progressive morning vomiting, ataxia, and papilledema. MRI demonstrates a solid hypercellular midline cerebellar vermis mass obstructing the 4th ventricle. Histology reveals small round blue cells forming Homer-Wright rosettes. This is:",
+      "question": "Co-deletion of chromosomal arms 1p and 19q (1p/19q codeletion) is an essential diagnostic and favorable prognostic molecular biomarker for:",
       "options": [
-        "Medulloblastoma",
         "Glioblastoma",
-        "Craniopharyngioma",
-        "Ependymoma"
+        "Oligodendroglioma",
+        "Primary CNS lymphoma",
+        "Meningioma"
       ],
-      "correctIndex": 0,
-      "explanation": "Medulloblastoma is a WHO Grade 4 embryonal neoplasm of the cerebellum in children, composed of primitive small blue cells forming Homer-Wright pseudorosettes, with a propensity to drop metastasize down the spinal cord."
+      "correctIndex": 1,
+      "explanation": "Complete 1p/19q co-deletion is the defining molecular signature of Oligodendroglioma, conferring marked sensitivity to alkylating chemotherapy and radiotherapy."
     },
     {
       "id": "ch18_q27",
-      "topic": "Meningitis",
-      "difficulty": "Hard",
-      "question": "An HIV-positive patient with CD4 count of 45 cells/mm\u00b3 presents with mild indolent headache and low-grade fever. India ink staining of the CSF reveals round budding yeast cells surrounded by wide translucent halos. The organism is:",
+      "topic": "Stroke",
+      "difficulty": "Easy",
+      "question": "In the FAST stroke assessment tool, what does the letter 'T' signify to the nurse and public?",
       "options": [
-        "Cryptococcus neoformans",
-        "Candida albicans",
-        "Histoplasma capsulatum",
-        "Aspergillus fumigatus"
+        "Temperature check",
+        "Time to call emergency medical services immediately",
+        "Take medication",
+        "Test reflexes"
       ],
-      "correctIndex": 0,
-      "explanation": "Cryptococcus neoformans possesses a thick, protective mucopolysaccharide capsule that repels India ink, leaving a prominent clear halo surrounding the budding fungal yeast."
+      "correctIndex": 1,
+      "explanation": "In FAST (Face, Arms, Speech, Time), 'T' emphasizes that time lost is brain lost, signaling the urgent need to call emergency services immediately."
     },
     {
       "id": "ch18_q28",
-      "topic": "Stroke",
+      "topic": "Meningitis",
       "difficulty": "Hard",
-      "question": "Three days after an acute subarachnoid hemorrhage, a patient develops sudden onset of new left-sided arm and leg weakness. What delayed vascular complication is the primary cause?",
+      "question": "In Tuberculous Meningitis, the thick gelatinous exudate is predominantly concentrated at which anatomical location?",
       "options": [
-        "Delayed cerebral vasospasm triggered by breakdown products of extravasated subarachnoid blood (e.g. oxyhemoglobin)",
-        "Spontaneous recurrence of aneurysm rupture",
-        "Systemic septic shock",
-        "Acute pulmonary edema"
+        "Cerebral convexities",
+        "Base of the brain (interpeduncular fossa, optic chiasm, and brainstem)",
+        "Spinal cord conus medullaris",
+        "Choroid plexus of lateral ventricles"
       ],
-      "correctIndex": 0,
-      "explanation": "Delayed cerebral arterial vasospasm peaks between day 4 and 14 after SAH due to endothelin and spasmogens released from lysed erythrocytes, treated preventatively with oral nimodipine."
+      "correctIndex": 1,
+      "explanation": "Tuberculous meningitis characteristically causes a dense 'basal meningitis', encasing cranial nerves and blood vessels at the base of the brain."
     },
     {
       "id": "ch18_q29",
-      "topic": "CNS Tumors",
-      "difficulty": "Hard",
-      "question": "A patient with bilateral vestibular schwannomas (acoustic neuromas) and multiple meningiomas has an inherited germline defect on chromosome 22q. This condition is:",
+      "topic": "Brain Tumors",
+      "difficulty": "Medium",
+      "question": "Which medication is routinely administered to rapidly alleviate vasogenic cerebral edema surrounding primary or metastatic brain tumors?",
       "options": [
-        "Neurofibromatosis Type 2 (NF2)",
-        "Neurofibromatosis Type 1 (NF1)",
-        "Tuberous sclerosis",
-        "Sturge-Weber syndrome"
+        "Furosemide",
+        "Dexamethasone",
+        "Heparin",
+        "Metoprolol"
       ],
-      "correctIndex": 0,
-      "explanation": "NF2 is an autosomal dominant disorder caused by mutations in the Merlin (schwannomin) gene on chromosome 22q, characterized by bilateral acoustic schwannomas, meningiomas, and ependymomas."
+      "correctIndex": 1,
+      "explanation": "Dexamethasone stabilizes disrupted capillary endothelial tight junctions of the blood-brain barrier, rapidly reducing tumor-associated vasogenic brain edema."
     },
     {
       "id": "ch18_q30",
-      "topic": "Stroke",
-      "difficulty": "Hard",
-      "question": "Which cellular subtype is responsible for creating the chronic fibrous gliotic scar surrounding a healed cerebral infarct?",
+      "topic": "Encephalitis",
+      "difficulty": "Easy",
+      "question": "What is the antiviral medication of choice that must be started empirically whenever viral (herpes simplex) encephalitis is suspected?",
       "options": [
-        "Reactive fibrillary astrocytes (gemistocytic astrocytes)",
-        "Epithelial cells",
-        "Schwann cells",
-        "Fibroblasts forming collagen scars as in peripheral tissues"
+        "Oseltamivir",
+        "Intravenous Acyclovir",
+        "Ribavirin",
+        "Zidovudine"
       ],
-      "correctIndex": 0,
-      "explanation": "In the CNS, repair is accomplished not by fibroblasts, but by reactive astrocytes undergoing hypertrophy and proliferation (astrogliosis/gliosis), producing a dense meshwork of glial fibrillary processes."
+      "correctIndex": 1,
+      "explanation": "High-dose intravenous Acyclovir (10 mg/kg every 8 hours) started immediately upon clinical suspicion reduces mortality of HSV encephalitis from >70% to <20%."
     }
   ]
 };

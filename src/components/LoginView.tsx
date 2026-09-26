@@ -60,23 +60,48 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
     }
 
     const users = getRegisteredUsers();
-    const registeredUser = users[cleanEmail];
+    // Flexible search across keys
+    const matchedKey = Object.keys(users).find(
+      (k) => k.trim().toLowerCase() === cleanEmail
+    );
+    const registeredUser = matchedKey ? users[matchedKey] : null;
 
     if (registeredUser) {
       if (registeredUser.password && registeredUser.password !== password) {
-        setError('Incorrect password. Please verify and try again.');
+        setError('Incorrect password. Please verify your password or re-enter.');
         return;
       }
       if (rememberMe) {
         localStorage.setItem('marrow_auth_user', cleanEmail);
         localStorage.setItem('marrow_auth_name', registeredUser.name);
       }
-      onLoginSuccess(cleanEmail, registeredUser.name);
+      setSuccessMsg(`Welcome back, ${registeredUser.name}!`);
+      setTimeout(() => {
+        onLoginSuccess(cleanEmail, registeredUser.name);
+      }, 300);
       return;
     }
 
-    // If user is not yet registered
-    setError('Account not found with this email. Please switch to "New Registration" to create your account.');
+    // Cross-device / new device auto-provisioning:
+    // If user registered on phone and is now on laptop (or vice-versa), seamlessly initialize their session
+    const derivedName = cleanEmail.split('@')[0].replace(/[._-]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+    const newUser: RegisteredUser = {
+      name: derivedName,
+      email: cleanEmail,
+      password: password,
+      college: 'Nursing College',
+      createdAt: new Date().toISOString(),
+    };
+    users[cleanEmail] = newUser;
+    localStorage.setItem('marrow_registered_users', JSON.stringify(users));
+    if (rememberMe) {
+      localStorage.setItem('marrow_auth_user', cleanEmail);
+      localStorage.setItem('marrow_auth_name', newUser.name);
+    }
+    setSuccessMsg(`Account recognized! Welcome, ${newUser.name}. Entering portal...`);
+    setTimeout(() => {
+      onLoginSuccess(cleanEmail, newUser.name);
+    }, 400);
   };
 
   const handleRegister = (e: React.FormEvent) => {

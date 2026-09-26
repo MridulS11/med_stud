@@ -1,9 +1,17 @@
-import { Chapter } from '../../types';
+import json
 
-export const ch28: Chapter = {
-  "id": "ch28",
-  "subjectId": "sub3",
-  "number": 28,
+def save_ch(num, data):
+    path = f"src/data/chapters/ch{num}.ts"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("import { Chapter } from '../../types';\n\n")
+        f.write(f"export const ch{num}: Chapter = ")
+        f.write(json.dumps(data, indent=2, ensure_ascii=False))
+        f.write(";\n")
+    print(f"Generated ch{num}.ts ({len(data['topics'])} topics, {len(data['quiz'])} Qs, {len(data['mindMap'])} mindMap nodes)")
+
+# ----------------- CHAPTER 28: Genetic Conditions of Adolescent and Adults -----------------
+ch28 = {
+  "id": "ch28", "subjectId": "sub3", "number": 28,
   "title": "Genetic Conditions of Adolescent & Adults",
   "subtitle": "Neural tube defects, Down syndrome (Trisomy 21), sex chromosome aneuploidies (Turner, Klinefelter), adult neurogenetics (Huntington), familial cancer syndromes (BRCA, Lynch, FAP), and hemoglobinopathies.",
   "topics": [
@@ -166,527 +174,289 @@ export const ch28: Chapter = {
   ],
   "quiz": [
     {
-      "id": "ch28_q1",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "By what gestational day does embryonic neural tube closure normally finish?",
-      "options": [
-        "Gestational day 14",
-        "Gestational day 21",
-        "Gestational day 28",
-        "Gestational day 56"
-      ],
+      "id": "ch28_q1", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "By what gestational day does embryonic neural tube closure normally finish?",
+      "options": ["Gestational day 14", "Gestational day 21", "Gestational day 28", "Gestational day 56"],
       "correctIndex": 2,
       "explanation": "Primary neurulation and complete closure of the anterior and posterior neuropores occur by gestational day 28 post-conception, before many women realize they are pregnant."
     },
     {
-      "id": "ch28_q2",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the recommended daily periconceptional dose of folic acid for a woman with a previous child affected by a neural tube defect?",
-      "options": [
-        "400 µg (0.4 mg) daily",
-        "800 µg (0.8 mg) daily",
-        "1,000 µg (1.0 mg) daily",
-        "4,000 µg (4.0 mg) daily"
-      ],
+      "id": "ch28_q2", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the recommended daily periconceptional dose of folic acid for a woman with a previous child affected by a neural tube defect?",
+      "options": ["400 µg (0.4 mg) daily", "800 µg (0.8 mg) daily", "1,000 µg (1.0 mg) daily", "4,000 µg (4.0 mg) daily"],
       "correctIndex": 3,
       "explanation": "Women at high risk (prior pregnancy with an NTD or taking anticonvulsants) must take 4,000 µg (4.0 mg) of folic acid daily starting at least 1-3 months before conception and through the first trimester."
     },
     {
-      "id": "ch28_q3",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which amniotic fluid enzyme test specifically confirms the presence of an open neural tube defect following elevated maternal serum AFP?",
-      "options": [
-        "Acetylcholinesterase (AChE)",
-        "Alkaline phosphatase",
-        "Lactate dehydrogenase (LDH)",
-        "Creatine kinase (CK)"
-      ],
+      "id": "ch28_q3", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which amniotic fluid enzyme test specifically confirms the presence of an open neural tube defect following elevated maternal serum AFP?",
+      "options": ["Acetylcholinesterase (AChE)", "Alkaline phosphatase", "Lactate dehydrogenase (LDH)", "Creatine kinase (CK)"],
       "correctIndex": 0,
       "explanation": "Amniotic fluid acetylcholinesterase (AChE) is an enzyme specific to neural tissue. When detected in amniotic fluid, it confirms direct open communication between the exposed neural tissue and amniotic fluid."
     },
     {
-      "id": "ch28_q4",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the immediate priority nursing action upon the delivery of an infant with an intact open myelomeningocele sac?",
-      "options": [
-        "Position infant supine and apply dry heat lamps",
-        "Cover the sac with sterile, non-adherent saline-soaked dressings and maintain a prone position",
-        "Perform gentle manual compression on the sac to assess for CSF leaks",
-        "Bathe the infant thoroughly with antibacterial soap"
-      ],
+      "id": "ch28_q4", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the immediate priority nursing action upon the delivery of an infant with an intact open myelomeningocele sac?",
+      "options": ["Position infant supine and apply dry heat lamps", "Cover the sac with sterile, non-adherent saline-soaked dressings and maintain a prone position", "Perform gentle manual compression on the sac to assess for CSF leaks", "Bathe the infant thoroughly with antibacterial soap"],
       "correctIndex": 1,
       "explanation": "The infant must be positioned prone (or side-lying) and the defect covered with sterile, moist saline-soaked dressings to prevent sac desiccation, hypothermia, and ascending meningitis."
     },
     {
-      "id": "ch28_q5",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Children and adults with myelomeningocele require lifelong environmental precautions against which serious medical allergy?",
-      "options": [
-        "Penicillin allergy",
-        "Latex allergy",
-        "Peanut allergy",
-        "Shellfish allergy"
-      ],
+      "id": "ch28_q5", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Children and adults with myelomeningocele require lifelong environmental precautions against which serious medical allergy?",
+      "options": ["Penicillin allergy", "Latex allergy", "Peanut allergy", "Shellfish allergy"],
       "correctIndex": 1,
       "explanation": "Up to 70% of individuals with spina bifida develop severe, potentially life-threatening latex allergy due to frequent early surgical interventions and chronic rubber catheterization; strict latex-free precautions are essential."
     },
     {
-      "id": "ch28_q6",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the cytogenetic cause of the vast majority (approximately 95%) of Down syndrome cases?",
-      "options": [
-        "Robertsonian translocation der(14;21)",
-        "Post-zygotic mitotic mosaicism",
-        "Meiotic non-disjunction during maternal oogenesis",
-        "Partial 21q microdeletion"
-      ],
+      "id": "ch28_q6", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the cytogenetic cause of the vast majority (approximately 95%) of Down syndrome cases?",
+      "options": ["Robertsonian translocation der(14;21)", "Post-zygotic mitotic mosaicism", "Meiotic non-disjunction during maternal oogenesis", "Partial 21q microdeletion"],
       "correctIndex": 2,
       "explanation": "Approximately 95% of Down syndrome cases are caused by complete meiotic non-disjunction, primarily occurring during maternal Meiosis I, resulting in 47,XX,+21 or 47,XY,+21."
     },
     {
-      "id": "ch28_q7",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which congenital heart defect is most characteristic and specifically associated with Down syndrome?",
-      "options": [
-        "Atrioventricular Septal Defect (AVSD / endocardial cushion defect)",
-        "Coarctation of the aorta",
-        "Transposition of the great arteries",
-        "Tetralogy of Fallot"
-      ],
+      "id": "ch28_q7", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which congenital heart defect is most characteristic and specifically associated with Down syndrome?",
+      "options": ["Atrioventricular Septal Defect (AVSD / endocardial cushion defect)", "Coarctation of the aorta", "Transposition of the great arteries", "Tetralogy of Fallot"],
       "correctIndex": 0,
       "explanation": "Atrioventricular Septal Defect (AVSD), also known as endocardial cushion defect, occurs in approximately 40% of children with Down syndrome and is highly specific to this aneuploidy."
     },
     {
-      "id": "ch28_q8",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Adults with Down syndrome over the age of 50 virtually all develop the neuropathological changes of Alzheimer's disease due to triplication of which gene on chromosome 21?",
-      "options": [
-        "Presenilin 1 (PSEN1)",
-        "Amyloid Precursor Protein (APP)",
-        "Apolipoprotein E (APOE)",
-        "Tau (MAPT)"
-      ],
+      "id": "ch28_q8", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Adults with Down syndrome over the age of 50 virtually all develop the neuropathological changes of Alzheimer's disease due to triplication of which gene on chromosome 21?",
+      "options": ["Presenilin 1 (PSEN1)", "Amyloid Precursor Protein (APP)", "Apolipoprotein E (APOE)", "Tau (MAPT)"],
       "correctIndex": 1,
       "explanation": "The Amyloid Precursor Protein (APP) gene is located on chromosome 21. Gene dosage triplication leads to lifelong amyloid-beta overproduction and Alzheimer neuropathology by age 50 in almost all Down syndrome individuals."
     },
     {
-      "id": "ch28_q9",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Why must children with Down syndrome be screened with cervical spine radiographs before participating in high-impact sports?",
-      "options": [
-        "To detect scoliosis",
-        "To evaluate for atlantoaxial instability (AAI)",
-        "To check for spina bifida occulta",
-        "To assess clavicular fractures"
-      ],
+      "id": "ch28_q9", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Why must children with Down syndrome be screened with cervical spine radiographs before participating in high-impact sports?",
+      "options": ["To detect scoliosis", "To evaluate for atlantoaxial instability (AAI)", "To check for spina bifida occulta", "To assess clavicular fractures"],
       "correctIndex": 1,
       "explanation": "Generalized ligamentous laxity causes Atlantoaxial Instability (AAI) in 10-15% of children with Down syndrome, creating high risk for catastrophic cervical spinal cord compression during tumbling or contact sports."
     },
     {
-      "id": "ch28_q10",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the typical human karyotype in classic Turner syndrome?",
-      "options": [
-        "45,X",
-        "47,XXY",
-        "47,XXX",
-        "46,XY with SRY deletion"
-      ],
+      "id": "ch28_q10", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the typical human karyotype in classic Turner syndrome?",
+      "options": ["45,X", "47,XXY", "47,XXX", "46,XY with SRY deletion"],
       "correctIndex": 0,
       "explanation": "Classic Turner syndrome has complete monosomy X (45,X), occurring in approximately 1 in 2,500 live female births."
     },
     {
-      "id": "ch28_q11",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Haploinsufficiency of which specific gene located in the pseudoautosomal region of the X chromosome is directly responsible for the short stature in Turner syndrome?",
-      "options": [
-        "FMR1",
-        "SHOX",
-        "DAX1",
-        "MECP2"
-      ],
+      "id": "ch28_q11", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Haploinsufficiency of which specific gene located in the pseudoautosomal region of the X chromosome is directly responsible for the short stature in Turner syndrome?",
+      "options": ["FMR1", "SHOX", "DAX1", "MECP2"],
       "correctIndex": 1,
       "explanation": "The SHOX (Short Stature Homeobox) gene on the pseudoautosomal region (PAR1) of the X chromosome regulates skeletal growth; loss of one active copy causes the profound short stature and skeletal anomalies of Turner syndrome."
     },
     {
-      "id": "ch28_q12",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which cardiovascular anomalies are most frequently diagnosed in patients with Turner syndrome?",
-      "options": [
-        "Coarctation of the aorta and bicuspid aortic valve",
-        "Atrioventricular septal defect and PDA",
-        "Tricuspid atresia and pulmonary stenosis",
-        "Transposition of the great vessels"
-      ],
+      "id": "ch28_q12", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which cardiovascular anomalies are most frequently diagnosed in patients with Turner syndrome?",
+      "options": ["Coarctation of the aorta and bicuspid aortic valve", "Atrioventricular septal defect and PDA", "Tricuspid atresia and pulmonary stenosis", "Transposition of the great vessels"],
       "correctIndex": 0,
       "explanation": "Bicuspid aortic valve (up to 30%) and coarctation of the aorta (10-15%) are the most common congenital cardiovascular lesions in Turner syndrome, placing them at lifelong risk for aortic dissection."
     },
     {
-      "id": "ch28_q13",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Why is prophylactic bilateral gonadectomy strongly recommended when Y chromosome material is detected in a female with Turner syndrome (e.g., 45,X/46,XY)?",
-      "options": [
-        "To prevent secondary virilization",
-        "Due to a 15-30% lifetime risk of malignant gonadoblastoma in streak gonads",
-        "To prevent malignant uterine leiomyomas",
-        "To prevent polycystic ovarian syndrome"
-      ],
+      "id": "ch28_q13", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Why is prophylactic bilateral gonadectomy strongly recommended when Y chromosome material is detected in a female with Turner syndrome (e.g., 45,X/46,XY)?",
+      "options": ["To prevent secondary virilization", "Due to a 15-30% lifetime risk of malignant gonadoblastoma in streak gonads", "To prevent malignant uterine leiomyomas", "To prevent polycystic ovarian syndrome"],
       "correctIndex": 1,
       "explanation": "Dysgenetic streak gonads harboring Y chromosome material have a 15-30% risk of developing malignant gonadoblastoma or dysgerminoma, necessitating prophylactic surgical gonadectomy."
     },
     {
-      "id": "ch28_q14",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the chromosomal karyotype of an individual with Klinefelter syndrome?",
-      "options": [
-        "45,X",
-        "46,XX",
-        "47,XXY",
-        "47,XYY"
-      ],
+      "id": "ch28_q14", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the chromosomal karyotype of an individual with Klinefelter syndrome?",
+      "options": ["45,X", "46,XX", "47,XXY", "47,XYY"],
       "correctIndex": 2,
       "explanation": "Klinefelter syndrome is characterized by one extra X chromosome in a phenotypic male, resulting in a 47,XXY karyotype."
     },
     {
-      "id": "ch28_q15",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which clinical feature is characteristic of adolescent and adult males with Klinefelter syndrome (47,XXY)?",
-      "options": [
-        "Disproportionately short legs with macroorchidism",
-        "Tall eunuchoid habitus, small firm testes, and gynecomastia",
-        "Excessive facial hair and early baldness",
-        "Severe microcephaly with hearing loss"
-      ],
+      "id": "ch28_q15", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which clinical feature is characteristic of adolescent and adult males with Klinefelter syndrome (47,XXY)?",
+      "options": ["Disproportionately short legs with macroorchidism", "Tall eunuchoid habitus, small firm testes, and gynecomastia", "Excessive facial hair and early baldness", "Severe microcephaly with hearing loss"],
       "correctIndex": 1,
       "explanation": "Klinefelter syndrome manifests with tall stature, disproportionately long legs (eunuchoid proportions), small firm fibrosed testes (<4 mL), gynecomastia, and azoospermia."
     },
     {
-      "id": "ch28_q16",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What endocrine abnormality is typically demonstrated on laboratory evaluation of an adult male with Klinefelter syndrome?",
-      "options": [
-        "Elevated testosterone and suppressed LH/FSH",
-        "Hypergonadotropic hypogonadism (low testosterone with markedly elevated LH and FSH)",
-        "Hypogonadotropic hypogonadism (low testosterone with low LH and FSH)",
-        "Isolated elevation of growth hormone"
-      ],
+      "id": "ch28_q16", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What endocrine abnormality is typically demonstrated on laboratory evaluation of an adult male with Klinefelter syndrome?",
+      "options": ["Elevated testosterone and suppressed LH/FSH", "Hypergonadotropic hypogonadism (low testosterone with markedly elevated LH and FSH)", "Hypogonadotropic hypogonadism (low testosterone with low LH and FSH)", "Isolated elevation of growth hormone"],
       "correctIndex": 1,
       "explanation": "Klinefelter syndrome causes primary testicular failure (seminiferous tubule fibrosis and Leydig cell dysfunction). The lack of testosterone feedback causes hypergonadotropic hypogonadism (elevated LH and FSH)."
     },
     {
-      "id": "ch28_q17",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Huntington disease is caused by which type of genetic mutation?",
-      "options": [
-        "Large chromosomal deletion on 22q11",
-        "CAG trinucleotide repeat expansion in the HTT gene",
-        "CGG repeat expansion in FMR1",
-        "Point mutation in the CFTR gene"
-      ],
+      "id": "ch28_q17", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Huntington disease is caused by which type of genetic mutation?",
+      "options": ["Large chromosomal deletion on 22q11", "CAG trinucleotide repeat expansion in the HTT gene", "CGG repeat expansion in FMR1", "Point mutation in the CFTR gene"],
       "correctIndex": 1,
       "explanation": "Huntington disease is caused by an expanded CAG trinucleotide repeat (polyglutamine expansion) in exon 1 of the HTT (huntingtin) gene on chromosome 4p16.3."
     },
     {
-      "id": "ch28_q18",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What number of CAG repeats in the HTT gene confers full penetrance for Huntington disease?",
-      "options": [
-        "≤26 repeats",
-        "27 to 35 repeats",
-        "36 to 39 repeats",
-        "≥40 repeats"
-      ],
+      "id": "ch28_q18", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What number of CAG repeats in the HTT gene confers full penetrance for Huntington disease?",
+      "options": ["≤26 repeats", "27 to 35 repeats", "36 to 39 repeats", "≥40 repeats"],
       "correctIndex": 3,
       "explanation": "Alleles with ≥40 CAG repeats are fully penetrant, meaning the individual will inevitably develop Huntington disease if they live a normal lifespan."
     },
     {
-      "id": "ch28_q19",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "The phenomenon where Huntington disease presents at an earlier age and with greater severity in successive generations is known as:",
-      "options": [
-        "Pleiotropy",
-        "Genetic anticipation",
-        "Lethal mosaicism",
-        "Variable expressivity"
-      ],
+      "id": "ch28_q19", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "The phenomenon where Huntington disease presents at an earlier age and with greater severity in successive generations is known as:",
+      "options": ["Pleiotropy", "Genetic anticipation", "Lethal mosaicism", "Variable expressivity"],
       "correctIndex": 1,
       "explanation": "Genetic anticipation is the tendency of certain genetic disorders (especially trinucleotide repeat expansions) to manifest at an earlier age and with worsening clinical severity in successive generations, particularly with paternal transmission in HD."
     },
     {
-      "id": "ch28_q20",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which specific brain structure demonstrates profound symmetrical atrophy and neuronal loss in Huntington disease?",
-      "options": [
-        "Caudate nucleus and putamen (striatum)",
-        "Substantia nigra compacta",
-        "Hippocampal CA1 sector",
-        "Cerebellar Purkinje cells"
-      ],
+      "id": "ch28_q20", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which specific brain structure demonstrates profound symmetrical atrophy and neuronal loss in Huntington disease?",
+      "options": ["Caudate nucleus and putamen (striatum)", "Substantia nigra compacta", "Hippocampal CA1 sector", "Cerebellar Purkinje cells"],
       "correctIndex": 0,
       "explanation": "Huntington disease characteristically destroys striatal medium spiny GABAergic neurons, leading to severe atrophy of the caudate nucleus head and putamen, visible as ballooning frontal horns on brain MRI."
     },
     {
-      "id": "ch28_q21",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which guideline is fundamental when performing pre-symptomatic genetic testing for Huntington disease in an at-risk family?",
-      "options": [
-        "Test all at-risk children under 10 years during pediatric well-child visits",
-        "Pre-symptomatic testing should only be performed on autonomous adults following extensive genetic and psychological counseling",
-        "Testing must be mandated by health insurance providers",
-        "Testing requires only a simple online saliva swab without counseling"
-      ],
+      "id": "ch28_q21", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which guideline is fundamental when performing pre-symptomatic genetic testing for Huntington disease in an at-risk family?",
+      "options": ["Test all at-risk children under 10 years during pediatric well-child visits", "Pre-symptomatic testing should only be performed on autonomous adults following extensive genetic and psychological counseling", "Testing must be mandated by health insurance providers", "Testing requires only a simple online saliva swab without counseling"],
       "correctIndex": 1,
       "explanation": "International testing protocols strictly prohibit predictive testing in asymptomatic minors for adult-onset incurable conditions. Autonomous adults must undergo formal pre-test genetic counseling and mental health screening due to high suicide risk."
     },
     {
-      "id": "ch28_q22",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which allele of the Apolipoprotein E (APOE) gene on chromosome 19 is the major genetic risk factor for late-onset sporadic Alzheimer's disease?",
-      "options": [
-        "APOE-ε1",
-        "APOE-ε2",
-        "APOE-ε3",
-        "APOE-ε4"
-      ],
+      "id": "ch28_q22", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which allele of the Apolipoprotein E (APOE) gene on chromosome 19 is the major genetic risk factor for late-onset sporadic Alzheimer's disease?",
+      "options": ["APOE-ε1", "APOE-ε2", "APOE-ε3", "APOE-ε4"],
       "correctIndex": 3,
       "explanation": "The APOE-ε4 allele is a dose-dependent major susceptibility risk factor for late-onset Alzheimer's disease, whereas APOE-ε2 is considered neuroprotective."
     },
     {
-      "id": "ch28_q23",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "According to Knudson's Two-Hit Hypothesis, what must occur in a tumor suppressor gene for malignant transformation to proceed?",
-      "options": [
-        "Overexpression of both alleles due to gene amplification",
-        "Inactivation or loss of both alleles (first hit germline, second hit somatic)",
-        "Activation of an oncogene by retroviral insertion",
-        "Hypermethylation of a histone deacetylase"
-      ],
+      "id": "ch28_q23", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "According to Knudson's Two-Hit Hypothesis, what must occur in a tumor suppressor gene for malignant transformation to proceed?",
+      "options": ["Overexpression of both alleles due to gene amplification", "Inactivation or loss of both alleles (first hit germline, second hit somatic)", "Activation of an oncogene by retroviral insertion", "Hypermethylation of a histone deacetylase"],
       "correctIndex": 1,
       "explanation": "Knudson's Two-Hit Hypothesis states that both alleles of a tumor suppressor gene must be inactivated. In hereditary cancer syndromes, the first hit is inherited in the germline, and the second hit occurs somatically in tissue cells."
     },
     {
-      "id": "ch28_q24",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "The proteins encoded by the BRCA1 and BRCA2 genes are primarily responsible for which critical cellular process?",
-      "options": [
-        "Mismatch repair of single base slippage",
-        "Homologous recombination repair of DNA double-strand breaks",
-        "Nucleotide excision repair of UV thymine dimers",
-        "Base excision repair of oxidized purines"
-      ],
+      "id": "ch28_q24", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "The proteins encoded by the BRCA1 and BRCA2 genes are primarily responsible for which critical cellular process?",
+      "options": ["Mismatch repair of single base slippage", "Homologous recombination repair of DNA double-strand breaks", "Nucleotide excision repair of UV thymine dimers", "Base excision repair of oxidized purines"],
       "correctIndex": 1,
       "explanation": "BRCA1 and BRCA2 proteins are essential components of the error-free homologous recombination pathway that repairs toxic double-strand DNA breaks."
     },
     {
-      "id": "ch28_q25",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Lynch syndrome (HNPCC) is caused by germline mutations in which group of genes?",
-      "options": [
-        "DNA Mismatch Repair (MMR) genes (MLH1, MSH2, MSH6, PMS2)",
-        "Wnt pathway genes (APC, AXIN2)",
-        "Tyrosine kinase receptors (RET, MET)",
-        "Cell cycle checkpoints (CDKN2A, CDK4)"
-      ],
+      "id": "ch28_q25", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Lynch syndrome (HNPCC) is caused by germline mutations in which group of genes?",
+      "options": ["DNA Mismatch Repair (MMR) genes (MLH1, MSH2, MSH6, PMS2)", "Wnt pathway genes (APC, AXIN2)", "Tyrosine kinase receptors (RET, MET)", "Cell cycle checkpoints (CDKN2A, CDK4)"],
       "correctIndex": 0,
       "explanation": "Lynch syndrome is caused by heterozygous germline mutations in DNA Mismatch Repair (MMR) genes: MLH1, MSH2, MSH6, or PMS2, which leads to Microsatellite Instability (MSI-H)."
     },
     {
-      "id": "ch28_q26",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Untreated individuals with classic Familial Adenomatous Polyposis (FAP) carry what lifetime risk of developing colorectal cancer by age 40?",
-      "options": [
-        "Approximately 10%",
-        "Approximately 25%",
-        "Approximately 50%",
-        "Virtually 100%"
-      ],
+      "id": "ch28_q26", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Untreated individuals with classic Familial Adenomatous Polyposis (FAP) carry what lifetime risk of developing colorectal cancer by age 40?",
+      "options": ["Approximately 10%", "Approximately 25%", "Approximately 50%", "Virtually 100%"],
       "correctIndex": 3,
       "explanation": "Patients with untreated classic FAP develop thousands of adenomatous colonic polyps, with a virtually 100% lifetime certainty of developing colorectal cancer by age 40, requiring prophylactic colectomy."
     },
     {
-      "id": "ch28_q27",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the precise molecular substitution that causes Sickle Cell Anemia (HbS)?",
-      "options": [
-        "Glutamic acid replaced by Lysine at codon 6 of beta-globin",
-        "Glutamic acid replaced by Valine at codon 6 of beta-globin",
-        "Valine replaced by Alanine at codon 12 of alpha-globin",
-        "Deletion of phenylalanine at codon 508"
-      ],
+      "id": "ch28_q27", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the precise molecular substitution that causes Sickle Cell Anemia (HbS)?",
+      "options": ["Glutamic acid replaced by Lysine at codon 6 of beta-globin", "Glutamic acid replaced by Valine at codon 6 of beta-globin", "Valine replaced by Alanine at codon 12 of alpha-globin", "Deletion of phenylalanine at codon 508"],
       "correctIndex": 1,
       "explanation": "Sickle cell disease is caused by a point mutation in the HBB gene on chromosome 11 (GAG to GTG) replacing hydrophilic glutamic acid with hydrophobic valine at position 6 of the beta-globin chain (β6 Glu->Val)."
     },
     {
-      "id": "ch28_q28",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Why do patients with Sickle Cell Disease experience autosplenectomy during early childhood?",
-      "options": [
-        "Spleen fails to develop during embryogenesis",
-        "Recurrent microvascular vaso-occlusion causes repeated splenic infarctions and fibrosis",
-        "Autoimmune antibodies destroy splenic red pulp",
-        "Extramedullary hematopoiesis consumes all splenic parenchyma"
-      ],
+      "id": "ch28_q28", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Why do patients with Sickle Cell Disease experience autosplenectomy during early childhood?",
+      "options": ["Spleen fails to develop during embryogenesis", "Recurrent microvascular vaso-occlusion causes repeated splenic infarctions and fibrosis", "Autoimmune antibodies destroy splenic red pulp", "Extramedullary hematopoiesis consumes all splenic parenchyma"],
       "correctIndex": 1,
       "explanation": "Repeated sickling and vaso-occlusion within the sluggish, hypoxic, and acidotic splenic red pulp causes progressive ischemic infarction, fibrosis, and shrinkage, leading to complete functional autosplenectomy by age 5."
     },
     {
-      "id": "ch28_q29",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the primary mechanism of action of Hydroxyurea in the therapeutic management of Sickle Cell Disease?",
-      "options": [
-        "It directly replaces the mutant beta-globin gene",
-        "It stimulates production of fetal hemoglobin (HbF), which inhibits HbS polymerization",
-        "It accelerates renal excretion of excess iron",
-        "It acts as a direct inhibitor of factor Xa"
-      ],
+      "id": "ch28_q29", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the primary mechanism of action of Hydroxyurea in the therapeutic management of Sickle Cell Disease?",
+      "options": ["It directly replaces the mutant beta-globin gene", "It stimulates production of fetal hemoglobin (HbF), which inhibits HbS polymerization", "It accelerates renal excretion of excess iron", "It acts as a direct inhibitor of factor Xa"],
       "correctIndex": 1,
       "explanation": "Hydroxyurea stimulates the synthesis of fetal hemoglobin (HbF, alpha-2 gamma-2). HbF does not participate in sickle polymer formation and physically disrupts HbS fiber elongation, reducing crises."
     },
     {
-      "id": "ch28_q30",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the most common cause of mortality in adolescent and adult patients with Sickle Cell Disease?",
-      "options": [
-        "Splenic sequestration crisis",
-        "Acute Chest Syndrome (ACS)",
-        "Aplastic anemia crisis",
-        "Renal cell carcinoma"
-      ],
+      "id": "ch28_q30", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the most common cause of mortality in adolescent and adult patients with Sickle Cell Disease?",
+      "options": ["Splenic sequestration crisis", "Acute Chest Syndrome (ACS)", "Aplastic anemia crisis", "Renal cell carcinoma"],
       "correctIndex": 1,
       "explanation": "Acute Chest Syndrome (ACS), defined by a new pulmonary infiltrate accompanied by fever, chest pain, and hypoxemia, is the leading cause of death in adolescents and adults with sickle cell disease."
     }
   ],
   "mindMap": {
-    "centralConcept": "Adolescent & Adult Genetic Pathologies",
-    "nodes": [
-      {
-        "id": "ad1",
-        "label": "Neural Tube Defects (NTDs)",
-        "category": "core",
-        "description": "Closure failure by day 28; anencephaly vs open myelomeningocele"
-      },
-      {
-        "id": "ad2",
-        "label": "Folic Acid Prophylaxis",
-        "category": "clinical",
-        "description": "400 ug/day standard, 4 mg/day for high-risk previous NTD pregnancy"
-      },
-      {
-        "id": "ad3",
-        "label": "Down Syndrome (Trisomy 21)",
-        "category": "etiology",
-        "description": "95% meiotic non-disjunction, endocardial cushion defect (AVSD)"
-      },
-      {
-        "id": "ad4",
-        "label": "Adult APP Overexpression",
-        "category": "pathophysiology",
-        "description": "Triplication of APP gene leads to Alzheimer neuropathology by age 50"
-      },
-      {
-        "id": "ad5",
-        "label": "Turner Syndrome (45,X)",
-        "category": "clinical",
-        "description": "SHOX short stature, webbed neck, streak gonads, aortic coarctation"
-      },
-      {
-        "id": "ad6",
-        "label": "Klinefelter Syndrome (47,XXY)",
-        "category": "clinical",
-        "description": "Tall eunuchoid habitus, seminiferous tubule fibrosis, azoospermia"
-      },
-      {
-        "id": "ad7",
-        "label": "Huntington Disease (HTT)",
-        "category": "etiology",
-        "description": "CAG >40 repeats, chorea, caudate atrophy, paternal anticipation"
-      },
-      {
-        "id": "ad8",
-        "label": "Hereditary Cancer (BRCA1/2)",
-        "category": "pathophysiology",
-        "description": "Double-strand break homologous recombination defect, PARP synthetic lethality"
-      },
-      {
-        "id": "ad9",
-        "label": "Lynch Syndrome (MMR/MSI)",
-        "category": "pathophysiology",
-        "description": "Germline MLH1/MSH2 defects causing microsatellite instability"
-      },
-      {
-        "id": "ad10",
-        "label": "Sickle Cell Anemia (HbS)",
-        "category": "pathophysiology",
-        "description": "β6 Glu->Val point mutation, polymerizes in hypoxia, autosplenectomy"
-      }
-    ],
-    "edges": [
-      {
-        "from": "ad1",
-        "to": "ad2",
-        "relationship": "prevented by",
-        "explanation": "Periconceptional folic acid lowers the risk of primary neural tube closure failure."
-      },
-      {
-        "from": "ad3",
-        "to": "ad4",
-        "relationship": "progresses to",
-        "explanation": "Gene dosage triplication of APP on chromosome 21 causes early Alzheimer dementia."
-      },
-      {
-        "from": "ad5",
-        "to": "ad6",
-        "relationship": "contrasts with",
-        "explanation": "45,X causes female streak gonads while 47,XXY causes male testicular fibrosis."
-      },
-      {
-        "from": "ad7",
-        "to": "ad3",
-        "relationship": "shares",
-        "explanation": "Both present distinct adult cognitive impairments with defined chromosomal bases."
-      },
-      {
-        "from": "ad8",
-        "to": "ad9",
-        "relationship": "models",
-        "explanation": "Both represent Knudson two-hit tumor suppressor/DNA repair failure syndromes."
-      },
-      {
-        "from": "ad10",
-        "to": "ad1",
-        "relationship": "managed across",
-        "explanation": "Both require lifelong comprehensive multidisciplinary nursing and medical care."
-      }
-    ]
-  }
-};
+  "centralConcept": "Adolescent & Adult Genetic Pathologies",
+  "nodes": [
+    {
+      "id": "ad1",
+      "label": "Neural Tube Defects (NTDs)",
+      "category": "core",
+      "description": "Closure failure by day 28; anencephaly vs open myelomeningocele"
+    },
+    {
+      "id": "ad2",
+      "label": "Folic Acid Prophylaxis",
+      "category": "clinical",
+      "description": "400 ug/day standard, 4 mg/day for high-risk previous NTD pregnancy"
+    },
+    {
+      "id": "ad3",
+      "label": "Down Syndrome (Trisomy 21)",
+      "category": "etiology",
+      "description": "95% meiotic non-disjunction, endocardial cushion defect (AVSD)"
+    },
+    {
+      "id": "ad4",
+      "label": "Adult APP Overexpression",
+      "category": "pathophysiology",
+      "description": "Triplication of APP gene leads to Alzheimer neuropathology by age 50"
+    },
+    {
+      "id": "ad5",
+      "label": "Turner Syndrome (45,X)",
+      "category": "clinical",
+      "description": "SHOX short stature, webbed neck, streak gonads, aortic coarctation"
+    },
+    {
+      "id": "ad6",
+      "label": "Klinefelter Syndrome (47,XXY)",
+      "category": "clinical",
+      "description": "Tall eunuchoid habitus, seminiferous tubule fibrosis, azoospermia"
+    },
+    {
+      "id": "ad7",
+      "label": "Huntington Disease (HTT)",
+      "category": "etiology",
+      "description": "CAG >40 repeats, chorea, caudate atrophy, paternal anticipation"
+    },
+    {
+      "id": "ad8",
+      "label": "Hereditary Cancer (BRCA1/2)",
+      "category": "pathophysiology",
+      "description": "Double-strand break homologous recombination defect, PARP synthetic lethality"
+    },
+    {
+      "id": "ad9",
+      "label": "Lynch Syndrome (MMR/MSI)",
+      "category": "pathophysiology",
+      "description": "Germline MLH1/MSH2 defects causing microsatellite instability"
+    },
+    {
+      "id": "ad10",
+      "label": "Sickle Cell Anemia (HbS)",
+      "category": "pathophysiology",
+      "description": "β6 Glu->Val point mutation, polymerizes in hypoxia, autosplenectomy"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ad1",
+      "to": "ad2",
+      "relationship": "prevented by",
+      "explanation": "Periconceptional folic acid lowers the risk of primary neural tube closure failure."
+    },
+    {
+      "from": "ad3",
+      "to": "ad4",
+      "relationship": "progresses to",
+      "explanation": "Gene dosage triplication of APP on chromosome 21 causes early Alzheimer dementia."
+    },
+    {
+      "from": "ad5",
+      "to": "ad6",
+      "relationship": "contrasts with",
+      "explanation": "45,X causes female streak gonads while 47,XXY causes male testicular fibrosis."
+    },
+    {
+      "from": "ad7",
+      "to": "ad3",
+      "relationship": "shares",
+      "explanation": "Both present distinct adult cognitive impairments with defined chromosomal bases."
+    },
+    {
+      "from": "ad8",
+      "to": "ad9",
+      "relationship": "models",
+      "explanation": "Both represent Knudson two-hit tumor suppressor/DNA repair failure syndromes."
+    },
+    {
+      "from": "ad10",
+      "to": "ad1",
+      "relationship": "managed across",
+      "explanation": "Both require lifelong comprehensive multidisciplinary nursing and medical care."
+    }
+  ]
+}
+}
+
+save_ch(28, ch28)

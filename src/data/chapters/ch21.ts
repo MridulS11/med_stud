@@ -5,222 +5,257 @@ export const ch21: Chapter = {
   "subjectId": "sub2",
   "number": 21,
   "title": "Examination of Semen",
-  "subtitle": "Indications, collection protocols, macroscopic liquefaction & volume, microscopic concentration, motility, morphology, and infertility assessment.",
+  "subtitle": "Semen collection, physical characteristics, microscopic analysis (count, motility, vitality, morphology), and clinical significance in infertility.",
   "topics": [
     {
       "id": "ch21_t1",
-      "name": "Indications & Specimen Collection Protocol",
-      "summary": "Standardized laboratory procedures established by the World Health Organization (WHO 6th edition) for evaluating male fertility potential and post-vasectomy verification.",
-      "pathophysiology": "Semen is a composite fluid: 60-70% from seminal vesicles (fructose, prostaglandins, coagulating proteins), 20-30% from the prostate gland (acid phosphatase, citric acid, zinc, prostate-specific antigen for liquefaction), 2-5% from testes and epididymis (spermatozoa), and 1% from bulbourethral (Cowper) glands (pre-ejaculatory alkaline mucus).",
+      "name": "Physiology & Anatomical Composition of Semen",
+      "summary": "Seminal fluid is a complex biological suspension consisting of testicular spermatozoa suspended in secretions contributed by accessory sexual glands (seminal vesicles, prostate, bulbourethral glands).",
+      "pathophysiology": "Spermatozoa are produced in the seminiferous tubules (spermatogenesis taking ~64-74 days) and mature in the epididymis. Ejaculate components: 1. Seminal vesicles (60-70% of volume): Provides fructose (energy substrate for motility), prostaglandins, and coagulating enzymes (semenogelin). 2. Prostate gland (20-30% of volume): Provides acid phosphatase, citric acid, zinc, and Prostate-Specific Antigen (PSA, a serine protease that cleaves semenogelin to liquefy the coagulum). 3. Bulbourethral (Cowper's) glands (5%): Alkaline mucin that neutralizes residual acidic urethral urine. 4. Testes and epididymides (2-5%): Spermatozoa.",
       "clinicalFeatures": [
-        "Infertility evaluation: Investigates male factor infertility, contributing to roughly 40-50% of couple subfertility.",
-        "Post-vasectomy verification: Confirms bilateral ductal occlusion and azoospermia (typically evaluated at 12 weeks or after 20 ejaculations).",
-        "Forensic applications: Detection of spermatozoa, prostatic acid phosphatase (PAP), or prostate-specific antigen (PSA / p30) in sexual assault investigations."
+        "Normal fresh ejaculate is a semi-solid gelatinous coagulum that undergoes complete liquefaction within 15 to 30 minutes at room/body temperature (37°C).",
+        "Failure of liquefaction after 60 minutes indicates deficiency of prostatic proteolytic enzymes (e.g. PSA).",
+        "Fructose deficiency indicates congenital bilateral absence of the vas deferens (CBAVD, seen in cystic fibrosis) or seminal vesicle obstruction."
       ],
       "diagnostics": [
-        "Abstinence window: Strictly 2 to 7 days before collection. Shorter periods lower sperm count; longer periods degrade motility and increase abnormal morphology.",
-        "Collection method: Masturbation without lubricants or ordinary condoms directly into a sterile, wide-mouthed, non-toxic plastic container.",
-        "Transport conditions: Delivered to the laboratory within 30-60 minutes, kept strictly at body temperature (20-37\u00b0C; e.g. in an inner pocket) to preserve flagellar motility."
+        "Macroscopic evaluation: Volume, appearance, odor, liquefaction time, viscosity, and pH.",
+        "Microscopic evaluation: Sperm concentration, total count, progressive motility, vitality, morphology, and leukocyte differentiation.",
+        "Biochemical markers: Seminal fructose (resorcinol test), neutral alpha-glucosidase (epididymal marker), and zinc/acid phosphatase (prostatic markers)."
       ],
-      "morphology": "Grossly: Homogeneous, translucent greyish-white opalescent liquid with a characteristic acrid 'bleach-like' or chestnut-flower odor.",
+      "morphology": "Coagulum liquefies to become a homogeneous, translucent, gray-opalescent liquid. Abnormal color: Yellow (prolonged abstinence, jaundice, or leukocytospermia); Red/brown (hematospermia); Clear/watery (low sperm count).",
       "nursingManagement": [
-        "Clear, non-judgmental patient counseling explaining collection protocols, timing, and abstinence rules.",
-        "Post-vasectomy instructions: Emphasize that contraception must be continued until two consecutive semen tests confirm complete azoospermia.",
-        "Ensure privacy and dignified sample delivery facilities."
+        "Instruct patient on precise pre-test preparation: 2 to 7 days of sexual abstinence (neither intercourse nor masturbation). Shorter abstinence lowers sperm volume/count; longer abstinence impairs motility.",
+        "Provide a sterile, non-toxic, wide-mouth plastic specimen container; instruct that condoms must NOT be used because they contain spermicidal additives.",
+        "Specimen must be delivered to the laboratory within 30 to 60 minutes of collection, kept warm near body temperature (e.g., inside an inner coat pocket)."
       ],
       "examPearls": [
-        "Strict abstinence of 2 to 7 days is mandatory before semen collection.",
-        "Post-vasectomy confirmation requires demonstration of complete azoospermia on centrifuged specimen.",
-        "Prostatic secretions provide enzymes (PSA) that liquefy the coagulated semen within 15-30 minutes."
+        "Seminal vesicles contribute 60-70% of ejaculate volume and provide Fructose, the primary energy substrate for sperm motility.",
+        "Normal semen liquefies completely within 15 to 30 minutes under the enzymatic action of prostatic PSA.",
+        "The mandatory abstinence period for diagnostic semen analysis is strictly 2 to 7 days."
       ],
       "imagePath": "/images/ch21_img_1.jpeg",
-      "imageCaption": "Semen collection container and microscopic evaluation of sperm concentration and motility."
+      "imageCaption": "Overview of male reproductive anatomy and the glandular contributions to seminal plasma."
     },
     {
       "id": "ch21_t2",
-      "name": "Macroscopic Semen Analysis",
-      "summary": "Initial physical assessment of semen including liquefaction time, volume, viscosity, appearance, and pH.",
-      "pathophysiology": "Upon ejaculation, seminal vesicle semenogelin proteins form a gelatinous coagulum preventing vaginal loss. Prostatic serine proteases (PSA) break down this fibrin-like meshwork within 15 to 30 minutes, allowing spermatozoa to swim freely. Delayed or absent liquefaction indicates prostatic secretory dysfunction.",
+      "name": "Collection Protocol & Physical Properties",
+      "summary": "Standardized laboratory protocol for specimen collection, macroscopic evaluation of volume, viscosity, color, and pH according to WHO 6th Edition guidelines.",
+      "pathophysiology": "Alkaline secretions from seminal vesicles (pH 7.6-8.0) buffer the acidic prostatic secretions (pH 6.5) and acidic vaginal environment (pH 3.5-4.0). Extreme variations in volume or pH signal accessory gland pathology or incomplete collection.",
       "clinicalFeatures": [
-        "Liquefaction: Normally complete within 15-30 minutes at room temperature (abnormal if incomplete after 60 minutes).",
-        "Volume: Normal WHO threshold >= 1.5 mL (typically 2.0-5.0 mL). Low volume (<1.5 mL) occurs in retrograde ejaculation, partial collection loss, or ejaculatory duct obstruction. High volume (>6.0 mL) occurs with prolonged abstinence or seminal vesicle inflammation.",
-        "Color/Appearance: Normal is greyish-white opalescent. Red/brown (hematospermia) indicates seminal vesicle or prostate inflammation/malignancy. Deep yellow suggests jaundice, pyospermia, or flavin-containing vitamins.",
-        "Viscosity: Normal semen forms discrete drops or a thread <2 cm when drawn with a pipette; increased viscosity impairs sperm motility.",
-        "pH: Normal is alkaline, 7.2 to 8.0. Acidic pH (<7.0) combined with low volume and azoospermia strongly indicates congenital bilateral absence of the vas deferens (CBAVD, cystic fibrosis) or seminal vesicle obstruction."
+        "Normal Parameters (WHO 6th Edition reference standards):",
+        "  - Ejaculate Volume: >= 1.4 mL (conventionally 1.5 to 5.0 mL).",
+        "  - Liquefaction Time: Complete within 15-30 minutes (abnormal if >60 minutes).",
+        "  - Color: Normal pearly gray-white to opalescent.",
+        "  - Odor: Characteristic musky, bleaching-agent odor (due to oxidation of spermine).",
+        "  - Viscosity: Forms discrete drops or thread <2 cm when released from pipette (hyperviscosity thread >2 cm).",
+        "  - pH: Normal >= 7.2 (typically 7.2 to 8.0). pH < 7.0 with low volume and azoospermia indicates seminal vesicle agenesis or ejaculatory duct obstruction."
       ],
       "diagnostics": [
-        "pH paper (range 6.0-10.0) tested within 30 minutes of liquefaction.",
-        "Calibrated volumetric pipette or graduated collection container."
+        "Volume Measurement: Using a graduated conical cylinder or by gravimetric weighing (1 g = 1.0 mL).",
+        "pH Paper (range 6.0-10.0): Measured within 30 minutes of liquefaction.",
+        "Viscosity Assessment: Pipette aspiration; failure to form discrete drops indicates hyperviscosity that traps sperm."
       ],
-      "morphology": "Appearance assessed in a glass vessel against a dark background.",
+      "morphology": "Grossly: Normal semen is gray-opalescent. Hyperviscous semen forms long tenacious strings that impede motility.",
       "nursingManagement": [
-        "Verify that the entire ejaculate was captured, as the first portion contains the highest sperm density.",
-        "Record the exact time of collection and time of liquefaction on the laboratory requisition."
+        "Confirm that the ENTIRE ejaculate was captured, as the first few drops contain up to 70% of all spermatozoa and prostatic fluid.",
+        "If a portion of the sample is lost, advise the patient to discard and re-collect after a fresh 2-7 day abstinence period.",
+        "Verify that two separate semen analyses spaced 2 to 4 weeks apart are performed before establishing an infertility diagnosis."
       ],
       "examPearls": [
-        "Normal semen pH is alkaline (7.2 - 8.0); an acidic pH (<7.0) indicates seminal vesicle agenesis.",
-        "Liquefaction must occur within 30 to 60 minutes.",
-        "WHO lower reference limit for semen volume is 1.5 mL."
+        "Normal seminal volume is >= 1.4 - 1.5 mL; volume < 1.0 mL is considered hypospermia.",
+        "Normal seminal pH is alkaline (>= 7.2 to 8.0); an acidic pH (<7.0) indicates bilateral seminal vesicle absence or duct obstruction.",
+        "The first fraction of the ejaculate contains the vast majority of spermatozoa and prostatic fluid."
       ],
-      "imagePath": "/images/ch21_img_2.jpeg",
-      "imageCaption": "Measurement of semen volume and viscosity thread testing."
+      "imagePath": "/images/ch21_img_2.png",
+      "imageCaption": "Laboratory evaluation of seminal fluid volume and viscosity using graduated pipettes."
     },
     {
       "id": "ch21_t3",
-      "name": "Microscopic Examination: Count, Motility & Morphology",
-      "summary": "Detailed microscopic quantification of sperm concentration, flagellar kinetics, structural morphology, and vitality.",
-      "pathophysiology": "Spermatogenesis occurs in seminiferous tubules over ~64-72 days, followed by epididymal maturation where sperms acquire progressive forward motility. Normal sperm structure consists of a smooth oval head (3-5 \u00b5m long) with acrosomal cap covering 40-70% of head, a slender midpiece with mitochondria, and a 45-\u00b5m flagellar principal piece.",
+      "name": "Microscopic Evaluation: Count, Motility, Vitality & Morphology",
+      "summary": "Standardized microscopic assessment of sperm concentration, progressive motility grading, vitality (live/dead ratio), and strict Kruger morphological parameters.",
+      "pathophysiology": "Normal spermatozoa possess an oval head containing condensed haploid chromatin capped by an acrosome (containing hyaluronidase and acrosin for zona pellucida penetration), a midpiece containing spirally arranged mitochondria producing ATP, and a 9+2 microtubular flagellar axoneme providing propulsion.",
       "clinicalFeatures": [
-        "Sperm Count / Concentration: Normal >= 15 million spermatozoa/mL (or >= 39 million per total ejaculate).",
-        "Motility: Evaluated within 60 minutes. Total motility >= 40%; Progressive motility (PR: moving actively in a straight line or large circle) >= 32%.",
-        "Morphology (Tygerberg / Kruger Strict Criteria): >= 4% normal oval forms with intact acrosome.",
-        "Vitality (Viability): Evaluated using eosin-nigrosin dye exclusion; >= 58% live (impermeable, unstained white) sperms.",
-        "Leukocytes: < 1.0 million WBCs/mL (leukocytospermia / pyospermia indicates accessory gland infection, e.g. prostatitis)."
+        "WHO Reference Criteria (Lower Reference Limits):",
+        "  - Sperm Concentration: >= 15 million spermatozoa per mL (or >= 39 million per total ejaculate).",
+        "  - Progressive Motility (PR): >= 32% (sperm moving actively in a forward direction) or Total Motility (PR + NP) >= 40%.",
+        "  - Sperm Vitality: >= 54-58% live spermatozoa (assessed via eosin-nigrosin dye exclusion; dead cells take up red eosin dye due to damaged membranes).",
+        "  - Sperm Morphology: >= 4% normal oval forms (Kruger Strict Criteria).",
+        "  - Leukocytes (WBCs): < 1.0 million/mL (peroxidase-positive cells; >1 million/mL defines leukocytospermia)."
       ],
       "diagnostics": [
-        "Hemocytometer (Neubauer chamber) or Makler counting chamber after appropriate specimen dilution.",
-        "Eosin-Nigrosin staining: Non-viable sperms with leaky membranes take up pink eosin; live viable sperms exclude dye and remain white.",
-        "Papanicolaou or Giemsa staining of fixed smears for high-magnification (1000x oil immersion) strict morphology.",
-        "Terminology: Normozoospermia (normal parameters), Oligozoospermia (<15 million/mL), Asthenozoospermia (<32% progressive motility), Teratozoospermia (<4% normal forms), Azoospermia (complete absence of sperms in ejaculate), Aspermia (complete absence of semen)."
+        "Hemocytometer (Neubauer Chamber): Standard counting method following specimen dilution and immobilization with formalin-saline.",
+        "Eosin-Nigrosin Stain (Vitality): Live sperm remain unstained white; dead sperm stain pink/red.",
+        "Papanicolaou / Giemsa Stain: Staining for morphologic evaluation of head (acrosome 40-70% of head area), midpiece, and tail defects.",
+        "Peroxidase Test (LeucoScreen): Differentiates true white blood cells (peroxidase-positive) from immature germ cells ('round cells')."
       ],
-      "morphology": "Abnormal forms include: Tapered heads, round heads (globozoospermia - lacking acrosome, infertile), double heads, bent tails, coiled tails, cytoplasmic droplets >1/3 head size.",
+      "morphology": "Normal spermatozoon: Smooth, regular oval head (length 4.0-5.0 um, width 2.5-3.5 um), distinct acrosomal cap, slender straight midpiece (length 7-8 um), and uniform uncoiled principal tail (length 45 um). Common defects: Tapered head, pyriform head, double head, bent neck, coiled tail, cytoplasmic droplets >1/3 head size.",
       "nursingManagement": [
-        "Educate patients that abnormal semen parameters warrant a repeat test 4-6 weeks later, as temporary illness or stress alters spermatogenesis.",
-        "Encourage lifestyle modifications: Cease smoking, limit alcohol, avoid testicular heat exposure (saunas, hot tubs, tight briefs).",
-        "Refer couples for assisted reproductive techniques (IUI, IVF, ICSI for severe male factor)."
+        "Explain that fertility requires a combination of adequate count, forward motility, and normal morphology.",
+        "When leukocytospermia (>1 million WBC/mL) is identified, screen and treat for silent genital tract infection (Chlamydia, Ureaplasma, Mycoplasma).",
+        "Reassure the patient that isolated abnormal results do not definitively establish sterility and require confirmatory retesting."
       ],
       "examPearls": [
-        "WHO lower reference limits: Concentration >=15 million/mL, Progressive motility >=32%, Strict normal morphology >=4%, Vitality >=58%.",
-        "Globozoospermia is characterized by round-headed sperms lacking an acrosome, causing absolute fertilization failure.",
-        "Leukocytospermia is defined as >1 million leukocytes/mL and indicates genital tract infection."
+        "Sperm concentration threshold of >= 15 million/mL is the cutoff for normozoospermia.",
+        "Progressive motility (PR) must be >= 32% to achieve natural cervical mucus penetration and fertilization.",
+        "Strict Kruger criteria requires only >= 4% normal forms to predict successful in vitro fertilization."
       ],
       "imagePath": "/images/ch21_img_3.jpeg",
-      "imageCaption": "Microscopic morphology of normal sperm versus head, neck, and tail defects."
+      "imageCaption": "Microscopic view of stained spermatozoa illustrating normal oval morphology alongside various head, neck, and tail defects."
+    },
+    {
+      "id": "ch21_t4",
+      "name": "Clinical Pathologies, Terminology & Biochemical Tests",
+      "summary": "Standard terminology for seminal abnormalities, diagnostic significance of seminal fructose, and evaluation of azoospermia in male infertility.",
+      "pathophysiology": "Azoospermia is classified as: 1. Obstructive Azoospermia: Normal testicular spermatogenesis with physical blockage of the excurrent ductal system (epididymal obstruction, vasectomy, CBAVD). Seminal volume and fructose are low if seminal vesicles are absent or blocked. 2. Non-Obstructive Azoospermia: Primary testicular failure (Klinefelter syndrome 47,XXY, cryptorchidism, mumps orchitis) or secondary hypogonadotropic hypogonadism (pituitary failure, Kallmann syndrome). Testicular volume is small (<12 mL) and serum FSH is markedly elevated.",
+      "clinicalFeatures": [
+        "Standardized WHO Terminology:",
+        "  - Normozoospermia: All seminal parameters at or above reference limits.",
+        "  - Oligozoospermia: Sperm concentration < 15 million/mL.",
+        "  - Asthenozoospermia: Progressive motility < 32%.",
+        "  - Teratozoospermia: Normal morphologic forms < 4%.",
+        "  - Oligoasthenoteratozoospermia (OAT Syndrome): Combined deficits in count, motility, and morphology.",
+        "  - Azoospermia: Complete absence of spermatozoa in the centrifuged ejaculate pellet.",
+        "  - Aspermia: Complete absence of any ejaculate fluid.",
+        "  - Necrozoospermia: Complete absence of motile sperm where all present spermatozoa are non-viable (dead on eosin stain)."
+      ],
+      "diagnostics": [
+        "Resorcinol Test for Fructose: Seminal plasma mixed with resorcinol and HCl and boiled; formation of a red-orange color confirms presence of fructose. Negative test = absence of seminal vesicle secretions.",
+        "Post-Centrifugation Pellet Examination: Mandatory before diagnosing azoospermia (pellet examined at 400x).",
+        "Serum Hormonal Profile: Serum FSH, LH, and Total Testosterone. High FSH indicates primary testicular failure; low FSH indicates hypogonadotropic hypogonadism.",
+        "Post-Vasectomy Semen Analysis: Conducted at 12 weeks post-procedure; clearance requires confirmed azoospermia in centrifuged pellet."
+      ],
+      "morphology": "Centrifuged semen sediment shows complete absence of spermatozoa in azoospermia. In OAT syndrome, multiple bizarre morphological variants with absent motility are seen.",
+      "nursingManagement": [
+        "Counsel post-vasectomy patients that contraception must be continued until two consecutive semen analyses confirm complete azoospermia.",
+        "Educate couples on Assisted Reproductive Technologies (ART): Intracytoplasmic Sperm Injection (ICSI) allows successful fertilization even with severe oligozoospermia or surgically retrieved testicular sperm (TESE).",
+        "Offer empathetic, non-judgmental counseling addressing male reproductive stigma and psychological distress."
+      ],
+      "examPearls": [
+        "Absence of seminal fructose in an azoospermic patient with low semen volume points directly to seminal vesicle agenesis (CBAVD) or ejaculatory duct obstruction.",
+        "High serum FSH in an azoospermic patient confirms primary non-obstructive testicular failure.",
+        "Two consecutive azoospermic semen analyses at 12 weeks are mandatory before discontinuing barrier contraception after vasectomy."
+      ],
+      "imagePath": "/images/ch21_img_4.png",
+      "imageCaption": "Diagnostic flowchart for the clinical evaluation of azoospermia differentiating obstructive from non-obstructive etiologies."
     }
   ],
   "mindMap": {
-    "centralConcept": "Semen Examination and Fertility Parameters",
+    "centralConcept": "Semen Analysis & Infertility Pathology",
     "nodes": [
       {
-        "id": "s1",
-        "label": "Pre-Analytical Protocol",
-        "category": "etiology",
-        "description": "2-7 days abstinence, masturbation collection, delivery within 1 hour at 20-37\u00b0C."
-      },
-      {
-        "id": "s2",
-        "label": "Prostatic Liquefaction",
-        "category": "pathophysiology",
-        "description": "PSA enzymes dissolve seminal vesicle coagulum within 15-30 minutes."
-      },
-      {
-        "id": "s3",
-        "label": "Volume & Alkaline pH",
-        "category": "diagnostic",
-        "description": "Volume >=1.5 mL and pH 7.2-8.0; acidic pH indicates seminal vesicle agenesis."
-      },
-      {
-        "id": "s4",
-        "label": "Sperm Concentration (Count)",
+        "id": "sm1",
+        "label": "Abstinence (2-7 Days)",
         "category": "core",
-        "description": ">=15 million/mL; oligozoospermia (<15M) and azoospermia (0 sperms)."
+        "description": "Mandatory standardized period prior to specimen collection"
       },
       {
-        "id": "s5",
-        "label": "Forward Progressive Motility",
-        "category": "diagnostic",
-        "description": ">=32% progressive motility; asthenozoospermia indicates flagellar defects."
+        "id": "sm2",
+        "label": "Seminal Vesicle Fructose",
+        "category": "pathophysiology",
+        "description": "60-70% volume providing energy substrate for motility"
       },
       {
-        "id": "s6",
-        "label": "Kruger Strict Morphology",
+        "id": "sm3",
+        "label": "Prostatic PSA Liquefaction",
+        "category": "pathophysiology",
+        "description": "Serine protease liquefying coagulum within 15-30 minutes"
+      },
+      {
+        "id": "sm4",
+        "label": "Normozoospermia (>=15M/mL)",
         "category": "diagnostic",
-        "description": ">=4% normal oval forms with acrosomal cap; teratozoospermia <4%."
+        "description": "Threshold concentration for normal sperm count"
+      },
+      {
+        "id": "sm5",
+        "label": "Progressive Motility (>=32%)",
+        "category": "diagnostic",
+        "description": "Forward active motility required for egg fertilization"
+      },
+      {
+        "id": "sm6",
+        "label": "Strict Kruger Morphology (>=4%)",
+        "category": "diagnostic",
+        "description": "Percentage of normal oval forms predicting fertility"
+      },
+      {
+        "id": "sm7",
+        "label": "Obstructive Azoospermia",
+        "category": "clinical",
+        "description": "Normal spermatogenesis with ductal block and low/absent fructose"
+      },
+      {
+        "id": "sm8",
+        "label": "Non-Obstructive Azoospermia",
+        "category": "clinical",
+        "description": "Primary testicular failure with small testes and elevated FSH"
+      },
+      {
+        "id": "sm9",
+        "label": "Post-Vasectomy Clearance",
+        "category": "core",
+        "description": "Two consecutive zero-count pellets at 12 weeks"
       }
     ],
     "edges": [
       {
-        "from": "s1",
-        "to": "s2",
-        "relationship": "Prerequisite for",
-        "explanation": "Complete liquefaction is essential before accurate pipetting and microscopic count can be performed."
+        "from": "sm1",
+        "to": "sm4",
+        "relationship": "standardizes",
+        "explanation": "Proper abstinence ensures accurate sperm concentration and volume measurement."
       },
       {
-        "from": "s2",
-        "to": "s5",
-        "relationship": "Liberates",
-        "explanation": "Enzymatic liquefaction frees sperm from the gel matrix, enabling progressive forward motile kinetics."
+        "from": "sm2",
+        "to": "sm5",
+        "relationship": "fuels",
+        "explanation": "Fructose is metabolized by sperm mitochondria to generate ATP for flagellar motility."
       },
       {
-        "from": "s4",
-        "to": "s6",
-        "relationship": "Interpreted with",
-        "explanation": "Concentration, motility, and strict morphology together determine fertilizing capacity."
+        "from": "sm3",
+        "to": "sm5",
+        "relationship": "enables",
+        "explanation": "Liquefaction of seminal coagulum frees trapped spermatozoa for forward movement."
+      },
+      {
+        "from": "sm2",
+        "to": "sm7",
+        "relationship": "absent in",
+        "explanation": "Congenital absence of vas deferens and seminal vesicles causes fructose-negative azoospermia."
+      },
+      {
+        "from": "sm8",
+        "to": "sm4",
+        "relationship": "manifests as",
+        "explanation": "Primary germ cell failure results in zero sperm count with high compensatory serum FSH."
+      },
+      {
+        "from": "sm9",
+        "to": "sm7",
+        "relationship": "creates iatrogenic",
+        "explanation": "Surgical vasectomy intentionally produces bilateral mechanical duct obstruction."
       }
     ]
   },
   "quiz": [
     {
       "id": "ch21_q1",
-      "topic": "Specimen Collection",
+      "topic": "Collection Protocols",
       "difficulty": "Easy",
-      "question": "What is the recommended period of sexual abstinence required before semen collection for analysis?",
+      "question": "What is the recommended period of sexual abstinence prior to collection of a semen sample for diagnostic analysis?",
       "options": [
-        "12 hours",
+        "12 to 24 hours",
         "2 to 7 days",
-        "14 to 21 days",
-        "At least 1 month"
+        "2 to 3 weeks",
+        "1 month"
       ],
       "correctIndex": 1,
-      "explanation": "WHO guidelines specify a strict sexual abstinence period of 2 to 7 days (minimum 48 hours, maximum 7 days) to ensure standardized parameters."
+      "explanation": "WHO guidelines mandate an abstinence period of 2 to 7 days. Shorter abstinence lowers volume and count; longer abstinence decreases motility and viability."
     },
     {
       "id": "ch21_q2",
-      "topic": "Macroscopic Analysis",
+      "topic": "Physical Properties",
       "difficulty": "Easy",
-      "question": "What is the lower reference limit for normal semen volume per ejaculate according to WHO standards?",
-      "options": [
-        "0.5 mL",
-        "1.5 mL",
-        "5.0 mL",
-        "10.0 mL"
-      ],
-      "correctIndex": 1,
-      "explanation": "The WHO 6th edition lower reference limit for ejaculate volume is 1.5 mL."
-    },
-    {
-      "id": "ch21_q3",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Easy",
-      "question": "What is the WHO threshold for normal sperm concentration (count)?",
-      "options": [
-        ">= 5 million/mL",
-        ">= 15 million/mL",
-        ">= 50 million/mL",
-        ">= 100 million/mL"
-      ],
-      "correctIndex": 1,
-      "explanation": "Normal sperm concentration is defined by the WHO as >= 15 million spermatozoa per mL of semen (or >= 39 million per total ejaculate)."
-    },
-    {
-      "id": "ch21_q4",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Easy",
-      "question": "The complete absence of spermatozoa in the ejaculated semen is termed:",
-      "options": [
-        "Oligozoospermia",
-        "Asthenozoospermia",
-        "Azoospermia",
-        "Teratozoospermia"
-      ],
-      "correctIndex": 2,
-      "explanation": "Azoospermia is the total absence of spermatozoa in the ejaculate after centrifugation."
-    },
-    {
-      "id": "ch21_q5",
-      "topic": "Macroscopic Analysis",
-      "difficulty": "Easy",
-      "question": "Normal freshly ejaculated semen typically liquefies at room temperature within:",
+      "question": "Under normal physiological conditions, semen coagulum undergoes complete liquefaction within what time frame?",
       "options": [
         "1 to 2 minutes",
         "15 to 30 minutes",
@@ -228,357 +263,399 @@ export const ch21: Chapter = {
         "24 hours"
       ],
       "correctIndex": 1,
-      "explanation": "Semen coagulates immediately upon ejaculation and then liquefies within 15 to 30 minutes (abnormal if taking >60 minutes) through prostatic proteolytic enzymes."
+      "explanation": "Fresh semen liquefies within 15 to 30 minutes at room/body temperature through the enzymatic action of Prostate-Specific Antigen (PSA)."
+    },
+    {
+      "id": "ch21_q3",
+      "topic": "Microscopic Count",
+      "difficulty": "Easy",
+      "question": "According to WHO criteria, what is the lower reference limit for normal sperm concentration (normozoospermia)?",
+      "options": [
+        "5 million / mL",
+        "15 million / mL",
+        "50 million / mL",
+        "100 million / mL"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sperm concentration >= 15 million spermatozoa per mL (or >= 39 million per total ejaculate) is the lower reference threshold for normal."
+    },
+    {
+      "id": "ch21_q4",
+      "topic": "Microscopic Motility",
+      "difficulty": "Medium",
+      "question": "What is the minimum percentage of Progressive Motility (PR) required for a semen sample to meet normal criteria?",
+      "options": [
+        "10%",
+        "20%",
+        "32%",
+        "75%"
+      ],
+      "correctIndex": 2,
+      "explanation": "WHO criteria define normal progressive motility (PR) as >= 32% (or total progressive + non-progressive motility >= 40%)."
+    },
+    {
+      "id": "ch21_q5",
+      "topic": "Morphology",
+      "difficulty": "Medium",
+      "question": "Under strict Kruger morphological criteria, what minimum percentage of spermatozoa must exhibit normal oval forms?",
+      "options": [
+        "4%",
+        "15%",
+        "50%",
+        "80%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using strict Tygerberg/Kruger criteria, a sample with >= 4% structurally normal forms is classified as having normal morphology."
     },
     {
       "id": "ch21_q6",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Easy",
-      "question": "The term Asthenozoospermia refers specifically to:",
+      "topic": "Biochemistry",
+      "difficulty": "Hard",
+      "question": "Absence of fructose in a low-volume azoospermic semen specimen is diagnostic for which condition?",
       "options": [
-        "Reduced sperm count",
-        "Reduced sperm motility (<32% progressive motility)",
-        "Abnormal sperm morphology",
-        "Presence of blood in semen"
+        "Prostatic adenocarcinoma",
+        "Congenital Bilateral Absence of the Vas Deferens (CBAVD) or seminal vesicle obstruction",
+        "Testicular torsion",
+        "Klinefelter syndrome"
       ],
       "correctIndex": 1,
-      "explanation": "Asthenozoospermia is defined as low progressive motility (<32% progressively motile sperms or <40% total motile)."
+      "explanation": "Fructose is exclusively synthesized by the seminal vesicles. Absence of fructose in acidic azoospermic semen confirms seminal vesicle agenesis (e.g. in cystic fibrosis) or ductal blockage."
     },
     {
       "id": "ch21_q7",
-      "topic": "Macroscopic Analysis",
+      "topic": "Terminology",
       "difficulty": "Easy",
-      "question": "The normal pH of human semen is:",
+      "question": "The medical term defined as the complete absence of spermatozoa from the centrifuged seminal fluid is:",
       "options": [
-        "Acidic (pH 5.0 - 5.5)",
-        "Neutral (pH 6.8 - 7.0)",
-        "Alkaline (pH 7.2 - 8.0)",
-        "Highly alkaline (pH 9.5 - 10.0)"
+        "Oligozoospermia",
+        "Asthenozoospermia",
+        "Azoospermia",
+        "Aspermia"
       ],
       "correctIndex": 2,
-      "explanation": "Normal semen pH is slightly alkaline, ranging from 7.2 to 8.0, protecting spermatozoa against the acidic vaginal environment."
+      "explanation": "Azoospermia is the total absence of spermatozoa in the ejaculate after microscopic inspection of the centrifuged sediment pellet."
     },
     {
       "id": "ch21_q8",
-      "topic": "Indications",
-      "difficulty": "Easy",
-      "question": "Following surgical vasectomy, what is the definitive semen analysis criterion confirming clinical sterility?",
+      "topic": "Physical Properties",
+      "difficulty": "Medium",
+      "question": "What is the normal pH of human seminal fluid?",
       "options": [
-        "Sperm count under 5 million/mL",
-        "Complete azoospermia confirmed on centrifuged semen specimens",
-        "Sperm motility under 10%",
-        "Acidic semen pH"
+        "Acidic (pH 5.0 to 6.0)",
+        "Acidic (pH 6.5 to 7.0)",
+        "Alkaline (pH 7.2 to 8.0)",
+        "Strongly alkaline (pH 9.0 to 10.0)"
       ],
-      "correctIndex": 1,
-      "explanation": "Clinical sterility post-vasectomy is proven only when centrifuged semen shows complete absence of spermatozoa (azoospermia) on two separate occasions."
+      "correctIndex": 2,
+      "explanation": "Normal semen is mildly alkaline with a pH between 7.2 and 8.0, which protects spermatozoa against the acidic vaginal environment."
     },
     {
       "id": "ch21_q9",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Easy",
-      "question": "Teratozoospermia is defined by an abnormally high percentage of spermatozoa exhibiting:",
+      "topic": "Physiology",
+      "difficulty": "Medium",
+      "question": "Which male reproductive accessory gland contributes the largest volume fraction (60-70%) to the ejaculate?",
       "options": [
-        "Immotility",
-        "Structural morphological defects (<4% normal forms)",
-        "Chromosomal trisomy",
-        "Dead membranes"
+        "Testes",
+        "Epididymis",
+        "Prostate gland",
+        "Seminal vesicles"
       ],
-      "correctIndex": 1,
-      "explanation": "Teratozoospermia refers to an ejaculate in which normal forms are below the Kruger strict criterion threshold of 4%."
+      "correctIndex": 3,
+      "explanation": "The paired seminal vesicles produce 60% to 70% of the total seminal volume, providing fructose and coagulating proteins."
     },
     {
       "id": "ch21_q10",
-      "topic": "Forensics",
-      "difficulty": "Easy",
-      "question": "Which enzyme present in extremely high concentrations in human seminal fluid is measured in forensic sexual assault cases?",
+      "topic": "Vitality",
+      "difficulty": "Hard",
+      "question": "How does the Eosin-Nigrosin viability stain differentiate live from dead spermatozoa under the microscope?",
       "options": [
-        "Prostatic Acid Phosphatase (PAP)",
-        "Amylase",
-        "Alkaline phosphatase",
-        "Creatine kinase"
+        "Live sperm stain bright red; dead sperm remain white",
+        "Live sperm exclude the eosin dye (remain white); dead sperm with damaged membranes absorb eosin and stain pink/red",
+        "Nigrosin selectively dissolves live sperm",
+        "Both live and dead sperm stain blue"
       ],
-      "correctIndex": 0,
-      "explanation": "Prostatic acid phosphatase (PAP) is synthesized in enormous quantities by the prostate and secreted into semen, serving as an important marker in forensic investigations."
+      "correctIndex": 1,
+      "explanation": "Intact cell membranes of live sperm exclude eosin (appearing white against dark nigrosin background), while non-viable sperm with damaged membranes take up eosin and stain pink/red."
     },
     {
       "id": "ch21_q11",
-      "topic": "Macroscopic Analysis",
-      "difficulty": "Medium",
-      "question": "A 30-year-old male evaluated for infertility has a semen volume of 0.4 mL, azoospermia, and an acidic pH of 6.3. What underlying structural condition is strongly suspected?",
+      "topic": "Terminology",
+      "difficulty": "Easy",
+      "question": "The term 'Asthenozoospermia' indicates an isolated abnormality in which seminal parameter?",
       "options": [
-        "Congenital Bilateral Absence of the Vas Deferens (CBAVD) or seminal vesicle obstruction",
-        "Prostatic adenocarcinoma",
-        "Mumps orchitis",
-        "Bilateral hydrocele"
+        "Low sperm count",
+        "Reduced sperm motility (<32% progressive motility)",
+        "Abnormal sperm morphology",
+        "Lack of ejaculate volume"
       ],
-      "correctIndex": 0,
-      "explanation": "Seminal vesicles produce 60-70% of semen volume and alkaline fructose-rich fluid. Their absence (as in CBAVD linked to CFTR mutations) or obstruction results in low volume (<1.5 mL), acidic pH (<7.0), and azoospermia."
+      "correctIndex": 1,
+      "explanation": "Asthenozoospermia refers specifically to subnormal sperm motility, defined as <32% progressive motility."
     },
     {
       "id": "ch21_q12",
-      "topic": "Microscopic Analysis",
+      "topic": "Collection Protocols",
       "difficulty": "Medium",
-      "question": "In the Eosin-Nigrosin viability (vitality) test, how are dead spermatozoa differentiated from living spermatozoa?",
+      "question": "Why are standard latex commercial condoms strictly prohibited for semen collection in fertility evaluations?",
       "options": [
-        "Dead sperms have disrupted cell membranes that take up pink eosin dye, whereas living sperms exclude the dye and remain white/unstained",
-        "Living sperms fluoresce bright green under UV light",
-        "Dead sperms actively swim away from the stain",
-        "Living sperms turn completely black"
+        "They contain spermicides and chemical additives that immobilize and kill spermatozoa",
+        "They are too small",
+        "They alter the seminal fructose level",
+        "They interfere with pH paper"
       ],
       "correctIndex": 0,
-      "explanation": "The eosin exclusion test evaluates membrane integrity. Intact viable membranes exclude eosin (appear white); non-viable dead sperms take up eosin and stain pink against a dark nigrosin background."
+      "explanation": "Standard condoms contain lubricants and spermicidal chemicals that rapidly destroy sperm membrane integrity and motility."
     },
     {
       "id": "ch21_q13",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Medium",
-      "question": "What is the clinical significance of finding > 1.0 x 10\u2076 leukocytes per mL (leukocytospermia) in a semen specimen?",
+      "topic": "Biochemistry",
+      "difficulty": "Hard",
+      "question": "An azoospermic man with normal-sized testes, normal serum FSH, and absent seminal fructose most likely has:",
       "options": [
-        "Indicates infection or inflammation of the male accessory genital glands (prostatitis, epididymitis)",
-        "Guarantees normal fertilization capacity",
-        "Confirms successful bilateral vasectomy",
-        "Proves extreme hyperandrogenism"
+        "Klinefelter syndrome (47,XXY)",
+        "Obstructive azoospermia (e.g., ejaculatory duct obstruction)",
+        "Kallmann syndrome",
+        "Mumps orchitis"
       ],
-      "correctIndex": 0,
-      "explanation": "Leukocytospermia (>1 million WBCs/mL) generates excessive reactive oxygen species (ROS) that induce sperm lipid peroxidation, DNA fragmentation, and impaired fertility due to accessory genital infection."
+      "correctIndex": 1,
+      "explanation": "Normal testicular size and normal FSH confirm intact spermatogenesis. Absence of fructose and low volume confirm physical obstruction of the excurrent ducts."
     },
     {
       "id": "ch21_q14",
-      "topic": "Specimen Collection",
-      "difficulty": "Medium",
-      "question": "Why should ordinary commercial latex condoms NOT be used for semen collection for fertility evaluation?",
+      "topic": "Terminology",
+      "difficulty": "Easy",
+      "question": "What is the term for complete absence of any seminal fluid emission during ejaculation?",
       "options": [
-        "They contain spermicides, lubricants, or chemical powders that rapidly kill spermatozoa and paralyze motility",
-        "They are too large to seal",
-        "The latex converts semen into pure water",
-        "They alter the patient's blood pressure"
+        "Azoospermia",
+        "Aspermia",
+        "Necrozoospermia",
+        "Hypospermia"
       ],
-      "correctIndex": 0,
-      "explanation": "Standard commercial condoms contain spermicidal chemicals and toxic lubricants that destroy sperm membrane integrity and motility. Only specialized non-toxic silastic collection condoms may be used."
+      "correctIndex": 1,
+      "explanation": "Aspermia is the complete lack of ejaculate fluid, commonly seen in retrograde ejaculation into the bladder or severe neurological anejaculation."
     },
     {
       "id": "ch21_q15",
-      "topic": "Microscopic Analysis",
+      "topic": "Microscopic Count",
       "difficulty": "Medium",
-      "question": "Globozoospermia is a rare teratozoospermic condition characterized microscopically by:",
+      "question": "What is the threshold leukocyte concentration defining leukocytospermia (pyospermia), which indicates genital tract infection?",
       "options": [
-        "Round-headed spermatozoa completely lacking an acrosome cap, rendering natural ovum penetration impossible",
-        "Sperms with two separate flagella",
-        "Giant sperms with 10 heads",
-        "Sperms moving exclusively backwards"
+        ">100 / mL",
+        ">10,000 / mL",
+        ">1.0 million leukocytes / mL",
+        ">100 million / mL"
       ],
-      "correctIndex": 0,
-      "explanation": "Globozoospermia is a genetic defect where sperm heads are completely spherical and lack the acrosome (which contains hyaluronidase/acrosin), causing total failure of zona pellucida penetration."
+      "correctIndex": 2,
+      "explanation": "Leukocytospermia is defined as >1.0 x 10^6 white blood cells per mL of semen, signaling inflammation or infection of the prostate, epididymis, or urethra."
     },
     {
       "id": "ch21_q16",
-      "topic": "Macroscopic Analysis",
+      "topic": "Post-Vasectomy",
       "difficulty": "Medium",
-      "question": "Failure of semen to liquefy after 60 minutes of incubation at 37\u00b0C indicates deficiency in enzymes produced primarily by the:",
+      "question": "When is the first post-vasectomy semen analysis standardly performed to confirm surgical sterilization?",
       "options": [
-        "Prostate gland",
-        "Testes",
-        "Epididymis",
-        "Cowper's glands"
+        "24 hours post-procedure",
+        "3 days post-procedure",
+        "12 weeks (or after approximately 20 ejaculations)",
+        "1 year post-procedure"
       ],
-      "correctIndex": 0,
-      "explanation": "Liquefaction relies on proteolytic enzymes (including PSA) secreted by the prostate. Prostatic dysfunction or chronic prostatitis results in delayed or absent semen liquefaction."
+      "correctIndex": 2,
+      "explanation": "Post-vasectomy semen testing is routinely performed at 12 weeks post-procedure (or after at least 20 ejaculations) to allow clearance of stored sperm."
     },
     {
       "id": "ch21_q17",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Medium",
-      "question": "Fructose in seminal plasma is synthesized and secreted primarily by which anatomical structure?",
+      "topic": "Terminology",
+      "difficulty": "Easy",
+      "question": "Teratozoospermia is defined as:",
       "options": [
-        "Seminal vesicles",
-        "Prostate gland",
-        "Sertoli cells",
-        "Seminiferous tubules"
+        "Sperm concentration <15 million/mL",
+        "Less than 4% morphologically normal spermatozoa",
+        "Absence of fructose",
+        "High white blood cell count"
       ],
-      "correctIndex": 0,
-      "explanation": "Fructose is synthesized specifically by the seminal vesicles and serves as the essential glycolytic energy substrate for sperm flagellar motility."
+      "correctIndex": 1,
+      "explanation": "Teratozoospermia describes a specimen in which less than 4% of spermatozoa possess normal structural morphology."
     },
     {
       "id": "ch21_q18",
-      "topic": "Microscopic Analysis",
+      "topic": "Physiology",
       "difficulty": "Medium",
-      "question": "Under Kruger Strict Criteria for sperm morphology, what is the minimum percentage of ideal normal forms required for a normal fertile profile?",
+      "question": "Which enzyme produced by the prostate gland is primarily responsible for the liquefaction of the seminal coagulum?",
       "options": [
-        ">= 4%",
-        ">= 30%",
-        ">= 60%",
-        ">= 80%"
+        "Amylase",
+        "Prostate-Specific Antigen (PSA, a serine protease)",
+        "Hyaluronidase",
+        "Lysozyme"
       ],
-      "correctIndex": 0,
-      "explanation": "Under strict Tygerberg/Kruger criteria, borderline morphology requires only >= 4% ideal normal oval forms to predict successful in vitro fertilization."
+      "correctIndex": 1,
+      "explanation": "PSA is a kallikrein-like serine protease that cleaves the high-molecular-weight proteins (semenogelin) of the seminal coagulum, causing liquefaction."
     },
     {
       "id": "ch21_q19",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Medium",
-      "question": "Sperm agglutination (sperms sticking to one another head-to-head or tail-to-tail in clumps) strongly suggests the presence of:",
+      "topic": "Collection Protocols",
+      "difficulty": "Easy",
+      "question": "How should a semen sample be transported to the laboratory if collected at home?",
       "options": [
-        "Anti-sperm antibodies (immunological infertility)",
-        "Severe hypogonadism",
-        "Klinefelter syndrome",
-        "Renal failure"
+        "On ice blocks at 0°C",
+        "Maintained near normal body temperature (20-37°C) and delivered within 1 hour",
+        "Boiled for preservation",
+        "Delayed for 24 hours"
       ],
-      "correctIndex": 0,
-      "explanation": "Anti-sperm antibodies (IgA or IgG) directed against sperm surface antigens crosslink spermatozoa into agglutinated clumps, hindering forward mucus penetration."
+      "correctIndex": 1,
+      "explanation": "Semen should be maintained between 20°C and 37°C (e.g. inside a coat pocket close to the body) and delivered within 30-60 minutes to preserve motility."
     },
     {
       "id": "ch21_q20",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Medium",
-      "question": "What is the fundamental difference between Azoospermia and Aspermia?",
+      "topic": "Vitality",
+      "difficulty": "Hard",
+      "question": "Necrozoospermia is distinguished from complete asthenozoospermia by demonstrating that:",
       "options": [
-        "Azoospermia is the absence of sperm cells in ejaculated semen; Aspermia is the complete absence of any ejaculate fluid at orgasm",
-        "Azoospermia means only 1 sperm is present; Aspermia means 100 sperms are present",
-        "Aspermia is normal in young males; Azoospermia is not",
-        "They are completely synonymous terms"
+        "Sperm are completely absent",
+        "Immobile sperm are non-viable (dead) as demonstrated by dye uptake on eosin-nigrosin staining",
+        "Sperm count is >200 million/mL",
+        "pH is <6.0"
       ],
-      "correctIndex": 0,
-      "explanation": "Azoospermia refers to an ejaculate having seminal fluid but zero spermatozoa; Aspermia means dry orgasm (complete lack of any semen emission), seen in retrograde ejaculation or spinal injury."
+      "correctIndex": 1,
+      "explanation": "In asthenozoospermia, sperm may be immotile but alive (structural cilia defect). In necrozoospermia, all sperm are dead with non-intact membranes that stain red with eosin."
     },
     {
       "id": "ch21_q21",
-      "topic": "Clinical Infertility",
-      "difficulty": "Hard",
-      "question": "A 32-year-old man has azoospermia on semen analysis. Centrifugation confirms zero sperms. Physical examination reveals normal bilateral testicular size, normal secondary sexual characteristics, and normal serum FSH and testosterone. Fructose is positive in semen. What is the most likely category of azoospermia?",
+      "topic": "Physiology",
+      "difficulty": "Medium",
+      "question": "What is the function of the acrosomal cap located on the anterior head of the spermatozoon?",
       "options": [
-        "Obstructive azoospermia with intact spermatogenesis (e.g. epididymal or vas deferens block)",
-        "Non-obstructive azoospermia due to primary testicular failure",
-        "Hypogonadotropic hypogonadism",
-        "Sertoli-cell-only syndrome"
+        "To provide ATP for flagellar propulsion",
+        "Contains hydrolytic enzymes (hyaluronidase and acrosin) required to penetrate the oocyte's zona pellucida",
+        "Stores paternal mitochondrial DNA",
+        "Regulates seminal pH"
       ],
-      "correctIndex": 0,
-      "explanation": "Normal testicular volume and normal FSH indicate active spermatogenesis in the testes. Azoospermia in this setting reflects a physical mechanical obstruction along the excurrent ductal system (obstructive azoospermia)."
+      "correctIndex": 1,
+      "explanation": "The acrosome contains hydrolytic enzymes that are released during the acrosome reaction, digesting the zona pellucida to allow fertilization."
     },
     {
       "id": "ch21_q22",
-      "topic": "Clinical Infertility",
+      "topic": "Microscopic Count",
       "difficulty": "Hard",
-      "question": "In a patient with non-obstructive azoospermia, serum FSH is markedly elevated at 28 IU/L (normal 1.5-12.4). What does this elevated FSH signify?",
+      "question": "Why is the Peroxidase test performed on semen samples showing high counts of 'round cells'?",
       "options": [
-        "Severe primary spermatogenic failure with loss of negative feedback from Sertoli cell Inhibin B",
-        "Pituitary adenoma secreting FSH",
-        "Bilateral ureteral duplication",
-        "Excessive testosterone intake"
+        "To differentiate peroxidase-positive leukocytes (neutrophils) from peroxidase-negative immature germ cells",
+        "To test for bacterial DNA",
+        "To measure fructose concentration",
+        "To determine blood group antigens"
       ],
       "correctIndex": 0,
-      "explanation": "Sertoli cells produce Inhibin B, which feeds back to inhibit pituitary FSH release. Destruction of germ cells and Sertoli cell dysfunction removes this feedback, causing compensatory hypergonadotropic FSH elevation."
+      "explanation": "Under standard microscopy, immature spermatids and leukocytes appear identical as 'round cells'. Neutrophils contain myeloperoxidase and stain positive, separating infection from germ cells."
     },
     {
       "id": "ch21_q23",
-      "topic": "Microscopic Analysis",
-      "difficulty": "Hard",
-      "question": "A semen specimen demonstrates 100% immotile spermatozoa. Viability staining using eosin-nigrosin shows that 75% of the immotile spermatozoa are viable (live, unstained). What rare genetic condition is characterized by this necrozoospermia-mimicking picture?",
+      "topic": "Terminology",
+      "difficulty": "Medium",
+      "question": "The abbreviation 'OAT Syndrome' in reproductive medicine stands for:",
       "options": [
-        "Primary Ciliary Dyskinesia / Kartagener Syndrome (defect in dynein arms)",
-        "Cystic fibrosis",
-        "Fragile X syndrome",
-        "Huntington's chorea"
+        "Ovarian Androgen Toxic Syndrome",
+        "Oligoasthenoteratozoospermia (combined count, motility, and morphology deficits)",
+        "Obstructive Azoospermic Tumor",
+        "Overactive Testicular Syndrome"
       ],
-      "correctIndex": 0,
-      "explanation": "Kartagener syndrome involves congenital deficiency of ciliary and flagellar dynein arms. The spermatozoa are structurally viable (live) but mechanically paralyzed (completely immotile), accompanied by bronchiectasis and situs inversus."
+      "correctIndex": 1,
+      "explanation": "OAT syndrome (Oligoasthenoteratozoospermia) indicates concurrent subnormal values across all three primary semen parameters: concentration, motility, and morphology."
     },
     {
       "id": "ch21_q24",
-      "topic": "Pre-Analytical Errors",
-      "difficulty": "Hard",
-      "question": "A patient delivers a semen specimen to the lab in an uninsulated bottle on a freezing winter day (ambient temperature 2\u00b0C). Motility is recorded as 4%. Why is this result invalid?",
+      "topic": "Biochemistry",
+      "difficulty": "Medium",
+      "question": "In an azoospermic patient with elevated serum FSH (>20 IU/L) and small atrophic testes, what is the underlying diagnosis?",
       "options": [
-        "Cold shock irreversibly halts flagellar dynein ATPase activity and paralyzes motility; the specimen must be maintained at 20-37\u00b0C during transit",
-        "Cold temperature destroys all fructose instantly",
-        "Sperm DNA evaporates in the cold",
-        "Cold converts semen into cerebrospinal fluid"
+        "Obstructive azoospermia with patent tubules",
+        "Primary non-obstructive testicular failure",
+        "Vasectomy",
+        "Retrograde ejaculation"
       ],
-      "correctIndex": 0,
-      "explanation": "Exposure to temperatures below 20\u00b0C induces 'cold shock', which alters sperm membrane fluidity, depresses mitochondrial ATP synthesis, and inhibits flagellar motility, producing falsely low motility results."
+      "correctIndex": 1,
+      "explanation": "High serum FSH accompanied by small, firm testes is indicative of primary testicular failure (e.g. Klinefelter syndrome, severe cryptorchidism, or Sertoli-cell-only syndrome)."
     },
     {
       "id": "ch21_q25",
-      "topic": "Diagnostic Tests",
-      "difficulty": "Hard",
-      "question": "The Hypo-Osmotic Swelling (HOS) test in semen analysis is clinically performed to evaluate:",
+      "topic": "Physical Properties",
+      "difficulty": "Easy",
+      "question": "A fresh semen sample presenting with a bright yellow color is most commonly associated with:",
       "options": [
-        "The functional integrity and elasticity of the sperm flagellar membrane in completely immotile live sperms prior to ICSI",
-        "The presence of Chlamydia trachomatis DNA",
-        "The exact ABO blood group of the sperm",
-        "The pH of the prostatic urethra"
+        "Recent hematuria",
+        "Prolonged abstinence, severe leukocytospermia (infection), or hyperbilirubinemia",
+        "Fructose overdose",
+        "Excessive zinc"
       ],
-      "correctIndex": 0,
-      "explanation": "The HOS test exposes immotile spermatozoa to a hypo-osmotic solution. Structurally intact, viable membranes absorb water and swell, causing tail curling, allowing embryologists to pick viable sperm for ICSI."
+      "correctIndex": 1,
+      "explanation": "Yellow semen can result from long abstinence periods, high numbers of pus cells (pyospermia), jaundice, or ingestion of multivitamins."
     },
     {
       "id": "ch21_q26",
-      "topic": "Pre-Analytical Protocol",
-      "difficulty": "Hard",
-      "question": "During semen collection, the patient accidentally spills the first few drops of the ejaculate outside the cup. How should the laboratory handle this specimen?",
+      "topic": "Collection Protocols",
+      "difficulty": "Medium",
+      "question": "Why must the first fraction of the ejaculate be carefully collected during masturbation for semen analysis?",
       "options": [
-        "Reject the specimen and reschedule collection after 2-7 days, because the initial portion contains the vast majority of spermatozoa and prostatic fluid",
-        "Proceed with testing and multiply the count by two",
-        "Add saline to restore volume and report as normal",
-        "Filter the remaining fluid through gauze"
+        "It contains the seminal vesicle fluid only",
+        "It contains up to 70% of the total spermatozoa and the highest concentration of prostatic fluid",
+        "It determines the final color",
+        "It contains no spermatozoa"
       ],
-      "correctIndex": 0,
-      "explanation": "Ejaculation is sequential: the initial fraction contains prostatic fluid and up to 70-80% of all spermatozoa. Loss of the first drops causes profound artifactual oligozoospermia, requiring repeat testing."
+      "correctIndex": 1,
+      "explanation": "Ejaculation is a sequential process; the initial fraction carries the vast majority of spermatozoa and prostatic fluid. Losing the initial drops leads to a false diagnosis of oligozoospermia."
     },
     {
       "id": "ch21_q27",
-      "topic": "Microscopic Analysis",
+      "topic": "Terminology",
       "difficulty": "Hard",
-      "question": "How are immature germ cells ('round cells') differentiated from inflammatory polymorphonuclear leukocytes in semen microscopy?",
+      "question": "Congenital Bilateral Absence of the Vas Deferens (CBAVD) is an autosomal recessive condition strongly linked with mutations in which gene?",
       "options": [
-        "By performing a Peroxidase (Bryan-Leishman or ortho-toluidine) stain: granulocytes are peroxidase-positive, whereas round spermatogenic cells are peroxidase-negative",
-        "By smelling the slide",
-        "By boiling the specimen",
-        "Immature germ cells are always bright blue on Gram stain"
+        "VHL gene",
+        "CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) gene",
+        "BRCA1 gene",
+        "WT1 gene"
       ],
-      "correctIndex": 0,
-      "explanation": "Unstained 'round cells' may be immature spermatids or leukocytes. Peroxidase staining selectively stains cytoplasmic peroxidase in polymorphonuclear leukocytes, distinguishing them from spermatogenic cells."
+      "correctIndex": 1,
+      "explanation": "Over 70-80% of men with CBAVD carry mutations in the CFTR gene, presenting with obstructive azoospermia and absent seminal vesicles."
     },
     {
       "id": "ch21_q28",
-      "topic": "Clinical Infertility",
-      "difficulty": "Hard",
-      "question": "A diabetic man with normal libido experiences orgasm during intercourse but produces no anterograde ejaculate. Post-masturbation urinalysis demonstrates hundreds of intact spermatozoa in the centrifuged urine sediment. What is this condition?",
+      "topic": "Physical Properties",
+      "difficulty": "Easy",
+      "question": "A semen volume less than 1.4 mL is termed:",
       "options": [
-        "Retrograde ejaculation due to autonomic neuropathy of the internal bladder neck sphincter",
-        "Bilateral testicular agenesis",
-        "Urethral stricture with complete fistula",
-        "Adrenal insufficiency"
+        "Hypospermia",
+        "Hyperspermia",
+        "Aspermia",
+        "Azoospermia"
       ],
       "correctIndex": 0,
-      "explanation": "Autonomic diabetic neuropathy impairs sympathetic contraction of the internal vesical sphincter during emission. Semen follows the path of least resistance backward into the bladder (retrograde ejaculation)."
+      "explanation": "Hypospermia refers to an abnormally low ejaculate volume (<1.4 mL by WHO 6th edition criteria)."
     },
     {
       "id": "ch21_q29",
-      "topic": "Microscopic Analysis",
+      "topic": "Microscopic Count",
       "difficulty": "Hard",
-      "question": "Sperm DNA Fragmentation Index (DFI) testing via the Halosperm or TUNEL assay is clinically indicated when:",
+      "question": "What is the specialized counting chamber standardly utilized for performing manual hemocytometer sperm counts?",
       "options": [
-        "A couple experiences recurrent unexplained miscarriages or multiple failed IVF cycles despite normal basic semen parameters",
-        "The patient requests a paternity test",
-        "A man has an acute urinary tract infection",
-        "The semen volume is greater than 10 mL"
+        "Westergren tube",
+        "Improved Neubauer Hemocytometer Chamber",
+        "Wintrobe tube",
+        "Petroff-Hausser chamber only"
       ],
-      "correctIndex": 0,
-      "explanation": "Standard semen analysis does not assess genomic integrity. High DFI (>25-30% fragmented DNA) from oxidative stress is linked to recurrent pregnancy loss and unexplained IVF/ICSI failures."
+      "correctIndex": 1,
+      "explanation": "The Improved Neubauer hemocytometer grid is the internationally recognized standard chamber for manual sperm concentration determination."
     },
     {
       "id": "ch21_q30",
-      "topic": "Forensics",
-      "difficulty": "Hard",
-      "question": "In forensic sexual assault evidence examination where no spermatozoa are seen on microscopy (e.g. suspect is vasectomized or azoospermic), what specific biomarker confirms the presence of human semen?",
+      "topic": "Post-Vasectomy",
+      "difficulty": "Easy",
+      "question": "A patient asks the nurse when it is safe to discontinue other contraceptive methods following a vasectomy. The correct response is:",
       "options": [
-        "Prostate-Specific Antigen (PSA / p30) detected via immunochromatographic assay",
-        "Uric acid",
-        "Human growth hormone",
-        "Bilirubin"
+        "Immediately the day following surgery",
+        "Only after two consecutive semen analyses demonstrate complete absence of sperm (azoospermia)",
+        "After exactly 1 week",
+        "When the surgical sutures dissolve"
       ],
-      "correctIndex": 0,
-      "explanation": "PSA (p30) is present in astronomical concentrations in human seminal plasma (0.5-2.0 mg/mL). Detecting p30 provides definitive forensic proof of seminal fluid even in completely azoospermic perpetrators."
+      "correctIndex": 1,
+      "explanation": "Barrier contraception must be maintained until two consecutive post-vasectomy semen analyses confirm complete azoospermia."
     }
   ]
 };

@@ -4,159 +4,291 @@ export const ch26: Chapter = {
   "id": "ch26",
   "subjectId": "sub3",
   "number": 26,
-  "title": "Prenatal Testing",
-  "subtitle": "Non-invasive prenatal testing (NIPT / cfDNA), maternal serum screening (double/triple/quadruple), and invasive diagnostics (CVS, amniocentesis).",
+  "title": "Prenatal Testing & Diagnosis",
+  "subtitle": "Non-invasive prenatal screening (cffDNA), maternal serum biochemical testing (Quad screen), anomaly ultrasound, and invasive diagnostic procedures.",
   "topics": [
     {
       "id": "ch26_t1",
-      "name": "Non-Invasive Prenatal Testing (NIPT / cfDNA Screening)",
-      "summary": "High-accuracy screening analyzing cell-free fetal DNA (cfDNA) circulating in maternal plasma, performed as early as 10 weeks gestation.",
-      "pathophysiology": "Apoptotic placental trophoblasts shed short fragments of cell-free fetal DNA (~140-160 base pairs) into the maternal bloodstream. Fetal fraction comprises roughly 4% to 15% of total circulating cell-free DNA at 10-12 weeks gestation. Next-Generation Sequencing (NGS) or massively parallel shotgun sequencing (MPSS) quantifies relative chromosomal dosage (e.g. ratio of chromosome 21 fragments versus reference autosomes) to detect fetal aneuploidy with >99% sensitivity and >99.9% specificity for Trisomy 21.",
+      "name": "Indications & Framework of Prenatal Screening vs Diagnosis",
+      "summary": "Clinical rationale, ethical guidelines, and risk-benefit considerations distinguishing non-invasive screening tests from definitive invasive diagnostic procedures.",
+      "pathophysiology": "Prenatal testing aims to detect chromosomal aneuploidies (Trisomy 21, 18, 13), open neural tube defects, and monogenic Mendelian disorders before birth. Screening tests (serum analytes, ultrasound, cell-free DNA) assess statistical risk in asymptomatic populations without procedural risk; Diagnostic tests (amniocentesis, CVS) analyze fetal cells directly to provide definitive genetic karyotype/microarray results but carry small procedural miscarriage risks (~0.1-0.5%).",
       "clinicalFeatures": [
-        "Indications: Advanced maternal age (>35 years), abnormal ultrasound findings (e.g. increased nuchal translucency), previous child with aneuploidy, or parental balanced translocation.",
-        "Aneuploidies Screened: Trisomy 21 (Down syndrome), Trisomy 18 (Edwards syndrome), Trisomy 13 (Patau syndrome), and Sex Chromosome Aneuploidies (45,X Turner, 47,XXY Klinefelter).",
-        "Limitations: NIPT is a SCREENING test, NOT a diagnostic test. A positive result must ALWAYS be confirmed by invasive diagnostic testing (amniocentesis or CVS) before irreversible clinical decisions are made."
+        "Major Indications for Prenatal Testing:",
+        "  1. Advanced Maternal Age (>= 35 years at estimated date of delivery; exponential rise in meiotic non-disjunction).",
+        "  2. Abnormal maternal serum biochemical screening result (First trimester or Quadruple screen).",
+        "  3. Abnormal fetal ultrasonographic finding (increased nuchal translucency, structural malformations, soft markers).",
+        "  4. Previous child or pregnancy with a chromosomal abnormality or open neural tube defect.",
+        "  5. Either parent is a known carrier of a balanced chromosomal translocation (e.g. Robertsonian translocation).",
+        "  6. Family history of a monogenic Mendelian disorder (e.g. Cystic fibrosis, Fragile X, Sickle cell, Thalassemia)."
       ],
       "diagnostics": [
-        "Fetal Fraction threshold: Minimum 4% fetal fraction is required for an informative, reliable result. Low fetal fraction (<4%) causes test failure, associated with high maternal BMI, early gestational age (<10 weeks), or fetal aneuploidy (Trisomy 13/18).",
-        "Causes of False-Positive NIPT: Confined Placental Mosaicism (aneuploidy in trophoblasts but normal fetus), vanishing twin, maternal chromosomal mosaicism or maternal occult malignancy."
+        "Pre-test Genetic Counseling: Discussing detection rates, false-positive rates, procedural risks, and personal reproductive values.",
+        "Informed Choice & Non-Directive Counseling: Parents determine whether to proceed with screening or diagnostic testing."
       ],
-      "morphology": "Peripheral maternal blood drawn in specialized blood collection tubes (cell-free DNA BCT) containing preservatives that prevent maternal leukocyte lysis.",
+      "morphology": "Risk assessment curves: Trisomy 21 incidence increases from 1 in 1,250 at maternal age 25, to 1 in 350 at age 35, and 1 in 100 at age 40.",
       "nursingManagement": [
-        "Pre-test counseling: Clarify that NIPT is an advanced screening tool, not diagnostic; discuss positive predictive value (PPV) and residual risk.",
-        "Post-test counseling: If NIPT is positive, provide compassionate support and promptly coordinate referral for genetic counseling and diagnostic amniocentesis/CVS.",
-        "Verify gestational age: Confirm pregnancy is at least 10 weeks gestation before drawing NIPT to ensure adequate fetal fraction."
+        "Clearly explain the difference between a screening test (gives probability/risk) and a diagnostic test (gives definitive yes/no answer).",
+        "Support non-directive decision making: Respect parental decisions regarding whether or not to pursue prenatal testing.",
+        "Provide emotional reassurance while addressing parental anxiety during the waiting period for genetic test results."
       ],
       "examPearls": [
-        "NIPT has a detection rate >99% for Trisomy 21, but is still considered a screening test requiring invasive diagnostic confirmation.",
-        "Fetal DNA in maternal blood is derived from placental syncytiotrophoblasts, not fetal nucleated blood cells.",
-        "Minimum fetal fraction required for a valid NIPT result is 4%."
+        "Screening tests assess statistical probability without procedural risk; diagnostic tests provide definitive karyotyping but carry small miscarriage risks.",
+        "Maternal age >= 35 years at delivery is the classic indication for offering prenatal diagnostic testing.",
+        "Prenatal genetic counseling must always be non-directive and voluntary."
       ],
       "imagePath": "/images/ch26_img_1.jpeg",
-      "imageCaption": "Circulation of cell-free fetal DNA from placental trophoblasts into maternal plasma."
+      "imageCaption": "Clinical flowchart outlining the decision pathway from non-invasive screening to definitive prenatal diagnostic procedures."
     },
     {
       "id": "ch26_t2",
-      "name": "Maternal Serum Biochemical Screening & Ultrasound NT",
-      "summary": "First and second trimester multi-marker maternal serum screening protocols integrated with ultrasound nuchal translucency (NT) measurements.",
-      "pathophysiology": "Altered placental synthesis and fetal organ filtration change serum marker levels in aneuploid pregnancies. 1. First Trimester Combined Screen (11-13+6 weeks): Fetal Nuchal Translucency (NT, fluid-filled subcutaneous space behind fetal neck; abnormal if >=3.0-3.5 mm) + Pregnancy-Associated Plasma Protein A (PAPP-A, low in Down) + free beta-hCG (elevated in Down). 2. Second Trimester Quadruple Screen (15-20 weeks): Maternal Serum Alpha-Fetoprotein (MSAFP, low in Down, high in NTDs) + unconjugated Estriol (uE3, low in Down) + beta-hCG (HIGH in Down) + Dimeric Inhibin-A (HIGH in Down).",
+      "name": "Non-Invasive Prenatal Testing (NIPT / cffDNA)",
+      "summary": "Analysis of cell-free fetal DNA circulating in maternal blood, representing the most sensitive screening technology for fetal aneuploidies.",
+      "pathophysiology": "Placental syncytiotrophoblasts undergo continuous apoptosis, shedding short fragments of cell-free fetal DNA (cffDNA, ~150 base pairs) into the maternal circulation. cffDNA becomes detectable at 7-10 weeks gestation and clears rapidly within hours post-delivery. Using massively parallel shotgun sequencing (MPSS) or targeted sequencing, relative chromosome quantities are measured to identify fetal aneuploidies.",
       "clinicalFeatures": [
-        "Down Syndrome Quad Screen Pattern: LOW AFP, LOW unconjugated Estriol, HIGH hCG, and HIGH Inhibin-A (Mnemonic: 'HIgh' markers are hCG and Inhibin-A).",
-        "Edwards Syndrome (Trisomy 18) Screen Pattern: ALL markers are uniformly DEPRESSED (low AFP, low uE3, low hCG).",
-        "Open Neural Tube Defects: Markedly elevated MSAFP (>2.5 Multiples of the Median - MoM) with normal hCG/estriol."
+        "Detection Capabilities:",
+        "  - Trisomy 21 (Down syndrome): Sensitivity >99.5%, Specificity >99.8% (False-positive rate <0.1%).",
+        "  - Trisomy 18 (Edwards syndrome): Sensitivity ~97-98%.",
+        "  - Trisomy 13 (Patau syndrome): Sensitivity ~90-95%.",
+        "  - Sex Chromosome Aneuploidies: Detects 45,X (Turner), 47,XXY (Klinefelter), and fetal sex.",
+        "Fetal Fraction: The percentage of cell-free DNA that is of fetal origin (normal >= 4%). If fetal fraction is <4% ('no-call' test), the assay cannot be interpreted reliably (more common in maternal obesity or testing <10 weeks)."
       ],
       "diagnostics": [
-        "Ultrasonographic Nuchal Translucency (NT) measurement: Strictly performed at crown-rump length (CRL) of 45 to 84 mm (11 to 13+6 weeks).",
-        "Multiples of the Median (MoM): Marker values adjusted for gestational age, maternal weight, race, diabetic status, smoking, and multiple gestation."
+        "Maternal Peripheral Venous Blood Draw (10 mL): Performed any time after 10 weeks gestation up to term.",
+        "Next-Generation Sequencing (NGS) of plasma DNA: Measures z-scores or normalized chromosome ratios.",
+        "Confirmatory Testing: A positive NIPT result MUST be confirmed by diagnostic amniocentesis or CVS before making irreversible pregnancy decisions."
       ],
-      "morphology": "Sonographic sagittal section showing thick, clear subcutaneous nuchal fluid behind fetal cervical spine.",
+      "morphology": "cffDNA fragments are shorter (~143 bp) than maternal cell-free DNA fragments (~166 bp).",
       "nursingManagement": [
-        "Accurate gestational dating: Emphasize that incorrect dating is the single most common cause of abnormal maternal serum screening results.",
-        "Coordinate timing: First trimester screen at 11-13+6 weeks; Quad screen strictly between 15 and 20 weeks.",
-        "Reassure anxious parents that an abnormal screen calculates statistical risk, not a definitive diagnosis."
+        "Educate patients that NIPT is a highly accurate SCREENING test, NOT a diagnostic test; false positives can occur due to confined placental mosaicism or vanishing twin.",
+        "Never counsel a patient to terminate a pregnancy based on an NIPT result alone; confirmatory invasive testing (amniocentesis) is mandatory.",
+        "Verify that the blood draw is performed at >= 10 weeks gestation to ensure adequate fetal fraction."
       ],
       "examPearls": [
-        "Down syndrome Quad Screen pattern: Decreased AFP, Decreased uE3, Elevated hCG, Elevated Inhibin-A.",
-        "Trisomy 18 (Edwards) Quad Screen pattern: ALL markers are LOW.",
-        "Incorrect gestational age calculation is the most common reason for a false-positive maternal serum screen."
+        "Cell-free fetal DNA (cffDNA) in maternal plasma originates primarily from apoptotic placental syncytiotrophoblasts.",
+        "NIPT has a >99% detection rate for Down syndrome with a false-positive rate <0.1%.",
+        "A minimum fetal fraction of >= 4% is required to obtain a valid NIPT result."
       ],
       "imagePath": "/images/ch26_img_2.png",
-      "imageCaption": "Ultrasound measurement of fetal nuchal translucency (NT) at 12 weeks gestation."
+      "imageCaption": "Diagram illustrating the placental origin of cell-free fetal DNA in maternal circulation and its sequencing analysis."
     },
     {
       "id": "ch26_t3",
-      "name": "Invasive Prenatal Diagnostic Procedures: Amniocentesis & CVS",
-      "summary": "Definitive invasive diagnostic procedures for fetal karyotyping, microarray, and molecular genetic analysis.",
-      "pathophysiology": "Direct sampling of fetal cells enables 100% accurate cytogenetic and molecular diagnosis: 1. Chorionic Villus Sampling (CVS): Performed at 10 to 13+6 weeks gestation via transabdominal or transcervical catheter under continuous ultrasound guidance to aspirate proliferating chorionic villi. Risk of procedure-related pregnancy loss is 0.5-1.0%. Potential pitfall: Confined Placental Mosaicism (1-2% of cases show abnormal placenta but normal fetus). 2. Amniocentesis: Performed at 15 to 20 weeks gestation via 20-22G spinal needle transabdominally under ultrasound guidance, aspirating 15-20 mL of amniotic fluid containing desquamated fetal amniocytes. Procedure-related pregnancy loss risk is very low (0.1-0.3% / 1 in 300 to 1 in 1000). Provides definitive fetal karyotype, microarray, and biochemical AFP/acetylcholinesterase.",
+      "name": "Maternal Serum Biochemical Screening (Combined & Quad Screens)",
+      "summary": "First-trimester combined screening and second-trimester Quadruple screening protocols measuring maternal serum biochemical markers.",
+      "pathophysiology": "Fetal and placental tissues secrete specific proteins and steroid hormones into the maternal bloodstream in characteristic concentrations throughout gestation. Aneuploidies disrupt placental function and fetal synthesis, producing predictable alterations in serum analyte levels.",
       "clinicalFeatures": [
-        "Indications for invasive testing: Positive NIPT, high-risk serum screen, structural fetal anomaly on ultrasound, known parental balanced translocation or single-gene mutation.",
-        "Complications: Procedure-related fetal loss, transient vaginal bleeding, amniotic fluid leakage, intrauterine infection (chorioamnionitis), and Rh isoimmunization."
+        "First Trimester Combined Screening (11 to 13.6 weeks gestation):",
+        "  1. Ultrasound Nuchal Translucency (NT): Fluid thickness behind the fetal neck; NT >= 3.0 mm is abnormal.",
+        "  2. Serum Pregnancy-Associated Plasma Protein A (PAPP-A): Markedly DECREASED in Down syndrome.",
+        "  3. Serum Free Beta-hCG: Markedly ELEVATED in Down syndrome.",
+        "Second Trimester Quadruple Screen (15 to 20 weeks gestation):",
+        "  1. Alpha-Fetoprotein (AFP): Synthesized by fetal liver; DECREASED in Down syndrome and Edwards syndrome; ELEVATED in open neural tube defects (spina bifida, anencephaly) and abdominal wall defects (omphalocele, gastroschisis).",
+        "  2. Unconjugated Estriol (uE3): Synthesized by fetal adrenal and placenta; DECREASED in Down and Edwards.",
+        "  3. Human Chorionic Gonadotropin (hCG): Synthesized by trophoblasts; ELEVATED in Down syndrome; DECREASED in Edwards syndrome.",
+        "  4. Dimeric Inhibin A: Synthesized by placenta; ELEVATED in Down syndrome.",
+        "Classic Down Syndrome Quad Pattern: Remember 'HI' is High! hCG and Inhibin A are High; AFP and uE3 are Low."
       ],
       "diagnostics": [
-        "Amniocyte culture and G-banded karyotype (results in 10-14 days).",
-        "Rapid Interphase FISH or QF-PCR (Quantitative Fluorescence PCR) for chromosomes 13, 18, 21, X, and Y (results in 24-48 hours).",
-        "Chromosomal Microarray Analysis (CMA): Detects microdeletions and microduplications down to 50-100 kb resolution."
+        "Enzyme-Linked Immunosorbent Assay (ELISA) / Chemiluminescence: Quantifying serum concentrations converted into Multiples of the Median (MoM) adjusted for gestational age, maternal weight, race, and diabetes.",
+        "Amniotic Fluid AFP and Acetylcholinesterase (AChE): Confirmatory diagnostic testing for open neural tube defects."
       ],
-      "morphology": "Chorionic villi appear as branching tree-like structures under stereomicroscope.",
+      "morphology": "Increased nuchal translucency (>3 mm) on sagittal ultrasound. Spina bifida displays 'lemon sign' (frontal bone scalloping) and 'banana sign' (cerebellar herniation) on cranial ultrasound.",
       "nursingManagement": [
-        "Rh-negative mothers: ALWAYS administer Rh immunoglobulin (RhoGAM / anti-D) following amniocentesis or CVS to prevent Rh alloimmunization.",
-        "Post-procedure instructions: Rest for 24 hours, avoid strenuous exertion or heavy lifting; immediately report fever, vaginal bleeding, fluid leakage, or severe pelvic cramping.",
-        "Informed consent: Ensure patient understands procedure risks (fetal loss) versus diagnostic certainty."
+        "Verify accurate gestational dating (by crown-rump length on ultrasound) before interpreting serum markers, as incorrect dating is the most common cause of false-positive Quad screens.",
+        "Explain that an elevated maternal serum AFP requires an ultrasound to check for twins, inaccurate dates, or open neural tube defects.",
+        "Provide supportive counseling if screening results indicate an increased risk, guiding the couple to genetic counseling."
       ],
       "examPearls": [
-        "Amniocentesis is routinely performed between 15 and 20 weeks; CVS is performed earlier, at 10 to 13 weeks.",
-        "Rh-negative women MUST receive Rh immunoglobulin (anti-D) after any invasive prenatal procedure.",
-        "Confined placental mosaicism is a known limitation of CVS that requires follow-up amniocentesis for resolution.",
-        "Amniocentesis carries a procedure-related loss risk of roughly 1 in 500 to 1 in 1000 in modern experienced centers."
+        "In Down Syndrome Quad screen: 'HI' is High (hCG and Inhibin A are elevated), while AFP and unconjugated estriol (uE3) are decreased.",
+        "Markedly ELEVATED maternal serum AFP indicates open neural tube defects (spina bifida, anencephaly), ventral wall defects, or multiple gestation.",
+        "Accurate gestational age dating is the single most critical factor in avoiding false-positive maternal serum screening results."
       ],
       "imagePath": "/images/ch26_img_3.jpeg",
-      "imageCaption": "Ultrasound-guided transabdominal amniocentesis and transcervical chorionic villus sampling."
+      "imageCaption": "Ultrasound measurement of fetal nuchal translucency (NT) at 12 weeks gestation alongside the Quad screen analyte profile."
+    },
+    {
+      "id": "ch26_t4",
+      "name": "Level II Targeted Anomaly Ultrasound Scan",
+      "summary": "Comprehensive anatomical structural evaluation and identification of major malformations and 'soft markers' for fetal aneuploidy performed at 18 to 20 weeks.",
+      "pathophysiology": "High-frequency transabdominal ultrasound waves image organs when ossification and amniotic fluid volume provide optimal acoustic windows. Structural anomalies reflect organogenesis failures; soft markers represent minor anatomical variations that statistically increase aneuploidy risk.",
+      "clinicalFeatures": [
+        "Timing: Standardly performed between 18 and 20 weeks (or up to 22 weeks) gestation.",
+        "Major Structural Malformations Detected:",
+        "  - Central Nervous System: Anencephaly (absence of cranial vault/cerebrum), spina bifida (vertebral defect with 'banana sign' cerebellum and 'lemon sign' skull), holoprosencephaly, ventriculomegaly, Dandy-Walker malformation.",
+        "  - Cardiovascular: Hypoplastic left heart, atrioventricular septal defect (AVSD / endocardial cushion defect in Down syndrome), transposition of great vessels.",
+        "  - Gastrointestinal & Ventral Wall: Duodenal atresia ('double bubble' sign), omphalocele (midline defect with peritoneal membrane), gastroschisis (evisceration lateral to cord insertion).",
+        "Aneuploidy 'Soft Markers' (Especially for Down Syndrome):",
+        "  1. Increased Nuchal Fold Thickness (>= 6 mm in 2nd trimester; highest positive likelihood ratio).",
+        "  2. Absent or Hypoplastic Fetal Nasal Bone.",
+        "  3. Echogenic Intracardiac Focus (EIF / 'golf ball' in left ventricle).",
+        "  4. Choroid Plexus Cysts (CPCs, associated with Trisomy 18).",
+        "  5. Echogenic Bowel (brightness equal to bone).",
+        "  6. Renal Pyelectasis (renal pelvis dilation >= 4 mm).",
+        "  7. Sandal Gap Toes and Clinodactyly (hypoplastic middle phalanx of 5th digit)."
+      ],
+      "diagnostics": [
+        "Transabdominal 2D/3D Targeted Ultrasonography with color Doppler.",
+        "Fetal Echocardiography: Dedicated detailed evaluation of cardiac chambers and outflow tracts.",
+        "Fetal Brain MRI: Adjunctive imaging for complex CNS abnormalities."
+      ],
+      "morphology": "'Double bubble' sign in duodenal atresia. 'Banana sign' and 'lemon sign' in Arnold-Chiari II malformation with spina bifida.",
+      "nursingManagement": [
+        "Prepare the mother for the scan: Ensure comfort and explain the systematic examination of fetal organs.",
+        "When an isolated soft marker (e.g. single echogenic intracardiac focus) is detected, provide balanced reassurance: It is frequently a normal variant in an otherwise healthy fetus.",
+        "If a major lethal anomaly (anencephaly, renal agenesis) is discovered, provide immediate private space, bereavement support, and facilitate multidisciplinary counseling."
+      ],
+      "examPearls": [
+        "The Level II targeted anomaly scan is standardly performed at 18 to 20 weeks gestation.",
+        "A second-trimester nuchal fold thickness >= 6 mm is the strongest individual ultrasonographic soft marker for Down syndrome.",
+        "The 'double-bubble' sign on fetal ultrasound is diagnostic of duodenal atresia, frequently associated with Trisomy 21."
+      ],
+      "imagePath": "/images/ch26_img_4.jpeg",
+      "imageCaption": "Ultrasound images showing the 'double bubble' sign of duodenal atresia and increased nuchal fold thickness."
+    },
+    {
+      "id": "ch26_t5",
+      "name": "Invasive Diagnostic Procedures (Amniocentesis, CVS & PGD)",
+      "summary": "Definitive prenatal genetic diagnostic techniques: Chorionic Villus Sampling, Amniocentesis, Percutaneous Umbilical Blood Sampling, and Preimplantation Genetic Diagnosis.",
+      "pathophysiology": "Direct sampling of fetal cells allows definitive molecular cytogenetics (Karyotyping, Chromosomal Microarray, FISH, Sanger/NGS sequencing). CVS samples chorionic trophoblasts derived from the blastocyst outer cell layer. Amniocentesis samples desquamated fetal epithelial cells (skin, urinary tract, amnion) suspended in amniotic fluid.",
+      "clinicalFeatures": [
+        "Comparison of Invasive Diagnostic Procedures:",
+        "  1. Chorionic Villus Sampling (CVS):",
+        "     - Timing: 10 to 13 completed weeks of gestation.",
+        "     - Route: Transabdominal or transcervical aspiration of chorionic villi under ultrasound guidance.",
+        "     - Advantages: First-trimester diagnosis allows earlier, safer medical termination if chosen.",
+        "     - Limitations: Cannot test for open neural tube defects (no amniotic fluid AFP); 1-2% risk of Confined Placental Mosaicism (CPM); risk of fetal transverse limb reduction defects if performed <10 weeks.",
+        "     - Procedural Miscarriage Risk: ~0.2-0.5% in experienced hands.",
+        "  2. Amniocentesis:",
+        "     - Timing: 15 to 18 (up to 20) weeks of gestation.",
+        "     - Route: Transabdominal insertion of a 20-22G spinal needle into a clear amniotic fluid pocket under continuous real-time ultrasound guidance; 15-20 mL of fluid aspirated.",
+        "     - Advantages: Gold standard; evaluates both genetic karyotype/microarray AND amniotic fluid AFP/acetylcholinesterase for open neural tube defects.",
+        "     - Procedural Miscarriage Risk: ~0.1-0.3% (1 in 300 to 1 in 1,000).",
+        "  3. Preimplantation Genetic Diagnosis / Testing (PGD / PGT):",
+        "     - Performed during in vitro fertilization (IVF); biopsy of 1-2 blastomeres at day 3 (cleavage stage) or trophectoderm cells at day 5 (blastocyst stage); allows selection of unaffected embryos before uterine transfer, eliminating therapeutic abortion.",
+        "  4. Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis):",
+        "     - Performed >= 18 weeks; ultrasound-guided puncture of umbilical vein at placental insertion; used for rapid fetal karyotyping, fetal anemia diagnosis, and intrauterine red cell transfusion."
+      ],
+      "diagnostics": [
+        "Fetal Karyotyping: Culture of amniocytes takes 10-14 days.",
+        "Interphase FISH: Rapid results (24-48 hours) for common aneuploidies (13, 18, 21, X, Y).",
+        "Chromosomal Microarray Analysis (CMA): High-resolution detection of submicroscopic copy number variations.",
+        "Amniotic Fluid AFP and Acetylcholinesterase: Confirms open neural tube defect."
+      ],
+      "morphology": "Cultured amniocytes grow as adherent colonies of epithelioid and fibroblastic cells.",
+      "nursingManagement": [
+        "Mandatory Rh-Immune Globulin (RhoGAM): Administer 300 ug of Anti-D to ALL Rh-negative, unsensitized mothers within 72 hours of CVS or amniocentesis.",
+        "Post-procedure instructions: Rest for 24 hours; avoid heavy lifting and strenuous activity; report immediately any vaginal fluid leakage, bleeding, severe cramping, or fever >38°C.",
+        "Continuous ultrasound monitoring of fetal heart rate immediately before and after the needle procedure."
+      ],
+      "examPearls": [
+        "Amniocentesis is standardly performed at 15 to 18 weeks gestation; CVS is performed at 10 to 13 weeks.",
+        "CVS cannot detect open neural tube defects because it does not collect amniotic fluid for AFP analysis.",
+        "All Rh-negative unsensitized mothers undergoing amniocentesis or CVS MUST receive Anti-D Rh immunoglobulin (RhoGAM) to prevent isoimmunization."
+      ],
+      "imagePath": "/images/ch26_img_1.jpeg",
+      "imageCaption": "Ultrasound-guided transabdominal amniocentesis procedure diagram demonstrating needle insertion into the amniotic sac."
     }
   ],
   "mindMap": {
-    "centralConcept": "Prenatal Testing Framework",
+    "centralConcept": "Prenatal Diagnostic Modalities",
     "nodes": [
       {
-        "id": "p1",
-        "label": "Screening vs Diagnosis",
+        "id": "pt1",
+        "label": "Advanced Maternal Age (>=35)",
         "category": "core",
-        "description": "Screening estimates statistical probability; invasive testing provides definitive genetic diagnosis."
+        "description": "Primary clinical indication for prenatal diagnostic testing"
       },
       {
-        "id": "p2",
-        "label": "NIPT (cfDNA at >=10 Wks)",
+        "id": "pt2",
+        "label": "cffDNA (NIPT)",
         "category": "diagnostic",
-        "description": "Analyzes placental cfDNA in maternal blood; >99% detection for Trisomy 21."
+        "description": ">99% detection rate for Trisomy 21 from maternal blood after 10 weeks"
       },
       {
-        "id": "p3",
-        "label": "Combined First-Trimester Screen",
+        "id": "pt3",
+        "label": "Combined First Trimester",
         "category": "diagnostic",
-        "description": "11-13+6 wks: Nuchal translucency (NT) + free beta-hCG + PAPP-A."
+        "description": "Nuchal translucency (NT) + PAPP-A + free beta-hCG at 11-13 weeks"
       },
       {
-        "id": "p4",
-        "label": "Second-Trimester Quad Screen",
+        "id": "pt4",
+        "label": "Quad Screen ('HI' is High)",
         "category": "diagnostic",
-        "description": "15-20 wks: Down pattern = Low AFP, Low uE3, High hCG, High Inhibin-A."
+        "description": "Elevated hCG and Inhibin A; decreased AFP and uE3 in Down syndrome"
       },
       {
-        "id": "p5",
-        "label": "Chorionic Villus Sampling (CVS)",
-        "category": "diagnostic",
-        "description": "10-13 wks placental villous aspiration; earliest diagnostic test; mosaicism risk."
-      },
-      {
-        "id": "p6",
-        "label": "Amniocentesis (15-20 Wks)",
-        "category": "diagnostic",
-        "description": "Transabdominal aspiration of amniotic fluid; gold standard karyotype/microarray; 0.2% risk."
-      },
-      {
-        "id": "p7",
-        "label": "Rh Anti-D Prophylaxis",
+        "id": "pt5",
+        "label": "Elevated Maternal Serum AFP",
         "category": "clinical",
-        "description": "Mandatory RhoGAM administration to all Rh-negative mothers post-procedure."
+        "description": "Indicator of open neural tube defects, ventral wall defects, or twins"
+      },
+      {
+        "id": "pt6",
+        "label": "Level II Ultrasound (18-20 Wks)",
+        "category": "core",
+        "description": "Structural anatomy and soft markers (nuchal fold >=6mm, double bubble)"
+      },
+      {
+        "id": "pt7",
+        "label": "Chorionic Villus Sampling (CVS)",
+        "category": "core",
+        "description": "First-trimester (10-13 wks) trophoblast biopsy; does not test for NTDs"
+      },
+      {
+        "id": "pt8",
+        "label": "Amniocentesis (15-18 Wks)",
+        "category": "core",
+        "description": "Gold standard diagnostic fluid aspiration for karyotype and AFP"
+      },
+      {
+        "id": "pt9",
+        "label": "RhoGAM for Rh-Negative",
+        "category": "clinical",
+        "description": "Mandatory within 72 hours post-invasive procedure to prevent sensitization"
       }
     ],
     "edges": [
       {
-        "from": "p1",
-        "to": "p2",
-        "relationship": "Advanced screen",
-        "explanation": "NIPT provides non-invasive risk assessment, requiring diagnostic confirmation if positive."
+        "from": "pt1",
+        "to": "pt2",
+        "relationship": "indicated for",
+        "explanation": "Advanced age increases aneuploidy risk, warranting non-invasive cffDNA screening."
       },
       {
-        "from": "p2",
-        "to": "p6",
-        "relationship": "Confirmed by",
-        "explanation": "Positive cfDNA screening mandates diagnostic amniocentesis to verify true fetal karyotype."
+        "from": "pt2",
+        "to": "pt8",
+        "relationship": "confirmed by",
+        "explanation": "Positive NIPT results must always be confirmed by invasive amniocentesis."
       },
       {
-        "from": "p5",
-        "to": "p7",
-        "relationship": "Requires",
-        "explanation": "Invasive placental or amniotic puncture risks feto-maternal hemorrhage, necessitating anti-D prophylaxis."
+        "from": "pt3",
+        "to": "pt4",
+        "relationship": "complements",
+        "explanation": "First-trimester screening is followed by second-trimester Quad screen if late booking."
+      },
+      {
+        "from": "pt5",
+        "to": "pt8",
+        "relationship": "investigated by",
+        "explanation": "High serum AFP prompts amniocentesis for amniotic fluid AFP and acetylcholinesterase."
+      },
+      {
+        "from": "pt6",
+        "to": "pt8",
+        "relationship": "prompts",
+        "explanation": "Ultrasound detection of structural anomalies indicates amniocentesis for microarray."
+      },
+      {
+        "from": "pt7",
+        "to": "pt8",
+        "relationship": "earlier alternative to",
+        "explanation": "CVS allows first-trimester diagnosis while amniocentesis is performed in second trimester."
+      },
+      {
+        "from": "pt8",
+        "to": "pt9",
+        "relationship": "mandates",
+        "explanation": "Invasive needle entry into amniotic cavity requires RhoGAM in Rh-negative mothers."
       }
     ]
   },
@@ -165,421 +297,421 @@ export const ch26: Chapter = {
       "id": "ch26_q1",
       "topic": "NIPT",
       "difficulty": "Easy",
-      "question": "What is the earliest gestational age at which Non-Invasive Prenatal Testing (NIPT / cfDNA) can reliably be performed?",
+      "question": "What is the primary biological source of cell-free fetal DNA (cffDNA) circulating in maternal plasma?",
       "options": [
-        "4 weeks",
-        "6 weeks",
-        "10 weeks",
-        "20 weeks"
-      ],
-      "correctIndex": 2,
-      "explanation": "NIPT is validated and recommended starting at 10 weeks of gestation, when the fetal fraction of cell-free DNA in maternal blood reaches detectable thresholds (>=4%)."
-    },
-    {
-      "id": "ch26_q2",
-      "topic": "Serum Screening",
-      "difficulty": "Easy",
-      "question": "What is the characteristic pattern of maternal serum markers on a Second Trimester Quadruple Screen in a pregnancy affected by Down syndrome (Trisomy 21)?",
-      "options": [
-        "Low MSAFP, Low unconjugated Estriol, Elevated hCG, Elevated Inhibin-A",
-        "Elevated MSAFP, Low hCG, Normal estriol, Low Inhibin-A",
-        "Elevated MSAFP, Elevated hCG, Elevated estriol, Elevated Inhibin-A",
-        "All markers are completely zero"
-      ],
-      "correctIndex": 0,
-      "explanation": "Down syndrome shows decreased AFP and uE3, and elevated hCG and Inhibin-A (mnemonic: 'HIgh' markers are hCG and Inhibin-A)."
-    },
-    {
-      "id": "ch26_q3",
-      "topic": "Amniocentesis",
-      "difficulty": "Easy",
-      "question": "Diagnostic amniocentesis for fetal genetic evaluation is typically performed during which gestational window?",
-      "options": [
-        "6 to 9 weeks",
-        "10 to 13 weeks",
-        "15 to 20 weeks",
-        "After 36 weeks only"
-      ],
-      "correctIndex": 2,
-      "explanation": "Amniocentesis is routinely performed between 15 and 20 weeks gestation, when the amnion and chorion have fused and amniotic fluid volume is sufficient."
-    },
-    {
-      "id": "ch26_q4",
-      "topic": "Chorionic Villus Sampling",
-      "difficulty": "Easy",
-      "question": "Chorionic Villus Sampling (CVS) is performed between which weeks of pregnancy?",
-      "options": [
-        "10 to 13+6 weeks",
-        "16 to 20 weeks",
-        "24 to 28 weeks",
-        "During active labor"
-      ],
-      "correctIndex": 0,
-      "explanation": "CVS is performed in the late first trimester, specifically between 10 weeks and 13 weeks 6 days of gestation."
-    },
-    {
-      "id": "ch26_q5",
-      "topic": "Post-Procedure Care",
-      "difficulty": "Easy",
-      "question": "Following an amniocentesis or CVS, which medication is MANDATORY for an Rh-negative unsensitized pregnant mother?",
-      "options": [
-        "Intravenous magnesium sulfate",
-        "Rh Immunoglobulin (RhoGAM / anti-D)",
-        "High-dose penicillin",
-        "Subcutaneous heparin"
-      ],
-      "correctIndex": 1,
-      "explanation": "Invasive needle entry can cause feto-maternal hemorrhage; all unsensitized Rh-negative women must receive anti-D immunoglobulin to prevent Rh isoimmunization."
-    },
-    {
-      "id": "ch26_q6",
-      "topic": "NIPT",
-      "difficulty": "Easy",
-      "question": "Cell-free fetal DNA circulating in maternal plasma originates predominantly from which tissue?",
-      "options": [
-        "Fetal brain neurons",
-        "Apoptotic placental trophoblasts",
-        "Fetal liver hepatocytes",
+        "Fetal white blood cells",
+        "Apoptotic placental syncytiotrophoblasts",
+        "Fetal red blood cells",
         "Amniotic fluid cells"
       ],
       "correctIndex": 1,
-      "explanation": "The cell-free DNA analyzed in NIPT is derived from apoptotic syncytiotrophoblasts of the placenta shedding DNA fragments into maternal blood."
+      "explanation": "Cell-free fetal DNA in maternal circulation originates predominantly from apoptosis of placental trophoblastic cells (syncytiotrophoblasts)."
+    },
+    {
+      "id": "ch26_q2",
+      "topic": "Biochemical Screening",
+      "difficulty": "Medium",
+      "question": "Which pattern of second-trimester maternal serum analytes on the Quadruple Screen is classic for fetal Down Syndrome (Trisomy 21)?",
+      "options": [
+        "Elevated AFP, elevated uE3, decreased hCG, decreased Inhibin A",
+        "Elevated hCG and elevated Inhibin A ('HI' is High), with decreased AFP and decreased unconjugated estriol (uE3)",
+        "All four markers are markedly elevated",
+        "All four markers are markedly decreased"
+      ],
+      "correctIndex": 1,
+      "explanation": "Down syndrome shows elevated hCG and Inhibin A ('HI' is High) with decreased alpha-fetoprotein (AFP) and unconjugated estriol (uE3)."
+    },
+    {
+      "id": "ch26_q3",
+      "topic": "Biochemical Screening",
+      "difficulty": "Easy",
+      "question": "A markedly ELEVATED Maternal Serum Alpha-Fetoprotein (MSAFP) level on second-trimester screening strongly suggests:",
+      "options": [
+        "Down syndrome",
+        "Edwards syndrome",
+        "Open Neural Tube Defect (e.g., Anencephaly, Spina Bifida) or Ventral Wall Defect",
+        "Turner syndrome"
+      ],
+      "correctIndex": 2,
+      "explanation": "Failure of neural tube closure permits fetal serum proteins (AFP) to leak directly into the amniotic fluid and maternal circulation, causing elevated MSAFP."
+    },
+    {
+      "id": "ch26_q4",
+      "topic": "Ultrasound",
+      "difficulty": "Medium",
+      "question": "Which second-trimester ultrasound finding is the strongest individual soft marker for fetal Down syndrome?",
+      "options": [
+        "Increased Nuchal Fold Thickness (>= 6 mm)",
+        "Isolated choroid plexus cyst",
+        "Single umbilical artery",
+        "Echogenic intracardiac focus"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thickened nuchal fold (>=6 mm between 15-20 weeks) has the highest positive likelihood ratio for Down syndrome among all ultrasound soft markers."
+    },
+    {
+      "id": "ch26_q5",
+      "topic": "Invasive Procedures",
+      "difficulty": "Easy",
+      "question": "At what gestational age is diagnostic Amniocentesis standardly performed?",
+      "options": [
+        "6 to 8 weeks",
+        "10 to 13 weeks",
+        "15 to 18 weeks (up to 20 weeks)",
+        "At 36 weeks only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amniocentesis is routinely performed between 15 and 18 weeks gestation, when the amnion and chorion have fused and adequate fluid volume is present."
+    },
+    {
+      "id": "ch26_q6",
+      "topic": "Invasive Procedures",
+      "difficulty": "Medium",
+      "question": "Chorionic Villus Sampling (CVS) differs from Amniocentesis in that CVS:",
+      "options": [
+        "Is performed later in pregnancy (third trimester)",
+        "Can be performed earlier (at 10-13 weeks) but CANNOT detect open neural tube defects",
+        "Carries zero miscarriage risk",
+        "Measures amniotic fluid acetylcholinesterase"
+      ],
+      "correctIndex": 1,
+      "explanation": "CVS is performed in the first trimester (10-13 weeks) to sample trophoblasts. Because no amniotic fluid is obtained, it cannot test for open neural tube defects."
     },
     {
       "id": "ch26_q7",
-      "topic": "Ultrasound Screening",
+      "topic": "Invasive Procedures",
       "difficulty": "Easy",
-      "question": "Fetal Nuchal Translucency (NT) measurement on first-trimester ultrasound is measured behind which anatomical area of the fetus?",
+      "question": "What medication must be administered to an Rh-negative unsensitized pregnant woman within 72 hours following an amniocentesis?",
       "options": [
-        "Fetal cervical spine (back of the neck)",
-        "Fetal abdomen",
-        "Fetal heart ventricles",
-        "Fetal lumbar spine"
+        "Progesterone",
+        "Anti-D Immune Globulin (RhoGAM)",
+        "Vitamin K",
+        "Oxytocin"
       ],
-      "correctIndex": 0,
-      "explanation": "Nuchal translucency measures the maximum thickness of subcutaneous fluid collected behind the fetal cervical spine (back of neck) at 11-13+6 weeks."
+      "correctIndex": 1,
+      "explanation": "Any invasive intrauterine procedure can cause fetomaternal hemorrhage; Rh-negative unsensitized mothers must receive Anti-D immune globulin to prevent isoimmunization."
     },
     {
       "id": "ch26_q8",
       "topic": "NIPT",
-      "difficulty": "Easy",
-      "question": "If a woman receives a 'High Risk / Positive' result on an NIPT screening test for Trisomy 21, what is the mandatory next clinical step?",
+      "difficulty": "Medium",
+      "question": "What is the minimum Fetal Fraction of cell-free DNA required in maternal plasma to ensure a reliable NIPT result?",
       "options": [
-        "Immediate surgical pregnancy termination",
-        "Genetic counseling and offer of invasive diagnostic confirmation (amniocentesis or CVS)",
-        "Repeat the NIPT test 5 times",
-        "Discharge from obstetric care"
+        "0.1%",
+        "1%",
+        "4%",
+        "50%"
       ],
-      "correctIndex": 1,
-      "explanation": "NIPT is a screening test with potential false positives. High-risk results must always be confirmed by invasive diagnostic testing (karyotype/CMA on amniocytes/CVS) before irreversible decisions."
+      "correctIndex": 2,
+      "explanation": "Most laboratory platforms require a minimum fetal fraction of at least 4% of total cell-free DNA to generate an interpretable, accurate aneuploidy result."
     },
     {
       "id": "ch26_q9",
-      "topic": "Serum Screening",
-      "difficulty": "Easy",
-      "question": "On maternal serum screening, an isolated, markedly elevated Alpha-Fetoprotein (MSAFP > 2.5 MoM) with normal hCG and estriol strongly suggests:",
+      "topic": "Ultrasound",
+      "difficulty": "Medium",
+      "question": "The 'double-bubble' sign on a 20-week fetal anatomical ultrasound scan is classic for:",
       "options": [
-        "Open Neural Tube Defect (e.g. Spina Bifida, Anencephaly)",
-        "Down syndrome",
-        "Edwards syndrome",
-        "Turner syndrome"
+        "Duodenal atresia (frequently associated with Trisomy 21)",
+        "Hydrocephalus",
+        "Polycystic kidneys",
+        "Diaphragmatic hernia"
       ],
       "correctIndex": 0,
-      "explanation": "High maternal serum AFP (>2.5 MoM) signifies leakage of fetal serum across an open fetal defect, most commonly open spina bifida or anencephaly."
+      "explanation": "The 'double-bubble' sign represents fluid distension of the stomach and the proximal blind-ending duodenum, diagnostic of duodenal atresia."
     },
     {
       "id": "ch26_q10",
-      "topic": "Serum Screening",
-      "difficulty": "Easy",
-      "question": "What is the most common benign reason for an abnormal maternal serum screening result in clinical practice?",
+      "topic": "Invasive Procedures",
+      "difficulty": "Hard",
+      "question": "Chorionic Villus Sampling (CVS) performed prior to 10 weeks gestation is associated with an increased risk of which specific fetal defect?",
       "options": [
-        "Inaccurate gestational dating",
-        "Maternal consumption of coffee",
-        "Fetal gender",
-        "Lack of exercise"
+        "Neural tube defects",
+        "Transverse limb reduction defects (limb hypoplasia)",
+        "Caudal regression syndrome",
+        "Ebstein's anomaly"
       ],
-      "correctIndex": 0,
-      "explanation": "Serum marker concentrations fluctuate dramatically by gestational week; inaccurate dating (e.g. based on irregular LMP) is the single most common cause of false-positive screens."
+      "correctIndex": 1,
+      "explanation": "CVS performed before 10 weeks gestation has been linked to severe fetal transverse digital and limb reduction defects due to microvascular disruption."
     },
     {
       "id": "ch26_q11",
-      "topic": "CVS",
-      "difficulty": "Medium",
-      "question": "What is Confined Placental Mosaicism (CPM), and why is it a significant diagnostic pitfall in Chorionic Villus Sampling?",
+      "topic": "Framework",
+      "difficulty": "Easy",
+      "question": "What is the classic definition of Advanced Maternal Age (AMA) in prenatal genetic counseling?",
       "options": [
-        "A discrepancy where chromosomal aneuploidy is present in placental chorionic villi while the fetus itself is completely euploid and normal",
-        "When the placenta is attached to the cervix",
-        "Complete absence of placental blood vessels",
-        "When the mother has a mosaic blood type"
+        "Age >= 25 years at delivery",
+        "Age >= 30 years at delivery",
+        "Age >= 35 years at estimated date of delivery",
+        "Age >= 45 years at delivery"
       ],
-      "correctIndex": 0,
-      "explanation": "In 1-2% of CVS samples, mitotic nondisjunction during trophoblast development creates mosaicism confined strictly to the placenta, while the fetus has normal chromosomes, necessitating confirmatory amniocentesis."
+      "correctIndex": 2,
+      "explanation": "Advanced Maternal Age is defined as age 35 or older at the estimated time of delivery, where the risk of meiotic chromosomal aneuploidies rises sharply."
     },
     {
       "id": "ch26_q12",
-      "topic": "NIPT",
+      "topic": "Biochemical Screening",
       "difficulty": "Medium",
-      "question": "What is the minimum Fetal Fraction (percentage of cell-free DNA that is of fetal origin) required by most laboratories to report a valid NIPT result?",
+      "question": "What is the single most common cause of a falsely elevated maternal serum alpha-fetoprotein (MSAFP) screen?",
       "options": [
-        "0.1%",
-        "4%",
-        "25%",
-        "50%"
+        "Maternal diabetes",
+        "Incorrect gestational dating (underestimated gestational age)",
+        "Fetal microcephaly",
+        "Cystic fibrosis"
       ],
       "correctIndex": 1,
-      "explanation": "A minimum fetal fraction of 4% is typically required for accurate statistical differentiation of fetal chromosomal aneuploidies from background maternal DNA."
+      "explanation": "MSAFP increases naturally with advancing gestational age; underestimating the gestational age makes normal values appear abnormally elevated."
     },
     {
       "id": "ch26_q13",
-      "topic": "Serum Screening",
-      "difficulty": "Medium",
-      "question": "In Edwards Syndrome (Trisomy 18), what is the characteristic maternal serum biochemical profile on the second-trimester triple screen?",
+      "topic": "NIPT",
+      "difficulty": "Hard",
+      "question": "A patient with a positive NIPT screening result for Trisomy 18 asks if she can proceed directly to pregnancy termination. The nurse's best response is:",
       "options": [
-        "All three markers (MSAFP, beta-hCG, and unconjugated estriol) are markedly DECREASED",
-        "hCG is 10 times higher than normal",
-        "MSAFP is elevated and estriol is elevated",
-        "Inhibin-A is 500 times higher than normal"
+        "Yes, NIPT is 100% diagnostic and no further testing is needed",
+        "No, NIPT is a screening test and can have false positives; confirmatory diagnostic amniocentesis is required",
+        "Yes, but only if the ultrasound is also abnormal",
+        "No, NIPT cannot detect Trisomy 18"
       ],
-      "correctIndex": 0,
-      "explanation": "In Trisomy 18, profound placental and fetal endocrine hypoplasia suppresses all three serum markers: AFP, beta-hCG, and estriol are all abnormally low."
+      "correctIndex": 1,
+      "explanation": "NIPT is an advanced screening tool, not a diagnostic test. False positives can arise from confined placental mosaicism; irreversible decisions require diagnostic confirmation."
     },
     {
       "id": "ch26_q14",
-      "topic": "Amniocentesis",
+      "topic": "Ultrasound",
       "difficulty": "Medium",
-      "question": "What is the estimated modern procedure-related risk of pregnancy loss associated with mid-trimester amniocentesis performed by an experienced practitioner?",
+      "question": "The 'lemon sign' (frontal bone scalloping) and 'banana sign' (cerebellar herniation) on second-trimester cranial ultrasound are diagnostic of:",
       "options": [
-        "1 in 300 to 1 in 1000 (0.1% - 0.3%)",
-        "5% to 10%",
-        "20% to 25%",
-        "50%"
+        "Down syndrome",
+        "Open spina bifida with Arnold-Chiari II malformation",
+        "Anencephaly",
+        "Holoprosencephaly"
       ],
-      "correctIndex": 0,
-      "explanation": "Modern ultrasound-guided amniocentesis carries a procedure-related loss rate of approximately 0.1% to 0.3% (roughly 1 in 500 to 1 in 1000) in experienced tertiary centers."
+      "correctIndex": 1,
+      "explanation": "Loss of CSF pressure in open spina bifida causes caudal displacement of the cerebellum ('banana sign') and inward scalloping of frontal bones ('lemon sign')."
     },
     {
       "id": "ch26_q15",
-      "topic": "Ultrasound Screening",
-      "difficulty": "Medium",
-      "question": "An abnormally increased Nuchal Translucency (NT >= 3.5 mm) at 12 weeks gestation is associated with chromosomal aneuploidies as well as which non-chromosomal anomaly?",
+      "topic": "Invasive Procedures",
+      "difficulty": "Hard",
+      "question": "Preimplantation Genetic Diagnosis (PGD / PGT) is performed during in vitro fertilization (IVF) by biopsying which embryonic cells?",
       "options": [
-        "Major Congenital Heart Defects (e.g. Coarctation, HLHS, Tetralogy of Fallot)",
-        "Polydactyly only",
-        "Clubfoot only",
-        "Congenital cataract"
+        "Amniotic fluid cells at 16 weeks",
+        "Trophectoderm cells at the blastocyst stage (day 5) or blastomeres at day 3",
+        "Maternal granulosa cells",
+        "Umbilical cord blood"
       ],
-      "correctIndex": 0,
-      "explanation": "Increased NT can reflect early fetal cardiac failure and abnormal lymphatic drainage, serving as an important sonographic warning marker for major structural congenital heart disease even with normal karyotype."
+      "correctIndex": 1,
+      "explanation": "PGT biopsies 5-10 trophectoderm cells from a day 5 blastocyst (or 1-2 blastomeres from a day 3 embryo) for genetic analysis prior to embryo transfer."
     },
     {
       "id": "ch26_q16",
-      "topic": "NIPT",
+      "topic": "Biochemical Screening",
       "difficulty": "Medium",
-      "question": "Which maternal condition is a well-recognized cause of LOW fetal fraction (<4%) on NIPT, resulting in test failure or inconclusive results?",
+      "question": "In first-trimester combined screening, what are the characteristic findings in fetal Down Syndrome?",
       "options": [
-        "High maternal Body Mass Index (obesity)",
-        "Maternal underweight",
-        "Maternal age <20 years",
-        "Iron deficiency anemia"
+        "Increased Nuchal Translucency, decreased PAPP-A, and increased free beta-hCG",
+        "Decreased Nuchal Translucency, increased PAPP-A, and decreased free beta-hCG",
+        "Normal Nuchal Translucency with elevated AFP",
+        "Increased PAPP-A with low hCG"
       ],
       "correctIndex": 0,
-      "explanation": "Elevated maternal plasma volume and increased maternal adipose tissue leukocyte turnover dilute circulating cell-free fetal DNA, significantly lowering the fetal fraction."
+      "explanation": "First-trimester Down syndrome screening shows increased nuchal translucency (NT), decreased PAPP-A, and elevated free beta-hCG."
     },
     {
       "id": "ch26_q17",
-      "topic": "Diagnostic Cytogenetics",
+      "topic": "Invasive Procedures",
       "difficulty": "Medium",
-      "question": "What is the advantage of performing Quantitative Fluorescence PCR (QF-PCR) or interphase FISH on uncultured amniocytes?",
+      "question": "What is the estimated procedure-related risk of miscarriage associated with modern ultrasound-guided mid-trimester amniocentesis?",
       "options": [
-        "Provides rapid preliminary aneuploidy results for chromosomes 13, 18, 21, X, and Y within 24 to 48 hours without waiting for 2-week cell cultures",
-        "It tests for every single gene mutation simultaneously",
-        "It eliminates the need for ultrasound guidance",
-        "It determines fetal eye color"
+        "0.1% to 0.3% (approximately 1 in 300 to 1 in 1,000)",
+        "5% to 10%",
+        "20%",
+        "Zero risk"
       ],
       "correctIndex": 0,
-      "explanation": "QF-PCR and FISH analyze uncultured interphase nuclei directly, delivering definitive rapid detection of the major common aneuploidies (13, 18, 21, X, Y) within 1-2 days, relieving acute parental anxiety."
+      "explanation": "Large-scale contemporary studies establish the procedure-related loss rate for ultrasound-guided mid-trimester amniocentesis at 0.1% to 0.3%."
     },
     {
       "id": "ch26_q18",
-      "topic": "Serum Screening",
-      "difficulty": "Medium",
-      "question": "Why is the Quadruple Screen preferred over the Triple Screen in second-trimester Down syndrome screening?",
+      "topic": "Invasive Procedures",
+      "difficulty": "Hard",
+      "question": "A discrepancy between the karyotype of chorionic villi (CVS) and the true fetal karyotype is most commonly due to:",
       "options": [
-        "Addition of Dimeric Inhibin-A increases the Down syndrome detection rate from ~70% to >80% while reducing false-positive rates",
-        "The Quad screen can be performed in the 3rd trimester only",
-        "The Triple screen cannot detect twins",
-        "Inhibin-A cures fetal chromosomal abnormalities"
+        "Confined Placental Mosaicism (CPM)",
+        "Maternal contamination of amniocytes",
+        "Polyploidy",
+        "Laboratory labeling error"
       ],
       "correctIndex": 0,
-      "explanation": "Adding dimeric Inhibin-A (which is elevated in Trisomy 21) increases statistical separation, raising sensitivity to 80-83% at a 5% false-positive rate."
+      "explanation": "In 1-2% of CVS cases, chromosomal mosaicism is confined strictly to the placenta (CPM) while the fetus has a normal karyotype, requiring amniocentesis."
     },
     {
       "id": "ch26_q19",
-      "topic": "Amniocentesis",
-      "difficulty": "Medium",
-      "question": "Why is amniocentesis performed BEFORE 14 weeks of gestation ('early amniocentesis') clinically avoided?",
+      "topic": "Ultrasound",
+      "difficulty": "Easy",
+      "question": "At what gestational age is the standard Level II targeted anatomical ultrasound survey routinely performed?",
       "options": [
-        "Associated with significantly higher rates of fetal loss, amniotic fluid leakage, and infant talipes equinovarus (clubfoot)",
-        "The fetus has no chromosomes before 14 weeks",
-        "Amniotic fluid is toxic to needles before 14 weeks",
-        "It induces immediate maternal diabetes"
+        "6 to 8 weeks",
+        "11 to 13 weeks",
+        "18 to 20 weeks",
+        "32 to 34 weeks"
       ],
-      "correctIndex": 0,
-      "explanation": "Early amniocentesis (<14 weeks) is associated with higher rates of post-procedure miscarriage, membrane rupture, and fetal orthopedic deformities (clubfoot) due to early oligohydramnios."
+      "correctIndex": 2,
+      "explanation": "The detailed fetal anomaly scan is standardly performed between 18 and 20 weeks gestation when fetal anatomy is fully developed and acoustic visualization is optimal."
     },
     {
       "id": "ch26_q20",
-      "topic": "CVS",
+      "topic": "Invasive Procedures",
       "difficulty": "Medium",
-      "question": "What major limitation does Chorionic Villus Sampling have compared to mid-trimester amniocentesis?",
+      "question": "Which enzyme measured in amniotic fluid is tested to definitively confirm the presence of an open neural tube defect when AFP is elevated?",
       "options": [
-        "CVS cannot evaluate amniotic fluid Alpha-Fetoprotein (AFP) or Acetylcholinesterase to detect neural tube defects",
-        "CVS cannot detect Down syndrome",
-        "CVS cannot be performed under ultrasound",
-        "CVS cannot determine fetal sex"
+        "Acetylcholinesterase (AChE)",
+        "Amylase",
+        "Lipase",
+        "Creatine kinase"
       ],
       "correctIndex": 0,
-      "explanation": "Because CVS samples placental villi rather than amniotic fluid, it cannot measure amniotic AFP or acetylcholinesterase; screening for neural tube defects must be deferred to 15-20 weeks MSAFP."
+      "explanation": "Acetylcholinesterase (AChE) is an enzyme found in neural tissue; its presence in amniotic fluid confirms an open neural defect, distinguishing it from closed lesions."
     },
     {
       "id": "ch26_q21",
-      "topic": "NIPT",
-      "difficulty": "Hard",
-      "question": "A 39-year-old woman receives an NIPT result indicating High Risk for Trisomy 18. Subsequent diagnostic amniocentesis reveals a completely normal 46,XX fetal karyotype. Which biological phenomenon best explains this false-positive NIPT?",
+      "topic": "Framework",
+      "difficulty": "Easy",
+      "question": "When providing prenatal genetic counseling, which ethical principle requires the nurse to support the parents' autonomous choices without steering them toward a particular decision?",
       "options": [
-        "Confined Placental Mosaicism (the aneuploidy was restricted to the placental trophoblasts while the fetus proper developed from normal inner cell mass cells)",
-        "The amniocentesis needle missed the amniotic sac",
-        "The mother drank too much fluid before blood draw",
-        "Trisomy 18 spontaneously corrected itself after the blood test"
+        "Directive counseling",
+        "Non-directive counseling",
+        "Paternalism",
+        "Coercion"
       ],
-      "correctIndex": 0,
-      "explanation": "cfDNA originates from the placenta (trophoblast). Confined placental mosaicism (CPM) occurs when post-zygotic nondisjunction affects only the trophoblast lineage, yielding an aneuploid placenta (false-positive NIPT) but a genetically normal fetus."
+      "correctIndex": 1,
+      "explanation": "Non-directive counseling provides objective, balanced information while supporting parental autonomy, values, and reproductive decision-making without judgment."
     },
     {
       "id": "ch26_q22",
-      "topic": "Diagnostic Methods",
-      "difficulty": "Hard",
-      "question": "When an abnormal fetal structural defect (e.g. congenital heart defect, cleft palate, diaphragmatic hernia) is detected on ultrasound, why is Chromosomal Microarray Analysis (CMA) recommended over conventional G-banded karyotyping?",
+      "topic": "Ultrasound",
+      "difficulty": "Medium",
+      "question": "Choroid plexus cysts (CPCs) observed in the lateral cerebral ventricles on second-trimester ultrasound are most characteristically associated with which chromosomal aneuploidy?",
       "options": [
-        "CMA detects submicroscopic copy number variations (microdeletions and microduplications) with 5-10% higher diagnostic yield than conventional karyotyping",
-        "CMA is 100 times cheaper than a blood test",
-        "Karyotyping cannot detect chromosomes in females",
-        "CMA eliminates the need for DNA extraction"
+        "Trisomy 18 (Edwards syndrome)",
+        "Trisomy 21 (Down syndrome)",
+        "Turner syndrome",
+        "Klinefelter syndrome"
       ],
       "correctIndex": 0,
-      "explanation": "Conventional karyotype resolution is limited to ~5-10 megabases. Chromosomal microarray detects submicroscopic pathogenic copy number variants down to 50-100 kilobases (such as 22q11.2 deletion in conotruncal heart defects), identifying causative genetic defects in 6-10% of cases with normal karyotypes."
+      "explanation": "While frequently benign isolated variants, choroid plexus cysts are observed in up to 30-50% of fetuses with Trisomy 18 (Edwards syndrome)."
     },
     {
       "id": "ch26_q23",
-      "topic": "Serum Screening",
+      "topic": "NIPT",
       "difficulty": "Hard",
-      "question": "An extremely elevated maternal serum hCG (>5.0 MoM) and extremely low AFP (<0.2 MoM) at 16 weeks gestation, accompanied by the absence of an identifiable fetus and a multicystic intrauterine mass, indicates:",
+      "question": "Why does maternal obesity significantly increase the probability of an NIPT 'no-call' (test failure) result?",
       "options": [
-        "Complete Hydatidiform Mole with gestational trophoblastic disease",
-        "Trisomy 13",
-        "Bilateral renal agenesis",
-        "Normal twin pregnancy"
+        "Excess maternal blood volume dilutes the cell-free fetal DNA below the 4% fetal fraction threshold",
+        "Obese patients do not shed placental DNA",
+        "Fat binds fetal DNA permanently",
+        "Adipose tissue destroys maternal plasma"
       ],
       "correctIndex": 0,
-      "explanation": "Massive trophoblastic proliferation in a complete hydatidiform mole secretes astronomical quantities of hCG (>5-10 MoM), with absent AFP due to lack of a fetal liver."
+      "explanation": "Higher maternal plasma volume and increased maternal adipose tissue necrosis release excess maternal cell-free DNA, diluting the relative fetal fraction <4%."
     },
     {
       "id": "ch26_q24",
-      "topic": "Preimplantation Genetics",
-      "difficulty": "Hard",
-      "question": "In Preimplantation Genetic Diagnosis (PGD / PGT-M) performed during in vitro fertilization (IVF), genetic sampling is most safely and commonly performed at which embryonic stage?",
+      "topic": "Invasive Procedures",
+      "difficulty": "Easy",
+      "question": "Following an amniocentesis, which symptom reported by the patient warrants immediate emergency medical evaluation?",
       "options": [
-        "Trophectoderm biopsy of 5-8 cells from a Day 5 blastocyst",
-        "Aspiration of the entire inner cell mass",
-        "Biopsy of the unfertilized sperm",
-        "Transection of the 2-cell zygote"
+        "Mild fatigue",
+        "Fluid leakage from the vagina, continuous vaginal bleeding, or fever >38°C",
+        "Increased fetal movement",
+        "Increased hunger"
       ],
-      "correctIndex": 0,
-      "explanation": "Modern PGT samples 5 to 8 cells from the outer trophectoderm (which forms the placenta) of a Day 5-6 blastocyst, preserving the inner cell mass (which forms the fetus) and providing high DNA yield without compromising embryonic viability."
+      "correctIndex": 1,
+      "explanation": "Vaginal fluid leakage (rupture of membranes), bleeding, severe abdominal pain, or fever indicates post-procedural complications (infection, miscarriage) requiring urgent care."
     },
     {
       "id": "ch26_q25",
-      "topic": "Amniocentesis",
+      "topic": "Invasive Procedures",
       "difficulty": "Hard",
-      "question": "A dark brown or green-stained amniotic fluid obtained during mid-trimester diagnostic amniocentesis indicates:",
+      "question": "Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis) is performed under ultrasound guidance by puncturing which vascular structure?",
       "options": [
-        "Past intra-amniotic bleeding and presence of hemosiderin/hemoglobin breakdown products (or early fetal demise)",
-        "Normal maternal bile absorption",
-        "Extreme maternal hydration",
-        "Excessive fetal urine production"
+        "Maternal uterine artery",
+        "Fetal umbilical vein at the placental cord insertion site",
+        "Fetal femoral artery",
+        "Placental intervillous space"
       ],
-      "correctIndex": 0,
-      "explanation": "Discolored brown/green amniotic fluid in early/mid-pregnancy (before term meconium passage) indicates prior intra-amniotic hemorrhage with degraded hemoglobin pigments, associated with increased risk of pregnancy complications."
+      "correctIndex": 1,
+      "explanation": "PUBS accesses fetal blood by puncturing the umbilical vein at its fixed insertion point into the placenta under continuous real-time ultrasound guidance."
     },
     {
       "id": "ch26_q26",
-      "topic": "NIPT",
-      "difficulty": "Hard",
-      "question": "In a 22-year-old low-risk woman, the Positive Predictive Value (PPV) of a positive NIPT screen for Down syndrome is approximately 50%, whereas in a 42-year-old woman, the PPV is >90%. What explains this difference in PPV?",
+      "topic": "Biochemical Screening",
+      "difficulty": "Medium",
+      "question": "In Edwards Syndrome (Trisomy 18), what is the typical second-trimester triple/quad screen biochemical profile?",
       "options": [
-        "Positive predictive value depends directly on the prior prevalence of the condition in the screened population (Bayes' theorem)",
-        "The laboratory uses different sequencing machines for older women",
-        "cfDNA disintegrates in younger women's blood",
-        "Younger women do not have fetal DNA"
+        "All analytes (AFP, uE3, and hCG) are markedly DECREASED",
+        "hCG and Inhibin A are elevated",
+        "AFP is elevated with normal hCG",
+        "uE3 is elevated with low AFP"
       ],
       "correctIndex": 0,
-      "explanation": "Even with identical sensitivity and specificity, the PPV of any screening test is directly driven by the baseline disease prevalence in the population. In older women, higher prior risk yields a much higher PPV."
+      "explanation": "In Trisomy 18 (Edwards syndrome), severe placental and fetal hypoplasia results in marked reduction across all serum markers (low AFP, low uE3, and low hCG)."
     },
     {
       "id": "ch26_q27",
-      "topic": "Invasive Diagnostics",
-      "difficulty": "Hard",
-      "question": "Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis) is technically performed by inserting a fine spinal needle under ultrasound guidance into which specific vessel?",
+      "topic": "Ultrasound",
+      "difficulty": "Medium",
+      "question": "Omphalocele differs from Gastroschisis on prenatal ultrasound in that an Omphalocele:",
       "options": [
-        "The umbilical vein at its insertion site into the placenta",
-        "One of the umbilical arteries in a free floating loop",
-        "The maternal uterine artery",
-        "The fetal aorta directly"
+        "Is located lateral to the umbilicus with free-floating unprotected bowel",
+        "Is a midline ventral defect where herniated abdominal contents are enclosed in a protective peritoneal sac, frequently associated with trisomies",
+        "Never contains liver",
+        "Is completely benign with no genetic associations"
       ],
-      "correctIndex": 0,
-      "explanation": "PUBS samples fetal blood directly by puncturing the umbilical vein at its fixed placental insertion site, where the cord is stable and does not roll away from the needle."
+      "correctIndex": 1,
+      "explanation": "Omphalocele is a midline umbilical ring defect enclosed by a peritoneal/amniotic membrane and has a >50% association with chromosomal aneuploidies and cardiac defects."
     },
     {
       "id": "ch26_q28",
-      "topic": "Post-Procedure Care",
-      "difficulty": "Hard",
-      "question": "A patient calls the obstetric clinic 36 hours after an uncomplicated amniocentesis reporting a temperature of 38.8\u00b0C (101.8\u00b0F), chills, uterine tenderness, and foul-smelling vaginal discharge. What acute medical emergency must the nurse anticipate?",
+      "topic": "Invasive Procedures",
+      "difficulty": "Medium",
+      "question": "Rapid interphase Fluorescence In Situ Hybridization (FISH) on uncultured amniotic fluid cells provides preliminary aneuploidy results within:",
       "options": [
-        "Acute iatrogenic chorioamnionitis (intra-amniotic infection) requiring immediate hospitalization, blood cultures, broad-spectrum IV antibiotics, and urgent delivery evaluation",
-        "Normal post-procedure recovery",
-        "Post-dural puncture headache",
-        "Braxton-Hicks contractions"
+        "1 hour",
+        "24 to 48 hours",
+        "3 to 4 weeks",
+        "6 months"
       ],
-      "correctIndex": 0,
-      "explanation": "Chorioamnionitis following amniocentesis is a rare (1 in 1000) but catastrophic complication caused by skin flora innoculation; maternal fever, uterine tenderness, and purulent discharge indicate severe intra-amniotic infection."
+      "correctIndex": 1,
+      "explanation": "Interphase FISH uses DNA probes for chromosomes 13, 18, 21, X, and Y without requiring cell division, providing rapid results in 24 to 48 hours."
     },
     {
       "id": "ch26_q29",
       "topic": "NIPT",
-      "difficulty": "Hard",
-      "question": "An NIPT test returns an unexpected result showing multiple complex chromosomal aneuploidies (copy number gains and losses across chromosomes 1, 8, and 17) that are completely incompatible with life. Ultrasound confirms a normal active singleton fetus. What maternal condition must be investigated?",
+      "difficulty": "Easy",
+      "question": "How quickly does cell-free fetal DNA clear from the maternal circulation following delivery?",
       "options": [
-        "Occult maternal malignancy (e.g. lymphoma, breast cancer) shedding abnormal tumor-derived cell-free DNA into maternal circulation",
-        "Maternal appendicitis",
-        "High maternal vitamin C intake",
-        "Normal maternal hormonal changes"
+        "Within hours to days after birth",
+        "It persists permanently for the mother's entire life",
+        "It disappears after 10 years",
+        "It never clears"
       ],
       "correctIndex": 0,
-      "explanation": "Because maternal cfDNA comprises 85-95% of total circulating cell-free DNA, genomic copy number alterations from an undiagnosed maternal malignancy (e.g. Hodgkin lymphoma, breast, colon) can contaminate NIPT, producing discordant multi-chromosomal abnormalities."
+      "explanation": "Because cffDNA has a rapid plasma half-life of 16-60 minutes, it clears completely from maternal blood within hours of delivery and does not affect future pregnancies."
     },
     {
       "id": "ch26_q30",
-      "topic": "Serum Screening",
+      "topic": "Framework",
       "difficulty": "Hard",
-      "question": "A second-trimester Quad screen in a pregnancy complicated by Smith-Lemli-Opitz Syndrome (an autosomal recessive inborn error of cholesterol biosynthesis) characteristically reveals which unique biochemical finding?",
+      "question": "Chromosomal Microarray Analysis (CMA) performed on amniocentesis specimens has which major diagnostic advantage over conventional G-banded karyotyping?",
       "options": [
-        "Extremely, profoundly low (near-zero) unconjugated Estriol (uE3 < 0.1 MoM)",
-        "Markedly elevated AFP > 10 MoM",
-        "Extreme elevation of Inhibin-A",
-        "Normal estriol with negative hCG"
+        "It can detect balanced reciprocal translocations",
+        "It detects submicroscopic copy number variations (microdeletions and microduplications down to 50-100 kb) that are invisible on karyotype",
+        "It costs nothing",
+        "It requires non-viable dead cells"
       ],
-      "correctIndex": 0,
-      "explanation": "Fetal estriol synthesis requires functional fetal adrenal and liver cholesterol biosynthesis. In Smith-Lemli-Opitz (7-dehydrocholesterol reductase deficiency), precursor cholesterol is absent, plunging maternal serum uE3 to near zero."
+      "correctIndex": 1,
+      "explanation": "CMA provides genome-wide high resolution (50-100 kb), detecting submicroscopic microdeletions and duplications that cannot be resolved by standard G-banding (5 Mb limit)."
     }
   ]
 };

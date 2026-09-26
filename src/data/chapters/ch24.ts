@@ -5,357 +5,260 @@ export const ch24: Chapter = {
   "subjectId": "sub3",
   "number": 24,
   "title": "Basics of Genetics",
-  "subtitle": "Cell division (mitosis/meiosis), chromosome structure, karyotyping, Mendelian inheritance, and molecular mutations.",
+  "subtitle": "Chromosome structure, cell division (mitosis/meiosis), sex determination, mutations, and Mendelian/non-Mendelian inheritance patterns.",
   "topics": [
     {
       "id": "ch24_t1",
-      "name": "Chromosomes, Karyotyping & Cell Division",
-      "summary": "Organization of human genomic material into 46 chromosomes (22 autosome pairs and 1 sex chromosome pair), mitotic replication, and meiotic gametogenesis.",
-      "pathophysiology": "Nuclear DNA wraps around octameric histone cores to form nucleosomes ('beads-on-a-string'), compacting into chromatin fibers and metaphase chromosomes. During Mitosis, sister chromatids segregate into two identical diploid (2n=46) somatic cells. In Meiosis, a diploid germ cell undergoes two successive divisions: Meiosis I (homologous chromosome pairing, crossing-over/recombination in pachytene, and separation) and Meiosis II (separation of sister chromatids), producing 4 genetically diverse haploid (n=23) gametes. Nondisjunction during maternal meiosis I is the primary mechanism of human aneuploidy (e.g. Trisomy 21).",
+      "name": "Chromosome Structure, Organization & Cell Division",
+      "summary": "Structural packaging of the human genome into chromatin, chromosome anatomy, and the fundamental differences between somatic mitosis and gametic meiosis.",
+      "pathophysiology": "Human nuclear DNA (~2 meters per diploid cell) is compacted around an octamer of basic histone proteins (H2A, H2B, H3, H4) to form nucleosomes ('beads-on-a-string'). Chromosomes consist of a short arm ('p' for petit) and long arm ('q') separated by the centromere (metacentric, submetacentric, or acrocentric). Mitosis preserves the diploid (2n=46) state in somatic cells. Meiosis comprises two successive nuclear divisions (Meiosis I reductional and Meiosis II equational) producing haploid gametes (1n=23). In Meiosis I prophase (pachytene), homologous chromosomes align and undergo crossing over (homologous recombination at chiasmata), creating genetic diversity. Failure of homologous chromosomes or sister chromatids to separate properly during meiosis is termed non-disjunction, resulting in aneuploid gametes (trisomy or monosomy).",
       "clinicalFeatures": [
-        "Normal Human Karyotype: 46,XX (female) and 46,XY (male).",
-        "Chromosomal Aberrations: Numerical (Aneuploidy: Trisomy 21, Monosomy 45,X; Polyploidy: Triploidy 69,XXX) and Structural (Translocations: reciprocal vs Robertsonian; Deletions: Cri-du-chat 5p-; Inversions; Duplications; Ring chromosomes).",
-        "Robertsonian Translocation: Involves acrocentric chromosomes (13, 14, 15, 21, 22) where short p-arms are lost and long q-arms fuse at the centromere (e.g. rob(14;21) causing familial Down syndrome)."
+        "Normal Human Karyotype: 46,XX (female) and 46,XY (male); 22 pairs of autosomes and 1 pair of sex chromosomes.",
+        "Centromere Morphology: Metacentric (centromere at midpoint, arms equal e.g. chromosome 1); Submetacentric (centromere off-center, distinct p and q arms e.g. chromosome 4); Acrocentric (centromere near tip with stalk and satellite p arms e.g. chromosomes 13, 14, 15, 21, 22).",
+        "Meiotic Errors: Advanced maternal age (>35 years) strongly predisposes to meiotic non-disjunction during Meiosis I oogenesis, leading to Trisomy 21 (Down syndrome)."
       ],
       "diagnostics": [
-        "Conventional G-banding (Giemsa) Karyotyping: Arrests dividing lymphocytes in metaphase using colchicine; visualizes 400-550 distinct dark (AT-rich) and light (GC-rich) bands.",
-        "Fluorescence In Situ Hybridization (FISH): Uses fluorescent DNA probes to detect microdeletions (e.g. 22q11.2 DiGeorge) or rapid interphase aneuploidy detection.",
-        "Chromosomal Microarray Analysis (CMA / Array CGH): Detects submicroscopic copy number variations (CNVs) across the whole genome without requiring dividing cells."
+        "G-Banded Karyotyping: Phytohemagglutinin-stimulated T-lymphocyte culture arrested in metaphase with Colchicine; Giemsa staining yields 400-550 alternating light and dark bands.",
+        "Flow Cytometry & DNA Ploidy Analysis: Quantifies cellular DNA content.",
+        "Fluorescence In Situ Hybridization (FISH): Identifies targeted chromosomal sequences in metaphase or interphase nuclei."
       ],
-      "morphology": "Chromosomes categorized by centromere position: Metacentric (centromere at center), Submetacentric (centromere off-center, short p-arm and long q-arm), and Acrocentric (centromere near the end with satellite stalks: chromosomes 13, 14, 15, 21, 22).",
+      "morphology": "Acrocentric chromosomes have nucleolar organizer regions (NORs) encoding ribosomal RNA on their satellite p arms, which predispose them to Robertsonian translocations.",
       "nursingManagement": [
-        "Educate families undergoing karyotyping: Peripheral blood must be collected in a sodium heparin (green top) tube, kept at room temperature (never frozen), to maintain viable lymphocytes.",
-        "Provide empathetic support when communicating chromosomal test results.",
-        "Explain the distinction between inherited familial translocations and de novo sporadic mutations."
+        "Explain chromosome structure and hereditary mechanisms in clear, accessible language to anxious parents.",
+        "Identify high-risk pregnancies based on maternal age (>35 years) and offer timely genetic counseling and prenatal screening.",
+        "Handle peripheral blood cytogenetic specimens carefully: Collect in sterile Sodium Heparin green-top tubes (NOT EDTA) to keep cells viable for culture."
       ],
       "examPearls": [
-        "Maternal meiotic nondisjunction (predominantly Meiosis I) is responsible for 95% of Down syndrome cases.",
-        "Robertsonian translocations occur exclusively between acrocentric chromosomes (13, 14, 15, 21, 22).",
-        "Short arm of a chromosome is designated 'p' (petit) and long arm is 'q' (queue)."
+        "Human acrocentric chromosomes are 13, 14, 15, 21, and 22; these are uniquely involved in Robertsonian translocations.",
+        "Meiotic non-disjunction during maternal oogenesis (Meiosis I) is the mechanism responsible for >95% of Down syndrome cases.",
+        "Crossing over occurs during the Pachytene stage of Prophase I in Meiosis."
       ],
       "imagePath": "/images/ch24_img_1.jpeg",
-      "imageCaption": "Normal G-banded human male karyotype (46,XY) and meiotic nondisjunction mechanism."
+      "imageCaption": "Diagram of chromosome anatomy and human G-banded normal male karyotype (46,XY)."
     },
     {
       "id": "ch24_t2",
-      "name": "Patterns of Inheritance & Pedigree Construction",
-      "summary": "Classical Mendelian transmission modes (Autosomal Dominant, Autosomal Recessive, X-linked) and non-classical inheritance.",
-      "pathophysiology": "Mendel's Laws (Segregation and Independent Assortment) govern allele transmission. 1. Autosomal Dominant (AD): Single mutant allele causes phenotype; vertical transmission, 50% recurrence risk to offspring of affected parent, males and females affected equally (e.g. Huntington's disease, Marfan syndrome, Neurofibromatosis 1). Exhibits variable expressivity and reduced penetrance. 2. Autosomal Recessive (AR): Requires homozygous mutant alleles; horizontal transmission (affected siblings, normal parents who are obligate carriers), 25% recurrence risk, 50% carrier risk, 25% unaffected homozygous; frequently associated with parental consanguinity (e.g. Cystic fibrosis, Sickle cell anemia, PKU). 3. X-Linked Recessive: Expressed in hemizygous males (XY); carrier females transmit to 50% of sons (affected) and 50% of daughters (carriers); NO male-to-male transmission (e.g. Hemophilia A/B, Duchenne muscular dystrophy). 4. Mitochondrial: Maternally inherited to 100% of offspring; affected males do not transmit.",
+      "name": "Sex Determination & Lyonization (X-Inactivation)",
+      "summary": "Genetic mechanisms governing chromosomal sex determination and dosage compensation via Lyonization (Barr body formation).",
+      "pathophysiology": "Chromosomal sex is established at fertilization. The SRY gene (Sex-determining Region Y) located on the short arm of the Y chromosome (Yp11.3) encodes the Testis-Determining Factor (TDF). TDF directs primitive bipotential gonads to differentiate into testes; Sertoli cells secrete Anti-Müllerian Hormone (AMH/MIS) causing regression of female paramesonephric (Müllerian) ducts, and Leydig cells secrete testosterone promoting mesonephric (Wolffian) duct development. In females, absence of SRY allows default ovarian differentiation. Dosage Compensation (Lyon Hypothesis): Early in embryonic development (~day 16 post-fertilization), one of the two X chromosomes in each female somatic cell is randomly and permanently inactivated into a condensed heterochromatic Barr body, mediated by the non-coding RNA XIST.",
       "clinicalFeatures": [
-        "Autosomal Dominant: Structural protein defects, gain-of-function, or haploinsufficiency.",
-        "Autosomal Recessive: Inborn errors of metabolism, enzyme deficiencies; carrier state usually asymptomatic.",
-        "X-linked Recessive: Males manifest severe disease; heterozygous females may show mild symptoms due to skewed X-inactivation (lyonization)."
+        "Barr Body (Sex Chromatin): Visible as a small, dense, dark-staining mass attached to the inner nuclear membrane in somatic cells (buccal mucosa smear or neutrophils as a 'drumstick' nuclear appendage).",
+        "Number of Barr bodies = Total number of X chromosomes minus 1 (N - 1 Rule).",
+        "  - Normal female (46,XX): 1 Barr body.",
+        "  - Normal male (46,XY): 0 Barr bodies.",
+        "  - Turner syndrome (45,X): 0 Barr bodies.",
+        "  - Klinefelter syndrome (47,XXY): 1 Barr body.",
+        "  - Triple-X syndrome (47,XXX): 2 Barr bodies."
       ],
       "diagnostics": [
-        "Three-generation Pedigree Chart: Standardized symbols (Square = Male, Circle = Female, Filled = Affected, Diagonal slash = Deceased, Double line = Consanguineous mating).",
-        "Molecular DNA sequencing (Sanger sequencing, Next-Generation Sequencing) to identify specific point mutations or small indels."
+        "Buccal Mucosa Smear: Historical screening stained with Cresyl violet to count nuclear Barr bodies.",
+        "PCR for SRY Gene: Rapid molecular confirmation of presence/absence of the Y-chromosomal testis determinant.",
+        "Karyotyping: Definitive identification of sex chromosome complements (45,X; 46,XX; 46,XY; 47,XXY)."
       ],
-      "morphology": "Gene loci mapped to specific chromosome bands (e.g. CFTR at 7q31.2; Huntingtin at 4p16.3).",
+      "morphology": "Barr body appears as a 1 um plano-convex basophilic mass closely apposed to the nuclear membrane.",
       "nursingManagement": [
-        "Construct an accurate three-generation pedigree including miscarriages, stillbirths, and consanguinity.",
-        "Counsel parents regarding recurrence risks in future pregnancies based on precise inheritance pattern.",
-        "Advocate for non-directive genetic counseling: Enable families to make autonomous, informed reproductive choices."
+        "Support families facing disorders of sex development (DSD / ambiguous genitalia): Avoid gender assignment until complete multidisciplinary evaluation is finalized.",
+        "Educate parents that females are functional mosaics: X-linked recessive carrier females may occasionally manifest mild symptoms ('manifesting heterozygotes') due to skewed X-inactivation.",
+        "Maintain confidentiality regarding sex chromosome findings."
       ],
       "examPearls": [
-        "Autosomal Dominant inheritance features vertical transmission and 50% risk per pregnancy.",
-        "Autosomal Recessive inheritance features horizontal sibling involvement and 25% risk per pregnancy.",
-        "In X-linked recessive inheritance, there is NEVER father-to-son (male-to-male) transmission.",
-        "Mitochondrial disorders are transmitted exclusively by mothers to ALL their children (maternal inheritance)."
+        "The SRY gene on the short arm of the Y chromosome encodes Testis Determining Factor (TDF).",
+        "The number of Barr bodies in a cell always equals the total number of X chromosomes minus one (N - 1).",
+        "Turner syndrome (45,X) has ZERO Barr bodies; Klinefelter syndrome (47,XXY) has ONE Barr body."
       ],
-      "imagePath": "/images/ch24_img_2.jpeg",
-      "imageCaption": "Pedigree charts illustrating Autosomal Dominant, Autosomal Recessive, and X-linked transmission."
+      "imagePath": "/images/ch24_img_2.png",
+      "imageCaption": "Buccal mucosal cell showing an inner nuclear Barr body, alongside the N-1 rule for sex chromosome aneuploidies."
     },
     {
       "id": "ch24_t3",
-      "name": "Molecular Genetics: Gene Mutations & Polymorphisms",
-      "summary": "DNA nucleotide alterations, mechanisms of point mutations, frameshifts, and single nucleotide polymorphisms (SNPs).",
-      "pathophysiology": "Point Mutations (Base Substitutions): 1. Silent mutation: Altered codon encodes the SAME amino acid (degeneracy of genetic code; no phenotypic change). 2. Missense mutation: Altered codon encodes a DIFFERENT amino acid (e.g. GAG to GTG substitutes Glutamic acid for Valine at codon 6 of beta-globin in Sickle Cell Anemia). 3. Nonsense mutation: Altered codon creates a premature STOP codon (UAA, UAG, UGA), leading to truncated non-functional protein. Frameshift Mutations: Insertion or deletion of a number of nucleotides NOT divisible by 3, altering the downstream reading frame and resulting in premature termination (e.g. Duchenne muscular dystrophy). Trinucleotide Repeat Expansions: Dynamic mutations that expand across generations showing anticipation (e.g. CAG repeats in Huntington disease).",
+      "name": "Molecular Mutations & Trinucleotide Repeat Expansion",
+      "summary": "Classification of DNA mutations (point mutations, frameshifts) and the dynamic phenomenon of trinucleotide repeat expansion with genetic anticipation.",
+      "pathophysiology": "1. Point Mutations: Single nucleotide substitutions. Missense (changes amino acid e.g. GAG->GTG in beta-globin substituting Valine for Glutamic acid in Sickle Cell Anemia); Nonsense (creates a premature STOP codon e.g. UAA, UAG, UGA, resulting in a truncated, non-functional protein as in beta-thalassemia major); Silent (synonymous codon, no amino acid change). 2. Frameshift Mutations: Deletion or insertion of base pairs not divisible by three, completely altering the downstream reading frame (e.g. Duchenne muscular dystrophy). 3. Trinucleotide Repeat Expansions (Dynamic Mutations): Tandem triplet nucleotide repeats that expand during gametogenesis due to DNA polymerase slippage. Expansion beyond a critical pathogenic threshold causes disease. Manifests the phenomenon of Genetic Anticipation: The disease manifests at an earlier age and with increasing clinical severity in successive generations.",
       "clinicalFeatures": [
-        "Sickle Cell: Single missense point mutation causing hemoglobin polymerization under hypoxia.",
-        "Anticipation: Phenomenon where genetic disorder manifests at an earlier age and with greater severity in successive generations (Huntington's, Fragile X, Myotonic dystrophy)."
+        "Classic Trinucleotide Repeat Disorders:",
+        "  - Huntington Disease (CAG repeat on 4p in HTT gene): Autosomal dominant chorea and dementia; paternal transmission causes greatest expansion.",
+        "  - Fragile X Syndrome (CGG repeat in 5' UTR of FMR1 gene): Most common inherited cause of intellectual disability in males; macroorchidism, long face, large ears; maternal transmission expansion.",
+        "  - Myotonic Dystrophy (CTG repeat in 3' UTR of DMPK gene): Sustained muscle contraction (myotonia), cataracts, frontal balding, cardiac arrhythmias.",
+        "  - Friedreich Ataxia (GAA repeat in intron of FXN gene): Autosomal recessive ataxia and hypertrophic cardiomyopathy."
       ],
       "diagnostics": [
-        "Polymerase Chain Reaction (PCR) and automated DNA capillary sequencing.",
-        "Allele-Specific Oligonucleotide (ASO) hybridization and Restriction Fragment Length Polymorphism (RFLP)."
+        "Polymerase Chain Reaction (PCR) & Fragment Analysis: Accurately sizing trinucleotide repeat lengths in the normal and permutation ranges.",
+        "Southern Blot Analysis: Sizing massive, full-mutation repeat expansions (e.g. Fragile X >200 CGG repeats).",
+        "Sanger Sequencing & Next-Generation Sequencing (NGS): Detection of single nucleotide point mutations and small indels."
       ],
-      "morphology": "Double-helix DNA composed of purine (Adenine, Guanine) and pyrimidine (Cytosine, Thymine) bases with antiparallel 5' to 3' polarity.",
+      "morphology": "In Fragile X, cytogenetic preparation under folate-deficient culture conditions reveals a constricting 'fragile' non-staining gap at band Xq27.3.",
       "nursingManagement": [
-        "Explain genetic testing terminology in clear, lay terms to patients.",
-        "Educate regarding carrier screening programs (e.g. Sickle cell and Thalassemia trait screening).",
-        "Maintain strict genetic data privacy and patient confidentiality."
+        "Educate families on genetic anticipation when a grandparent presents with mild late-onset symptoms while grandchildren present with severe early-onset disease.",
+        "Counsel female premutation carriers of Fragile X (55-200 CGG repeats): They are at high risk of Primary Ovarian Insufficiency (FXPOI) and having fully affected sons.",
+        "Facilitate predictive genetic testing with pre- and post-test psychological counseling for at-risk adult-onset disorders."
       ],
       "examPearls": [
-        "Sickle cell anemia is caused by a single base missense mutation: GAG to GTG replacing Glutamic acid with Valine.",
-        "A nonsense mutation converts an amino acid codon into a premature stop codon.",
-        "Genetic anticipation is the hallmark of dynamic trinucleotide repeat expansion disorders."
+        "Sickle cell anemia is caused by a single point missense mutation (Glu6Val in the beta-globin gene).",
+        "Genetic Anticipation is the worsening severity and earlier onset of a disease in successive generations, characteristic of trinucleotide repeat disorders.",
+        "Fragile X syndrome is caused by a CGG trinucleotide repeat expansion in the FMR1 gene on chromosome X."
       ],
-      "imagePath": "/images/ch24_img_3.jpeg",
-      "imageCaption": "Molecular mechanism of silent, missense, nonsense, and frameshift DNA mutations."
+      "imagePath": "/images/ch24_img_3.png",
+      "imageCaption": "Diagram of trinucleotide repeat expansion mechanisms and the phenomenon of genetic anticipation across family generations."
+    },
+    {
+      "id": "ch24_t4",
+      "name": "Mendelian Patterns of Classical Inheritance",
+      "summary": "Rules of single-gene Mendelian transmission: Autosomal Dominant, Autosomal Recessive, X-linked Recessive, and X-linked Dominant disorders.",
+      "pathophysiology": "Mendel's laws of segregation and independent assortment govern single-gene monogenic traits. 1. Autosomal Dominant (AD): Manifests in heterozygotes (Aa); 50% transmission risk to offspring of an affected parent; vertical transmission across consecutive generations; males and females affected equally. Shows variable expressivity and incomplete penetrance. 2. Autosomal Recessive (AR): Manifests only in homozygotes (aa); parents are asymptomatic obligate carriers (Aa); 25% affected, 50% carrier, 25% unaffected offspring risk; horizontal pattern in siblings; consanguinity markedly increases risk. 3. X-Linked Recessive (XLR): Mutation on the X chromosome; carrier females transmit to 50% of sons (affected) and 50% of daughters (carriers); affected males transmit to 0% of sons and 100% of daughters (all obligate carriers); NO male-to-male transmission. 4. X-Linked Dominant (XLD): Affected fathers transmit to ALL daughters and NO sons.",
+      "clinicalFeatures": [
+        "Autosomal Dominant Conditions: Marfan syndrome (FBN1 fibrillin mutation, aortic dissection, lens subluxation, arachnodactyly), Achondroplasia (FGFR3 gain-of-function, dwarfism), Huntington disease, Neurofibromatosis Type 1, Familial Hypercholesterolemia.",
+        "Autosomal Recessive Conditions: Cystic fibrosis (CFTR), Sickle cell anemia, Beta-thalassemia, Phenylketonuria (PKU), Congenital Adrenal Hyperplasia (CAH).",
+        "X-Linked Recessive Conditions: Hemophilia A (Factor VIII deficiency) and Hemophilia B (Factor IX deficiency), Duchenne and Becker muscular dystrophy (DMD dystrophin gene), G6PD deficiency (hemolytic anemia from fava beans/primaquine), Red-green color blindness."
+      ],
+      "diagnostics": [
+        "Three-Generation Family Pedigree Construction: Standardized pedigree symbols (square=male, circle=female, shaded=affected, half-shaded=carrier).",
+        "Targeted Gene Mutation Panels: Confirmatory molecular testing via PCR and Sanger sequencing.",
+        "Biochemical Enzyme Assays: Factor VIII clotting activity (Hemophilia A), G6PD quantitative spectrophotometry."
+      ],
+      "morphology": "In Marfan syndrome: Cystic medial necrosis of the aorta. In Duchenne: Muscle biopsy reveals marked variation in muscle fiber size, necrosis, and extensive replacement by fibrofatty tissue ('pseudohypertrophy' of calf muscles).",
+      "nursingManagement": [
+        "Accurately calculate and communicate recurrence risks for carrier parents (e.g. 25% for autosomal recessive disorders with each pregnancy).",
+        "Advise couples with consanguineous marriages on the increased probability of shared rare autosomal recessive alleles.",
+        "In families with hemophilia or muscular dystrophy, provide support to mothers who often feel profound maternal guilt as carriers."
+      ],
+      "examPearls": [
+        "In X-linked recessive inheritance, there is NEVER any male-to-male (father-to-son) transmission.",
+        "Autosomal recessive disorders carry a 25% recurrence risk for each subsequent pregnancy between two carrier parents.",
+        "Marfan syndrome is an autosomal dominant connective tissue disorder caused by mutations in the FBN1 (fibrillin-1) gene on chromosome 15."
+      ],
+      "imagePath": "/images/ch24_img_4.jpeg",
+      "imageCaption": "Pedigree charts illustrating classical Autosomal Dominant, Autosomal Recessive, and X-Linked Recessive inheritance patterns."
+    },
+    {
+      "id": "ch24_t5",
+      "name": "Non-Mendelian & Epigenetic Inheritance",
+      "summary": "Atypical inheritance patterns bypassing classical Mendelian rules, including Mitochondrial (maternal) inheritance, Genomic Imprinting, and Multifactorial traits.",
+      "pathophysiology": "1. Mitochondrial Inheritance: Mitochondria contain circular double-stranded DNA (mtDNA, 37 genes) encoding respiratory chain enzymes. Mitochondria in the zygote are derived almost exclusively from the ovum (sperm mitochondria in the midpiece are degraded post-fertilization). Hence, mtDNA is transmitted exclusively maternally: An affected mother transmits the disorder to 100% of her children (both sons and daughters), but an affected father transmits to 0% of his children. Heteroplasmy: Cells contain mixtures of mutant and normal wild-type mtDNA; clinical severity depends on the proportion of mutant mtDNA exceeding a minimum threshold. 2. Genomic Imprinting: Epigenetic transcriptional silencing of a specific gene allele via DNA methylation depending on parent-of-origin. Deletion of chromosome 15q11-q13: If the deletion is inherited from the FATHER, Prader-Willi Syndrome results (paternal allele deleted; hyperphagia, severe obesity, hypogonadism, intellectual disability). If the exact same deletion is inherited from the MOTHER, Angelman Syndrome results ('happy puppet'; maternal UBE3A deleted; paroxysmal laughter, severe speech impairment, ataxia, seizures).",
+      "clinicalFeatures": [
+        "Mitochondrial Disorders (affect high-energy consuming tissues: brain, nerves, muscle):",
+        "  - Leber Hereditary Optic Neuropathy (LHON): Rapid, bilateral, painless central vision loss in young adults.",
+        "  - MELAS Syndrome: Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes.",
+        "  - MERRF: Myoclonic Epilepsy with Ragged Red Fibers on muscle biopsy.",
+        "Prader-Willi Syndrome: Severe infantile hypotonia and poor feeding, followed by insatiable hyperphagia, morbid obesity, and behavioral issues in childhood.",
+        "Angelman Syndrome: Microcephaly, wide-based puppet-like gait, jerky limb movements, unprovoked outbursts of inappropriate laughter ('happy puppet')."
+      ],
+      "diagnostics": [
+        "Gomori Trichrome Stain of Muscle: Demonstrates 'ragged red fibers' (subsarcolemmal aggregates of abnormal mitochondria) in mitochondrial myopathies.",
+        "Methylation-Specific PCR (MS-PCR): Diagnostic test of choice for Prader-Willi and Angelman syndromes (differentiates maternal from paternal methylation patterns on 15q11).",
+        "mtDNA Sequencing: Identifies specific point mutations or large deletions in the mitochondrial genome."
+      ],
+      "morphology": "Ragged red fibers on Gomori trichrome muscle biopsy. Lactic acidosis in serum and CSF.",
+      "nursingManagement": [
+        "Explain to fathers with mitochondrial disorders that their children will NOT inherit the disease.",
+        "In Prader-Willi syndrome: Implement strict behavioral dietary controls (locked pantries/refrigerators) to prevent life-threatening morbid obesity.",
+        "Provide multidisciplinary care coordination (neurology, physical therapy, speech therapy) for children with Angelman syndrome."
+      ],
+      "examPearls": [
+        "Mitochondrial disorders are transmitted EXCLUSIVELY by the mother to ALL of her offspring; affected males never transmit the disease.",
+        "Microdeletion of paternal 15q11-q13 causes Prader-Willi syndrome; microdeletion of maternal 15q11-q13 causes Angelman syndrome.",
+        "'Ragged red fibers' on muscle biopsy are characteristic of mitochondrial encephalomyopathies."
+      ],
+      "imagePath": "/images/ch24_img_1.jpeg",
+      "imageCaption": "Mitochondrial maternal transmission pedigree chart and muscle biopsy showing subsarcolemmal ragged red fibers."
     }
   ],
   "mindMap": {
-    "centralConcept": "Foundational Principles of Medical Genetics",
+    "centralConcept": "Genetics & Heredity Mechanisms",
     "nodes": [
       {
         "id": "g1",
-        "label": "DNA & Chromosome Architecture",
-        "category": "core",
-        "description": "46 chromosomes; nucleosome packaging; metacentric, submetacentric, acrocentric."
+        "label": "Meiotic Non-Disjunction",
+        "category": "etiology",
+        "description": "Failure of homolog separation in maternal Meiosis I causing aneuploidy"
       },
       {
         "id": "g2",
-        "label": "Meiotic Division & Segregation",
-        "category": "pathophysiology",
-        "description": "Meiosis I crossing-over; meiotic nondisjunction causing trisomies."
+        "label": "Acrocentric Chromosomes",
+        "category": "core",
+        "description": "Chromosomes 13, 14, 15, 21, 22 predisposing to Robertsonian translocations"
       },
       {
         "id": "g3",
-        "label": "Autosomal Dominant (50% Risk)",
-        "category": "clinical",
-        "description": "Vertical transmission; variable expressivity; Marfan, Huntington, NF1."
+        "label": "SRY & TDF Gene",
+        "category": "core",
+        "description": "Yp11.3 determinant directing male testicular differentiation"
       },
       {
         "id": "g4",
-        "label": "Autosomal Recessive (25% Risk)",
-        "category": "clinical",
-        "description": "Horizontal transmission; consanguinity link; CF, Sickle cell, PKU."
+        "label": "Lyonization (N - 1 Rule)",
+        "category": "pathophysiology",
+        "description": "Random X-inactivation into Barr bodies in female somatic cells"
       },
       {
         "id": "g5",
-        "label": "X-Linked Recessive Transmission",
-        "category": "clinical",
-        "description": "Carrier females, affected males, no male-to-male transmission; Hemophilia, DMD."
+        "label": "Trinucleotide Expansions",
+        "category": "pathophysiology",
+        "description": "CAG, CGG, CTG dynamic repeats causing genetic anticipation"
       },
       {
         "id": "g6",
-        "label": "Gene Mutation Types",
-        "category": "diagnostic",
-        "description": "Point mutations (missense, nonsense), frameshifts, and trinucleotide repeats."
+        "label": "Mendelian AD / AR / XLR",
+        "category": "core",
+        "description": "Classical transmission rules for single gene monogenic traits"
+      },
+      {
+        "id": "g7",
+        "label": "Maternal mtDNA Inheritance",
+        "category": "pathophysiology",
+        "description": "100% transmission from mother, 0% from father; ragged red fibers"
+      },
+      {
+        "id": "g8",
+        "label": "Genomic Imprinting (15q11)",
+        "category": "pathophysiology",
+        "description": "Parent-of-origin methylation: Paternal (Prader-Willi) vs Maternal (Angelman)"
+      },
+      {
+        "id": "g9",
+        "label": "Genetic Anticipation",
+        "category": "clinical",
+        "description": "Earlier onset and greater severity in successive generations"
       }
     ],
     "edges": [
       {
         "from": "g1",
         "to": "g2",
-        "relationship": "Divided during",
-        "explanation": "Homologous chromosome pairs align and separate during meiosis to form haploid gametes."
+        "relationship": "frequently involves",
+        "explanation": "Non-disjunction of chromosome 21 is the leading cause of Down syndrome."
       },
       {
-        "from": "g2",
+        "from": "g3",
         "to": "g4",
-        "relationship": "Underlies",
-        "explanation": "Mendel's law of segregation during meiotic anaphase dictates the 25% homozygous recurrence risk."
+        "relationship": "determines with",
+        "explanation": "Presence of SRY establishes male phenotype while X count determines Barr bodies."
+      },
+      {
+        "from": "g5",
+        "to": "g9",
+        "relationship": "drives",
+        "explanation": "Intergenerational expansion of dynamic repeats produces the anticipation phenomenon."
       },
       {
         "from": "g6",
-        "to": "g3",
-        "relationship": "Causes",
-        "explanation": "Single base mutations in structural proteins or triplet expansions drive dominant phenotypes."
+        "to": "g7",
+        "relationship": "contrasts with",
+        "explanation": "Mendelian inheritance follows chromosomal segregation, unlike maternal mitochondrial transmission."
+      },
+      {
+        "from": "g8",
+        "to": "g6",
+        "relationship": "violates",
+        "explanation": "Imprinting causes monoallelic expression based on parent of origin rather than Mendelian dominance."
       }
     ]
   },
   "quiz": [
     {
       "id": "ch24_q1",
-      "topic": "Chromosomes",
-      "difficulty": "Easy",
-      "question": "What is the normal chromosome complement of a somatic cell in a human female?",
-      "options": [
-        "46,XY",
-        "46,XX",
-        "47,XXY",
-        "45,X"
-      ],
-      "correctIndex": 1,
-      "explanation": "Normal human somatic cells contain 46 chromosomes: 22 pairs of autosomes and 1 pair of sex chromosomes (XX in females, XY in males)."
-    },
-    {
-      "id": "ch24_q2",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Easy",
-      "question": "In Autosomal Dominant inheritance, what is the risk of an affected heterozygous parent transmitting the mutant gene to each offspring?",
-      "options": [
-        "25%",
-        "50%",
-        "75%",
-        "100%"
-      ],
-      "correctIndex": 1,
-      "explanation": "Because only one mutant allele is required for phenotypic expression, a heterozygous parent (Aa) has a 50% (1 in 2) chance of passing the mutant allele to each child."
-    },
-    {
-      "id": "ch24_q3",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Easy",
-      "question": "When both parents are asymptomatic obligate carriers of an Autosomal Recessive disease, what is the chance that their child will be affected?",
-      "options": [
-        "0%",
-        "25% (1 in 4)",
-        "50% (1 in 2)",
-        "100%"
-      ],
-      "correctIndex": 1,
-      "explanation": "In an autosomal recessive cross between two carriers (Aa x Aa), the offspring probabilities are 25% unaffected (AA), 50% carrier (Aa), and 25% affected (aa)."
-    },
-    {
-      "id": "ch24_q4",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Easy",
-      "question": "Which inheritance pattern is characterized by NEVER having father-to-son (male-to-male) transmission?",
-      "options": [
-        "Autosomal Dominant",
-        "Autosomal Recessive",
-        "X-Linked Recessive",
-        "Mitochondrial"
-      ],
-      "correctIndex": 2,
-      "explanation": "Fathers pass their Y chromosome to sons; they transmit their X chromosome only to daughters. Therefore, X-linked recessive traits cannot be transmitted from father to son."
-    },
-    {
-      "id": "ch24_q5",
-      "topic": "Molecular Mutations",
-      "difficulty": "Easy",
-      "question": "Sickle cell anemia is caused by a point mutation in the beta-globin gene resulting in the substitution of which amino acid?",
-      "options": [
-        "Valine for Glutamic acid at position 6",
-        "Lysine for Arginine at position 12",
-        "Alanine for Glycine at position 1",
-        "Proline for Leucine at position 20"
-      ],
-      "correctIndex": 0,
-      "explanation": "Sickle cell anemia is caused by a single missense mutation (GAG to GTG) substituting hydrophobic Valine for hydrophilic Glutamic acid at codon 6 of beta-globin."
-    },
-    {
-      "id": "ch24_q6",
-      "topic": "Chromosomes",
-      "difficulty": "Easy",
-      "question": "Which of the following chromosomes is an ACROCENTRIC chromosome capable of forming Robertsonian translocations?",
-      "options": [
-        "Chromosome 1",
-        "Chromosome 14",
-        "Chromosome 7",
-        "Chromosome X"
-      ],
-      "correctIndex": 1,
-      "explanation": "The human acrocentric chromosomes are 13, 14, 15, 21, and 22. Their centromeres are situated near the telomeric end, enabling Robertsonian centric fusions."
-    },
-    {
-      "id": "ch24_q7",
-      "topic": "Pedigree Analysis",
-      "difficulty": "Easy",
-      "question": "In standard clinical genetics pedigree charting, what symbol represents a consanguineous marriage (mating between biological relatives)?",
-      "options": [
-        "A single horizontal line connecting male and female",
-        "A double horizontal line connecting male and female",
-        "A diagonal line crossing out the circle",
-        "A solid black square"
-      ],
-      "correctIndex": 1,
-      "explanation": "A double horizontal relationship line connecting a circle (female) and a square (male) denotes consanguineous mating between relatives."
-    },
-    {
-      "id": "ch24_q8",
       "topic": "Cell Division",
       "difficulty": "Easy",
-      "question": "Meiotic nondisjunction leading to numerical aneuploidy (such as Trisomy 21) occurs most frequently during:",
-      "options": [
-        "Paternal Meiosis II",
-        "Maternal Meiosis I",
-        "First mitotic division after fertilization",
-        "Cytokinesis"
-      ],
-      "correctIndex": 1,
-      "explanation": "Over 90% of maternal nondisjunction errors in Down syndrome occur during maternal Meiosis I, correlated with advancing maternal age."
-    },
-    {
-      "id": "ch24_q9",
-      "topic": "Molecular Mutations",
-      "difficulty": "Easy",
-      "question": "A mutation that changes a codon encoding an amino acid into a premature termination (STOP) codon is called a:",
-      "options": [
-        "Silent mutation",
-        "Missense mutation",
-        "Nonsense mutation",
-        "Synonymous mutation"
-      ],
-      "correctIndex": 2,
-      "explanation": "A nonsense mutation converts a sense codon to one of three stop codons (UAA, UAG, UGA), leading to premature polypeptide chain termination and truncated protein."
-    },
-    {
-      "id": "ch24_q10",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Easy",
-      "question": "Disorders resulting from mutations in mitochondrial DNA (mtDNA) are transmitted to offspring exclusively by:",
-      "options": [
-        "The father only",
-        "The mother only",
-        "Both parents equally",
-        "Autosomal crossing-over"
-      ],
-      "correctIndex": 1,
-      "explanation": "Sperm mitochondria are tagged with ubiquitin and destroyed upon fertilization; virtually all mitochondria in the zygote are derived from the ovum (maternal inheritance)."
-    },
-    {
-      "id": "ch24_q11",
-      "topic": "Chromosomes",
-      "difficulty": "Medium",
-      "question": "In cytogenetic nomenclature, what does the designation '46,XY,del(5)(p15.2)' signify?",
-      "options": [
-        "A male with 46 chromosomes exhibiting a terminal deletion on the short arm (p) of chromosome 5 (Cri-du-chat syndrome)",
-        "A female with an extra chromosome 5",
-        "A normal male without abnormalities",
-        "A male with 5 extra X chromosomes"
-      ],
-      "correctIndex": 0,
-      "explanation": "This represents a male (46,XY) with a structural deletion (del) involving region 1, band 5, sub-band 2 on the short arm (p) of chromosome 5, the genetic basis of Cri-du-chat syndrome."
-    },
-    {
-      "id": "ch24_q12",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Medium",
-      "question": "The phenomenon wherein individuals carrying the identical dominant gene mutation display widely differing severity of clinical manifestations is termed:",
-      "options": [
-        "Incomplete penetrance",
-        "Variable expressivity",
-        "Pleiotropy",
-        "Genetic anticipation"
-      ],
-      "correctIndex": 1,
-      "explanation": "Variable expressivity means the degree of severity or clinical manifestation varies among individuals who have the same mutant genotype (e.g. Neurofibromatosis 1)."
-    },
-    {
-      "id": "ch24_q13",
-      "topic": "Molecular Mutations",
-      "difficulty": "Medium",
-      "question": "The molecular mechanism underlying 'Genetic Anticipation' in Huntington disease and Fragile X syndrome is:",
-      "options": [
-        "Progressive expansion of unstable trinucleotide repeat sequences during gametogenesis across successive generations",
-        "Accelerated loss of telomeres",
-        "Increasing maternal age alone",
-        "Dietary folate toxicity"
-      ],
-      "correctIndex": 0,
-      "explanation": "Dynamic trinucleotide repeat sequences expand during gametogenesis; larger repeats correlate with earlier onset and increased severity in subsequent generations."
-    },
-    {
-      "id": "ch24_q14",
-      "topic": "Chromosomes",
-      "difficulty": "Medium",
-      "question": "Why is a Robertsonian translocation carrier (e.g. 45,XX,der(14;21)) phenotypically completely normal despite having only 45 chromosomes?",
-      "options": [
-        "The lost short arms of acrocentric chromosomes 14 and 21 contain only redundant repetitive ribosomal RNA genes; the critical long q-arms containing essential genes are preserved intact",
-        "The person has a hidden duplicate chromosome in the liver",
-        "Females do not require chromosome 21",
-        "Robertsonian translocations only affect hair color"
-      ],
-      "correctIndex": 0,
-      "explanation": "The p-arms of acrocentric chromosomes contain multiple tandem copies of ribosomal RNA found on other acrocentrics. Their loss causes no phenotypic deficit because all unique coding genes on the q-arms are preserved."
-    },
-    {
-      "id": "ch24_q15",
-      "topic": "Cell Division",
-      "difficulty": "Medium",
-      "question": "Crossing-over (genetic recombination) occurs during which specific stage of Meiotic Prophase I?",
+      "question": "During which specific sub-stage of Prophase I in Meiosis does genetic crossing over (homologous recombination at chiasmata) occur?",
       "options": [
         "Leptotene",
         "Zygotene",
@@ -363,217 +266,413 @@ export const ch24: Chapter = {
         "Diakinesis"
       ],
       "correctIndex": 2,
-      "explanation": "Homologous nonsister chromatids exchange reciprocal genetic fragments during the pachytene stage of Meiosis I, mediated by synaptonemal complexes."
+      "explanation": "Homologous crossing over and exchange of genetic material takes place during the Pachytene stage of Prophase I."
+    },
+    {
+      "id": "ch24_q2",
+      "topic": "Sex Determination",
+      "difficulty": "Easy",
+      "question": "According to the Lyon hypothesis, how many Barr bodies are present in the somatic cells of a male with Klinefelter syndrome (47,XXY)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "explanation": "The number of Barr bodies equals the total number of X chromosomes minus 1 (N - 1). A 47,XXY male has 2 - 1 = 1 Barr body."
+    },
+    {
+      "id": "ch24_q3",
+      "topic": "Mutations",
+      "difficulty": "Medium",
+      "question": "Sickle cell anemia is caused by which specific type of point mutation in the beta-globin gene?",
+      "options": [
+        "Nonsense mutation introducing a premature stop codon",
+        "Missense mutation replacing glutamic acid with valine at codon 6 (Glu6Val)",
+        "Frameshift insertion of 2 base pairs",
+        "Trinucleotide repeat expansion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sickle cell anemia is caused by an A-to-T transversion (GAG to GTG) substituting valine for glutamic acid at position 6 of the beta-globin chain."
+    },
+    {
+      "id": "ch24_q4",
+      "topic": "Dynamic Mutations",
+      "difficulty": "Medium",
+      "question": "The clinical phenomenon whereby a genetic disorder manifests at an earlier age and with increased severity in successive generations is termed:",
+      "options": [
+        "Pleiotropy",
+        "Genetic Anticipation",
+        "Incomplete penetrance",
+        "Variable expressivity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Genetic anticipation is characteristic of trinucleotide repeat expansion disorders, where repeat length increases during gametogenesis across generations."
+    },
+    {
+      "id": "ch24_q5",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Easy",
+      "question": "Which of the following is an absolute rule of X-Linked Recessive inheritance?",
+      "options": [
+        "Affected fathers transmit the disease to 50% of their sons",
+        "There is NEVER any male-to-male (father-to-son) transmission",
+        "Females are affected twice as frequently as males",
+        "It skips every alternate generation in all cases"
+      ],
+      "correctIndex": 1,
+      "explanation": "A father contributes only his Y chromosome to his sons. Therefore, male-to-male transmission of X-linked traits is biologically impossible."
+    },
+    {
+      "id": "ch24_q6",
+      "topic": "Non-Mendelian Inheritance",
+      "difficulty": "Medium",
+      "question": "What is the characteristic transmission pattern observed in Mitochondrial DNA (mtDNA) disorders?",
+      "options": [
+        "Transmitted only from father to son",
+        "Transmitted exclusively by the mother to 100% of her offspring (both sons and daughters)",
+        "Transmitted to 25% of offspring regardless of parent",
+        "Transmitted only to female offspring"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mitochondria are inherited exclusively through the maternal ovum cytoplasm. An affected mother transmits the mutation to all of her children, while affected fathers never transmit it."
+    },
+    {
+      "id": "ch24_q7",
+      "topic": "Epigenetics",
+      "difficulty": "Hard",
+      "question": "Microdeletion of the 15q11-q13 chromosomal region produces Prader-Willi syndrome when inherited from the father, but produces Angelman syndrome when inherited from the mother. This phenomenon is known as:",
+      "options": [
+        "Genomic Imprinting",
+        "X-inactivation",
+        "Robertsonian translocation",
+        "Maternal heteroplasmy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Genomic imprinting involves parent-of-origin specific epigenetic silencing via DNA methylation. Deletion of the active paternal copy causes Prader-Willi; deletion of the active maternal copy causes Angelman."
+    },
+    {
+      "id": "ch24_q8",
+      "topic": "Chromosome Structure",
+      "difficulty": "Medium",
+      "question": "Which human chromosomes are classified as Acrocentric and uniquely predisposed to Robertsonian translocations?",
+      "options": [
+        "Chromosomes 1, 2, 3, 4, and 5",
+        "Chromosomes 13, 14, 15, 21, and 22",
+        "Chromosomes 6, 7, 8, 9, and 10",
+        "Only the X and Y chromosomes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human acrocentric chromosomes are 13, 14, 15, 21, and 22, featuring very short p arms containing repetitive ribosomal DNA that can fuse at their centromeres."
+    },
+    {
+      "id": "ch24_q9",
+      "topic": "Sex Determination",
+      "difficulty": "Easy",
+      "question": "Which gene located on the short arm of the Y chromosome is the master genetic switch for male testicular differentiation?",
+      "options": [
+        "BRCA1",
+        "SRY gene (Sex-determining Region Y)",
+        "WT1",
+        "CFTR"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SRY gene encodes the Testis-Determining Factor (TDF) transcription factor that triggers embryonic gonadal differentiation into testes."
+    },
+    {
+      "id": "ch24_q10",
+      "topic": "Dynamic Mutations",
+      "difficulty": "Medium",
+      "question": "Huntington Disease is caused by an expansion of which repeating trinucleotide sequence in the HTT gene?",
+      "options": [
+        "CGG",
+        "CAG",
+        "CTG",
+        "GAA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Huntington disease is caused by an unstable CAG (cytosine-adenine-guanine) trinucleotide repeat expansion in the HTT gene on chromosome 4p, encoding a polyglutamine tract."
+    },
+    {
+      "id": "ch24_q11",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Easy",
+      "question": "If both parents are asymptomatic carriers of an Autosomal Recessive disorder (e.g., Cystic Fibrosis), what is the probability that their child will be clinically affected?",
+      "options": [
+        "0%",
+        "25% (1 in 4)",
+        "50% (1 in 2)",
+        "100%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Between two heterozygous carriers (Aa x Aa), each conception has a 25% (1 in 4) chance of inheriting both mutant alleles (aa) and being clinically affected."
+    },
+    {
+      "id": "ch24_q12",
+      "topic": "Cell Division",
+      "difficulty": "Hard",
+      "question": "What is the primary cellular mechanism responsible for the vast majority of cases of Trisomy 21 (Down syndrome)?",
+      "options": [
+        "Maternal meiotic non-disjunction during Meiosis I",
+        "Paternal mitotic non-disjunction during spermatogenesis",
+        "Reciprocal translocation between chromosomes 9 and 22",
+        "Somatic mosaicism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meiotic non-disjunction during maternal oogenesis (primarily in Meiosis I) accounts for approximately 95% of all Down syndrome cases."
+    },
+    {
+      "id": "ch24_q13",
+      "topic": "Non-Mendelian Inheritance",
+      "difficulty": "Hard",
+      "question": "The histological demonstration of 'Ragged Red Fibers' on Gomori trichrome muscle biopsy is characteristic of which group of diseases?",
+      "options": [
+        "Autosomal dominant muscular dystrophies",
+        "Mitochondrial Encephalomyopathies (e.g., MERRF, MELAS)",
+        "Glycogen storage diseases",
+        "Motor neuron diseases"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Ragged red fibers' represent subsarcolemmal aggregates of abnormal, proliferating mutant mitochondria, diagnostic of mitochondrial myopathies."
+    },
+    {
+      "id": "ch24_q14",
+      "topic": "Dynamic Mutations",
+      "difficulty": "Medium",
+      "question": "Fragile X syndrome, the most common inherited cause of intellectual disability in males, involves which trinucleotide repeat in the FMR1 gene?",
+      "options": [
+        "CAG",
+        "CGG",
+        "CTG",
+        "GAA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fragile X syndrome results from an expansion of a CGG trinucleotide repeat (>200 repeats) in the 5' untranslated region of the FMR1 gene on the X chromosome."
+    },
+    {
+      "id": "ch24_q15",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Easy",
+      "question": "Marfan syndrome and Achondroplasia follow which classical pattern of inheritance?",
+      "options": [
+        "Autosomal Dominant",
+        "Autosomal Recessive",
+        "X-linked Recessive",
+        "Mitochondrial"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marfan syndrome (FBN1 mutation) and Achondroplasia (FGFR3 mutation) are classic Autosomal Dominant disorders displaying vertical transmission across generations."
     },
     {
       "id": "ch24_q16",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Medium",
-      "question": "A woman who is a carrier for Hemophilia A (X-linked recessive) marries an unaffected normal male. What are the expected risks for their children?",
+      "topic": "Sex Determination",
+      "difficulty": "Easy",
+      "question": "How many Barr bodies are observed in the somatic cells of a female with Turner syndrome (45,X)?",
       "options": [
-        "50% of sons will have hemophilia; 50% of daughters will be asymptomatic carriers",
-        "100% of sons will be affected",
-        "All children will be normal without any carriers",
-        "50% of daughters will have hemophilia"
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correctIndex": 0,
-      "explanation": "The carrier mother passes her mutant X to 50% of offspring. Sons receiving it develop hemophilia (XY); daughters receiving it become heterozygous carriers (XX)."
+      "explanation": "Applying the N - 1 rule: A female with 45,X has only one X chromosome. Total X (1) - 1 = 0 Barr bodies."
     },
     {
       "id": "ch24_q17",
-      "topic": "Chromosomes",
+      "topic": "Mendelian Inheritance",
       "difficulty": "Medium",
-      "question": "Fluorescence In Situ Hybridization (FISH) is particularly superior to conventional G-banded karyotyping when:",
+      "question": "A woman who is a carrier for Hemophilia A (an X-linked recessive disorder) has children with a healthy man. What is the risk that her son will have hemophilia?",
       "options": [
-        "Rapidly detecting submicroscopic microdeletions (e.g. 22q11.2) or assessing numerical aneuploidy in non-dividing interphase cells",
-        "Analyzing 10,000 genes simultaneously",
-        "Measuring blood glucose",
-        "Determining ABO blood grouping"
-      ],
-      "correctIndex": 0,
-      "explanation": "FISH uses fluorescently labeled locus-specific probes to detect submicroscopic microdeletions below the ~5 Mb resolution of karyotypes, and does not require culturing dividing cells."
-    },
-    {
-      "id": "ch24_q18",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Medium",
-      "question": "In Lyonization (X-chromosome inactivation), one of the two X chromosomes in each female somatic cell is randomly and permanently silenced into a dense heterochromatin structure called a:",
-      "options": [
-        "Barr body (sex chromatin)",
-        "Centrosome",
-        "Nucleolus",
-        "Kinetochore"
-      ],
-      "correctIndex": 0,
-      "explanation": "Early in embryonic development, the XIST gene mediates random epigenetic silencing of one X chromosome in female cells, condensing it into a visible peripheral nuclear Barr body."
-    },
-    {
-      "id": "ch24_q19",
-      "topic": "Molecular Mutations",
-      "difficulty": "Medium",
-      "question": "A 2-base-pair deletion within an exon of the dystrophin gene causes Duchenne Muscular Dystrophy. What type of mutation is this?",
-      "options": [
-        "Frameshift mutation",
-        "In-frame deletion",
-        "Silent point mutation",
-        "Splice-site mutation"
-      ],
-      "correctIndex": 0,
-      "explanation": "Because genetic code is read in triplets, deleting 2 base pairs disrupts the open reading frame (frameshift), generating completely aberrant downstream amino acids and an early stop codon."
-    },
-    {
-      "id": "ch24_q20",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Medium",
-      "question": "If an individual carries a pathogenic dominant allele but never exhibits any phenotypic manifestation of the disease throughout life, this allele exhibits:",
-      "options": [
-        "Reduced (incomplete) penetrance",
-        "Pleiotropy",
-        "Codominance",
-        "Mosaicism"
-      ],
-      "correctIndex": 0,
-      "explanation": "Penetrance is the percentage of individuals with a given genotype who express the expected phenotype. When <100%, it is termed reduced or incomplete penetrance."
-    },
-    {
-      "id": "ch24_q21",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Hard",
-      "question": "A man with classic Hemophilia A (X-linked recessive) and an unaffected non-carrier woman have children. Which statement regarding their offspring is correct?",
-      "options": [
-        "All of their daughters will be obligate carriers, and NONE of their sons will be affected or carry the disease",
-        "50% of sons will have hemophilia",
-        "All sons will have hemophilia",
-        "All daughters will have severe bleeding hemophilia"
-      ],
-      "correctIndex": 0,
-      "explanation": "The father transmits his affected X chromosome to 100% of his daughters (making them all obligate carriers) and his normal Y chromosome to 100% of his sons (none affected)."
-    },
-    {
-      "id": "ch24_q22",
-      "topic": "Chromosomes",
-      "difficulty": "Hard",
-      "question": "A phenotypically normal female is discovered to have a balanced reciprocal translocation between chromosomes 4 and 20: 46,XX,t(4;20)(q21;q13). Why does she have a high risk of recurrent spontaneous miscarriages?",
-      "options": [
-        "During meiotic segregation, alternate vs adjacent segregation yields gametes with unbalanced duplications and deletions that are lethal to developing embryos",
-        "Translocation carriers cannot produce progesterone",
-        "Her uterus is anatomically duplicated",
-        "All of her eggs lack mitochondria"
-      ],
-      "correctIndex": 0,
-      "explanation": "During meiotic prophase, balanced translocation chromosomes form a quadrivalent. Adjacent segregation produces unbalanced gametes carrying partial trisomies and partial monosomies, leading to early spontaneous abortions."
-    },
-    {
-      "id": "ch24_q23",
-      "topic": "Epigenetics",
-      "difficulty": "Hard",
-      "question": "Prader-Willi syndrome and Angelman syndrome are classic examples of Genomic Imprinting involving microdeletion of chromosome 15q11-q13. Prader-Willi occurs when:",
-      "options": [
-        "The deletion is inherited from the PATERNAL chromosome (paternal genes deleted; maternal genes silenced)",
-        "The deletion is inherited from the MATERNAL chromosome",
-        "Both chromosomes 15 are completely missing",
-        "There is a trisomy of chromosome 15"
-      ],
-      "correctIndex": 0,
-      "explanation": "In 15q11-q13, maternal genes are normally epigenetically silenced (imprinted). If the paternal active allele is deleted (or maternal uniparental disomy occurs), no active gene product exists, causing Prader-Willi syndrome (hyperphagia, obesity, hypotonia)."
-    },
-    {
-      "id": "ch24_q24",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Hard",
-      "question": "A child has severe autosomal recessive cystic fibrosis. Karyotyping and molecular testing reveal that the child has inherited two identical copies of chromosome 7 from the carrier mother and ZERO copies from the father. This genetic mechanism is termed:",
-      "options": [
-        "Maternal Uniparental Isodisomy",
-        "Chromosomal translocation",
-        "Triploidy",
-        "Skewed X-inactivation"
-      ],
-      "correctIndex": 0,
-      "explanation": "Uniparental isodisomy occurs when an individual inherits two identical copies of a chromosome from a single parent (due to trisomy rescue or monosomy duplication), unmasking recessive mutations from a single carrier parent."
-    },
-    {
-      "id": "ch24_q25",
-      "topic": "Molecular Genetics",
-      "difficulty": "Hard",
-      "question": "In the human beta-globin gene, a mutation in the canonical GT dinucleotide sequence at the 5' donor site of intron 1 prevents normal mRNA processing. This is a:",
-      "options": [
-        "Splice-site mutation resulting in aberrant pre-mRNA splicing",
-        "Nonsense mutation",
-        "Silent mutation",
-        "Trinucleotide expansion"
-      ],
-      "correctIndex": 0,
-      "explanation": "Mutations at invariant GT (donor) or AG (acceptor) splice junctions prevent spliceosome recognition, leading to intron retention or exon skipping and aberrant non-functional mRNA in beta-thalassemia."
-    },
-    {
-      "id": "ch24_q26",
-      "topic": "Chromosomes",
-      "difficulty": "Hard",
-      "question": "A newborn with ambiguous genitalia is found to have a 46,XX karyotype, normal ovaries and uterus, but virilized clitoris and labial fusion. Maternal history reveals no exogenous androgen intake. This 46,XX Disorder of Sex Development (DSD) is most frequently caused by:",
-      "options": [
-        "Congenital Adrenal Hyperplasia (21-hydroxylase deficiency)",
-        "Complete Androgen Insensitivity Syndrome",
-        "Klinefelter syndrome",
-        "Turner syndrome"
-      ],
-      "correctIndex": 0,
-      "explanation": "Deficiency of 21-hydroxylase shunts adrenal steroid precursors into excess androgen synthesis, virilizing the external genitalia of a 46,XX female fetus in utero while internal Mullerian organs remain female."
-    },
-    {
-      "id": "ch24_q27",
-      "topic": "Chromosomes",
-      "difficulty": "Hard",
-      "question": "What is the key clinical difference between complete triploidy (69,XXX / 69,XXY) and trisomy (e.g. 47,XX,+21)?",
-      "options": [
-        "Triploidy is polyploidy involving an entire extra haploid set of 23 chromosomes (69 total) and is virtually always lethal in utero; trisomy is aneuploidy involving a single extra chromosome",
-        "Triploidy produces healthy long-lived adults",
-        "Trisomy involves 92 chromosomes",
-        "Triploidy is caused by lack of Vitamin D"
-      ],
-      "correctIndex": 0,
-      "explanation": "Polyploidy represents whole-genome multiplication (e.g. 3n=69 chromosomes from dispermy), leading to severe early embryonic lethality or non-viable hydatidiform moles, whereas single aneuploidy (47 chromosomes) can be compatible with post-natal life."
-    },
-    {
-      "id": "ch24_q28",
-      "topic": "Inheritance Patterns",
-      "difficulty": "Hard",
-      "question": "A woman with mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS) has children. Why may her children demonstrate widely variable clinical severity ranging from asymptomatic to fatal infant disease?",
-      "options": [
-        "Mitochondrial Heteroplasmy (variable proportion of mutant versus normal mitochondrial genomes distributed randomly during cytokinesis)",
-        "Mendelian independent assortment",
-        "X-linked dominant suppression",
-        "Paternal mitochondrial competition"
-      ],
-      "correctIndex": 0,
-      "explanation": "Heteroplasmy refers to the coexistence of mutated and wild-type mtDNA inside a cell. Replicative segregation distributes varying percentages of mutant mitochondria to daughter cells, causing dramatic variation in organ energy failure."
-    },
-    {
-      "id": "ch24_q29",
-      "topic": "Chromosomes",
-      "difficulty": "Hard",
-      "question": "A mother carries a balanced Robertsonian translocation fusing chromosomes 21 and 21: rob(21q21q). What is the theoretical probability of her having a normal unaffected child?",
-      "options": [
-        "0% (100% of viable liveborn pregnancies will have Down syndrome, with the remainder ending in non-viable monosomy 21 miscarriages)",
+        "0%",
         "25%",
         "50%",
         "100%"
       ],
+      "correctIndex": 2,
+      "explanation": "A carrier mother (X^H X^h) passes her mutant X^h chromosome to 50% of her sons, who will be affected because they have only one X chromosome."
+    },
+    {
+      "id": "ch24_q18",
+      "topic": "Epigenetics",
+      "difficulty": "Hard",
+      "question": "Which clinical features are typical of children with Angelman Syndrome ('happy puppet' syndrome)?",
+      "options": [
+        "Morbid obesity, polyphagia, and hypogonadism",
+        "Severe intellectual disability, lack of speech, paroxysmal unprovoked laughter, and ataxic jerky gait",
+        "Tall stature, gynecomastia, and infertility",
+        "Normal intelligence with webbed neck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angelman syndrome is characterized by severe developmental delay, absence of speech, puppet-like jerky arm movements, and a happy disposition with frequent unprovoked laughter."
+    },
+    {
+      "id": "ch24_q19",
+      "topic": "Chromosome Structure",
+      "difficulty": "Medium",
+      "question": "The standard anticoagulant required for peripheral blood samples drawn for cytogenetic karyotype cell culture is:",
+      "options": [
+        "EDTA (purple-top)",
+        "Sodium Citrate (blue-top)",
+        "Sodium Heparin (green-top)",
+        "Sodium Fluoride (gray-top)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sodium heparin preserves viable living T-lymphocytes for mitogenic stimulation in culture. EDTA is toxic to live cell cultures and inhibits cell division."
+    },
+    {
+      "id": "ch24_q20",
+      "topic": "Dynamic Mutations",
+      "difficulty": "Hard",
+      "question": "Which trinucleotide repeat expansion is located in an intron and causes Friedreich Ataxia?",
+      "options": [
+        "CAG",
+        "CGG",
+        "GAA",
+        "CTG"
+      ],
+      "correctIndex": 2,
+      "explanation": "Friedreich ataxia is an autosomal recessive neurodegenerative disorder caused by a GAA triplet repeat expansion in intron 1 of the FXN (frataxin) gene on chromosome 9."
+    },
+    {
+      "id": "ch24_q21",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Medium",
+      "question": "The phenomenon where a single mutated gene produces multiple, seemingly unrelated phenotypic effects in different organ systems is called:",
+      "options": [
+        "Genetic heterogeneity",
+        "Pleiotropy",
+        "Penetrance",
+        "Variable expressivity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pleiotropy occurs when a single genetic mutation causes widespread effects across diverse organ systems (e.g. Marfan syndrome affecting eyes, skeleton, and aorta)."
+    },
+    {
+      "id": "ch24_q22",
+      "topic": "Cell Division",
+      "difficulty": "Easy",
+      "question": "Somatic cell division resulting in two daughter cells with an identical diploid chromosome number (2n=46) is called:",
+      "options": [
+        "Meiosis",
+        "Mitosis",
+        "Gamete fusion",
+        "Parthenogenesis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mitosis is the somatic cell division responsible for tissue growth and repair, maintaining an identical diploid complement of 46 chromosomes."
+    },
+    {
+      "id": "ch24_q23",
+      "topic": "Epigenetics",
+      "difficulty": "Medium",
+      "question": "In Prader-Willi syndrome, the cardinal behavioral and physical feature that emerges during early childhood is:",
+      "options": [
+        "Uncontrollable hyperphagia (insatiable appetite) leading to severe morbid obesity",
+        "Complete lack of speech with happy demeanor",
+        "Blindness",
+        "Tremor"
+      ],
       "correctIndex": 0,
-      "explanation": "Because both chromosomes 21 are physically joined into a single unit, she can only pass either the rob(21;21) chromosome (producing Trisomy 21 liveborn) or zero copies of 21 (producing lethal Monosomy 21). A normal child is impossible."
+      "explanation": "Children with Prader-Willi syndrome develop extreme hyperphagia (lack of satiety) leading to morbid obesity and type 2 diabetes if food access is not strictly regulated."
+    },
+    {
+      "id": "ch24_q24",
+      "topic": "Sex Determination",
+      "difficulty": "Hard",
+      "question": "A woman presents with 2 Barr bodies in each buccal epithelial cell. What is her expected sex chromosome complement?",
+      "options": [
+        "45,X",
+        "46,XX",
+        "47,XXX (Triple X Syndrome)",
+        "48,XXXX"
+      ],
+      "correctIndex": 2,
+      "explanation": "Number of Barr bodies = X chromosomes - 1. If Barr bodies = 2, then total X chromosomes = 3 (47,XXX)."
+    },
+    {
+      "id": "ch24_q25",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Easy",
+      "question": "Which of the following conditions is an X-Linked Recessive bleeding disorder caused by deficiency of clotting Factor VIII?",
+      "options": [
+        "Von Willebrand disease",
+        "Hemophilia A",
+        "Hemophilia B",
+        "Immune thrombocytopenic purpura"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemophilia A is an X-linked recessive disorder characterized by deficiency of functional coagulation Factor VIII."
+    },
+    {
+      "id": "ch24_q26",
+      "topic": "Mutations",
+      "difficulty": "Medium",
+      "question": "A mutation that changes a codon encoding an amino acid into a premature termination (STOP) codon is classified as a:",
+      "options": [
+        "Missense mutation",
+        "Nonsense mutation",
+        "Silent mutation",
+        "Synonymous mutation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nonsense mutations convert an amino acid-specifying codon into a premature stop codon (UAA, UAG, UGA), truncating the protein product."
+    },
+    {
+      "id": "ch24_q27",
+      "topic": "Non-Mendelian Inheritance",
+      "difficulty": "Hard",
+      "question": "Heteroplasmy in mitochondrial genetics refers to:",
+      "options": [
+        "The coexistence of mutant and normal wild-type mitochondrial genomes within the same cell or tissue",
+        "The presence of both male and female chromosomes in a cell",
+        "Equal expression of maternal and paternal alleles",
+        "Absence of mitochondrial DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heteroplasmy describes the variable proportion of mutant versus normal mtDNA within cells; disease manifests only when the mutant fraction exceeds a critical threshold."
+    },
+    {
+      "id": "ch24_q28",
+      "topic": "Mendelian Inheritance",
+      "difficulty": "Medium",
+      "question": "Consanguineous marriages (mating between close blood relatives) significantly increase the risk of offspring having which type of disorders?",
+      "options": [
+        "Autosomal Dominant disorders",
+        "Autosomal Recessive disorders",
+        "X-linked dominant disorders",
+        "Trisomies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consanguinity increases the probability that both parents carry the exact same rare mutant allele inherited from a common ancestor, causing autosomal recessive disease."
+    },
+    {
+      "id": "ch24_q29",
+      "topic": "Chromosome Structure",
+      "difficulty": "Easy",
+      "question": "In human chromosome nomenclature, what do the letters 'p' and 'q' designate?",
+      "options": [
+        "p = short arm, q = long arm",
+        "p = long arm, q = short arm",
+        "p = primary, q = secondary",
+        "p = paternal, q = maternal"
+      ],
+      "correctIndex": 0,
+      "explanation": "By international convention, 'p' designates the short arm (from French petit) and 'q' designates the long arm of the chromosome."
     },
     {
       "id": "ch24_q30",
-      "topic": "Molecular Genetics",
-      "difficulty": "Hard",
-      "question": "Single Nucleotide Polymorphisms (SNPs) are defined in human population genetics as single base variations that occur in at least what percentage of the general population?",
+      "topic": "Cell Division",
+      "difficulty": "Medium",
+      "question": "Non-disjunction occurring during Meiosis II results in gametes with which chromosomal compositions?",
       "options": [
-        ">= 1%",
-        ">= 10%",
-        ">= 50%",
-        "100%"
+        "All four gametes are abnormal",
+        "Two normal gametes (n), one disomic gamete (n+1), and one nullisomic gamete (n-1)",
+        "Four polyploid gametes",
+        "No gametes survive"
       ],
-      "correctIndex": 0,
-      "explanation": "By definition, a single base variation is classified as a polymorphism (SNP) if the minor allele frequency is at least 1% (0.01) in the population; variations under 1% are typically classified as rare mutations."
+      "correctIndex": 1,
+      "explanation": "Meiosis II non-disjunction affects only one sister chromatid pair, producing 50% normal gametes (n, n), 25% with an extra chromosome (n+1), and 25% missing a chromosome (n-1)."
     }
   ]
 };

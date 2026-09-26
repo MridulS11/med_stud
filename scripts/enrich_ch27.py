@@ -1,9 +1,17 @@
-import { Chapter } from '../../types';
+import json
 
-export const ch27: Chapter = {
-  "id": "ch27",
-  "subjectId": "sub3",
-  "number": 27,
+def save_ch(num, data):
+    path = f"src/data/chapters/ch{num}.ts"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("import { Chapter } from '../../types';\n\n")
+        f.write(f"export const ch{num}: Chapter = ")
+        f.write(json.dumps(data, indent=2, ensure_ascii=False))
+        f.write(";\n")
+    print(f"Generated ch{num}.ts ({len(data['topics'])} topics, {len(data['quiz'])} Qs, {len(data['mindMap'])} mindMap nodes)")
+
+# ----------------- CHAPTER 27: Genetic Testing in the Neonates and Children -----------------
+ch27 = {
+  "id": "ch27", "subjectId": "sub3", "number": 27,
   "title": "Genetic Testing in Neonates & Children",
   "subtitle": "Newborn dried blood spot screening (Guthrie, MS/MS), cytogenetic and molecular diagnostics (CMA, FISH, NGS), developmental delay, dysmorphology assessment, and inborn errors of metabolism.",
   "topics": [
@@ -162,527 +170,289 @@ export const ch27: Chapter = {
   ],
   "quiz": [
     {
-      "id": "ch27_q1",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the optimal timing for collecting a newborn dried blood spot screening sample?",
-      "options": [
-        "Within the first 6 hours of life before initial feeding",
-        "Between 24 and 72 hours of life after protein feeding has commenced",
-        "At 7 to 10 days of life during the first pediatric outpatient visit",
-        "At 1 month of age during routine immunizations"
-      ],
+      "id": "ch27_q1", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the optimal timing for collecting a newborn dried blood spot screening sample?",
+      "options": ["Within the first 6 hours of life before initial feeding", "Between 24 and 72 hours of life after protein feeding has commenced", "At 7 to 10 days of life during the first pediatric outpatient visit", "At 1 month of age during routine immunizations"],
       "correctIndex": 1,
       "explanation": "Newborn dried blood spot screening must be performed between 24 and 72 hours of life. Testing before 24 hours can yield false-negative results for metabolic conditions like PKU, which require protein ingestion to accumulate detectable abnormal metabolites."
     },
     {
-      "id": "ch27_q2",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which anatomical site is strictly recommended for capillary heel puncture in neonates?",
-      "options": [
-        "Center of the plantar heel pad",
-        "Posterior curvature of the heel",
-        "Medial or lateral plantar borders of the heel",
-        "Palmar aspect of the great toe"
-      ],
+      "id": "ch27_q2", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which anatomical site is strictly recommended for capillary heel puncture in neonates?",
+      "options": ["Center of the plantar heel pad", "Posterior curvature of the heel", "Medial or lateral plantar borders of the heel", "Palmar aspect of the great toe"],
       "correctIndex": 2,
       "explanation": "Punctures must be confined to the medial or lateral plantar edges of the heel. Puncturing the central or posterior curvature risks penetrating the calcaneus bone, leading to osteomyelitis."
     },
     {
-      "id": "ch27_q3",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which technology forms the technological cornerstone of expanded universal newborn screening for aminoacidopathies, organic acidemias, and fatty acid oxidation defects?",
-      "options": [
-        "Agarose gel electrophoresis",
-        "Tandem Mass Spectrometry (MS/MS)",
-        "Polymerase Chain Reaction (PCR)",
-        "Karyotype cytogenetics"
-      ],
+      "id": "ch27_q3", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which technology forms the technological cornerstone of expanded universal newborn screening for aminoacidopathies, organic acidemias, and fatty acid oxidation defects?",
+      "options": ["Agarose gel electrophoresis", "Tandem Mass Spectrometry (MS/MS)", "Polymerase Chain Reaction (PCR)", "Karyotype cytogenetics"],
       "correctIndex": 1,
       "explanation": "Tandem Mass Spectrometry (MS/MS) enables rapid, multiplex quantification of amino acids and acylcarnitine profiles from a single dried blood punch, screening for over 30-50 metabolic disorders simultaneously."
     },
     {
-      "id": "ch27_q4",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Untreated classic Phenylketonuria (PKU) is caused by a deficiency of which enzyme?",
-      "options": [
-        "Phenylalanine hydroxylase (PAH)",
-        "Tyrosinase",
-        "Homogentisate 1,2-dioxygenase",
-        "Branched-chain alpha-ketoacid dehydrogenase"
-      ],
+      "id": "ch27_q4", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Untreated classic Phenylketonuria (PKU) is caused by a deficiency of which enzyme?",
+      "options": ["Phenylalanine hydroxylase (PAH)", "Tyrosinase", "Homogentisate 1,2-dioxygenase", "Branched-chain alpha-ketoacid dehydrogenase"],
       "correctIndex": 0,
       "explanation": "Classic PKU is caused by an autosomal recessive deficiency of phenylalanine hydroxylase (PAH), impairing the conversion of phenylalanine to tyrosine and resulting in severe neurotoxic accumulation."
     },
     {
-      "id": "ch27_q5",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What characteristic physical and odor presentation is associated with untreated phenylketonuria?",
-      "options": [
-        "Cabbage-like odor with generalized hyperpigmentation",
-        "Musty or mousy odor with hypopigmentation (blonde hair, blue eyes)",
-        "Maple syrup sweet odor with macroorchidism",
-        "Sweaty feet odor with polydactyly"
-      ],
+      "id": "ch27_q5", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What characteristic physical and odor presentation is associated with untreated phenylketonuria?",
+      "options": ["Cabbage-like odor with generalized hyperpigmentation", "Musty or mousy odor with hypopigmentation (blonde hair, blue eyes)", "Maple syrup sweet odor with macroorchidism", "Sweaty feet odor with polydactyly"],
       "correctIndex": 1,
       "explanation": "Phenylacetic acid excretion produces a classic musty or mousy odor. Phenylalanine competitively inhibits tyrosinase (the rate-limiting enzyme in melanin synthesis), causing fair skin, blonde hair, and blue eyes."
     },
     {
-      "id": "ch27_q6",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the primary analyte measured on newborn screening to detect Congenital Adrenal Hyperplasia (CAH)?",
-      "options": [
-        "Cortisol",
-        "17-hydroxyprogesterone (17-OHP)",
-        "Aldosterone",
-        "Dehydroepiandrosterone (DHEA)"
-      ],
+      "id": "ch27_q6", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the primary analyte measured on newborn screening to detect Congenital Adrenal Hyperplasia (CAH)?",
+      "options": ["Cortisol", "17-hydroxyprogesterone (17-OHP)", "Aldosterone", "Dehydroepiandrosterone (DHEA)"],
       "correctIndex": 1,
       "explanation": "Over 90-95% of CAH cases are caused by 21-hydroxylase deficiency, leading to the accumulation of its precursor substrate, 17-hydroxyprogesterone (17-OHP), which is quantified on dried blood spot cards."
     },
     {
-      "id": "ch27_q7",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which diagnostic genetic test is recommended as the first-tier investigation for children with unexplained intellectual disability, developmental delay, or multiple congenital anomalies?",
-      "options": [
-        "Conventional G-banded karyotyping",
-        "Targeted single-gene Sanger sequencing",
-        "Chromosomal Microarray (CMA)",
-        "Whole genome FISH"
-      ],
+      "id": "ch27_q7", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which diagnostic genetic test is recommended as the first-tier investigation for children with unexplained intellectual disability, developmental delay, or multiple congenital anomalies?",
+      "options": ["Conventional G-banded karyotyping", "Targeted single-gene Sanger sequencing", "Chromosomal Microarray (CMA)", "Whole genome FISH"],
       "correctIndex": 2,
       "explanation": "Chromosomal Microarray (CMA: array CGH / SNP array) is universally designated as the first-tier diagnostic investigation for unexplained developmental delay/intellectual disability and multiple congenital anomalies, offering a 15-20% diagnostic yield compared to 3% for karyotyping."
     },
     {
-      "id": "ch27_q8",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What type of chromosomal abnormality is undetectable by standard Chromosomal Microarray (CMA)?",
-      "options": [
-        "Submicroscopic microdeletions",
-        "Microduplications",
-        "Balanced reciprocal translocations and inversions",
-        "Regions of copy-neutral loss of heterozygosity"
-      ],
+      "id": "ch27_q8", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What type of chromosomal abnormality is undetectable by standard Chromosomal Microarray (CMA)?",
+      "options": ["Submicroscopic microdeletions", "Microduplications", "Balanced reciprocal translocations and inversions", "Regions of copy-neutral loss of heterozygosity"],
       "correctIndex": 2,
       "explanation": "CMA measures copy number changes (gains or losses of DNA). It cannot detect completely balanced rearrangements (such as balanced reciprocal translocations or inversions) because there is no net gain or loss of genomic material."
     },
     {
-      "id": "ch27_q9",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which collection tube must be utilized when drawing blood for conventional cytogenetic G-banded karyotyping?",
-      "options": [
-        "Sodium Heparin (green top)",
-        "EDTA (purple top)",
-        "Sodium Citrate (light blue top)",
-        "Clot Activator / Gel separator (gold top)"
-      ],
+      "id": "ch27_q9", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which collection tube must be utilized when drawing blood for conventional cytogenetic G-banded karyotyping?",
+      "options": ["Sodium Heparin (green top)", "EDTA (purple top)", "Sodium Citrate (light blue top)", "Clot Activator / Gel separator (gold top)"],
       "correctIndex": 0,
       "explanation": "Karyotyping requires living, dividing T-lymphocytes. Sodium heparin preserves cellular viability for cell culture and mitogen stimulation, whereas EDTA is cytotoxic and inhibits lymphocyte culture."
     },
     {
-      "id": "ch27_q10",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "DiGeorge syndrome (22q11.2 deletion syndrome) is classically identified using which molecular cytogenetic method when targeted rapidly?",
-      "options": [
-        "Fluorescence In Situ Hybridization (FISH)",
-        "Southern blot",
-        "Bacterial inhibition assay",
-        "Hemoglobin electrophoresis"
-      ],
+      "id": "ch27_q10", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "DiGeorge syndrome (22q11.2 deletion syndrome) is classically identified using which molecular cytogenetic method when targeted rapidly?",
+      "options": ["Fluorescence In Situ Hybridization (FISH)", "Southern blot", "Bacterial inhibition assay", "Hemoglobin electrophoresis"],
       "correctIndex": 0,
       "explanation": "Fluorescence In Situ Hybridization (FISH) utilizing specific fluorophore-labeled DNA probes hybridizing to the 22q11.2 locus provides rapid, targeted confirmation of submicroscopic DiGeorge microdeletions."
     },
     {
-      "id": "ch27_q11",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Fragile X syndrome is characterized by an unstable trinucleotide repeat expansion in which gene?",
-      "options": [
-        "MECP2",
-        "FMR1",
-        "DMD",
-        "HTT"
-      ],
+      "id": "ch27_q11", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Fragile X syndrome is characterized by an unstable trinucleotide repeat expansion in which gene?",
+      "options": ["MECP2", "FMR1", "DMD", "HTT"],
       "correctIndex": 1,
       "explanation": "Fragile X syndrome is caused by a CGG trinucleotide repeat expansion in the 5' untranslated region of the FMR1 (Fragile X Messenger Ribonucleoprotein 1) gene located on chromosome Xq27.3."
     },
     {
-      "id": "ch27_q12",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "How many CGG repeats define a full mutation in Fragile X syndrome?",
-      "options": [
-        "5 to 44 repeats",
-        "45 to 54 repeats",
-        "55 to 200 repeats",
-        ">200 repeats"
-      ],
+      "id": "ch27_q12", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "How many CGG repeats define a full mutation in Fragile X syndrome?",
+      "options": ["5 to 44 repeats", "45 to 54 repeats", "55 to 200 repeats", ">200 repeats"],
       "correctIndex": 3,
       "explanation": "Normal alleles have 5-44 repeats, premutation alleles have 55-200 repeats, and full mutation alleles have >200 CGG repeats, which causes hypermethylation and transcriptional silencing of FMR1."
     },
     {
-      "id": "ch27_q13",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which of the following is a classic post-pubertal physical hallmark of Fragile X syndrome in males?",
-      "options": [
-        "Microorchidism",
-        "Macroorchidism (enlarged testes)",
-        "Severe webbed neck",
-        "Polydactyly"
-      ],
+      "id": "ch27_q13", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which of the following is a classic post-pubertal physical hallmark of Fragile X syndrome in males?",
+      "options": ["Microorchidism", "Macroorchidism (enlarged testes)", "Severe webbed neck", "Polydactyly"],
       "correctIndex": 1,
       "explanation": "Macroorchidism (bilateral testicular enlargement, testicular volume >25-30 mL) is seen in >80% of post-pubertal males with Fragile X syndrome, alongside a long narrow face and prominent ears."
     },
     {
-      "id": "ch27_q14",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "A girl who develops normally until 12 months, followed by rapid loss of purposeful hand skills, acquired microcephaly, and stereotypic hand-wringing movements, most likely has a mutation in which gene?",
-      "options": [
-        "FMR1",
-        "MECP2",
-        "SMN1",
-        "TSC1"
-      ],
+      "id": "ch27_q14", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "A girl who develops normally until 12 months, followed by rapid loss of purposeful hand skills, acquired microcephaly, and stereotypic hand-wringing movements, most likely has a mutation in which gene?",
+      "options": ["FMR1", "MECP2", "SMN1", "TSC1"],
       "correctIndex": 1,
       "explanation": "This is classic Rett syndrome, an X-linked dominant condition primarily affecting females, caused by mutations in the MECP2 (methyl-CpG-binding protein 2) gene."
     },
     {
-      "id": "ch27_q15",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which embryological classification describes a structural defect caused by an extrinsic mechanical force on an otherwise normally developing fetus?",
-      "options": [
-        "Malformation",
-        "Deformation",
-        "Disruption",
-        "Dysplasia"
-      ],
+      "id": "ch27_q15", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which embryological classification describes a structural defect caused by an extrinsic mechanical force on an otherwise normally developing fetus?",
+      "options": ["Malformation", "Deformation", "Disruption", "Dysplasia"],
       "correctIndex": 1,
       "explanation": "A deformation is an abnormal form, shape, or position of a body part caused by extrinsic mechanical forces (e.g., uterine constraint from oligohydramnios causing positional clubfoot)."
     },
     {
-      "id": "ch27_q16",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Amniotic band syndrome, which causes digital amputations and ring constrictions in a previously normal fetus, is classified as a:",
-      "options": [
-        "Malformation",
-        "Deformation",
-        "Disruption",
-        "Dysplasia"
-      ],
+      "id": "ch27_q16", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Amniotic band syndrome, which causes digital amputations and ring constrictions in a previously normal fetus, is classified as a:",
+      "options": ["Malformation", "Deformation", "Disruption", "Dysplasia"],
       "correctIndex": 2,
       "explanation": "Disruption is a structural defect resulting from the extrinsic breakdown or destruction of an originally normally developed tissue or organ (e.g., amniotic fibrous bands wrapping around and strangulating developing digits)."
     },
     {
-      "id": "ch27_q17",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Cleft lip and cleft palate represent which category of congenital structural defect?",
-      "options": [
-        "Malformation",
-        "Deformation",
-        "Disruption",
-        "Dysplasia"
-      ],
+      "id": "ch27_q17", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Cleft lip and cleft palate represent which category of congenital structural defect?",
+      "options": ["Malformation", "Deformation", "Disruption", "Dysplasia"],
       "correctIndex": 0,
       "explanation": "Cleft lip/palate is a malformation—a primary intrinsic developmental defect resulting from an intrinsically abnormal process during embryogenesis."
     },
     {
-      "id": "ch27_q18",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the clinical significance of finding 3 or more minor physical anomalies in a newborn infant?",
-      "options": [
-        "It is purely normal cosmetic variation with zero pathological relevance",
-        "It indicates an over 90% likelihood of an underlying major malformation or genetic syndrome",
-        "It confirms severe metabolic acidosis",
-        "It guarantees the child has Down syndrome"
-      ],
+      "id": "ch27_q18", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the clinical significance of finding 3 or more minor physical anomalies in a newborn infant?",
+      "options": ["It is purely normal cosmetic variation with zero pathological relevance", "It indicates an over 90% likelihood of an underlying major malformation or genetic syndrome", "It confirms severe metabolic acidosis", "It guarantees the child has Down syndrome"],
       "correctIndex": 1,
       "explanation": "In dysmorphology, finding ≥3 minor anomalies (e.g., single palmar crease, preauricular pit, clinodactyly) correlates with an over 90% probability of an associated major structural defect or genetic syndrome, demanding a full diagnostic evaluation."
     },
     {
-      "id": "ch27_q19",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "How are low-set ears anatomically defined during a pediatric dysmorphic examination?",
-      "options": [
-        "The superior attachment of the pinna is located below a horizontal line intersecting the inner/outer canthi of the eyes",
-        "The ear lobule touches the shoulder girdle",
-        "The ear canal is completely occluded by cartilage",
-        "The pinna is rotated 45 degrees anteriorly"
-      ],
+      "id": "ch27_q19", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "How are low-set ears anatomically defined during a pediatric dysmorphic examination?",
+      "options": ["The superior attachment of the pinna is located below a horizontal line intersecting the inner/outer canthi of the eyes", "The ear lobule touches the shoulder girdle", "The ear canal is completely occluded by cartilage", "The pinna is rotated 45 degrees anteriorly"],
       "correctIndex": 0,
       "explanation": "Ears are low-set when the top of the helix (superior insertion of the pinna) falls below a horizontal line drawn across the inner and outer canthi of both eyes."
     },
     {
-      "id": "ch27_q20",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which biochemical laboratory pattern is pathognomonic for a Urea Cycle Disorder (UCD) presenting in a neonate?",
-      "options": [
-        "Severe hyperammonemia with respiratory alkalosis and normal anion gap",
-        "Severe metabolic ketoacidosis with normal ammonia",
-        "Profound hypoglycemia with massive urinary ketones",
-        "High anion gap acidosis with hyperkalemia"
-      ],
+      "id": "ch27_q20", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which biochemical laboratory pattern is pathognomonic for a Urea Cycle Disorder (UCD) presenting in a neonate?",
+      "options": ["Severe hyperammonemia with respiratory alkalosis and normal anion gap", "Severe metabolic ketoacidosis with normal ammonia", "Profound hypoglycemia with massive urinary ketones", "High anion gap acidosis with hyperkalemia"],
       "correctIndex": 0,
       "explanation": "Urea cycle defects (e.g., OTC deficiency) present with massive hyperammonemia, which directly stimulates the brainstem respiratory drive, causing hyperventilation and respiratory alkalosis without severe metabolic acidosis."
     },
     {
-      "id": "ch27_q21",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Maple Syrup Urine Disease (MSUD) is caused by impaired branched-chain amino acid metabolism. Which amino acid accumulation is directly responsible for acute neurotoxic cerebral edema?",
-      "options": [
-        "Phenylalanine",
-        "Leucine",
-        "Methionine",
-        "Glycine"
-      ],
+      "id": "ch27_q21", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Maple Syrup Urine Disease (MSUD) is caused by impaired branched-chain amino acid metabolism. Which amino acid accumulation is directly responsible for acute neurotoxic cerebral edema?",
+      "options": ["Phenylalanine", "Leucine", "Methionine", "Glycine"],
       "correctIndex": 1,
       "explanation": "In MSUD, accumulation of leucine and its corresponding alpha-ketoacid causes severe cytotoxic brain edema, encephalopathy, and neurological deterioration."
     },
     {
-      "id": "ch27_q22",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "How should a blood sample for plasma ammonia be handled by the nurse to ensure diagnostic accuracy?",
-      "options": [
-        "Drawn with prolonged tourniquet pressure and kept at room temperature for 2 hours",
-        "Drawn without tourniquet, placed immediately into an ice-water slurry, and analyzed within 15-30 minutes",
-        "Kept in an incubator at 37°C before centrifuging",
-        "Collected in a dry serum tube and frozen overnight"
-      ],
+      "id": "ch27_q22", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "How should a blood sample for plasma ammonia be handled by the nurse to ensure diagnostic accuracy?",
+      "options": ["Drawn with prolonged tourniquet pressure and kept at room temperature for 2 hours", "Drawn without tourniquet, placed immediately into an ice-water slurry, and analyzed within 15-30 minutes", "Kept in an incubator at 37°C before centrifuging", "Collected in a dry serum tube and frozen overnight"],
       "correctIndex": 1,
       "explanation": "Ammonia increases rapidly in vitro due to amino acid deamination. Blood must be collected without stasis, placed immediately on crushed ice, and analyzed within 15-30 minutes."
     },
     {
-      "id": "ch27_q23",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What is the immediate priority nursing intervention when an infant is suspected of having an acute metabolic intoxication crisis?",
-      "options": [
-        "Immediately discontinue all oral/enteral protein feedings and start 10% dextrose IV",
-        "Administer high-protein formula to prevent muscle wasting",
-        "Administer oral potassium chloride supplements",
-        "Keep the infant strictly NPO without any IV fluids"
-      ],
+      "id": "ch27_q23", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What is the immediate priority nursing intervention when an infant is suspected of having an acute metabolic intoxication crisis?",
+      "options": ["Immediately discontinue all oral/enteral protein feedings and start 10% dextrose IV", "Administer high-protein formula to prevent muscle wasting", "Administer oral potassium chloride supplements", "Keep the infant strictly NPO without any IV fluids"],
       "correctIndex": 0,
       "explanation": "The immediate emergency management for suspected IEM intoxication (e.g., MSUD, organic acidemias, urea cycle defects) is to stop all dietary protein intake and infuse 10% dextrose to suppress catabolism."
     },
     {
-      "id": "ch27_q24",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "A newborn with galactosemia who ingests breast milk or cow's milk formula is at extremely high risk for life-threatening neonatal sepsis caused by which organism?",
-      "options": [
-        "Escherichia coli",
-        "Group B Streptococcus",
-        "Listeria monocytogenes",
-        "Staphylococcus aureus"
-      ],
+      "id": "ch27_q24", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "A newborn with galactosemia who ingests breast milk or cow's milk formula is at extremely high risk for life-threatening neonatal sepsis caused by which organism?",
+      "options": ["Escherichia coli", "Group B Streptococcus", "Listeria monocytogenes", "Staphylococcus aureus"],
       "correctIndex": 0,
       "explanation": "Infants with classical galactosemia (GALT deficiency) have impaired neutrophil bactericidal activity due to galactose-1-phosphate accumulation, rendering them exceptionally vulnerable to fulminant Escherichia coli sepsis."
     },
     {
-      "id": "ch27_q25",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which of the following is considered a 'minor' congenital anomaly?",
-      "options": [
-        "Ventricular septal defect",
-        "Myelomeningocele",
-        "Preauricular tag or pit",
-        "Omphalocele"
-      ],
+      "id": "ch27_q25", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which of the following is considered a 'minor' congenital anomaly?",
+      "options": ["Ventricular septal defect", "Myelomeningocele", "Preauricular tag or pit", "Omphalocele"],
       "correctIndex": 2,
       "explanation": "Preauricular pits or skin tags are minor anomalies—unusual morphologic features with no serious medical, functional, or surgical significance on their own."
     },
     {
-      "id": "ch27_q26",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Global Developmental Delay (GDD) is clinically defined as significant delay in two or more developmental domains in children under what age?",
-      "options": [
-        "Under 12 months",
-        "Under 2 years",
-        "Under 5 years",
-        "Under 12 years"
-      ],
+      "id": "ch27_q26", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Global Developmental Delay (GDD) is clinically defined as significant delay in two or more developmental domains in children under what age?",
+      "options": ["Under 12 months", "Under 2 years", "Under 5 years", "Under 12 years"],
       "correctIndex": 2,
       "explanation": "GDD is reserved for children under the age of 5 years who demonstrate significant delay in two or more developmental domains, as formal psychometric IQ testing cannot be reliably administered."
     },
     {
-      "id": "ch27_q27",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "What must the nurse ensure when drying a newborn dried blood spot screening card?",
-      "options": [
-        "Dry it under a warm heating lamp for 15 minutes",
-        "Stack cards immediately inside a sealed plastic ziplock pouch",
-        "Dry horizontally at room temperature on an open rack for 3 to 4 hours away from heat and direct sunlight",
-        "Dry with an electric blow-dryer on medium heat"
-      ],
+      "id": "ch27_q27", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "What must the nurse ensure when drying a newborn dried blood spot screening card?",
+      "options": ["Dry it under a warm heating lamp for 15 minutes", "Stack cards immediately inside a sealed plastic ziplock pouch", "Dry horizontally at room temperature on an open rack for 3 to 4 hours away from heat and direct sunlight", "Dry with an electric blow-dryer on medium heat"],
       "correctIndex": 2,
       "explanation": "Blood cards must air dry horizontally on a clean, non-absorbent surface at room temperature (18-22°C) for 3-4 hours away from direct heat and sunlight. Heat and stacking cause protein denaturation and cross-contamination."
     },
     {
-      "id": "ch27_q28",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which inborn metabolic disorder is characterized by hypoketotic hypoglycemia during periods of fasting or illness?",
-      "options": [
-        "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency",
-        "Maple Syrup Urine Disease",
-        "Classic Phenylketonuria",
-        "Tay-Sachs disease"
-      ],
+      "id": "ch27_q28", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which inborn metabolic disorder is characterized by hypoketotic hypoglycemia during periods of fasting or illness?",
+      "options": ["Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency", "Maple Syrup Urine Disease", "Classic Phenylketonuria", "Tay-Sachs disease"],
       "correctIndex": 0,
       "explanation": "MCAD deficiency is a fatty acid oxidation defect where the body cannot oxidize medium-chain fatty acids into acetyl-CoA, resulting in inability to generate ketone bodies during fasting (hypoketotic hypoglycemia)."
     },
     {
-      "id": "ch27_q29",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "In Whole Exome Sequencing (WES), the 'exome' represents approximately what percentage of the total human genome?",
-      "options": [
-        "1 to 2%",
-        "10 to 15%",
-        "25 to 30%",
-        "50%"
-      ],
+      "id": "ch27_q29", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "In Whole Exome Sequencing (WES), the 'exome' represents approximately what percentage of the total human genome?",
+      "options": ["1 to 2%", "10 to 15%", "25 to 30%", "50%"],
       "correctIndex": 0,
       "explanation": "The exome comprises all protein-coding exons, representing only ~1-2% of the human genome, but harboring roughly 85% of all known disease-causing mutations."
     },
     {
-      "id": "ch27_q30",
-      "topic": "Clinical Genetics",
-      "difficulty": "Medium",
-      "question": "Which of the following findings on a newborn dried blood spot collection card would necessitate specimen rejection by the state laboratory?",
-      "options": [
-        "Circles fully saturated on both sides with blood",
-        "A blood spot showing serum ring artifact due to touching filter paper with alcohol wet hands",
-        "Blood applied within 48 hours of birth",
-        "Card dried for 4 hours at room temperature"
-      ],
+      "id": "ch27_q30", "topic": "Clinical Genetics", "difficulty": "Medium", "question": "Which of the following findings on a newborn dried blood spot collection card would necessitate specimen rejection by the state laboratory?",
+      "options": ["Circles fully saturated on both sides with blood", "A blood spot showing serum ring artifact due to touching filter paper with alcohol wet hands", "Blood applied within 48 hours of birth", "Card dried for 4 hours at room temperature"],
       "correctIndex": 1,
       "explanation": "Serum rings ('halo' effect) occur when alcohol has not dried before puncture, or when serum separates from RBCs. This causes inhomogeneous analyte concentration and specimen rejection."
     }
   ],
   "mindMap": {
-    "centralConcept": "Pediatric & Neonatal Genetic Testing",
-    "nodes": [
-      {
-        "id": "neo1",
-        "label": "Guthrie Blood Spot Screening",
-        "category": "core",
-        "description": "Capillary heel prick at 24-72h post-feed for treatable metabolic errors"
-      },
-      {
-        "id": "neo2",
-        "label": "Tandem Mass Spectrometry (MS/MS)",
-        "category": "diagnostic",
-        "description": "Multiplex quantification of amino acids and acylcarnitine profiles"
-      },
-      {
-        "id": "neo3",
-        "label": "Classic PKU (PAH Deficiency)",
-        "category": "pathophysiology",
-        "description": "Mousy odor, microcephaly, blond hair, blue eyes, preventable ID"
-      },
-      {
-        "id": "neo4",
-        "label": "Congenital Hypothyroidism",
-        "category": "pathophysiology",
-        "description": "Most common preventable cause of intellectual disability on NBS"
-      },
-      {
-        "id": "neo5",
-        "label": "Chromosomal Microarray (CMA)",
-        "category": "diagnostic",
-        "description": "First-tier test for unexplained developmental delay and autism"
-      },
-      {
-        "id": "neo6",
-        "label": "Fragile X Syndrome (FMR1)",
-        "category": "etiology",
-        "description": "CGG >200 repeats, macroorchidism, long face, leading inherited ID"
-      },
-      {
-        "id": "neo7",
-        "label": "Rett Syndrome (MECP2)",
-        "category": "etiology",
-        "description": "Loss of purposeful hand skills, hand-wringing stereotypies in females"
-      },
-      {
-        "id": "neo8",
-        "label": "Dysmorphology Classifications",
-        "category": "core",
-        "description": "Malformation vs Deformation vs Disruption vs Dysplasia"
-      },
-      {
-        "id": "neo9",
-        "label": "Rule of Minor Anomalies",
-        "category": "clinical",
-        "description": ">=3 minor anomalies indicates >90% probability of major underlying defect"
-      },
-      {
-        "id": "neo10",
-        "label": "Acute IEM Intoxication Crisis",
-        "category": "clinical",
-        "description": "Hyperammonemia with respiratory alkalosis in UCD; stop feeds, give D10W"
-      }
-    ],
-    "edges": [
-      {
-        "from": "neo1",
-        "to": "neo2",
-        "relationship": "analyzed via",
-        "explanation": "Dried blood spots are punch-tested using tandem mass spectrometry."
-      },
-      {
-        "from": "neo2",
-        "to": "neo3",
-        "relationship": "screens for",
-        "explanation": "MS/MS detects elevated phenylalanine-to-tyrosine ratio in PKU."
-      },
-      {
-        "from": "neo1",
-        "to": "neo4",
-        "relationship": "screens for",
-        "explanation": "Immunoassays on blood spots detect elevated TSH or low T4 in hypothyroidism."
-      },
-      {
-        "from": "neo5",
-        "to": "neo6",
-        "relationship": "complemented by",
-        "explanation": "CMA and targeted FMR1 repeat testing form the first-line workup for ID."
-      },
-      {
-        "from": "neo8",
-        "to": "neo9",
-        "relationship": "evaluated through",
-        "explanation": "Minor anomaly quantification guides suspicion of major underlying malformations."
-      },
-      {
-        "from": "neo10",
-        "to": "neo1",
-        "relationship": "aims to prevent",
-        "explanation": "Presymptomatic screening prevents catastrophic decompensation from inborn errors."
-      }
-    ]
-  }
-};
+  "centralConcept": "Pediatric & Neonatal Genetic Testing",
+  "nodes": [
+    {
+      "id": "neo1",
+      "label": "Guthrie Blood Spot Screening",
+      "category": "core",
+      "description": "Capillary heel prick at 24-72h post-feed for treatable metabolic errors"
+    },
+    {
+      "id": "neo2",
+      "label": "Tandem Mass Spectrometry (MS/MS)",
+      "category": "diagnostic",
+      "description": "Multiplex quantification of amino acids and acylcarnitine profiles"
+    },
+    {
+      "id": "neo3",
+      "label": "Classic PKU (PAH Deficiency)",
+      "category": "pathophysiology",
+      "description": "Mousy odor, microcephaly, blond hair, blue eyes, preventable ID"
+    },
+    {
+      "id": "neo4",
+      "label": "Congenital Hypothyroidism",
+      "category": "pathophysiology",
+      "description": "Most common preventable cause of intellectual disability on NBS"
+    },
+    {
+      "id": "neo5",
+      "label": "Chromosomal Microarray (CMA)",
+      "category": "diagnostic",
+      "description": "First-tier test for unexplained developmental delay and autism"
+    },
+    {
+      "id": "neo6",
+      "label": "Fragile X Syndrome (FMR1)",
+      "category": "etiology",
+      "description": "CGG >200 repeats, macroorchidism, long face, leading inherited ID"
+    },
+    {
+      "id": "neo7",
+      "label": "Rett Syndrome (MECP2)",
+      "category": "etiology",
+      "description": "Loss of purposeful hand skills, hand-wringing stereotypies in females"
+    },
+    {
+      "id": "neo8",
+      "label": "Dysmorphology Classifications",
+      "category": "core",
+      "description": "Malformation vs Deformation vs Disruption vs Dysplasia"
+    },
+    {
+      "id": "neo9",
+      "label": "Rule of Minor Anomalies",
+      "category": "clinical",
+      "description": ">=3 minor anomalies indicates >90% probability of major underlying defect"
+    },
+    {
+      "id": "neo10",
+      "label": "Acute IEM Intoxication Crisis",
+      "category": "clinical",
+      "description": "Hyperammonemia with respiratory alkalosis in UCD; stop feeds, give D10W"
+    }
+  ],
+  "edges": [
+    {
+      "from": "neo1",
+      "to": "neo2",
+      "relationship": "analyzed via",
+      "explanation": "Dried blood spots are punch-tested using tandem mass spectrometry."
+    },
+    {
+      "from": "neo2",
+      "to": "neo3",
+      "relationship": "screens for",
+      "explanation": "MS/MS detects elevated phenylalanine-to-tyrosine ratio in PKU."
+    },
+    {
+      "from": "neo1",
+      "to": "neo4",
+      "relationship": "screens for",
+      "explanation": "Immunoassays on blood spots detect elevated TSH or low T4 in hypothyroidism."
+    },
+    {
+      "from": "neo5",
+      "to": "neo6",
+      "relationship": "complemented by",
+      "explanation": "CMA and targeted FMR1 repeat testing form the first-line workup for ID."
+    },
+    {
+      "from": "neo8",
+      "to": "neo9",
+      "relationship": "evaluated through",
+      "explanation": "Minor anomaly quantification guides suspicion of major underlying malformations."
+    },
+    {
+      "from": "neo10",
+      "to": "neo1",
+      "relationship": "aims to prevent",
+      "explanation": "Presymptomatic screening prevents catastrophic decompensation from inborn errors."
+    }
+  ]
+}
+}
+
+save_ch(27, ch27)

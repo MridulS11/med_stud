@@ -5,174 +5,226 @@ export const ch17: Chapter = {
   "subjectId": "sub1",
   "number": 17,
   "title": "Breast Diseases",
-  "subtitle": "Fibrocystic changes, fibroadenoma, phyllodes tumor, breast carcinoma types, Nottingham grading, and molecular classification.",
+  "subtitle": "Fibrocystic changes, fibroadenoma, phyllodes tumor, and invasive breast carcinoma with molecular profiling.",
   "topics": [
     {
       "id": "ch17_t1",
-      "name": "Fibrocystic Changes of the Breast",
-      "summary": "The most frequent benign breast disorder, characterized by exaggerated physiological response of breast stroma and epithelium to cyclical ovarian hormones.",
-      "pathophysiology": "Imbalance between estrogen and progesterone levels during reproductive years causes ductal dilation, cyst formation, apocrine metaplasia, stromal fibrosis, and mild adenosis. Categorized into Non-proliferative (no increased cancer risk: simple cysts, fibrosis) and Proliferative lesions (Moderate hyperplasia without atypia: 1.5-2x risk; Atypical ductal or lobular hyperplasia: 4-5x increased lifetime breast cancer risk).",
+      "name": "Fibrocystic Changes & Benign Proliferative Lesions",
+      "summary": "The most common non-neoplastic disorder of the female breast, characterized by cyclical pain, palpable modularity, cyst formation, apocrine metaplasia, and stromal fibrosis.",
+      "pathophysiology": "Exaggerated or uncoordinated hormonal response to cyclical estrogen stimulation and relative progesterone deficiency. Repeated lobular involution and distension of terminal duct lobular units (TDLUs) produce microcysts that coalesce into larger cysts with surrounding chronic inflammation and fibrous scarring.",
       "clinicalFeatures": [
-        "Multifocal, bilateral cyclical mastalgia (breast pain/tenderness) that intensifies in the premenstrual phase and improves post-menses.",
-        "Diffuse nodularity with rubbery, ill-defined 'lumpy-bumpy' texture, predominantly in upper outer quadrants.",
-        "Fluctuating cyst size and occasional clear or brownish nipple discharge."
+        "Cyclic bilateral breast discomfort, tenderness, and fullness that worsens during the premenstrual phase and resolves after menses.",
+        "Diffuse, multifocal, 'lumpy-bumpy' nodularity on palpation, most prominent in the upper outer quadrants.",
+        "Occasional nipple discharge (serous, green, or cloudy yellow; non-bloody)."
       ],
       "diagnostics": [
-        "Breast Ultrasound: First-line imaging in women <30 years; demonstrates anechoic, smooth-walled cysts and differentiates cysts from solid masses.",
-        "Diagnostic Mammography (women >35-40 years): Shows rounded circumscribed densities and benign microcalcifications.",
-        "Fine Needle Aspiration (FNA): Straw-colored or brownish fluid confirms simple cyst with complete resolution of palpable mass upon aspiration."
+        "Breast Ultrasonography: Differentiates simple fluid-filled anechoic cysts (thin smooth walls, posterior acoustic enhancement) from solid masses.",
+        "Diagnostic Fine Needle Aspiration (FNA): Aspiration of non-bloody cystic fluid results in complete collapse of the mass.",
+        "Core Needle Biopsy: Indicated if cystic fluid is bloody, if the mass does not fully collapse, or if complex solid components are present."
       ],
-      "morphology": "Grossly: Multicystic brownish-blue cysts ('blue-domed cysts of Bloodgood') surrounded by dense white fibrous tissue. Microscopically: Cysts lined by flattened epithelium or large polygonal cells with eosinophilic granular cytoplasm and apical snouts (apocrine metaplasia); stromal fibrosis and ductal epithelial hyperplasia.",
+      "morphology": "Grossly: Multi-cystic breast tissue containing translucent cysts filled with brown/blue fluid ('blue-dome cysts of Bloodgood'). Microscopically: 1. Cyst formation with apocrine metaplasia (tall columnar cells with granular eosinophilic cytoplasm). 2. Stromal fibrosis. 3. Sclerosing adenosis (proliferation of acini with central stromal compression). 4. Epithelial hyperplasia (mild without atypia carries no cancer risk; atypical ductal hyperplasia [ADH] carries a 4-5 fold increased cancer risk).",
       "nursingManagement": [
-        "Reassurance: Alleviate cancer anxiety by explaining benign cyclical nature of hormonal changes.",
-        "Symptom relief: Well-fitted supportive bra day and night; reduction in dietary methylxanthines (caffeine) and sodium during luteal phase.",
-        "Education: Teach regular breast self-awareness and prompt reporting of any dominant non-cyclical focal mass."
+        "Reassure the patient that typical non-proliferative fibrocystic changes do not represent cancer.",
+        "Symptomatic management: Wear a supportive, non-underwire bra day and night during symptomatic phases; reduce dietary caffeine and methylxanthines.",
+        "Teach thorough Breast Self-Examination (BSE) performed 5 to 7 days after the onset of menstruation when hormonal swelling is minimal."
       ],
       "examPearls": [
-        "Simple fibrocystic changes and apocrine metaplasia carry NO increased risk of invasive breast cancer.",
-        "Atypical ductal hyperplasia (ADH) carries a 4- to 5-fold increased relative risk of future breast cancer in BOTH breasts.",
-        "Cysts often appear gross as 'blue-domed cysts of Bloodgood' containing brown-turbid fluid."
+        "'Blue-dome cysts of Bloodgood' with apocrine metaplasia are the classic gross hallmark of fibrocystic changes.",
+        "Non-proliferative fibrocystic changes carry NO increased risk of breast carcinoma.",
+        "Atypical Ductal Hyperplasia (ADH) confers a 4- to 5-fold increased relative risk of invasive breast cancer."
       ],
       "imagePath": "/images/ch17_img_1.jpeg",
-      "imageCaption": "Microscopic appearance of apocrine metaplasia and cystic changes in fibrocystic disease."
+      "imageCaption": "Histological section showing fibrocystic change with dilated cysts lined by apocrine metaplastic epithelium and dense stromal fibrosis."
     },
     {
       "id": "ch17_t2",
       "name": "Fibroadenoma & Phyllodes Tumor",
-      "summary": "Fibroadenoma is the most common benign breast neoplasm in young women. Phyllodes tumor is a distinct biphasic fibroepithelial tumor that can display borderline or malignant behavior.",
-      "pathophysiology": "Fibroadenoma: Biphasic benign neoplasm composed of proliferating stromal (fibroblastic) elements and glandular epithelium arising from the terminal duct lobular unit (TDLU). Driven by estrogen and progesterone; may enlarge during pregnancy and regress postmenopause. Phyllodes Tumor: Arises from intralobular stroma, characterized by exaggerated stromal hypercellularity and leaf-like architectural projections into cystic spaces.",
+      "summary": "Fibroadenoma is the most common benign biphasic neoplasm of the breast in young women, whereas Phyllodes Tumor represents a related fibroepithelial lesion with potential for aggressive stromal malignancy.",
+      "pathophysiology": "Fibroadenoma is a benign fibroepithelial proliferation arising from the intralobular stroma, driven by estrogen sensitivity; MED12 mutations are present in up to 60%. Phyllodes tumor arises from periductal stromal cells, characterized by chromosomal aberrations and marked stromal hypercellularity.",
       "clinicalFeatures": [
-        "Fibroadenoma: Painless, firm, rubbery, discrete, highly mobile solitary lump ('breast mouse'), typically 1-3 cm in diameter, most common in women aged 15-35 years.",
-        "Phyllodes Tumor: Rapidly enlarging, painless multinodular breast mass, typically presenting in older women (age 40-55), stretching overlying skin with dilated veins."
+        "Fibroadenoma: Solitary, well-circumscribed, firm, rubbery, painless, highly mobile mass ('breast mouse') typically in women aged 15 to 35; size may fluctuate during pregnancy and menses.",
+        "Phyllodes Tumor: Rapidly enlarging, painless, firm, lobulated, fleshy mass in women aged 40 to 55, often reaching 5-15 cm in diameter."
       ],
       "diagnostics": [
-        "Triple Assessment: Clinical breast examination + Imaging (Ultrasound / Mammography) + Core needle biopsy.",
-        "Ultrasound: Fibroadenoma appears as a well-circumscribed, oval, hypoechoic solid mass with wider-than-tall orientation and uniform internal echoes.",
-        "Core needle biopsy: Confirms benign biphasic architecture or distinguishes phyllodes tumor by evaluating stromal cellularity and mitoses."
+        "Targeted Breast Ultrasound: Fibroadenoma displays an oval, wider-than-tall, well-circumscribed hypoechoic solid mass with uniform echogenicity.",
+        "Core Needle Biopsy: Confirms biphasic proliferation of stromal and epithelial components without cellular atypia.",
+        "Mammography: Fibroadenomas in older postmenopausal women display dense, coarse 'popcorn' calcifications."
       ],
-      "morphology": "Fibroadenoma: Well-circumscribed, sharply demarcated, grayish-white lobulated nodule with slit-like clefts. Microscopically shows two patterns: Intracanalicular (proliferating stroma compresses glands into linear clefts) and Pericanalicular (stroma surrounds patent round ducts). Phyllodes: Leaf-like stromal fronds lined by epithelial cells, stromal overgrowth, atypia, and mitoses determining benign, borderline, or malignant grade.",
+      "morphology": "Fibroadenoma: Well-demarcated, lobulated, grayish-white rubbery mass with slit-like spaces. Microscopically shows glandular epithelium compressed by proliferating stroma in two patterns: Intracanalicular (stroma compresses ducts into cleft-like slits) and Pericanalicular (stroma surrounds round patent ducts). Phyllodes Tumor: Fleshy, leaf-like architecture ('phyllodes' = leaf-like) with clefts, cleft-lining epithelium, marked stromal hypercellularity, pleomorphism, and brisk mitotic activity (malignant phyllodes metastasizes hematogenously as a sarcoma without nodal spread).",
       "nursingManagement": [
-        "Provide reassurance that simple fibroadenomas are benign and do not necessitate excision unless symptomatic or >2-3 cm.",
-        "Post-lumpectomy care: Monitor surgical dressing, provide ice packs, and manage mild post-op discomfort.",
-        "Phyllodes tumor management: Emphasize wide local excision with >1 cm clear margins to prevent local recurrence."
+        "Provide reassurance regarding the benign nature of confirmed fibroadenomas; conservative monitoring with serial ultrasound is appropriate for masses <2 cm in young women.",
+        "Post-excisional biopsy or wide local excision care: Wound dressing, ice packs, and pain management.",
+        "For phyllodes tumors, emphasize the requirement for wide surgical margins (>=1 cm) to prevent local recurrence."
       ],
       "examPearls": [
-        "The extreme mobility of fibroadenoma gives it the clinical moniker 'breast mouse'.",
-        "Phyllodes tumor is distinguished from fibroadenoma by marked stromal hypercellularity, leaf-like architecture, and potential for hematogenous sarcoma-like metastases.",
-        "Fibroadenomas contain estrogen and progesterone receptors and can enlarge during lactation."
+        "Fibroadenoma is famously referred to as the 'breast mouse' due to its extreme mobile slippage under the examining fingers.",
+        "Popcorn-like calcifications on mammography are pathognomonic for an involuting, hyalinized fibroadenoma in older women.",
+        "Phyllodes tumor is distinguished by its leaf-like architecture and malignant stromal sarcoma potential, which metastasizes hematogenously to the lungs."
       ],
       "imagePath": "/images/ch17_img_2.jpeg",
-      "imageCaption": "Gross sharply demarcated fibroadenoma and leaf-like architecture of phyllodes tumor."
+      "imageCaption": "Gross lumpectomy specimen of a fibroadenoma showing a sharply defined, lobulated, grayish-white rubbery surface with slit-like clefts."
     },
     {
       "id": "ch17_t3",
-      "name": "Carcinoma of the Breast: Types, Staging & Molecular Subtypes",
-      "summary": "The most common non-skin malignancy in females worldwide, categorized by invasiveness, histologic subtype, and molecular receptor status.",
-      "pathophysiology": "Genetic alterations include germline mutations in BRCA1 (chromosome 17q, DNA double-strand break repair) and BRCA2 (chromosome 13q), TP53, and PTEN, plus somatic amplifications of HER2/neu (ERBB2). Tumors classified molecularly into: 1. Luminal A (ER+, PR+, HER2-, low Ki-67, best prognosis, responds to endocrine therapy), 2. Luminal B (ER+, PR+/-, HER2+/-, high Ki-67), 3. HER2-enriched (ER-, PR-, HER2+, treated with trastuzumab), 4. Triple-negative / Basal-like (ER-, PR-, HER2-, high recurrence, frequent in BRCA1 carriers).",
+      "name": "Invasive Breast Carcinoma (Ductal & Lobular)",
+      "summary": "Malignant epithelial neoplasms of the breast, classified by architectural phenotype into Infiltrating Ductal Carcinoma No Special Type (NST, 70-80%) and Invasive Lobular Carcinoma (10-15%).",
+      "pathophysiology": "Malignant transformation of terminal duct lobular unit epithelial cells. Infiltrating Ductal Carcinoma breaches the ductal basement membrane and incites an intense fibroblastic stromal response ('desmoplasia'). Invasive Lobular Carcinoma is characterized by biallelic loss of the CDH1 gene encoding E-cadherin (cell-to-cell adhesion molecule), allowing malignant discohesive single cells to infiltrate the stroma without inciting marked desmoplasia.",
       "clinicalFeatures": [
-        "Hard, painless, irregular, solitary fixed mass, most commonly located in the Upper Outer Quadrant (50% of cases).",
-        "Skin dimpling or tethering due to invasion of Cooper's suspensory ligaments.",
-        "Nipple retraction, inverted nipple, or spontaneous unilateral blood-stained nipple discharge.",
-        "'Peau d'orange' (orange peel appearance of skin) caused by dermal lymphatic tumor emboli and lymphedema.",
-        "Paget disease of the nipple: Crusting, scaling, erythematous eczematous lesion of nipple-areolar complex, indicating underlying ductal carcinoma."
+        "Painless, hard, stony, irregular, non-mobile breast mass fixed to surrounding parenchyma, pectoralis fascia, or overlying skin.",
+        "Skin dimpling or tethering (due to traction on Cooper's suspensory ligaments).",
+        "Recent nipple retraction or inversion.",
+        "Nontender, firm, matted axillary lymphadenopathy."
       ],
       "diagnostics": [
-        "Screening Mammography: Detects non-palpable clustered pleomorphic microcalcifications and spikulated masses.",
-        "Core Needle Biopsy (gold standard): Provides definitive histologic type, Nottingham histologic grade (tubule formation, nuclear pleomorphism, mitotic count), and biomarker status (ER, PR, HER2 by IHC/FISH, and Ki-67 proliferation index).",
-        "Sentinel Lymph Node Biopsy (SLNB): Uses technetium-99m sulfur colloid and blue dye to assess axillary status without full lymphadenectomy complications."
+        "Digital Screening & Diagnostic Mammography: Spiculated, high-density mass with clustered pleomorphic microcalcifications.",
+        "Ultrasound-Guided Core Needle Biopsy: Standard of care for definitive tissue diagnosis and receptor testing.",
+        "Histological Grading (Nottingham Histologic Score): Evaluates 1. Tubule formation (1-3), 2. Nuclear pleomorphism (1-3), and 3. Mitotic rate (1-3) to yield Grade 1 (well), Grade 2 (moderately), or Grade 3 (poorly differentiated)."
       ],
-      "morphology": "Infiltrating Ductal Carcinoma (No Special Type - NST, 75-80%): Gritty, hard ('scirrhous'), stellate mass infiltrating surrounding fat; malignant duct-forming cells within dense desmoplastic fibrous stroma. Invasive Lobular Carcinoma (10-15%): Cells lack E-cadherin (CDH1 mutation) and infiltrate individually in single-file cords ('Indian filing'); frequently multicentric and bilateral.",
+      "morphology": "Infiltrating Ductal Carcinoma (IDC): Gritty, hard, craggy, gray-white mass with radiating stellate borders ('scirrhous' carcinoma) that grates like an unripe pear when cut; microscopically shows cohesive nests, cords, and abortive tubules of pleomorphic cells. Invasive Lobular Carcinoma (ILC): Rubber-like, diffuse thickening without a distinct discrete mass; microscopically shows discohesive, monomorphic cells infiltrating in a single-file 'Indian-file' pattern forming concentric targetoid rings around normal ducts.",
       "nursingManagement": [
-        "Post-mastectomy and axillary dissection care: Elevate affected arm on a pillow; strictly NO blood pressure checks, venipunctures, or injections on the ipsilateral arm to prevent lymphedema.",
-        "Jackson-Pratt (JP) drain monitoring: Record output daily; drain removed when <30 mL/24h.",
-        "Counsel patients on systemic therapies: Tamoxifen (hot flashes, DVT risk, endometrial thickening), Aromatase inhibitors (bone loss, arthralgia), Trastuzumab (monitor cardiac ejection fraction with ECHO)."
+        "Post-mastectomy and axillary lymph node dissection (ALND) care: Implement lymphedema precautions on the operative side (no blood pressure checks, venipunctures, or injections).",
+        "Maintain and monitor surgical drains (Jackson-Pratt): Record output daily until <30 mL/24 hr.",
+        "Educate and assist with post-operative range-of-motion arm and shoulder exercises beginning on post-op day 1."
       ],
       "examPearls": [
-        "Invasive Ductal Carcinoma NST is the most common histological type of breast cancer.",
-        "Loss of E-cadherin expression is the diagnostic molecular feature of Lobular Carcinoma in situ and Invasive Lobular Carcinoma.",
-        "Peau d'orange appearance signifies inflammatory carcinoma or advanced dermal lymphatic invasion.",
-        "Upper outer quadrant is the most frequent anatomical site (50%) of breast carcinomas."
+        "Infiltrating Ductal Carcinoma NST is the most common histological subtype of breast cancer (75-80%).",
+        "Loss of E-cadherin (CDH1 mutation) causing a single-file 'Indian-file' infiltrative pattern is pathognomonic for Invasive Lobular Carcinoma.",
+        "Invasive Lobular Carcinoma is frequently bilateral and multicentric with occult mammographic presentation."
       ],
       "imagePath": "/images/ch17_img_3.png",
-      "imageCaption": "Desmoplastic stroma in invasive ductal carcinoma and single-file Indian filing in lobular carcinoma."
+      "imageCaption": "Microscopic view of invasive ductal carcinoma demonstrating pleomorphic malignant cells infiltrating through a dense desmoplastic fibrous stroma."
+    },
+    {
+      "id": "ch17_t4",
+      "name": "Molecular Subtypes, Biomarkers & Special Clinical Syndromes",
+      "summary": "Therapeutic biomarker classification (ER, PR, HER2/neu) and distinct clinical presentations including Inflammatory Breast Cancer and Paget Disease of the Nipple.",
+      "pathophysiology": "Breast cancers are classified by molecular immunohistochemical markers: 1. Luminal A (ER+/PR+, HER2-, low Ki-67; excellent prognosis, responsive to endocrine therapy e.g. Tamoxifen, Aromatase inhibitors). 2. Luminal B (ER+, HER2 variable, high Ki-67). 3. HER2-enriched (HER2 gene amplification on chromosome 17q, ER/PR negative; responsive to targeted anti-HER2 monoclonal antibody Trastuzumab/Herceptin). 4. Triple-Negative Breast Cancer / Basal-like (ER-, PR-, HER2-; highly aggressive, common in young women with BRCA1 mutations, chemotherapy-dependent). Paget disease results from intraepithelial migration of ductal carcinoma in situ (DCIS) cells into the epidermis of the nipple. Inflammatory breast cancer involves widespread plugging of dermal lymphatic channels by tumor emboli.",
+      "clinicalFeatures": [
+        "Paget Disease of the Nipple: Unilateral red, scaly, crusted, eczematous weeping lesion of the nipple-areolar complex with itching or burning; does not respond to topical steroids; underlying DCIS or invasive cancer is present in >95%.",
+        "Inflammatory Breast Cancer: Rapidly progressive diffuse erythema, warmth, severe edema, and skin thickening resembling an orange peel ('Peau d'orange'); frequently misdiagnosed initially as acute mastitis.",
+        "Hereditary HBOC Syndrome: Germline BRCA1 (17q) or BRCA2 (13q) mutations causing high lifetime risk of early bilateral breast and ovarian cancers."
+      ],
+      "diagnostics": [
+        "Immunohistochemistry (IHC) & In Situ Hybridization (FISH): Quantifies Estrogen Receptor (ER), Progesterone Receptor (PR), and HER2 protein/gene amplification.",
+        "Full-Thickness Punch Biopsy of Nipple/Skin: Demonstrates large, pale, atypical Paget cells in the epidermis or dermal lymphatic tumor emboli in inflammatory cancer.",
+        "Genetic Testing: BRCA1 and BRCA2 germline mutation analysis."
+      ],
+      "morphology": "Paget Disease: Large, round Paget cells with abundant clear/pale cytoplasm, pleomorphic nuclei, and prominent nucleoli residing within the squamous epidermis. Inflammatory Cancer: Extensive occlusion and distension of dermal lymphatic vessels by cohesive clusters of tumor cells, with marked interstitial dermal edema.",
+      "nursingManagement": [
+        "Any eczema-like crusting or ulceration of the nipple unresponsive to topical treatment must be evaluated for Paget disease.",
+        "For patients on Trastuzumab (Herceptin): Obtain baseline echocardiogram (ECHO) and monitor LVEF every 3 months due to risk of cardiotoxicity/heart failure.",
+        "For patients on Tamoxifen: Counsel on adverse effects (hot flashes, DVT risk, and abnormal uterine bleeding due to endometrial hyperplasia).",
+        "Provide genetic counseling support for patients undergoing BRCA testing."
+      ],
+      "examPearls": [
+        "'Peau d'orange' (orange peel skin) is caused by tumor emboli blocking superficial dermal lymphatic vessels.",
+        "Paget disease of the nipple represents malignant ductal carcinoma in situ cells migrating into the nipple epidermis.",
+        "Trastuzumab (Herceptin) targets the HER2/neu receptor tyrosine kinase; its chief adverse effect is reversible cardiotoxicity."
+      ],
+      "imagePath": "/images/ch17_img_4.png",
+      "imageCaption": "Clinical photograph of peau d'orange skin changes and nipple retraction characteristic of advanced inflammatory breast carcinoma."
     }
   ],
   "mindMap": {
-    "centralConcept": "Pathology of Breast Diseases",
+    "centralConcept": "Breast Pathology & Oncology",
     "nodes": [
       {
         "id": "b1",
-        "label": "Hormonal Cycling (Estrogen/Progesterone)",
+        "label": "Hormonal Imbalance",
         "category": "etiology",
-        "description": "Cyclical hormonal stimulation driving ductal dilatation and stromal proliferation."
+        "description": "Cyclical estrogen excess driving fibrocystic changes and blue-dome cysts"
       },
       {
         "id": "b2",
-        "label": "Fibrocystic Changes",
+        "label": "Atypical Ductal Hyperplasia",
         "category": "pathophysiology",
-        "description": "Cyclical mastalgia, blue-domed cysts, apocrine metaplasia; no risk unless atypia present."
+        "description": "Epithelial proliferation conferring 4-5x relative breast cancer risk"
       },
       {
         "id": "b3",
         "label": "Fibroadenoma ('Breast Mouse')",
         "category": "core",
-        "description": "Benign biphasic stromal-epithelial tumor in young females; sharply demarcated and mobile."
+        "description": "Benign mobile biphasic tumor with compressed glandular slits"
       },
       {
         "id": "b4",
         "label": "Phyllodes Tumor",
         "category": "pathophysiology",
-        "description": "Stromal fronds with leaf-like architecture; potential for rapid expansion and sarcoma spread."
+        "description": "Biphasic leaf-like neoplasm with potential for sarcomatous metastasis"
       },
       {
         "id": "b5",
-        "label": "Invasive Ductal Carcinoma (NST)",
+        "label": "Infiltrating Ductal (NST)",
         "category": "core",
-        "description": "Most common breast cancer; hard scirrhous mass with desmoplasia in upper outer quadrant."
+        "description": "Most common breast malignancy with intense desmoplastic stroma"
       },
       {
         "id": "b6",
         "label": "Invasive Lobular Carcinoma",
-        "category": "pathophysiology",
-        "description": "Loss of E-cadherin leading to discohesive single-file 'Indian filing' invasion."
+        "category": "core",
+        "description": "CDH1/E-cadherin loss producing single-file 'Indian-file' infiltration"
       },
       {
         "id": "b7",
-        "label": "Receptor & Molecular Profiling",
+        "label": "Receptor Subtypes",
         "category": "diagnostic",
-        "description": "ER/PR status, HER2 amplification, and Ki-67 guiding targeted hormonal and biologic therapy."
+        "description": "Luminal A (ER+), HER2-amplified, and Triple-Negative (BRCA1)"
+      },
+      {
+        "id": "b8",
+        "label": "Peau d'orange",
+        "category": "clinical",
+        "description": "Dermal lymphatic tumor emboli causing lymphedema and skin dimpling"
+      },
+      {
+        "id": "b9",
+        "label": "Paget Disease of Nipple",
+        "category": "clinical",
+        "description": "Eczematous nipple lesion representing intraepidermal DCIS migration"
       }
     ],
     "edges": [
       {
         "from": "b1",
         "to": "b2",
-        "relationship": "Triggers cyclical changes",
-        "explanation": "Estrogen excess relative to progesterone causes cyclical pain, duct dilatation, and fibrous thickening."
+        "relationship": "predisposes to",
+        "explanation": "Chronic proliferative hormonal stimulation can progress to atypical hyperplasia."
       },
       {
-        "from": "b1",
-        "to": "b3",
-        "relationship": "Stimulates growth",
-        "explanation": "Fibroadenomas express estrogen receptors, expanding during pregnancy and regressing after menopause."
+        "from": "b2",
+        "to": "b5",
+        "relationship": "transitions to",
+        "explanation": "Atypical ductal hyperplasia is a direct precursor to DCIS and invasive ductal cancer."
       },
       {
         "from": "b3",
         "to": "b4",
-        "relationship": "Contrasted with",
-        "explanation": "Phyllodes tumor features prominent stromal hypercellularity and leaf-like projections, unlike benign fibroadenoma."
+        "relationship": "shares lineage with",
+        "explanation": "Both are fibroepithelial tumors, but phyllodes has prominent hypercellular stroma."
       },
       {
         "from": "b5",
         "to": "b7",
-        "relationship": "Subtyped by",
-        "explanation": "Invasive carcinoma is classified into Luminal A/B, HER2+, and Triple-negative based on receptor profiling."
+        "relationship": "classified by",
+        "explanation": "Invasive carcinoma is stratified by ER, PR, and HER2 immunohistochemistry for therapy."
       },
       {
         "from": "b6",
-        "to": "b5",
-        "relationship": "Differentiated by",
-        "explanation": "Lobular carcinoma shows absent E-cadherin and diffuse infiltration, whereas ductal NST forms cohesive tubules."
+        "to": "b7",
+        "relationship": "typically presents as",
+        "explanation": "Invasive lobular carcinoma is overwhelmingly ER-positive and HER2-negative."
+      },
+      {
+        "from": "b5",
+        "to": "b8",
+        "relationship": "manifests as",
+        "explanation": "Dermal lymphatic invasion produces the classic orange peel skin appearance."
+      },
+      {
+        "from": "b5",
+        "to": "b9",
+        "relationship": "extends into",
+        "explanation": "Underlying DCIS spreads through lactiferous ducts into the squamous nipple epithelium."
       }
     ]
   },
@@ -181,421 +233,421 @@ export const ch17: Chapter = {
       "id": "ch17_q1",
       "topic": "Fibrocystic Changes",
       "difficulty": "Easy",
-      "question": "Which histological feature of fibrocystic breast disease is classified as non-proliferative and carries NO increased risk of developing breast cancer?",
+      "question": "Which of the following fibrocystic changes of the breast is associated with the highest relative risk of developing invasive breast carcinoma?",
       "options": [
-        "Atypical ductal hyperplasia",
-        "Apocrine metaplasia and simple cysts",
-        "Atypical lobular hyperplasia",
-        "Moderate ductal papillomatosis"
+        "Simple cysts with apocrine metaplasia",
+        "Stromal fibrosis",
+        "Atypical Ductal Hyperplasia (ADH)",
+        "Mild ductal hyperplasia without atypia"
       ],
-      "correctIndex": 1,
-      "explanation": "Simple cysts, mild ductal dilation, and apocrine metaplasia carry no increased risk (relative risk 1.0) for invasive carcinoma."
+      "correctIndex": 2,
+      "explanation": "Atypical ductal hyperplasia (ADH) and atypical lobular hyperplasia (ALH) confer a 4- to 5-fold increased relative risk of invasive breast cancer."
     },
     {
       "id": "ch17_q2",
       "topic": "Fibroadenoma",
       "difficulty": "Easy",
-      "question": "The clinical mobility of a fibroadenoma on physical examination has earned it what popular clinical name?",
+      "question": "A 22-year-old woman presents with a firm, painless, rubbery, discrete, highly mobile 2 cm breast lump. What is the most likely diagnosis?",
       "options": [
-        "Breast stone",
-        "Breast mouse",
-        "Wandering cyst",
-        "Slip tumor"
+        "Infiltrating ductal carcinoma",
+        "Fibroadenoma",
+        "Intraductal papilloma",
+        "Fat necrosis"
       ],
       "correctIndex": 1,
-      "explanation": "Due to its sharp encapsulation and lack of adherence to surrounding breast tissue, a fibroadenoma slips easily beneath examining fingers, hence called a 'breast mouse'."
+      "explanation": "Fibroadenoma is the most common benign breast tumor in young women (<30 years), characterized by its discrete, firm, rubbery consistency and extreme mobility ('breast mouse')."
     },
     {
       "id": "ch17_q3",
       "topic": "Breast Carcinoma",
       "difficulty": "Easy",
-      "question": "In which anatomical quadrant of the breast do approximately 50% of all breast carcinomas arise?",
+      "question": "What is the single most common histological type of invasive breast carcinoma, accounting for 70-80% of all cases?",
       "options": [
-        "Upper Outer Quadrant",
-        "Upper Inner Quadrant",
-        "Lower Outer Quadrant",
-        "Lower Inner Quadrant"
+        "Invasive Lobular Carcinoma",
+        "Infiltrating Ductal Carcinoma No Special Type (NST)",
+        "Medullary Carcinoma",
+        "Mucinous (Colloid) Carcinoma"
       ],
-      "correctIndex": 0,
-      "explanation": "The upper outer quadrant contains the highest volume of glandular breast tissue and is the site of roughly 50% of all breast malignancies."
+      "correctIndex": 1,
+      "explanation": "Infiltrating Ductal Carcinoma NST accounts for approximately 75-80% of all invasive breast cancers."
     },
     {
       "id": "ch17_q4",
       "topic": "Breast Carcinoma",
-      "difficulty": "Easy",
-      "question": "What is the most common histological subtype of invasive breast cancer, representing 70-80% of all cases?",
+      "difficulty": "Medium",
+      "question": "The single-file 'Indian-file' linear infiltration of tumor cells without desmoplasia is the hallmark histological pattern of:",
       "options": [
+        "Invasive Ductal Carcinoma",
         "Invasive Lobular Carcinoma",
-        "Infiltrating Ductal Carcinoma (No Special Type - NST)",
-        "Medullary Carcinoma",
-        "Mucinous Carcinoma"
+        "Tubular Carcinoma",
+        "Metaplastic Carcinoma"
       ],
       "correctIndex": 1,
-      "explanation": "Infiltrating (invasive) ductal carcinoma NST accounts for the vast majority (70-80%) of all invasive breast cancers."
+      "explanation": "Invasive lobular carcinoma is characterized by loss of E-cadherin, causing discohesive cells to march through stroma in a single-file 'Indian file' pattern."
     },
     {
       "id": "ch17_q5",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Easy",
-      "question": "The characteristic 'peau d'orange' (orange peel) appearance of the breast skin in locally advanced cancer is caused by:",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Medium",
+      "question": "Loss of expression of which cell adhesion protein is pathognomonic for Invasive Lobular Carcinoma?",
       "options": [
-        "Direct invasion of pectoralis major muscle",
-        "Obstruction of superficial dermal lymphatics by tumor emboli",
-        "Bacterial cellulitis",
-        "Calcification of lactiferous ducts"
+        "E-cadherin",
+        "HER2/neu",
+        "Fibronectin",
+        "Integrin alpha-V"
       ],
-      "correctIndex": 1,
-      "explanation": "Tumor emboli clogging dermal lymphatic vessels cause cutaneous lymphedema. Tethering at hair follicles produces the dimpled 'peau d'orange' skin."
+      "correctIndex": 0,
+      "explanation": "Biallelic loss or mutation of the CDH1 gene encoding E-cadherin causes loss of cell-cell cohesion, defining lobular neoplasia (LCIS and invasive lobular carcinoma)."
     },
     {
       "id": "ch17_q6",
-      "topic": "Phyllodes Tumor",
-      "difficulty": "Easy",
-      "question": "Phyllodes tumors of the breast are distinguished on microscopic examination by having what characteristic architectural feature?",
+      "topic": "Special Syndromes",
+      "difficulty": "Medium",
+      "question": "The 'peau d'orange' (orange peel) skin change observed in inflammatory breast carcinoma is caused by:",
       "options": [
-        "Psammoma bodies",
-        "Leaf-like clefts and papillary projections of hypercellular stroma",
-        "Single-file Indian filing",
-        "Extensive mucin lakes"
+        "Bacterial infection of Cooper's ligaments",
+        "Invasion of dermal lymphatic vessels by tumor emboli",
+        "Fat necrosis with lipophages",
+        "Superficial thrombophlebitis"
       ],
       "correctIndex": 1,
-      "explanation": "The name phyllodes is derived from Greek for 'leaf-like', describing the bulbous leaf-like stromal fronds projecting into clefts lined by epithelium."
+      "explanation": "Malignant tumor emboli plug superficial dermal lymphatic channels, obstructing lymph drainage and creating localized tethered skin edema that resembles an orange peel."
     },
     {
       "id": "ch17_q7",
-      "topic": "Breast Carcinoma",
+      "topic": "Special Syndromes",
       "difficulty": "Easy",
-      "question": "Paget disease of the breast characteristically presents with which clinical skin change?",
+      "question": "A 58-year-old woman presents with a persistent, scaly, crusted, erythematous, eczematous lesion of the nipple that has failed to heal with topical creams. What must be suspected?",
       "options": [
-        "Unilateral erythematous, crusting, eczematous erosion of the nipple and areola",
-        "Bilateral painless stretch marks",
-        "Subcutaneous fluctuating hematoma",
-        "Diffuse hyperpigmented freckles"
+        "Atopic dermatitis",
+        "Paget disease of the nipple",
+        "Psoriasis of the breast",
+        "Simple mastitis"
       ],
-      "correctIndex": 0,
-      "explanation": "Paget disease presents as an erythematous, scaly, crusted eczematous eruption of the nipple-areolar complex, caused by intraepidermal migration of malignant ductal cells."
+      "correctIndex": 1,
+      "explanation": "Paget disease of the nipple presents as a chronic eczematous, crusted lesion of the nipple-areolar complex, representing intraepithelial spread of underlying DCIS or invasive cancer."
     },
     {
       "id": "ch17_q8",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Easy",
-      "question": "Which molecular subtype of breast cancer typically carries the best overall clinical prognosis and responds favorably to endocrine therapy?",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Hard",
+      "question": "Which molecular subtype of breast cancer is characteristically negative for ER, negative for PR, and negative for HER2/neu?",
       "options": [
-        "Luminal A (ER+, PR+, HER2-, low Ki-67)",
-        "HER2-enriched",
-        "Triple-negative (basal-like)",
-        "Inflammatory breast cancer"
+        "Luminal A",
+        "Luminal B",
+        "Triple-Negative (Basal-like) Breast Cancer",
+        "HER2-enriched"
       ],
-      "correctIndex": 0,
-      "explanation": "Luminal A tumors express high levels of estrogen and progesterone receptors, are HER2 negative with low proliferation (Ki-67), and have the highest 5-year survival rates."
+      "correctIndex": 2,
+      "explanation": "Triple-Negative Breast Cancer (TNBC) lacks ER, PR, and HER2 expression. It is aggressive, unresponsive to hormonal or anti-HER2 therapies, and common in BRCA1 mutation carriers."
     },
     {
       "id": "ch17_q9",
-      "topic": "Fibrocystic Changes",
-      "difficulty": "Easy",
-      "question": "Grossly, simple cysts filled with turbid brownish fluid in fibrocystic disease are famously known as:",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Medium",
+      "question": "What is the primary mechanism of action of Trastuzumab (Herceptin) in breast cancer therapy?",
       "options": [
-        "Blue-domed cysts of Bloodgood",
-        "Baker's cysts",
-        "Chocolate cysts",
-        "Nabothian cysts"
+        "Monoclonal antibody targeting and inhibiting the extracellular domain of the HER2/neu receptor tyrosine kinase",
+        "Aromatase inhibitor blocking estrogen synthesis",
+        "Selective Estrogen Receptor Modulator (SERM)",
+        "Alkylating agent targeting DNA"
       ],
       "correctIndex": 0,
-      "explanation": "Unopened simple cysts in fibrocystic disease have a distinctive bluish-brown sheen through the breast stroma, termed 'blue-domed cysts of Bloodgood'."
+      "explanation": "Trastuzumab is a humanized monoclonal antibody directed against the HER2/neu (ERBB2) receptor tyrosine kinase, blocking oncogenic downstream signaling in HER2-amplified tumors."
     },
     {
       "id": "ch17_q10",
-      "topic": "Nursing Care",
-      "difficulty": "Easy",
-      "question": "Following a modified radical mastectomy with complete axillary lymph node dissection, which nursing precaution on the affected arm is mandatory?",
+      "topic": "Fibroadenoma",
+      "difficulty": "Hard",
+      "question": "Coarse 'popcorn-like' calcifications on screening mammography in an elderly postmenopausal woman typically represent:",
       "options": [
-        "Perform frequent venipunctures on that arm to check hematocrit",
-        "Avoid all blood pressure measurements, IV insertions, and venipunctures on that arm to prevent lymphedema",
-        "Apply tight tourniquets twice daily to stimulate venous tone",
-        "Immobilize the arm in a rigid splint for 6 months"
+        "Invasive ductal carcinoma",
+        "Involuting, hyalinized and calcified fibroadenoma",
+        "Ductal carcinoma in situ",
+        "Sclerosing adenosis"
       ],
       "correctIndex": 1,
-      "explanation": "Disruption of axillary lymphatic drainage leaves the ipsilateral limb vulnerable to lymphedema and serious infection; all needle sticks and constricting BP cuffs must be avoided."
+      "explanation": "In postmenopausal women, aging fibroadenomas undergo hyalinization and dystrophic calcification, producing dense, coarse 'popcorn' calcifications pathognomonic on mammography."
     },
     {
       "id": "ch17_q11",
-      "topic": "Breast Carcinoma",
+      "topic": "Phyllodes Tumor",
       "difficulty": "Medium",
-      "question": "Which diagnostic molecular alteration is specifically characteristic of Invasive Lobular Carcinoma of the breast?",
+      "question": "How does a Phyllodes Tumor differ pathologically from a common Fibroadenoma?",
       "options": [
-        "Loss of E-cadherin expression due to CDH1 mutation",
-        "HER2/neu gene overexpression",
-        "Philadelphia chromosome t(9;22)",
-        "RET/PTC rearrangement"
+        "Phyllodes tumor has no stromal component",
+        "Phyllodes tumor exhibits marked stromal hypercellularity with leaf-like architecture and can behave as a malignant sarcoma",
+        "Phyllodes tumor is always bilateral",
+        "Phyllodes tumor is exclusively seen in men"
       ],
-      "correctIndex": 0,
-      "explanation": "Inactivation of the CDH1 gene results in complete loss of E-cadherin, the intercellular adhesion molecule, causing lobular carcinoma cells to infiltrate dyscohesively in single-file cords ('Indian files')."
+      "correctIndex": 1,
+      "explanation": "Phyllodes tumors have characteristic leaf-like stromal projections and hypercellular stroma. Unlike fibroadenomas, malignant phyllodes can recur locally and metastasize hematogenously as sarcomas."
     },
     {
       "id": "ch17_q12",
       "topic": "Breast Carcinoma",
       "difficulty": "Medium",
-      "question": "Skin dimpling overlying an invasive breast carcinoma is caused by tumor infiltration and retraction of:",
+      "question": "Skin dimpling overlying an invasive breast carcinoma is caused by tumor infiltration and retraction of which anatomical structures?",
       "options": [
-        "Lactiferous sinuses",
+        "Pectoralis major muscle",
         "Cooper's suspensory ligaments",
-        "Pectoralis minor tendon",
-        "Intercostal nerve sheaths"
+        "Lactiferous sinuses",
+        "Axillary vein"
       ],
       "correctIndex": 1,
-      "explanation": "Cooper's suspensory ligaments anchor the breast dermis to the deep fascia. Tumor fibrosis tethering these ligaments causes localized dimpling and retraction of overlying skin."
+      "explanation": "Invasive carcinoma invading the subcutaneous tissue causes traction on Cooper's suspensory ligaments, tethering the overlying skin and producing characteristic dimpling."
     },
     {
       "id": "ch17_q13",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Medium",
-      "question": "The Nottingham Histological Score (Elston-Ellis modification of Scarff-Bloom-Richardson) evaluates which three parameters to grade breast cancer?",
+      "topic": "Fibrocystic Changes",
+      "difficulty": "Easy",
+      "question": "What is the classic gross description of the fluid-filled cysts in fibrocystic breast disease?",
       "options": [
-        "Tubule formation, nuclear pleomorphism, and mitotic rate",
-        "Tumor size, lymph node count, and metastasis distance",
-        "Patient age, estrogen receptor percentage, and HER2 copy number",
-        "Necrosis percentage, calcification presence, and margin status"
+        "'Chocolate cysts'",
+        "'Blue-dome cysts of Bloodgood'",
+        "'Dermoid cysts'",
+        "'Hydatid cysts'"
       ],
-      "correctIndex": 0,
-      "explanation": "The Nottingham grading system assigns 1 to 3 points for tubule formation, nuclear pleomorphism, and mitotic frequency, categorizing tumors into Grades 1, 2, or 3."
+      "correctIndex": 1,
+      "explanation": "Unopened simple cysts containing cloudy brown or blue-tinted fluid are historically termed the 'blue-dome cysts of Bloodgood'."
     },
     {
       "id": "ch17_q14",
       "topic": "Breast Carcinoma",
-      "difficulty": "Medium",
-      "question": "Which monoclonal antibody drug specifically targets the extracellular domain of the HER2/neu receptor protein in HER2-positive breast carcinoma?",
+      "difficulty": "Hard",
+      "question": "The Nottingham Histologic Score (Elston-Ellis modification of Scarff-Bloom-Richardson) evaluates which three morphological criteria?",
       "options": [
-        "Tamoxifen",
-        "Trastuzumab (Herceptin)",
-        "Anastrozole",
-        "Bevacizumab"
+        "Patient age, tumor size, and lymph node count",
+        "Tubule formation, nuclear pleomorphism, and mitotic count",
+        "ER status, PR status, and HER2 status",
+        "Calcification pattern, necrosis, and skin dimpling"
       ],
       "correctIndex": 1,
-      "explanation": "Trastuzumab is a humanized monoclonal antibody that selectively binds the HER2 receptor, downregulating signaling and triggering antibody-dependent cellular cytotoxicity."
+      "explanation": "The Nottingham histologic grading system assigns 1-3 points for tubule formation, nuclear pleomorphism, and mitotic frequency to determine histological grade 1, 2, or 3."
     },
     {
       "id": "ch17_q15",
-      "topic": "Fibroadenoma",
-      "difficulty": "Medium",
-      "question": "Microscopically, when proliferating fibrous stroma compresses the glandular ducts of a fibroadenoma into narrow, branching, curvilinear slits, the pattern is designated:",
+      "topic": "Breast Carcinoma",
+      "difficulty": "Easy",
+      "question": "Following a modified radical mastectomy with Axillary Lymph Node Dissection (ALND), what nursing precaution must be strictly enforced on the operative arm?",
       "options": [
-        "Intracanalicular pattern",
-        "Pericanalicular pattern",
-        "Medullary pattern",
-        "Comedocarcinoma pattern"
+        "Keep the arm immobilized in a cast for 4 weeks",
+        "No blood pressure measurements, venipunctures, or injections on that arm to prevent lymphedema",
+        "Apply heat lamps continuously",
+        "Encourage heavy lifting"
       ],
-      "correctIndex": 0,
-      "explanation": "In the intracanalicular pattern, expansive stromal proliferation invades and compresses epithelial ducts into thin, elongated, branching cleft-like spaces."
+      "correctIndex": 1,
+      "explanation": "Removal of axillary lymph nodes impairs lymphatic drainage; constricting blood pressure cuffs, venipunctures, or injections increase infection risk and exacerbate chronic lymphedema."
     },
     {
       "id": "ch17_q16",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Medium",
-      "question": "What is the primary rationale for performing a Sentinel Lymph Node Biopsy (SLNB) in early-stage breast cancer?",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Hard",
+      "question": "What is the primary organ-specific toxicity that must be monitored using regular echocardiograms in patients receiving Trastuzumab (Herceptin)?",
       "options": [
-        "To excise all 30 axillary lymph nodes simultaneously",
-        "To accurately assess axillary nodal metastasis while sparing node-negative patients the morbidity of complete axillary lymph node dissection",
-        "To test if the tumor is estrogen receptor positive",
-        "To inject chemotherapy directly into the lymphatic vessels"
+        "Pulmonary fibrosis",
+        "Cardiotoxicity (decreased left ventricular ejection fraction)",
+        "Renal tubular necrosis",
+        "Peripheral neuropathy"
       ],
       "correctIndex": 1,
-      "explanation": "The sentinel node is the first node receiving drainage from the primary tumor. If it is tumor-free on frozen section/histology, complete axillary dissection can be safely omitted, avoiding lymphedema."
+      "explanation": "Trastuzumab carries a significant risk of cardiotoxicity manifesting as an asymptomatic decrease in LVEF or clinical heart failure, requiring serial echocardiographic monitoring."
     },
     {
       "id": "ch17_q17",
-      "topic": "Breast Carcinoma",
+      "topic": "Fibrocystic Changes",
       "difficulty": "Medium",
-      "question": "Triple-Negative Breast Cancer (TNBC) is defined by the absence of which three diagnostic markers?",
+      "question": "At what point in the menstrual cycle should a woman perform monthly Breast Self-Examination (BSE)?",
       "options": [
-        "Estrogen receptor (ER), Progesterone receptor (PR), and HER2/neu amplification",
-        "p53, BRCA1, and Ki-67",
-        "CEA, CA-125, and AFP",
-        "Cytokeratin 7, Cytokeratin 20, and Vimentin"
+        "During the first day of menses",
+        "5 to 7 days after the onset of menstruation",
+        "During the premenstrual week when breasts are fullest",
+        "At ovulation"
       ],
-      "correctIndex": 0,
-      "explanation": "TNBC lacks expression of ER, PR, and HER2 overexpression. It does not respond to hormonal therapy or HER2-targeted therapies and requires cytotoxic chemotherapy."
+      "correctIndex": 1,
+      "explanation": "BSE should be performed 5 to 7 days after menses begins, when estrogen and progesterone levels are lowest and hormonal breast engorgement and nodularity have resolved."
     },
     {
       "id": "ch17_q18",
-      "topic": "Fibrocystic Changes",
-      "difficulty": "Medium",
-      "question": "A 46-year-old female undergoes core needle biopsy for a mammographic abnormality. Pathology reveals Atypical Ductal Hyperplasia (ADH). What is her relative risk of developing invasive breast cancer?",
+      "topic": "Breast Carcinoma",
+      "difficulty": "Hard",
+      "question": "Germline mutations in BRCA1 are located on which chromosome, and what type of DNA repair defect do they cause?",
       "options": [
-        "No increased risk (1.0x)",
-        "Slightly increased (1.5x - 2.0x)",
-        "Substantially increased (4.0x - 5.0x)",
-        "Guaranteed 100% within one month"
+        "Chromosome 17q; defect in homologous recombination double-strand break repair",
+        "Chromosome 13q; defect in mismatch repair",
+        "Chromosome 3p; defect in nucleotide excision repair",
+        "Chromosome 5q; defect in base excision repair"
       ],
-      "correctIndex": 2,
-      "explanation": "Atypical ductal and lobular hyperplasias confer a 4- to 5-fold increased lifetime relative risk of invasive breast cancer in either breast."
+      "correctIndex": 0,
+      "explanation": "BRCA1 is located on chromosome 17q21; its protein product is critical for homologous recombination repair of double-strand DNA breaks."
     },
     {
       "id": "ch17_q19",
-      "topic": "Breast Carcinoma",
+      "topic": "Phyllodes Tumor",
       "difficulty": "Medium",
-      "question": "A postmenopausal woman on Anastrozole (aromatase inhibitor) therapy for breast cancer requires monitoring for which prominent adverse effect?",
+      "question": "What is the surgical treatment of choice for a Benign or Borderline Phyllodes Tumor of the breast?",
       "options": [
-        "Bone mineral density loss / Osteoporosis",
-        "Endometrial hyperplasia",
-        "Deep vein thrombosis",
-        "Severe hypoglycemia"
+        "Simple enucleation without margins",
+        "Wide local excision with at least 1 cm clear surgical margins",
+        "Radical mastectomy with bilateral ALND",
+        "Observation only"
       ],
-      "correctIndex": 0,
-      "explanation": "Aromatase inhibitors block peripheral estrogen synthesis in postmenopausal women, accelerating bone demineralization and increasing osteoporotic fracture risk, requiring DEXA scans."
+      "correctIndex": 1,
+      "explanation": "Phyllodes tumors have a high propensity for local recurrence; wide local excision with at least 1 cm negative surgical margins is required."
     },
     {
       "id": "ch17_q20",
-      "topic": "Phyllodes Tumor",
+      "topic": "Special Syndromes",
       "difficulty": "Medium",
-      "question": "When a malignant phyllodes tumor metastasizes, it predominantly disseminates via which pathway?",
+      "question": "Microscopically, Paget cells in the nipple epidermis are characterized as:",
       "options": [
-        "Regional axillary lymph nodes",
-        "Hematogenous spread (lungs and bone) as a stromal sarcoma",
-        "Direct intraperitoneal seeding",
-        "Retrograde lymphatics to cervix"
+        "Small spindle cells with cigar-shaped nuclei",
+        "Large, pale cells with abundant clear cytoplasm and pleomorphic hyperchromatic nuclei",
+        "Multinucleated osteoclast-like giant cells",
+        "Keratinizing squamous pearls"
       ],
       "correctIndex": 1,
-      "explanation": "Unlike breast carcinoma (which spreads via lymphatics), malignant phyllodes tumors behave like soft-tissue sarcomas and spread hematogenously, most frequently to the lungs."
+      "explanation": "Paget cells are large intraepidermal adenocarcinoma cells with abundant pale, clear, mucin-containing cytoplasm and atypical nuclei."
     },
     {
       "id": "ch17_q21",
       "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "A 34-year-old woman with a strong family history of early-onset bilateral breast and ovarian cancers is found to carry a deleterious germline BRCA1 mutation. BRCA1 is primarily involved in which cellular process?",
+      "difficulty": "Easy",
+      "question": "What is the principal radiological screening modality recommended to detect early, non-palpable breast cancers?",
       "options": [
-        "Homologous recombination repair of DNA double-strand breaks",
-        "Direct transcriptional activation of estrogen receptors",
-        "Translation of ribosomal subunits in the nucleolus",
-        "Degradation of amyloid precursor protein"
+        "Chest X-Ray",
+        "Screening Mammography",
+        "PET scan",
+        "Thermography"
       ],
-      "correctIndex": 0,
-      "explanation": "BRCA1 and BRCA2 are essential tumor suppressor proteins that execute error-free repair of complex DNA double-strand breaks through the homologous recombination pathway."
+      "correctIndex": 1,
+      "explanation": "Screening mammography is the only proven modality that reduces breast cancer mortality by detecting subclinical, non-palpable lesions and microcalcifications."
     },
     {
       "id": "ch17_q22",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "A 62-year-old woman presents with rapid enlargement of her left breast over 3 weeks. The breast is warm, erythematous, swollen, and tender with prominent diffuse skin thickening (peau d'orange), but no discrete palpable mass. What is the fundamental pathology?",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Medium",
+      "question": "Tamoxifen is classified as which type of pharmacologic agent in breast cancer management?",
       "options": [
-        "Acute mastitis with Staphylococcus aureus abscess",
-        "Inflammatory Breast Carcinoma with malignant tumor emboli occluding dermal lymphatic channels",
-        "Fat necrosis from occult chest wall trauma",
-        "Congestive heart failure fluid overload"
+        "Aromatase inhibitor",
+        "Selective Estrogen Receptor Modulator (SERM)",
+        "HER2 kinase inhibitor",
+        "PARP inhibitor"
       ],
       "correctIndex": 1,
-      "explanation": "Inflammatory breast carcinoma is a high-grade, aggressive clinical entity defined pathologically by extensive tumor emboli invading dermal lymphatic spaces, mimicking acute mastitis."
+      "explanation": "Tamoxifen is a SERM that acts as an antagonist on estrogen receptors in breast tissue, preventing estrogen-driven growth in ER-positive breast cancer."
     },
     {
       "id": "ch17_q23",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "Before initiating Trastuzumab (Herceptin) therapy for HER2-positive breast carcinoma, which baseline diagnostic test is critically required?",
+      "topic": "Fibrocystic Changes",
+      "difficulty": "Medium",
+      "question": "Which microscopic feature of fibrocystic change involves proliferation of acini compressed by fibrous stroma, often mimicking carcinoma?",
       "options": [
-        "Echocardiogram (ECHO) or MUGA scan to assess Left Ventricular Ejection Fraction (LVEF)",
-        "Pulmonary function test (spirometry)",
-        "Brain MRI with gadolinium",
-        "Bone marrow biopsy"
+        "Apocrine metaplasia",
+        "Sclerosing adenosis",
+        "Blue-dome cysts",
+        "Duct ectasia"
       ],
-      "correctIndex": 0,
-      "explanation": "Trastuzumab carries a significant risk of cardiotoxicity manifesting as asymptomatic LVEF decline or congestive heart failure. Baseline and routine serial cardiac ejection fraction monitoring is mandatory."
+      "correctIndex": 1,
+      "explanation": "Sclerosing adenosis involves an increased number of distorted, compressed acini surrounded by dense stromal fibrosis, which can clinically and mammographically mimic carcinoma."
     },
     {
       "id": "ch17_q24",
       "topic": "Breast Carcinoma",
       "difficulty": "Hard",
-      "question": "A biopsy of the nipple epidermis in a woman with a persistent red crusted areolar plaque reveals large, pale cells with abundant clear cytoplasm and pleomorphic hyperchromatic nuclei scattered singly within the epidermis. These are:",
+      "question": "Why is the sentinel lymph node biopsy (SLNB) performed prior to full axillary lymph node dissection in early breast cancer?",
       "options": [
-        "Melanocytes of junctional nevus",
-        "Paget cells (intraepithelial adenocarcinoma cells)",
-        "Merkel cells",
-        "Histiocytes filled with lipid"
+        "To cure distant metastases",
+        "To identify the first node(s) receiving lymphatic drainage; if negative, axillary dissection and its associated lymphedema risk can be avoided",
+        "To administer intraoperative chemotherapy directly into the node",
+        "To test for BRCA gene mutations"
       ],
       "correctIndex": 1,
-      "explanation": "Paget cells are malignant epithelial cells that stain positive for low-molecular-weight cytokeratins and mucin, migrating from underlying ductal carcinoma through the lactiferous ducts into the epidermis."
+      "explanation": "SLNB identifies the first draining axillary lymph node(s) using blue dye or radiotracer. If the sentinel node is histologically cancer-free, complete axillary dissection is spared."
     },
     {
       "id": "ch17_q25",
-      "topic": "Fibrocystic Changes",
-      "difficulty": "Hard",
-      "question": "A 48-year-old female presents with acute focal breast tenderness following a seatbelt injury during a car crash. Mammography reveals a spikulated density with lipid-filled cysts and rim calcification. Biopsy demonstrates lipid-laden foamy macrophages, multinucleated giant cells, and hemosiderin. This is:",
+      "topic": "Fibroadenoma",
+      "difficulty": "Easy",
+      "question": "A fibroadenoma typically increases in size during which physiological state due to hormonal stimulation?",
       "options": [
-        "Traumatic Fat Necrosis",
-        "Comedocarcinoma",
-        "Fibroadenoma with infarction",
-        "Colloid carcinoma"
+        "Postmenopause",
+        "Pregnancy and lactation",
+        "Starvation",
+        "Hypothyroidism"
       ],
-      "correctIndex": 0,
-      "explanation": "Fat necrosis of the breast typically follows trauma or surgery; necrotic adipocytes release neutral fat, eliciting a lipid granulomatous response with foamy histiocytes, giant cells, and dystrophic calcification."
+      "correctIndex": 1,
+      "explanation": "Because fibroadenoma stroma and epithelium express estrogen and progesterone receptors, they frequently enlarge during pregnancy and regress postmenopause."
     },
     {
       "id": "ch17_q26",
       "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "A patient's invasive breast carcinoma is reported as ER-positive (90%), PR-positive (80%), HER2-negative (score 0), with Ki-67 proliferation index of 8%. This molecular subtype is best categorized as:",
+      "difficulty": "Medium",
+      "question": "Which histological subtype of breast carcinoma is notably associated with a high incidence of bilateral and multicentric involvement?",
       "options": [
-        "Luminal A",
-        "Luminal B",
-        "HER2-enriched",
-        "Basal-like"
+        "Invasive Ductal Carcinoma",
+        "Invasive Lobular Carcinoma",
+        "Medullary Carcinoma",
+        "Papillary Carcinoma"
       ],
-      "correctIndex": 0,
-      "explanation": "Luminal A is defined by strong hormone receptor positivity (ER/PR), negative HER2, and a low proliferation index (Ki-67 < 14-20%), predicting high endocrine responsiveness and favorable prognosis."
+      "correctIndex": 1,
+      "explanation": "Invasive lobular carcinoma has a significantly higher frequency of multicentricity in the ipsilateral breast and bilaterality (affecting the contralateral breast in up to 15-20%)."
     },
     {
       "id": "ch17_q27",
-      "topic": "Breast Carcinoma",
+      "topic": "Special Syndromes",
       "difficulty": "Hard",
-      "question": "What is the crucial histological distinction between Ductal Carcinoma In Situ (DCIS) and Lobular Carcinoma In Situ (LCIS)?",
+      "question": "Inflammatory breast cancer is classified under the TNM system at a minimum as which primary tumor stage?",
       "options": [
-        "DCIS is characterized by microcalcifications on mammography and potential progression to invasive ductal carcinoma; LCIS is usually an incidental finding without microcalcifications, characterized by monomorphic cells expanding lobules with loss of E-cadherin",
-        "LCIS always presents as a palpable 5-cm lump",
-        "DCIS cells completely lack cohesive junctions",
-        "LCIS requires immediate radical bilateral mastectomy"
+        "T1",
+        "T2",
+        "T3",
+        "T4d"
       ],
-      "correctIndex": 0,
-      "explanation": "DCIS shows duct distension with necrotic calcifications (comedo type) and is a direct precursor of invasive cancer; LCIS is a dyscohesive (E-cadherin negative) incidental non-calcified marker of bilateral risk."
+      "correctIndex": 3,
+      "explanation": "Inflammatory breast carcinoma is designated as stage T4d due to widespread dermal lymphatic involvement and carries a poor prognosis."
     },
     {
       "id": "ch17_q28",
       "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "A patient with breast cancer develops numbness, tingling, and motor weakness in her right hand 6 months after axillary lymph node dissection. Which anatomical structure was most likely injured or compressed?",
+      "difficulty": "Easy",
+      "question": "Nipple discharge in a female is of greatest concern for underlying malignancy when it is:",
       "options": [
-        "Brachial plexus or medial cutaneous nerve of the arm",
-        "Long thoracic nerve of Bell causing winging of the scapula only",
-        "Thoracodorsal nerve",
-        "Radial nerve alone"
+        "Bilateral, milky, and multi-ductal",
+        "Unilateral, spontaneous, and bloody or serosanguineous",
+        "Bilateral, green, and related to menses",
+        "Associated with breastfeeding"
       ],
-      "correctIndex": 0,
-      "explanation": "Extensive axillary dissection or postoperative cicatricial fibrotic scarring can compromise cords of the brachial plexus or cutaneous nerves of the arm, causing sensory neuropathy."
+      "correctIndex": 1,
+      "explanation": "Spontaneous, unilateral, bloody or serosanguineous single-duct discharge is the hallmark suspicious presentation warranting duct excision or evaluation for intraductal papilloma/carcinoma."
     },
     {
       "id": "ch17_q29",
-      "topic": "Breast Carcinoma",
-      "difficulty": "Hard",
-      "question": "In a 28-year-old female with BRCA1 mutation, the lifetime risk of developing breast carcinoma is approximately:",
+      "topic": "Molecular Subtypes",
+      "difficulty": "Medium",
+      "question": "In postmenopausal women with ER-positive breast cancer, Aromatase Inhibitors (such as Anastrozole and Letrozole) work by:",
       "options": [
-        "5-10%",
-        "15-25%",
-        "65-80%",
-        "100% before age 30"
+        "Blocking estrogen receptors in the breast tissue only",
+        "Inhibiting the peripheral conversion of androgens to estrogens in adipose and peripheral tissues",
+        "Directly destroying the pituitary gland",
+        "Activating progesterone receptors"
       ],
-      "correctIndex": 2,
-      "explanation": "Women harboring pathogenic germline BRCA1 mutations face an estimated 65-80% cumulative lifetime risk of developing invasive breast carcinoma."
+      "correctIndex": 1,
+      "explanation": "In postmenopausal women, the primary source of estrogen is peripheral aromatization of adrenal androgens; aromatase inhibitors block this enzyme to suppress systemic estrogen levels."
     },
     {
       "id": "ch17_q30",
-      "topic": "Phyllodes Tumor",
-      "difficulty": "Hard",
-      "question": "Why is simple enucleation contraindicated for phyllodes tumors of the breast?",
+      "topic": "Fibrocystic Changes",
+      "difficulty": "Easy",
+      "question": "What is the effect of dietary caffeine and methylxanthine restriction on symptoms in many women with fibrocystic breast disease?",
       "options": [
-        "Phyllodes tumors have microscopic pseudopods pushing into surrounding normal breast parenchyma, leading to high recurrence rates unless excised with a wide margin of healthy tissue",
-        "Enucleation invariably triggers systemic leukemia",
-        "The stroma completely dissolves upon exposure to surgical lights",
-        "They are vascular aneurysms that bleed uncontrollably"
+        "It causes severe bleeding",
+        "It frequently reduces premenstrual breast tenderness and pain",
+        "It increases cyst size",
+        "It has no relationship to cellular metabolism"
       ],
-      "correctIndex": 0,
-      "explanation": "Phyllodes tumors lack a true capsule and possess microscopic invasive tongues; enucleation (used for fibroadenomas) leaves residual microscopic disease resulting in high local recurrence."
+      "correctIndex": 1,
+      "explanation": "Caffeine and methylxanthines can increase cyclic adenosine monophosphate (cAMP) and worsen hormonal sensitivity; reducing caffeine intake often alleviates breast discomfort."
     }
   ]
 };
