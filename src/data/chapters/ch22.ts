@@ -710,6 +710,216 @@ export const ch22: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Leucine crystals (oily yellow-brown spheres with concentric rings) and tyrosine needles precipitate in acute yellow atrophy and severe toxic hepatic necrosis."
+    },
+    {
+      "id": "ch22_q31",
+      "topic": "Urine Protein Analysis",
+      "difficulty": "Hard",
+      "question": "Bence Jones proteins (free monoclonal immunoglobulin light chains found in Multiple Myeloma) are characterized by which classical thermal behavior in urine?",
+      "options": [
+        "Precipitate at 40°C to 60°C, redissolve upon boiling at 100°C, and reprecipitate upon cooling",
+        "Precipitate only at boiling temperatures (>100°C)",
+        "Remain soluble at all temperatures",
+        "Precipitate permanently with hydrochloric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bence Jones proteins precipitate as a white cloud at 40-60°C and characteristically clear/redissolve when heated to boiling (100°C), reprecipitating as the temperature drops below 60°C."
+    },
+    {
+      "id": "ch22_q32",
+      "topic": "Dipstick Analysis",
+      "difficulty": "Medium",
+      "question": "Why does a standard dipstick urinalysis frequently yield a FALSE-NEGATIVE protein result in patients with Multiple Myeloma and overflow proteinuria?",
+      "options": [
+        "The dipstick reagent pad utilizes the 'protein error of indicators' which is sensitive almost exclusively to Albumin, NOT to immunoglobulin light chains",
+        "Multiple myeloma light chains neutralize the dipstick pad",
+        "The test pad measures only glucose-bound proteins",
+        "Bence Jones proteins destroy the tetrabromphenol blue dye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dipstick protein pads rely on tetrabromphenol blue buffering, which is highly selective for the negative charges on albumin and largely insensitive to Bence Jones free light chains. Sulfosalicylic acid (SSA) precipitation detects ALL urine proteins."
+    },
+    {
+      "id": "ch22_q33",
+      "topic": "Dipstick Analysis",
+      "difficulty": "Medium",
+      "question": "Which condition can cause a FALSE-POSITIVE protein reaction on a standard urine reagent dipstick?",
+      "options": [
+        "Highly alkaline urine (pH > 8.0) or contamination with quaternary ammonium skin disinfectants (chlorhexidine)",
+        "High ascorbic acid (vitamin C) intake",
+        "High specific gravity from radiocontrast media",
+        "Excessive glucose excretion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Highly alkaline urine (pH > 8.0) overwhelms the acid buffer of the protein dipstick pad, producing a false-positive color change. Quaternary ammonium cleansers and chlorhexidine also cause false-positive readings."
+    },
+    {
+      "id": "ch22_q34",
+      "topic": "Renal Biomarkers",
+      "difficulty": "Medium",
+      "question": "Microalbuminuria (the earliest detectable marker of diabetic nephropathy) is defined as a urinary albumin excretion rate of:",
+      "options": [
+        "30 to 300 mg/24 hours (or Albumin-to-Creatinine Ratio 30-300 mg/g)",
+        "< 30 mg/24 hours",
+        "> 3.5 grams/24 hours",
+        "> 500 mg/dL on dipstick"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microalbuminuria is defined as 30-300 mg/day (or random spot urine albumin-to-creatinine ratio 30-300 mg/g). It represents subclinical glomerular barrier leak that is undetectable on routine dipsticks (which only detect >300 mg/day)."
+    },
+    {
+      "id": "ch22_q35",
+      "topic": "Physical Urinalysis",
+      "difficulty": "Hard",
+      "question": "How does Urine Specific Gravity measured by a Dipstick differ fundamentally from that measured by a Refractometer?",
+      "options": [
+        "Dipstick measures only ionic solute concentration (electrolyte dissociation); Refractometer measures all dissolved solids including glucose, protein, and radiocontrast",
+        "Dipstick measures total mass; refractometer measures volume",
+        "Dipstick is affected by radiocontrast media; refractometer is not",
+        "Refractometer measures only sodium chloride"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dipstick specific gravity uses polyelectrolytes to detect only ionic solutes (Na+, K+, Cl-). Non-ionic solutes like radiocontrast dyes, mannitol, and glucose do NOT alter dipstick readings, but dramatically elevate refractometer and hydrometer readings."
+    },
+    {
+      "id": "ch22_q36",
+      "topic": "Dipstick Analysis",
+      "difficulty": "Medium",
+      "question": "At approximately what arterial blood glucose concentration does the renal tubular absorptive threshold (TmG) get overwhelmed, leading to Glucosuria?",
+      "options": [
+        "160 to 180 mg/dL (8.9 - 10.0 mmol/L)",
+        "80 to 100 mg/dL",
+        "120 to 140 mg/dL",
+        "250 to 300 mg/dL"
+      ],
+      "correctIndex": 0,
+      "explanation": "The maximum tubular transport rate for glucose (TmG) in the proximal convoluted tubule corresponds to a serum glucose concentration of ~160-180 mg/dL; beyond this threshold, filtered glucose spills into urine."
+    },
+    {
+      "id": "ch22_q37",
+      "topic": "Dipstick Analysis",
+      "difficulty": "Hard",
+      "question": "Rothera's nitroprusside reaction on urine dipsticks detects acetoacetic acid and acetone. Why can it yield a deceptively FALSE-NEGATIVE ketone result in severe Diabetic Ketoacidosis (DKA)?",
+      "options": [
+        "In severe tissue hypoxia and lactic acidosis, acetoacetate is reduced predominantly to Beta-Hydroxybutyrate, which is undetectable by nitroprusside",
+        "Ketones evaporate immediately from the bladder",
+        "Insulin degradation products block the reagent pad",
+        "Nitroprusside requires an acidic pH below 4.0 to react"
+      ],
+      "correctIndex": 0,
+      "explanation": "In severe DKA, altered cellular redox state (high NADH/NAD+ ratio) drives ketone synthesis toward beta-hydroxybutyrate. Because nitroprusside reacts only with acetoacetate, urine dipsticks can severely underestimate ketone body burden until therapy oxidizes it back to acetoacetate."
+    },
+    {
+      "id": "ch22_q38",
+      "topic": "Dipstick Analysis",
+      "difficulty": "Hard",
+      "question": "In complete Obstructive (Post-Hepatic) Biliary Jaundice, what is the characteristic pattern of urine Bilirubin and Urobilinogen?",
+      "options": [
+        "Urine Bilirubin is POSITIVE; Urine Urobilinogen is ABSENT or markedly decreased",
+        "Urine Bilirubin is negative; Urine Urobilinogen is markedly increased",
+        "Both Bilirubin and Urobilinogen are markedly elevated",
+        "Both Bilirubin and Urobilinogen are completely absent"
+      ],
+      "correctIndex": 0,
+      "explanation": "In biliary obstruction (e.g., gallstones, head of pancreas cancer), conjugated bilirubin backs up into blood and is filtered into urine (bilirubinuria). Because bile cannot enter the intestine, intestinal bacteria cannot convert it to urobilinogen; thus urine urobilinogen is absent/diminished."
+    },
+    {
+      "id": "ch22_q39",
+      "topic": "Microscopic Urinalysis",
+      "difficulty": "Hard",
+      "question": "Acanthocytes (dysmorphic red blood cells with blebs, vesicle protrusions, or 'Mickey Mouse' ears) in urine sediment indicate bleeding from which anatomical source?",
+      "options": [
+        "Glomerular origin (Glomerulonephritis)",
+        "Bladder urothelial carcinoma",
+        "Prostate hyperplasia",
+        "Renal pelvic calculi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acanthocytes (dysmorphic erythrocytes) result from osmotic stress and mechanical shearing as red blood cells squeeze through ruptured glomerular basement membranes and transit tubular segments; their presence (>5%) confirms a glomerular source of hematuria."
+    },
+    {
+      "id": "ch22_q40",
+      "topic": "Microscopic Urinalysis",
+      "difficulty": "Hard",
+      "question": "Hansel-stained urine sediment demonstrating >1% Eosinophils (Eosinophiluria) is a classic diagnostic clue for which condition?",
+      "options": [
+        "Acute Drug-Induced Interstitial Nephritis (AIN, e.g., penicillins, PPIs, NSAIDs)",
+        "Acute Post-Streptococcal Glomerulonephritis",
+        "Renal Cell Carcinoma",
+        "Polycystic Kidney Disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eosinophiluria (>1% of urinary WBCs on Hansel or Wright stain) is a sensitive marker of acute allergic tubulointerstitial nephritis, typically triggered by hypersensitivity to medications like antibiotics, PPIs, or NSAIDs."
+    },
+    {
+      "id": "ch22_q41",
+      "topic": "Urinary Crystals",
+      "difficulty": "Medium",
+      "question": "Under microscope, Triple Phosphate (Struvite) crystals classic in alkaline urine produced by Proteus infection resemble:",
+      "options": [
+        "'Coffin-lid' rectangular prisms",
+        "Envelope-shaped octahedrons",
+        "Hexagonal plates",
+        "Needle-shaped radiating clusters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triple phosphate (magnesium ammonium phosphate / struvite) crystals form in alkaline urine (pH > 7.5) and characteristically appear as colorless, three-to-six-sided rectangular prisms with oblique ends ('coffin lids')."
+    },
+    {
+      "id": "ch22_q42",
+      "topic": "Urinary Crystals",
+      "difficulty": "Medium",
+      "question": "Hexagonal, flat, colorless benzene-ring-like plate crystals in acidic urine are pathognomonic for which rare inborn error of amino acid transport?",
+      "options": [
+        "Cystinuria",
+        "Phenylketonuria",
+        "Alkaptonuria",
+        "Maple syrup urine disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hexagonal plate crystals in acidic urine are pathognomonic for Cystinuria (impaired renal reabsorption of cystine, ornithine, lysine, and arginine / COLA transport defect), predisposing to recurrent cystine staghorn calculi."
+    },
+    {
+      "id": "ch22_q43",
+      "topic": "Urinary Crystals",
+      "difficulty": "Hard",
+      "question": "Tyrosine needles (fine silky sheaves) and Leucine spheres (yellowish-brown radially striated spheroids) appearing together in urinary sediment signify:",
+      "options": [
+        "Severe terminal liver failure / acute hepatic necrosis",
+        "Early diabetic nephropathy",
+        "Nephrotic syndrome",
+        "Asymptomatic bacteriuria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tyrosine and leucine crystals precipitate in urine during massive hepatic necrosis and severe terminal liver disease (e.g., fulminant viral hepatitis or cirrhosis) due to failure of hepatic amino acid deamination."
+    },
+    {
+      "id": "ch22_q44",
+      "topic": "Specimen Preservation",
+      "difficulty": "Easy",
+      "question": "If a routine urinalysis cannot be analyzed within 1 to 2 hours of voiding, how must the specimen be preserved to prevent bacterial growth and cast lysis?",
+      "options": [
+        "Refrigerate at 2°C to 8°C for up to 24 hours",
+        "Store in a dry warming incubator at 37°C",
+        "Freeze solid at -20°C",
+        "Add concentrated hydrochloric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Refrigeration at 2-8°C slows bacterial multiplication, prevents urea breakdown into ammonia (which raises pH and dissolves casts and RBCs), and preserves cellular morphology for up to 24 hours."
+    },
+    {
+      "id": "ch22_q45",
+      "topic": "Microscopic Urinalysis",
+      "difficulty": "Medium",
+      "question": "Under polarized light microscopy, lipid droplets and 'oval fat bodies' in the urine of a patient with nephrotic syndrome exhibit which optical sign?",
+      "options": [
+        "Maltese Cross pattern with dark central extinction crosses",
+        "Brilliant green fluorescence",
+        "Birefringent needle shapes",
+        "Hexagonal yellow plates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cholesterol and cholesterol esters in degenerated tubular epithelial cells (oval fat bodies) and fatty casts are anisotropic: under crossed polarized filters, they refract light into a distinctive 'Maltese Cross' pattern."
     }
   ]
 };

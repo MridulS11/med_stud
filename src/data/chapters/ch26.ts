@@ -712,6 +712,146 @@ export const ch26: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "CMA provides genome-wide high resolution (50-100 kb), detecting submicroscopic microdeletions and duplications that cannot be resolved by standard G-banding (5 Mb limit)."
+    },
+    {
+      "id": "ch26_q31",
+      "topic": "First Trimester Screening",
+      "difficulty": "Medium",
+      "question": "The First-Trimester Combined Screen (conducted at 11 to 13+6 weeks) evaluates which ultrasound parameter and maternal serum analytes?",
+      "options": [
+        "Nuchal Translucency (NT) thickness + maternal serum free beta-hCG and PAPP-A",
+        "Femur length + serum AFP",
+        "Amniotic fluid volume + inhibin A",
+        "Biparietal diameter + estriol"
+      ],
+      "correctIndex": 0,
+      "explanation": "The combined first-trimester screen integrates ultrasound measurement of fetal nuchal translucency (subcutaneous fluid behind fetal neck) with serum free beta-hCG (elevated in Down) and pregnancy-associated plasma protein A (PAPP-A, low in Down), achieving an 85-90% detection rate."
+    },
+    {
+      "id": "ch26_q32",
+      "topic": "NIPT / cffDNA",
+      "difficulty": "Medium",
+      "question": "Which maternal clinical factor is the most common cause of a low fetal fraction (<4%) and resulting 'No-Call' test failure on cell-free fetal DNA (NIPT)?",
+      "options": [
+        "High maternal Body Mass Index (BMI / severe maternal obesity)",
+        "Advanced maternal age (>40 years)",
+        "Maternal blood type O negative",
+        "Fetal female sex"
+      ],
+      "correctIndex": 0,
+      "explanation": "High maternal weight increases maternal plasma volume and maternal white blood cell apoptosis, which dilutes the relative fraction of fetal DNA (fetal fraction <4%), leading to test failure."
+    },
+    {
+      "id": "ch26_q33",
+      "topic": "NIPT / cffDNA",
+      "difficulty": "Hard",
+      "question": "If a patient receives a 'No-Call' (failed) result on an initial cell-free DNA (NIPT) screen, what is the recommended clinical guidance?",
+      "options": [
+        "Offer genetic counseling, review comprehensive ultrasound, and offer diagnostic testing (amniocentesis) or a single redraw, as no-call results carry an elevated risk of fetal aneuploidy",
+        "Guarantee the parents that the baby is completely normal",
+        "Immediately terminate the pregnancy without further testing",
+        "Prescribe high-dose progesterone to boost fetal DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACOG guidelines state that failed cffDNA tests are associated with an increased risk of fetal aneuploidies (particularly Trisomy 18, 13, and triploidy). Patients should receive genetic counseling, detailed sonography, and diagnostic testing."
+    },
+    {
+      "id": "ch26_q34",
+      "topic": "Chorionic Villus Sampling",
+      "difficulty": "Hard",
+      "question": "Confined Placental Mosaicism (CPM)—where chromosomal discrepancy exists between the placenta and the fetus—occurs in ~1-2% of which prenatal procedure?",
+      "options": [
+        "Chorionic Villus Sampling (CVS)",
+        "Amniocentesis",
+        "Percutaneous umbilical blood sampling",
+        "Fetal urine sampling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because CVS samples trophoblastic chorionic tissue rather than the fetus itself, confined placental mosaicism (abnormal placenta but normal fetus, or vice versa) can produce false-positive or false-negative results, necessitating confirmatory amniocentesis."
+    },
+    {
+      "id": "ch26_q35",
+      "topic": "Chorionic Villus Sampling",
+      "difficulty": "Medium",
+      "question": "Why CANNOT Chorionic Villus Sampling (CVS) be used to screen for or detect open neural tube defects (spina bifida)?",
+      "options": [
+        "CVS collects placental tissue and does NOT obtain amniotic fluid to measure Alpha-Fetoprotein (AFP) or acetylcholinesterase",
+        "Neural tubes do not form until the third trimester",
+        "CVS destroys all fetal proteins",
+        "Placental cells block neural antigens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open neural tube defects leak fetal alpha-fetoprotein directly into amniotic fluid. Because CVS biopsies chorionic villi without sampling amniotic fluid, it cannot assess amniotic fluid AFP or acetylcholinesterase."
+    },
+    {
+      "id": "ch26_q36",
+      "topic": "Ultrasound Markers",
+      "difficulty": "Medium",
+      "question": "On a second-trimester targeted anatomy scan, which ultrasound soft marker is considered the strongest independent predictor for fetal Down syndrome?",
+      "options": [
+        "Increased Nuchal Fold thickness (>= 6 mm) between 15-20 weeks",
+        "Isolated choroid plexus cyst",
+        "Echogenic intracardiac focus (EIF)",
+        "Mild pyelectasis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A thickened nuchal fold (>=6 mm measured between the outer occipital bone and skin surface at 15-20 weeks) has the highest positive likelihood ratio (LR ~11-17) of all ultrasound soft markers for Trisomy 21."
+    },
+    {
+      "id": "ch26_q37",
+      "topic": "Ultrasound Markers",
+      "difficulty": "Hard",
+      "question": "The 'Lemon Sign' and 'Banana Sign' observed on second-trimester fetal ultrasound are pathognomonic cranial markers for which fetal anomaly?",
+      "options": [
+        "Open Spina Bifida (Myelomeningocele with Chiari II malformation)",
+        "Trisomy 18 (Edwards syndrome)",
+        "Holoprosencephaly",
+        "Duodenal atresia"
+      ],
+      "correctIndex": 0,
+      "explanation": "In open spina bifida, low spinal CSF pressure pulls the cerebellum downward into the foramen magnum (Chiari II), curving it into a 'banana' shape, while frontal cranial bones scallop inward, producing a 'lemon'-shaped calvarium."
+    },
+    {
+      "id": "ch26_q38",
+      "topic": "Preimplantation Genetics",
+      "difficulty": "Hard",
+      "question": "Preimplantation Genetic Testing for Monogenic disorders (PGT-M) is performed on which stage of IVF embryo development?",
+      "options": [
+        "Trophectoderm biopsy of a Day 5 or 6 Blastocyst (sampling 5-10 extraembryonic cells)",
+        "Day 1 zygote pronucleus",
+        "Unfertilized oocyte polar body alone",
+        "Day 14 post-implantation gastrula"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern PGT-M biopsies 5-10 trophectoderm cells from a Day 5/6 blastocyst (destined to become placenta), leaving the inner cell mass (embryo) undisturbed, followed by whole genome amplification and targeted mutation analysis."
+    },
+    {
+      "id": "ch26_q39",
+      "topic": "Invasive Testing",
+      "difficulty": "Hard",
+      "question": "Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis) involves needle puncture of which vessel under continuous ultrasound guidance?",
+      "options": [
+        "Umbilical Vein at its placental insertion site",
+        "Umbilical Artery at fetal abdominal wall",
+        "Maternal uterine vein",
+        "Fetal descending aorta"
+      ],
+      "correctIndex": 0,
+      "explanation": "PUBS is performed by guiding a needle into the intra-amniotic portion of the umbilical vein near the placental insertion site, allowing direct fetal blood sampling for rapid karyotyping, fetal hemoglobin, or intrauterine transfusions."
+    },
+    {
+      "id": "ch26_q40",
+      "topic": "Fetal Intervention",
+      "difficulty": "Hard",
+      "question": "According to the Management of Myelomeningocele Study (MOMS trial), in utero fetal surgical repair of open spina bifida before 26 weeks gestation compared to postnatal repair results in:",
+      "options": [
+        "Significantly reduced need for ventriculoperitoneal (VP) shunting for hydrocephalus and improved motor ambulation at 30 months",
+        "Increased cognitive impairment",
+        "Guaranteed complete reversal of all neurogenic bladder dysfunction",
+        "100% cure of clubfoot without orthopedic follow-up"
+      ],
+      "correctIndex": 0,
+      "explanation": "The landmark MOMS trial demonstrated that prenatal repair of myelomeningocele (19-25 weeks) protects exposed neural placode from amniotic fluid toxicity, halves the need for VP shunt placement, and significantly increases independent ambulation."
     }
   ]
 };

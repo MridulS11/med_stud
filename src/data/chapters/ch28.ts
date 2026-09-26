@@ -584,6 +584,286 @@ export const ch28: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Acute Chest Syndrome (ACS), defined by a new pulmonary infiltrate accompanied by fever, chest pain, and hypoxemia, is the leading cause of death in adolescents and adults with sickle cell disease."
+    },
+    {
+      "id": "ch28_q31",
+      "topic": "Neural Tube Defects",
+      "difficulty": "Medium",
+      "question": "When interpreting Maternal Serum Alpha-Fetoprotein (MSAFP) for neural tube defects, what is the most common reason for a false-positive elevated result?",
+      "options": [
+        "Inaccurate gestational age estimation (underestimating fetal gestational age)",
+        "Multiple gestation (twins)",
+        "Fetal demise",
+        "All of the above must be ruled out by ultrasound before invasive testing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Because MSAFP normally rises across the second trimester, underestimating gestational age falsely flags values as elevated. Twin pregnancies and fetal demise also elevate maternal AFP. Accurate ultrasound dating is the essential first step."
+    },
+    {
+      "id": "ch28_q32",
+      "topic": "Neural Tube Defects",
+      "difficulty": "Hard",
+      "question": "Chiari II malformation, which is present in >80% of children with open myelomeningocele, involves downward displacement of which structures through the foramen magnum?",
+      "options": [
+        "Cerebellar vermis and brainstem (medulla)",
+        "Temporal lobe uncus",
+        "Cingulate gyrus",
+        "Anterior pituitary gland"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chiari II malformation involves downward herniation of the cerebellar vermis, tonsils, and medulla oblongata into the upper cervical spinal canal, leading to aqueductal stenosis, obstructive hydrocephalus, and brainstem dysfunction."
+    },
+    {
+      "id": "ch28_q33",
+      "topic": "Neural Tube Defects",
+      "difficulty": "Medium",
+      "question": "A 10-year-old child with repaired lumbosacral spina bifida presents with new-onset progressive scoliosis, back pain, worsening gait, and loss of bowel/bladder continence during a growth spurt. What is the most likely diagnosis?",
+      "options": [
+        "Tethered Cord Syndrome",
+        "Acute appendicitis",
+        "Latex anaphylaxis",
+        "Hydrocephalus recurrence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tethered cord syndrome occurs when fibrous adhesions anchor the caudal end of the spinal cord to the spinal canal repair site. As the spine elongates during growth spurts, mechanical traction impairs spinal cord perfusion, producing neurological and bowel/bladder deterioration."
+    },
+    {
+      "id": "ch28_q34",
+      "topic": "Down Syndrome",
+      "difficulty": "Hard",
+      "question": "In a child with Down syndrome caused by an inherited Robertsonian Translocation der(14;21), what is the empirical recurrence risk for future pregnancies if the MOTHER is the balanced carrier?",
+      "options": [
+        "10% to 15%",
+        "1% to 2%",
+        "50%",
+        "100%"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a mother carries a balanced 14;21 Robertsonian translocation, the empirical risk of Down syndrome in future offspring is approximately 10-15% (the theoretical 33% risk is reduced by spontaneous loss of unbalanced zygotes). If the father is the carrier, the risk is only ~1-3%."
+    },
+    {
+      "id": "ch28_q35",
+      "topic": "Down Syndrome",
+      "difficulty": "Hard",
+      "question": "Children with Down syndrome are at 500-fold increased risk for which rare acute leukemia in infancy (<3 years), associated with somatic GATA1 gene mutations?",
+      "options": [
+        "Acute Megakaryoblastic Leukemia (AML-M7)",
+        "Acute Promyelocytic Leukemia",
+        "Chronic Myeloid Leukemia",
+        "Hairy Cell Leukemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Down syndrome infants are uniquely prone to Transient Abnormal Myelopoiesis (TAM) and Acute Megakaryoblastic Leukemia (AML M7), both driven by somatic mutations in the GATA1 transcription factor gene."
+    },
+    {
+      "id": "ch28_q36",
+      "topic": "Down Syndrome",
+      "difficulty": "Medium",
+      "question": "Atlantoaxial Instability (AAI) occurs in 10-15% of children with Down syndrome. What clinical signs indicate acute spinal cord compression requiring emergency evaluation?",
+      "options": [
+        "Change in gait, progressive weakness, neck pain, torticollis, and hyperreflexia",
+        "Severe diarrhea and abdominal cramps",
+        "Sudden unilateral hearing loss",
+        "Pitting ankle edema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Symptomatic AAI compresses the upper cervical spinal cord, causing gait deterioration, clumsiness, neck pain, stiffness, torticollis, spasticity, and hyperreflexia."
+    },
+    {
+      "id": "ch28_q37",
+      "topic": "Turner Syndrome",
+      "difficulty": "Medium",
+      "question": "What is the leading cause of sudden cardiovascular mortality in young adult women with Turner Syndrome (45,X)?",
+      "options": [
+        "Aortic root dilation and Acute Aortic Dissection / Rupture",
+        "Pulmonary embolism",
+        "Ventricular fibrillation secondary to long QT",
+        "Coronary atherosclerosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bicuspid aortic valve (30%) and coarctation of the aorta (10-15%) combined with intrinsic aortic wall cystic medial necrosis place women with Turner syndrome at exceptionally high risk for fatal ascending aortic dissection."
+    },
+    {
+      "id": "ch28_q38",
+      "topic": "Turner Syndrome",
+      "difficulty": "Medium",
+      "question": "In the management of adolescent females with Turner syndrome, at what age and with which medication should puberty induction typically commence?",
+      "options": [
+        "Age 11 to 12 years with low-dose transdermal Estrogen, adding cyclical Progesterone 2 years later",
+        "Age 18 years with testosterone alone",
+        "At birth with oral contraceptive pills",
+        "Puberty should never be induced pharmacologically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Puberty induction starts at age 11-12 with low-dose transdermal estradiol (mimicking physiological puberty and optimizing final adult height), slowly escalating over 2-3 years, with progestin added after breakthrough bleeding to prevent endometrial hyperplasia."
+    },
+    {
+      "id": "ch28_q39",
+      "topic": "Klinefelter Syndrome",
+      "difficulty": "Medium",
+      "question": "Adult males with Klinefelter Syndrome (47,XXY) carry a 20- to 50-fold increased risk compared to the general male population for which specific cancer?",
+      "options": [
+        "Male Breast Carcinoma",
+        "Prostatic adenocarcinoma",
+        "Seminoma of the testis",
+        "Hepatocellular carcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to lifelong altered estrogen-to-androgen ratios (hyperestrogenism relative to low testosterone) and gynecomastia, males with 47,XXY have a 20-50 fold elevated risk of developing male breast cancer."
+    },
+    {
+      "id": "ch28_q40",
+      "topic": "Klinefelter Syndrome",
+      "difficulty": "Medium",
+      "question": "What are the primary clinical and metabolic benefits of lifelong Testosterone Replacement Therapy in men with Klinefelter syndrome?",
+      "options": [
+        "Increases virilization, preserves bone mineral density (prevents osteoporosis), improves muscle mass, libido, and lowers metabolic syndrome risk",
+        "Restores normal spontaneous fertility and sperm production",
+        "Cures gynecomastia without surgery",
+        "Reduces total body height"
+      ],
+      "correctIndex": 0,
+      "explanation": "Testosterone replacement treats primary hypogonadism, promoting secondary sexual characteristics, muscle strength, bone density, and glycemic control, though it cannot restore fertility (fibrosed seminiferous tubules)."
+    },
+    {
+      "id": "ch28_q41",
+      "topic": "Huntington Disease",
+      "difficulty": "Medium",
+      "question": "Which pharmaceutical agents are specifically approved for the symptomatic management of debilitating chorea in patients with Huntington Disease?",
+      "options": [
+        "Vesicular Monoamine Transporter 2 (VMAT2) inhibitors (Tetrabenazine, Deutetrabenazine)",
+        "Dopamine agonists (Levodopa/Carbidopa)",
+        "Cholinesterase inhibitors (Donepezil)",
+        "Beta-blockers (Propranolol)"
+      ],
+      "correctIndex": 0,
+      "explanation": "VMAT2 inhibitors (Tetrabenazine, Deutetrabenazine) selectively inhibit presynaptic vesicular monoamine transporter 2, depleting central dopamine stores and thereby reducing involuntary choreiform hyperkinesia."
+    },
+    {
+      "id": "ch28_q42",
+      "topic": "Huntington Disease",
+      "difficulty": "Hard",
+      "question": "Anticipation (earlier age of onset and increased clinical severity in successive generations) in Huntington disease occurs predominantly when the mutant gene is inherited from:",
+      "options": [
+        "The Father (paternal transmission due to CAG repeat expansion during spermatogenesis)",
+        "The Mother (maternal transmission)",
+        "Both parents equally",
+        "Mitochondrial transmission"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unstable CAG repeats undergo marked additional trinucleotide expansion during male spermatogenesis; paternal transmission frequently produces juvenile Huntington disease with onset before age 20."
+    },
+    {
+      "id": "ch28_q43",
+      "topic": "Alzheimer Disease",
+      "difficulty": "Hard",
+      "question": "Early-onset autosomal dominant Familial Alzheimer's Disease (onset <60 years) is most commonly caused by mutations in which gene on chromosome 14?",
+      "options": [
+        "Presenilin 1 (PSEN1)",
+        "Amyloid Precursor Protein (APP)",
+        "Presenilin 2 (PSEN2)",
+        "Apolipoprotein E (APOE)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mutations in PSEN1 on chromosome 14 account for ~70-80% of early-onset familial Alzheimer's disease (the most common cause), altering gamma-secretase activity to overproduce amyloid beta-42."
+    },
+    {
+      "id": "ch28_q44",
+      "topic": "Cancer Genetics",
+      "difficulty": "Hard",
+      "question": "Women carrying a germline BRCA1 or BRCA2 mutation who undergo Risk-Reducing Bilateral Salpingo-Oophorectomy (RRSO) by age 35 to 40 achieve what clinical risk reduction?",
+      "options": [
+        "Approximately 80% to 90% reduction in ovarian/fallopian tube cancer risk, and ~50% reduction in breast cancer risk if performed premenopausally",
+        "Zero reduction in ovarian cancer risk",
+        "Complete elimination of all cancer risk across all organs",
+        "Only 10% risk reduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prophylactic bilateral salpingo-oophorectomy (RRSO) between age 35-40 (after childbearing) reduces ovarian/tubal cancer risk by ~85-90% and substantially reduces subsequent breast cancer risk in premenopausal carriers."
+    },
+    {
+      "id": "ch28_q45",
+      "topic": "Cancer Genetics",
+      "difficulty": "Hard",
+      "question": "PARP inhibitors (e.g., Olaparib, Talazoparib) exploit 'Synthetic Lethality' in BRCA-mutated cancer cells because:",
+      "options": [
+        "BRCA-mutant tumors lack homologous recombination repair; inhibiting PARP blocks single-strand break repair, causing lethal double-strand break accumulation that specifically kills cancer cells",
+        "PARP inhibitors stimulate antibody production against BRCA1",
+        "PARP inhibitors block HER2 receptors",
+        "PARP inhibitors activate the p53 promoter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal cells survive PARP inhibition because intact BRCA1/2 repairs double-strand breaks via homologous recombination. BRCA-mutant tumors have no homologous recombination; blocking base excision repair via PARP inhibition produces catastrophic genomic collapse and selective tumor apoptosis."
+    },
+    {
+      "id": "ch28_q46",
+      "topic": "Cancer Genetics",
+      "difficulty": "Medium",
+      "question": "What is the recommended colorectal cancer surveillance guideline for an individual diagnosed with Lynch Syndrome (HNPCC)?",
+      "options": [
+        "Colonoscopy every 1 to 2 years starting at age 20 to 25 (or 2-5 years before the youngest affected relative)",
+        "A single screening colonoscopy at age 50",
+        "Annual fecal occult blood test alone with no colonoscopy",
+        "Flexible sigmoidoscopy every 10 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because adenomas in Lynch syndrome can progress to invasive adenocarcinoma in as little as 2-3 years (accelerated carcinogenesis), high-resolution screening colonoscopy every 1-2 years starting at age 20-25 is mandatory."
+    },
+    {
+      "id": "ch28_q47",
+      "topic": "Cancer Genetics",
+      "difficulty": "Medium",
+      "question": "Familial Adenomatous Polyposis (FAP) is caused by mutations in the APC gene. What is the standard definitive surgical intervention to prevent inevitable colorectal cancer by age 40?",
+      "options": [
+        "Prophylactic Total Proctocolectomy with Restorative Ileal Pouch-Anal Anastomosis (IPAA)",
+        "Wedge resection of the cecum",
+        "Annual local polyp snare polypectomy alone",
+        "Radiation therapy to the pelvis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because patients develop hundreds to thousands of adenomatous polyps with a 100% lifetime colorectal cancer certainty, total proctocolectomy (removing all colorectal mucosa) with ileal pouch construction is the life-saving standard of care."
+    },
+    {
+      "id": "ch28_q48",
+      "topic": "Sickle Cell Disease",
+      "difficulty": "Medium",
+      "question": "Acute Chest Syndrome (ACS) is the leading cause of mortality in adolescent and adult patients with Sickle Cell Disease. What is its clinical presentation and immediate management?",
+      "options": [
+        "New pulmonary infiltrate on chest X-ray + fever, tachypnea, chest pain, and hypoxemia; treated with IV antibiotics, hydration, oxygen, analgesia, and urgent exchange blood transfusion",
+        "Isolated hypertension treated with ACE inhibitors",
+        "Hemolytic jaundice requiring splenectomy",
+        "Renal failure requiring immediate dialysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "ACS is defined by a new radiographical pulmonary infiltrate accompanied by fever, cough, chest pain, and hypoxemia (driven by pulmonary microvascular sickling and fat embolism). Emergency exchange transfusion prevents fatal respiratory failure."
+    },
+    {
+      "id": "ch28_q49",
+      "topic": "Sickle Cell Disease",
+      "difficulty": "Medium",
+      "question": "Why are children with Sickle Cell Anemia prescribed daily prophylactic oral Penicillin from birth until at least age 5?",
+      "options": [
+        "Autosplenectomy leaves them susceptible to fatal bacteremia and sepsis from encapsulated organisms (especially Streptococcus pneumoniae)",
+        "To prevent viral hepatitis",
+        "To prevent sickle crises in bone",
+        "To stimulate hemoglobin production"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early functional autosplenectomy removes splenic phagocytic filtration of encapsulated bacteria. Daily oral penicillin prophylaxis (started by 2 months of age) combined with pneumococcal vaccination dramatically reduces pneumococcal sepsis mortality."
+    },
+    {
+      "id": "ch28_q50",
+      "topic": "Hemoglobinopathies",
+      "difficulty": "Hard",
+      "question": "In Beta-Thalassemia Major (Cooley's Anemia), severe microcytic anemia requires lifelong blood transfusions. What secondary complication is the major cause of death if iron chelation therapy is neglected?",
+      "options": [
+        "Secondary Hemochromatosis / Iron Overload leading to fatal cardiac failure and arrhythmias",
+        "Acute lymphoblastic leukemia",
+        "Splenic infarction",
+        "Severe polycythemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every unit of transfused packed RBCs introduces ~200-250 mg of elemental iron, which the human body cannot actively excrete. Unchelated iron deposits in cardiac myocytes, liver, and endocrine glands, producing fatal dilated cardiomyopathy and arrhythmias."
     }
   ],
   "mindMap": {

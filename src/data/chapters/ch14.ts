@@ -715,6 +715,286 @@ export const ch14: Chapter = {
       ],
       "correctIndex": 2,
       "explanation": "Blood pressure cuffs, venipuncture, or IV cannulation on the extremity with an AV fistula can cause thrombosis, vessel collapse, or infection, leading to loss of vascular access."
+    },
+    {
+      "id": "ch14_q31",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Hard",
+      "question": "Goodpasture syndrome (Anti-GBM disease) is characterized by autoimmune antibodies directed against which specific molecular component of basement membranes?",
+      "options": [
+        "Alpha-3 chain of Type IV collagen",
+        "Alpha-1 chain of Type I collagen",
+        "Podocyte nephrin protein",
+        "Mesangial fibronectin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Goodpasture syndrome is caused by autoantibodies directed against the non-collagenous domain of the alpha-3 chain of Type IV collagen (alpha-3(IV)NC1), which is present in both glomerular and alveolar basement membranes, producing pulmonary hemorrhage and rapidly progressive glomerulonephritis."
+    },
+    {
+      "id": "ch14_q32",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Medium",
+      "question": "What is the classic immunofluorescence pattern seen on renal biopsy in anti-glomerular basement membrane (Goodpasture) disease?",
+      "options": [
+        "Granular 'lumpy-bumpy' deposition along mesangium",
+        "Linear, smooth ribbons of IgG along glomerular capillary basement membranes",
+        "Starry-sky subepithelial deposits",
+        "Negative immunofluorescence (pauci-immune)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Direct immunofluorescence demonstrates continuous, smooth, linear ribbons of IgG and C3 deposition along the entire length of the glomerular capillary basement membrane, characteristic of anti-GBM antibodies."
+    },
+    {
+      "id": "ch14_q33",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Hard",
+      "question": "Alport syndrome is an inherited nephropathy manifesting with progressive nephritis, sensorineural deafness, and ocular lens abnormalities. What is the classic electron microscopy finding?",
+      "options": [
+        "Subepithelial electron-dense humps",
+        "Extensive foot process effacement with normal basement membrane",
+        "Splitting and lamellation of the lamina densa giving a 'basket-weave' appearance",
+        "Subendothelial wire-loop deposits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alport syndrome (most commonly X-linked COL4A5 mutations) exhibits irregular thickening, thinning, and longitudinal splitting/lamellation of the glomerular basement membrane lamina densa, creating a pathognomonic 'basket-weave' appearance."
+    },
+    {
+      "id": "ch14_q34",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Medium",
+      "question": "Primary Membranous Nephropathy is strongly associated with autoantibodies against which podocyte cell-surface antigen in >70-80% of adult patients?",
+      "options": [
+        "Phospholipase A2 receptor (PLA2R)",
+        "Anti-streptolysin O (ASO)",
+        "Proteinase-3 (PR3)",
+        "Myeloperoxidase (MPO)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Autoantibodies against M-type Phospholipase A2 Receptor (PLA2R) on podocytes drive the formation of subepithelial immune complexes in primary membranous nephropathy."
+    },
+    {
+      "id": "ch14_q35",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Easy",
+      "question": "A 4-year-old child presents with sudden facial swelling, massive generalized pitting edema, heavy proteinuria (4+ on dipstick), and normal blood pressure. What is the most likely diagnosis?",
+      "options": [
+        "Minimal Change Disease (Lipoid Nephrosis)",
+        "Post-Streptococcal Glomerulonephritis",
+        "Lupus Nephritis Class IV",
+        "Renal Cell Carcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Minimal Change Disease is the most common cause of nephrotic syndrome in children (ages 2-6). It is characterized by selective proteinuria, normal glomeruli on light microscopy, podocyte foot process effacement on EM, and dramatic responsiveness to oral corticosteroid therapy."
+    },
+    {
+      "id": "ch14_q36",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Medium",
+      "question": "Focal Segmental Glomerulosclerosis (FSGS) is the leading cause of nephrotic syndrome in adults of African descent and individuals with which chronic viral infection?",
+      "options": [
+        "Human Immunodeficiency Virus (HIV)",
+        "Hepatitis A virus",
+        "Epstein-Barr virus",
+        "Influenza A virus"
+      ],
+      "correctIndex": 0,
+      "explanation": "FSGS (specifically the collapsing variant) is strongly linked to HIV infection (HIV-associated nephropathy / HIVAN), as well as APOL1 gene risk variants and intravenous heroin use."
+    },
+    {
+      "id": "ch14_q37",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Hard",
+      "question": "Crescents observed in Rapidly Progressive Glomerulonephritis (RPGN) are primarily composed of proliferating parietal epithelial cells mixed with which inflammatory cell type and protein?",
+      "options": [
+        "Monocytes/macrophages and fibrin",
+        "Eosinophils and amyloid",
+        "Basophils and glycogen",
+        "Plasma cells and mucin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crescents form inside Bowman's space due to capillary wall rupture, containing proliferating parietal epithelial cells, infiltrating monocytes/macrophages, and strands of polymerized fibrin that compress and obliterate the glomerular tuft."
+    },
+    {
+      "id": "ch14_q38",
+      "topic": "Pyelonephritis",
+      "difficulty": "Hard",
+      "question": "Xanthogranulomatous Pyelonephritis is a chronic destructive inflammatory process that grossly mimics renal cell carcinoma. Histologically, it is characterized by sheets of which lipid-laden cell type?",
+      "options": [
+        "Foamy macrophages (xanthoma cells)",
+        "Signet ring cells",
+        "Koilocytes",
+        "Reed-Sternberg cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xanthogranulomatous pyelonephritis represents an unusual form of chronic pyelonephritis associated with chronic obstruction (often staghorn stones) and Proteus infection, characterized by sheets of lipid-laden foamy macrophages that form a golden-yellow mass."
+    },
+    {
+      "id": "ch14_q39",
+      "topic": "Pyelonephritis",
+      "difficulty": "Medium",
+      "question": "Renal Papillary Necrosis (ischemic infarction of the renal medullary papillae) is most commonly triggered by a combination of which two clinical conditions?",
+      "options": [
+        "Diabetes mellitus and chronic analgesic abuse (phenacetin/NSAIDs)",
+        "Hypertension and hypercalcemia",
+        "Glomerulonephritis and dehydration",
+        "Polycystic kidney disease and cystitis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Renal papillary necrosis is caused by ischemic and toxic necrosis of renal papillae, classic in diabetic patients with pyelonephritis, chronic analgesic nephropathy (phenacetin/acetaminophen/NSAIDs), and sickle cell disease."
+    },
+    {
+      "id": "ch14_q40",
+      "topic": "Nephrolithiasis",
+      "difficulty": "Medium",
+      "question": "Large 'staghorn' calculi that cast the entire renal pelvis and calyces are composed of magnesium ammonium phosphate (struvite). What is the primary underlying cause?",
+      "options": [
+        "Infection by urease-producing bacteria (e.g., Proteus mirabilis)",
+        "Dietary hyperoxaluria from excessive spinach intake",
+        "Familial hyperuricemia and gout",
+        "Primary hyperparathyroidism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Struvite (triple phosphate) stones form exclusively in alkaline urine produced by urease-splitting organisms (Proteus, Klebsiella, Pseudomonas), which convert urea into ammonia and bicarbonate."
+    },
+    {
+      "id": "ch14_q41",
+      "topic": "Kidney Diseases",
+      "difficulty": "Hard",
+      "question": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) is caused primarily by mutations in PKD1 (chromosome 16) or PKD2 (chromosome 4). Which extrarenal vascular complication carries a high risk of sudden death in young adults?",
+      "options": [
+        "Rupture of intracranial berry aneurysms in the Circle of Willis",
+        "Dissection of the coronary sinus",
+        "Aneurysm of the splenic vein",
+        "Thrombosis of the portal vein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Approximately 10-15% of ADPKD patients harbor intracranial saccular (berry) aneurysms in the circle of Willis; rupture causes catastrophic subarachnoid hemorrhage."
+    },
+    {
+      "id": "ch14_q42",
+      "topic": "Kidney Diseases",
+      "difficulty": "Hard",
+      "question": "Autosomal Recessive Polycystic Kidney Disease (ARPKD) is caused by mutations in the PKHD1 gene and is invariably associated with which extrarenal congenital pathology?",
+      "options": [
+        "Congenital hepatic fibrosis and biliary dysgenesis",
+        "Horseshoe adrenals",
+        "Cerebral arteriovenous malformations",
+        "Pulmonary sequestration"
+      ],
+      "correctIndex": 0,
+      "explanation": "ARPKD involves mutations in fibrocystin (PKHD1) and is pathologically linked with congenital hepatic fibrosis and ductal plate malformations, predisposing children to portal hypertension and splenomegaly."
+    },
+    {
+      "id": "ch14_q43",
+      "topic": "Renal Tumors",
+      "difficulty": "Medium",
+      "question": "Wilms Tumor (Nephroblastoma) is the most common primary renal malignancy of childhood (ages 2-5). What is the classic triphasic histological pattern seen on biopsy?",
+      "options": [
+        "Blastemal, epithelial, and stromal elements",
+        "Clear cells, papillary fronds, and oncocytic nests",
+        "Signet ring cells, foam cells, and squamous pearls",
+        "Cartilage, bone, and neural tubes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wilms tumor displays a classic triphasic histology consisting of small blue blastemal cells, epithelial tubules/glomeruloid structures, and mesenchymal/stromal elements (collagen, muscle)."
+    },
+    {
+      "id": "ch14_q44",
+      "topic": "Renal Tumors",
+      "difficulty": "Hard",
+      "question": "Renal Oncocytoma is a benign cortical neoplasm that grossly displays a characteristic mahogany-brown color and central stellate scar. Histologically, its cells are packed with which organelle?",
+      "options": [
+        "Mitochondria",
+        "Lysosomes",
+        "Peroxisomes",
+        "Rough endoplasmic reticulum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oncocytomas consist of large, round polygonal oncocytic cells with intensely eosinophilic, granular cytoplasm packed entirely with abundant mitochondria."
+    },
+    {
+      "id": "ch14_q45",
+      "topic": "Renal Failure",
+      "difficulty": "Medium",
+      "question": "Which preventive nursing intervention is universally recommended to reduce the risk of Contrast-Induced Nephropathy (CIN) in patients with baseline renal insufficiency undergoing IV contrast CT?",
+      "options": [
+        "Intravenous isotonic saline hydration before and after the scan",
+        "Administration of high-dose loop diuretics immediately before injection",
+        "Restricting oral fluid intake for 24 hours prior to imaging",
+        "Administering oral potassium chloride tablets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intravenous volume expansion with isotonic saline (or sodium bicarbonate) before and after iodinated radiocontrast administration expands intravascular volume, suppresses renin-angiotensin, and dilutes contrast within the tubular lumen, preventing medullary ischemia."
+    },
+    {
+      "id": "ch14_q46",
+      "topic": "Renal Failure",
+      "difficulty": "Hard",
+      "question": "A patient with advanced End-Stage Renal Disease (ESRD) develops chest pain exacerbated by lying flat and a distinct friction rub on auscultation. What is the immediate treatment of choice?",
+      "options": [
+        "Emergent hemodialysis",
+        "Pericardiocentesis for non-tamponade rub",
+        "High-dose aspirin alone",
+        "Systemic antibiotic therapy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uremic pericarditis is a fibrinous ('bread-and-butter') pericardial inflammation that serves as an absolute, urgent indication for initiating or intensifying hemodialysis."
+    },
+    {
+      "id": "ch14_q47",
+      "topic": "Renal Failure",
+      "difficulty": "Medium",
+      "question": "Secondary Hyperparathyroidism in Chronic Kidney Disease (CKD) develops primarily due to impaired renal synthesis of which active hormone combined with phosphate retention?",
+      "options": [
+        "1,25-dihydroxycholecalciferol (Calcitriol / 1,25-(OH)2D3)",
+        "Erythropoietin",
+        "Renin",
+        "Aldosterone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loss of functional renal parenchyma impairs 1-alpha-hydroxylase activity, leading to deficient active Vitamin D (Calcitriol) synthesis and hyperphosphatemia. The resulting hypocalcemia stimulates parathyroid hyperplasia and PTH hypersecretion (renal osteodystrophy)."
+    },
+    {
+      "id": "ch14_q48",
+      "topic": "Renal Failure",
+      "difficulty": "Hard",
+      "question": "Long-term hemodialysis patients (>5-10 years) can develop Dialysis-Related Amyloidosis, manifesting as carpal tunnel syndrome and joint arthropathy, due to tissue accumulation of which protein?",
+      "options": [
+        "Beta-2 Microglobulin (B2M)",
+        "Transthyretin (TTR)",
+        "Immunoglobulin light chains (AL)",
+        "Serum Amyloid A (AA)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beta-2 microglobulin (an invariant subunit of MHC Class I molecules) is normally cleared by renal filtration; during long-term dialysis, it accumulates systemically and precipitates as insoluble amyloid fibrils in bone, joints, and carpal tunnels."
+    },
+    {
+      "id": "ch14_q49",
+      "topic": "Glomerular Diseases",
+      "difficulty": "Medium",
+      "question": "Why are patients with heavy Nephrotic Syndrome at markedly elevated risk for deep vein thrombosis and renal vein thrombosis?",
+      "options": [
+        "Urinary loss of endogenous Antithrombin III and Protein C/S combined with hepatic fibrinogen synthesis",
+        "Direct toxic damage to vascular endothelial cells by proteinuria",
+        "Profound thrombocytopenia caused by glomerular trapping",
+        "Reduced plasma viscosity from hypoalbuminemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nephrotic syndrome is a major hypercoagulable state due to urinary excretion of anticoagulant regulatory proteins (Antithrombin III, Protein C and S) and compensatory hepatic up-regulation of procoagulant factor synthesis (fibrinogen)."
+    },
+    {
+      "id": "ch14_q50",
+      "topic": "Renal Transplantation",
+      "difficulty": "Hard",
+      "question": "Hyperacute allograft rejection occurring within minutes to hours of vascular clamp release during renal transplantation is caused by:",
+      "options": [
+        "Preformed donor-specific anti-HLA or ABO antibodies in recipient serum",
+        "Donor T-cell attack against host lymph nodes",
+        "Cytomegalovirus infection of the graft parenchyma",
+        "Drug toxicity from calcineurin inhibitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hyperacute rejection is mediated by preformed circulating anti-donor antibodies that bind graft endothelial HLA or ABO antigens, initiating immediate complement activation, microvascular thrombosis, and ischemic graft necrosis on the operating table."
     }
   ]
 };

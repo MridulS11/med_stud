@@ -710,6 +710,286 @@ export const ch16: Chapter = {
       ],
       "correctIndex": 0,
       "explanation": "Polycystic Ovary Syndrome (PCOS) is an endocrine disorder featuring oligomenorrhea/amenorrhea, hyperandrogenism (hirsutism, acne), and bilateral enlarged ovaries with a 'string-of-pearls' subcapsular follicular pattern."
+    },
+    {
+      "id": "ch16_q31",
+      "topic": "Cervical Pathology",
+      "difficulty": "Hard",
+      "question": "High-risk oncogenic HPV types (16 and 18) drive cervical carcinogenesis via oncoproteins E6 and E7. What are the specific host cell targets inactivated by E6 and E7 respectively?",
+      "options": [
+        "E6 degrades p53 tumor suppressor; E7 inactivates Retinoblastoma protein (pRb)",
+        "E6 inactivates BRCA1; E7 degrades PTEN",
+        "E6 activates ras; E7 stimulates c-myc",
+        "E6 phosphorylates EGFR; E7 blocks caspase-8"
+      ],
+      "correctIndex": 0,
+      "explanation": "HPV oncoprotein E6 binds and promotes ubiquitin-mediated degradation of the p53 tumor suppressor protein (blocking apoptosis). E7 binds and inactivates the retinoblastoma tumor suppressor protein (pRb), releasing E2F transcription factors to drive cell cycle progression into S phase."
+    },
+    {
+      "id": "ch16_q32",
+      "topic": "Cervical Pathology",
+      "difficulty": "Medium",
+      "question": "Koilocytes, which are characteristic cytological hallmarks of HPV infection on a Pap smear, exhibit which microscopic features?",
+      "options": [
+        "Enlarged hyperchromatic raisinoid nuclei with prominent clear perinuclear halos",
+        "Signet ring appearance with mucin vacuoles",
+        "Spindle nuclei with intracellular bridges",
+        "Multiple budding yeast blastospores"
+      ],
+      "correctIndex": 0,
+      "explanation": "Koilocytosis is characterized by intermediate squamous cells with nuclear enlargement, hyperchromasia, irregular 'raisinoid' nuclear membrane contours, and a sharply demarcated, clear perinuclear cytoplasmic halo."
+    },
+    {
+      "id": "ch16_q33",
+      "topic": "Cervical Pathology",
+      "difficulty": "Medium",
+      "question": "Which anatomical region of the cervix represents the precise junction where cervical dysplasia (CIN) and squamous carcinoma originate?",
+      "options": [
+        "Transformation Zone (Squamocolumnar Junction)",
+        "Endocervical canal stroma",
+        "Fundal serosa",
+        "Exocervical squamous apex"
+      ],
+      "correctIndex": 0,
+      "explanation": "The transformation zone—the dynamic squamocolumnar junction where endocervical glandular epithelium undergoes physiological squamous metaplasia—is the vulnerable site where HPV infects immature metaplastic cells, initiating CIN."
+    },
+    {
+      "id": "ch16_q34",
+      "topic": "Uterine Pathology",
+      "difficulty": "Medium",
+      "question": "What is the definitive histological hallmark required to diagnose Endometriosis on tissue biopsy?",
+      "options": [
+        "Presence of both endometrial stroma and glands (with hemosiderin-laden macrophages) outside the uterine cavity",
+        "A single layer of ciliated columnar cells with squamous metaplasia",
+        "Atypia of endocervical glands",
+        "Whorled fascicles of smooth muscle with coagulative necrosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Histological confirmation of endometriosis requires at least two of the following: ectopic endometrial glands, ectopic endometrial stroma, and hemosiderin pigment (either within macrophages or free) reflecting cyclic hemorrhage."
+    },
+    {
+      "id": "ch16_q35",
+      "topic": "Uterine Pathology",
+      "difficulty": "Medium",
+      "question": "Adenomyosis is characterized clinically by severe dysmenorrhea, heavy menstrual bleeding, and which physical examination finding?",
+      "options": [
+        "A symmetrically enlarged, globular, boggy, and tender uterus",
+        "An irregular, nodular, stone-hard immobile mass",
+        "Severe cervical motion tenderness with adnexal purulent discharge",
+        "An infantile, hypoplastic uterus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adenomyosis (endometrial tissue embedded deep within the myometrium) causes reactive smooth muscle hypertrophy, resulting in a diffuse, symmetrical, soft/boggy, and tender enlargement of the uterus."
+    },
+    {
+      "id": "ch16_q36",
+      "topic": "Endometrial Pathology",
+      "difficulty": "Hard",
+      "question": "Endometrial hyperplasia with cytologic atypia carries an estimated 25-40% risk of progressing to or coexisting with which malignancy?",
+      "options": [
+        "Endometrioid Adenocarcinoma (Type I Endometrial Carcinoma)",
+        "Uterine Choriocarcinoma",
+        "Clear Cell Ovarian Carcinoma",
+        "Cervical Adenocarcinoma in Situ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atypical endometrial hyperplasia (Endometrial Intraepithelial Neoplasia / EIN), driven by unopposed estrogen and PTEN mutations, is the direct precursor lesion to Type I endometrioid adenocarcinoma."
+    },
+    {
+      "id": "ch16_q37",
+      "topic": "Endometrial Pathology",
+      "difficulty": "Hard",
+      "question": "Women with Lynch syndrome (Hereditary Non-Polyposis Colorectal Cancer) carry an extraordinarily high lifetime risk (up to 40-60%) for which gynecological cancer?",
+      "options": [
+        "Endometrial Carcinoma",
+        "Cervical Squamous Cell Carcinoma",
+        "Immature Teratoma",
+        "Hydatidiform Mole"
+      ],
+      "correctIndex": 0,
+      "explanation": "After colorectal cancer, endometrial adenocarcinoma is the most common malignancy in women with Lynch syndrome, caused by germline mismatch repair (MMR) gene defects (MLH1, MSH2, MSH6, PMS2)."
+    },
+    {
+      "id": "ch16_q38",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Hard",
+      "question": "Call-Exner bodies (small fluid-filled spaces surrounded by tumor cells resembling immature follicles) and elevated serum Inhibin are diagnostic of which ovarian tumor?",
+      "options": [
+        "Granulosa Cell Tumor",
+        "Dysgerminoma",
+        "Serous Cystadenocarcinoma",
+        "Brenner Tumor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Granulosa cell tumors are sex cord-stromal neoplasms that produce estrogens and inhibin, characteristically displaying 'coffee-bean' grooved nuclei and follicle-like Call-Exner bodies."
+    },
+    {
+      "id": "ch16_q39",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Medium",
+      "question": "Which ovarian germ cell neoplasm is the morphological and immunohistochemical female counterpart of testicular seminoma, affecting young females and showing extreme sensitivity to radiation and chemotherapy?",
+      "options": [
+        "Dysgerminoma",
+        "Krukenberg Tumor",
+        "Choriocarcinoma",
+        "Brenner Tumor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dysgerminoma is the female analogue of seminoma: composed of uniform large germ cells with clear glycogen-rich cytoplasm separated by lymphocyte-infiltrated fibrous septa, producing elevated serum LDH."
+    },
+    {
+      "id": "ch16_q40",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Medium",
+      "question": "What is the most common benign ovarian germ cell neoplasm, containing differentiated derivatives of all three germ layers (skin, hair, sebaceous material, teeth)?",
+      "options": [
+        "Mature Cystic Teratoma (Dermoid Cyst)",
+        "Struma Ovarii",
+        "Fibroma",
+        "Mucinous Cystadenoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mature cystic teratoma (dermoid cyst) is a benign germ cell tumor consisting of mature tissues from ectoderm (skin, hair, sebaceous glands), mesoderm (teeth, bone, cartilage), and endoderm (thyroid, GI)."
+    },
+    {
+      "id": "ch16_q41",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Hard",
+      "question": "Struma ovarii is a specialized monodermal ovarian teratoma composed entirely or predominantly of which functional mature tissue?",
+      "options": [
+        "Thyroid tissue, potentially causing hyperthyroidism",
+        "Neural glial tissue causing seizures",
+        "Renal parenchyma causing renin elevation",
+        "Adrenal cortical tissue causing Cushing syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Struma ovarii is a monodermal teratoma composed entirely of mature thyroid tissue with colloid-filled follicles, capable of synthesizing thyroid hormones and causing clinical hyperthyroidism."
+    },
+    {
+      "id": "ch16_q42",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Hard",
+      "question": "Meigs syndrome is a rare clinical triad characterized by an ovarian benign stromal tumor, ascites, and pleural effusion. Which ovarian tumor is responsible?",
+      "options": [
+        "Ovarian Fibroma",
+        "Serous Cystadenocarcinoma",
+        "Krukenberg Tumor",
+        "Yolk Sac Tumor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meigs syndrome is classically defined by the triad of benign Ovarian Fibroma (or fibrothecoma), ascites, and right-sided pleural effusion, both of which promptly resolve upon surgical excision of the tumor."
+    },
+    {
+      "id": "ch16_q43",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Medium",
+      "question": "A Krukenberg tumor is a metastatic ovarian malignancy. What is its histological appearance and most common primary organ of origin?",
+      "options": [
+        "Signet ring cells producing intracellular mucin, originating from gastric adenocarcinoma",
+        "Clear cells with vascular septa, originating from the kidney",
+        "Psammoma bodies, originating from the thyroid",
+        "Keratin pearls, originating from the cervix"
+      ],
+      "correctIndex": 0,
+      "explanation": "Krukenberg tumors are bilateral ovarian metastases composed of mucin-filled signet ring carcinoma cells, most commonly metastasizing from a primary diffuse gastric adenocarcinoma (linitis plastica)."
+    },
+    {
+      "id": "ch16_q44",
+      "topic": "Trophoblastic Disease",
+      "difficulty": "Hard",
+      "question": "What is the crucial cytogenetic difference between a Complete Hydatidiform Mole and a Partial Hydatidiform Mole?",
+      "options": [
+        "Complete mole is diploid androgenetic (46,XX, no maternal DNA, no fetus); Partial mole is triploid (69,XXY, 1 maternal + 2 paternal sets, fetal tissue present)",
+        "Complete mole is triploid (69,XXX); Partial mole is diploid (46,XY)",
+        "Complete mole is caused by trisomy 21; Partial mole is monosomy X",
+        "Complete mole has 46 chromosomes of purely maternal origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complete moles result from fertilization of an empty, enucleated ovum by a single sperm that duplicates (46,XX androgenetic); there is no fetal tissue, all villi are hydropic, and beta-hCG is markedly elevated. Partial moles result from dispermy fertilizing a normal ovum (69,XXY triploid), containing fetal red cells and partial hydropic changes."
+    },
+    {
+      "id": "ch16_q45",
+      "topic": "Trophoblastic Disease",
+      "difficulty": "Medium",
+      "question": "Gestational Choriocarcinoma following a molar pregnancy is uniquely notable in oncology because it:",
+      "options": [
+        "Is exquisitely sensitive to single-agent or multi-agent chemotherapy (e.g., Methotrexate) with cure rates approaching 95-100%",
+        "Never metastasizes beyond the uterine wall",
+        "Is completely resistant to all chemotherapy agents",
+        "Does not produce detectable serum beta-hCG"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike non-gestational ovarian choriocarcinoma, gestational choriocarcinoma carries foreign paternal antigens and is exceptionally chemo-sensitive, achieving nearly 100% cure rates even in the presence of metastatic disease using Methotrexate or EMA-CO regimens."
+    },
+    {
+      "id": "ch16_q46",
+      "topic": "Uterine Pathology",
+      "difficulty": "Hard",
+      "question": "Uterine Leiomyosarcomas are malignant smooth muscle tumors that: ",
+      "options": [
+        "Arise almost always de novo, NOT by malignant degeneration of pre-existing benign leiomyomas",
+        "Arise by malignant transformation of over 50% of benign fibroids",
+        "Never produce distant hematogenous metastases",
+        "Always express high levels of alpha-fetoprotein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uterine leiomyosarcomas arise de novo directly from myometrial cells (not by malignant transformation of pre-existing leiomyomas). Diagnostic criteria include coagulative tumor cell necrosis, cellular atypia, and high mitotic rate (>=10 mitoses per 10 HPF)."
+    },
+    {
+      "id": "ch16_q47",
+      "topic": "Uterine Pathology",
+      "difficulty": "Medium",
+      "question": "A 62-year-old postmenopausal woman presents with new, painless vaginal bleeding for 2 weeks. What is the mandatory immediate diagnostic priority?",
+      "options": [
+        "Endometrial biopsy to rule out endometrial carcinoma",
+        "Reassuring the patient that bleeding is normal in menopause",
+        "Prescribing oral estrogen replacement therapy immediately",
+        "Performing bilateral radical mastectomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Postmenopausal bleeding is considered endometrial carcinoma until proven otherwise. Immediate transvaginal ultrasound (measuring endometrial stripe thickness) and endometrial biopsy are mandatory."
+    },
+    {
+      "id": "ch16_q48",
+      "topic": "Vaginal Pathology",
+      "difficulty": "Hard",
+      "question": "Clear cell adenocarcinoma of the vagina and cervix in young adult females was historically linked to in utero exposure to which medication taken by their mothers during pregnancy?",
+      "options": [
+        "Diethylstilbestrol (DES)",
+        "Thalidomide",
+        "Warfarin",
+        "Tetracycline"
+      ],
+      "correctIndex": 0,
+      "explanation": "In utero exposure to Diethylstilbestrol (DES)—a synthetic estrogen prescribed from 1940-1971 to prevent miscarriage—caused vaginal adenosis and a heightened risk of vaginal/cervical clear cell adenocarcinoma in female offspring."
+    },
+    {
+      "id": "ch16_q49",
+      "topic": "Ovarian Tumors",
+      "difficulty": "Medium",
+      "question": "What is the primary serum biomarker utilized for monitoring clinical response and detecting recurrence in epithelial ovarian carcinomas (especially high-grade serous)?",
+      "options": [
+        "Cancer Antigen 125 (CA-125)",
+        "Alpha-fetoprotein (AFP)",
+        "Human Chorionic Gonadotropin (hCG)",
+        "Prostate-Specific Antigen (PSA)"
+      ],
+      "correctIndex": 0,
+      "explanation": "CA-125 is elevated in over 80% of advanced serous epithelial ovarian cancers. While not specific enough for general population screening, it is the primary gold standard marker for monitoring chemotherapy response and post-treatment recurrence."
+    },
+    {
+      "id": "ch16_q50",
+      "topic": "Cervical Pathology",
+      "difficulty": "Easy",
+      "question": "Which quadrivalent/9-valent HPV vaccine recombinant protein triggers protective neutralizing antibody production against high-risk HPV oncogenic strains?",
+      "options": [
+        "L1 major capsid protein virus-like particles (VLPs)",
+        "E6 oncogenic peptide",
+        "E7 oncoprotein fragments",
+        "Viral double-stranded DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "HPV vaccines (e.g., Gardasil 9) are non-infectious virus-like particles (VLPs) assembled from recombinant L1 major capsid protein, eliciting high titers of neutralizing antibodies against HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58."
     }
   ]
 };

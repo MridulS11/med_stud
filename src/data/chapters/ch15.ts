@@ -668,6 +668,146 @@ export const ch15: Chapter = {
       ],
       "correctIndex": 0,
       "explanation": "The underlying anatomical predisposition (bell-clapper deformity) is bilateral in up to 80% of individuals; fixing both testes prevents future torsion."
+    },
+    {
+      "id": "ch15_q31",
+      "topic": "Testicular Tumors",
+      "difficulty": "Medium",
+      "question": "What is the classic microscopic appearance of a classic Testicular Seminoma?",
+      "options": [
+        "Uniform large polygonal cells with glycogen-rich clear cytoplasm, distinct borders, and fibrous septa with lymphocytes",
+        "Small dark blue blastemal cells forming tubules",
+        "Spindle cells with abundant melanin pigment",
+        "Sheets of syncytiotrophoblasts surrounding hemorrhagic lacunae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classic seminoma is characterized by large, uniform cells with clear, glycogen-rich cytoplasm, distinct cell borders, prominent nucleoli, and delicate fibrous septa heavily infiltrated by small mature T-lymphocytes."
+    },
+    {
+      "id": "ch15_q32",
+      "topic": "Testicular Tumors",
+      "difficulty": "Hard",
+      "question": "Schiller-Duval bodies, which resemble primitive glomeruli with a central blood vessel surrounded by germ cells, are pathognomonic for which testicular neoplasm?",
+      "options": [
+        "Yolk Sac Tumor (Endodermal Sinus Tumor)",
+        "Classic Seminoma",
+        "Sertoli Cell Tumor",
+        "Leydig Cell Tumor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Schiller-Duval bodies are diagnostic structures seen in Yolk Sac Tumors (the most common testicular tumor in children <3 years), accompanied by elevated serum alpha-fetoprotein (AFP)."
+    },
+    {
+      "id": "ch15_q33",
+      "topic": "Testicular Tumors",
+      "difficulty": "Hard",
+      "question": "Which non-seminomatous testicular germ cell tumor is exceptionally aggressive, spreads early via hematogenous routes to the lungs and brain, and produces massively elevated serum beta-hCG?",
+      "options": [
+        "Choriocarcinoma",
+        "Mature Teratoma",
+        "Spermatocytic Tumor",
+        "Embryonal Carcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Choriocarcinoma is composed of malignant syncytiotrophoblasts and cytotrophoblasts, lacks stromal support, causes extensive hemorrhage and necrosis, secretes massive amounts of beta-hCG, and metastasizes early via the bloodstream."
+    },
+    {
+      "id": "ch15_q34",
+      "topic": "Testicular Tumors",
+      "difficulty": "Medium",
+      "question": "Testicular teratomas in post-pubertal adult males differ from benign ovarian teratomas because in post-pubertal males they:",
+      "options": [
+        "Must be considered malignant and capable of metastasis regardless of mature appearance",
+        "Are always composed purely of ectodermal tissues",
+        "Never require surgical orchiectomy",
+        "Occur secondary to mumps infection"
+      ],
+      "correctIndex": 0,
+      "explanation": "In adult males, all testicular teratomas (even cytologically mature ones) are classified as potentially malignant and can metastasize, whereas in females and pre-pubertal children they behave benignly."
+    },
+    {
+      "id": "ch15_q35",
+      "topic": "Testicular Tumors",
+      "difficulty": "Hard",
+      "question": "Reinke crystals (rod-shaped hexagonal cytoplasmic inclusions) are pathognomonic for which sex cord-stromal testicular tumor?",
+      "options": [
+        "Leydig Cell Tumor",
+        "Seminoma",
+        "Yolk Sac Tumor",
+        "Epidermoid cyst"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leydig cell tumors are non-germ cell stromal tumors of testosterone-producing interstitial cells, characterized by eosinophilic cytoplasm containing crystalloids of Reinke in 30-40% of cases."
+    },
+    {
+      "id": "ch15_q36",
+      "topic": "Scrotal Pathology",
+      "difficulty": "Easy",
+      "question": "Which clinical physical examination test differentiates a cystic Hydrocele from a solid testicular tumor or scrotal hernia?",
+      "options": [
+        "Transillumination test with a penlight",
+        "Percussion of the pubic symphysis",
+        "Digital rectal palpation",
+        "Valsalva cough impulse alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hydrocele (serous fluid accumulation within the tunica vaginalis) transmits light and glows brightly (transillumination positive), whereas solid testicular neoplasms and hernia bowel contents do not transilluminate."
+    },
+    {
+      "id": "ch15_q37",
+      "topic": "Scrotal Pathology",
+      "difficulty": "Medium",
+      "question": "Why do varicoceles ('bag of worms' dilation of pampiniform venous plexus) occur with overwhelmingly higher frequency on the LEFT hemiscrotum?",
+      "options": [
+        "The left testicular vein enters the left renal vein at a 90-degree right angle",
+        "The right testicular vein lacks valves entirely",
+        "The left testicle is anatomically smaller",
+        "The left internal iliac vein compresses the prostate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The left testicular vein drains at a perpendicular right angle into the left renal vein (where it can be compressed between the SMA and aorta—the 'nutcracker' phenomenon), creating higher hydrostatic pressure than the right vein, which drains directly into the IVC."
+    },
+    {
+      "id": "ch15_q38",
+      "topic": "Prostate Pathology",
+      "difficulty": "Medium",
+      "question": "How is the histological Gleason Score calculated for prostatic adenocarcinoma from biopsy specimens?",
+      "options": [
+        "Summing the numerical grade (1-5) of the most prominent pattern and the second most prominent pattern",
+        "Multiplying the tumor diameter by serum PSA concentration",
+        "Counting mitotic figures per 10 high-power fields",
+        "Assessing the depth of capsular penetration in millimeters"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Gleason score sums the primary (most predominant) and secondary (second most prevalent) histological architectural patterns (grades 1 to 5), yielding a score ranging from 6 (Grade Group 1) to 10 (Grade Group 5)."
+    },
+    {
+      "id": "ch15_q39",
+      "topic": "Prostate Pathology",
+      "difficulty": "Hard",
+      "question": "When interpreting total PSA in the diagnostic 'gray zone' (4 to 10 ng/mL), a LOW percentage of free PSA (<10-15%) strongly indicates:",
+      "options": [
+        "Higher probability of malignant prostatic adenocarcinoma",
+        "Benign prostatic hyperplasia (BPH)",
+        "Acute bacterial prostatitis",
+        "Chronic non-bacterial pelvic pain syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prostate cancer produces PSA that is more bound to serum protease inhibitors (e.g., alpha-1-antichymotrypsin). Therefore, a low percent-free PSA (<10-15%) correlates with a high probability of prostate cancer, warranting biopsy."
+    },
+    {
+      "id": "ch15_q40",
+      "topic": "Prostate Pathology",
+      "difficulty": "Medium",
+      "question": "Metastatic prostate adenocarcinoma to the axial skeleton (lumbar spine, pelvis) characteristically produces which radiographical appearance?",
+      "options": [
+        "Dense, radiopaque osteoblastic (sclerotic) metastases",
+        "Punched-out osteolytic lesions without new bone",
+        "Diffuse cortical demineralization only",
+        "Pathological subperiosteal osteochondromas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prostate cancer metastases to bone are uniquely osteoblastic (osteosclerotic), stimulating dense, sclerotic new bone formation visible on plain X-rays and radionuclide bone scans."
     }
   ]
 };

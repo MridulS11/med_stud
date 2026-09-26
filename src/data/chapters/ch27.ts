@@ -580,6 +580,216 @@ export const ch27: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Serum rings ('halo' effect) occur when alcohol has not dried before puncture, or when serum separates from RBCs. This causes inhomogeneous analyte concentration and specimen rejection."
+    },
+    {
+      "id": "ch27_q31",
+      "topic": "Newborn Screening",
+      "difficulty": "Hard",
+      "question": "In classic Congenital Adrenal Hyperplasia (21-hydroxylase deficiency), salt-wasting crises typically manifest at 7 to 14 days of life with which dangerous electrolyte disturbance?",
+      "options": [
+        "Hyponatremia, Hyperkalemia, Hypoglycemia, and severe dehydration / vascular shock",
+        "Hypernatremia and Hypokalemia",
+        "Hypercalcemia and Hypophosphatemia",
+        "Normal electrolytes with isolated polycythemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deficiency of 21-hydroxylase blocks aldosterone and cortisol synthesis. Lack of aldosterone causes massive renal sodium wasting and potassium retention, producing life-threatening hyponatremia, hyperkalemia, dehydration, and circulatory collapse."
+    },
+    {
+      "id": "ch27_q32",
+      "topic": "Newborn Screening",
+      "difficulty": "Medium",
+      "question": "To prevent permanent neurocognitive impairment (cretinism) in an infant identified with Congenital Hypothyroidism on newborn screening, when must oral Levothyroxine therapy be initiated?",
+      "options": [
+        "Within the first 2 weeks of life (ideally within 14 days)",
+        "By 6 months of age",
+        "Only after the child demonstrates developmental delay",
+        "After the closure of the anterior fontanelle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thyroid hormones are essential for early cerebral synaptogenesis and myelination. Prompt initiation of oral Levothyroxine (10-15 µg/kg/day) within the first 14 days of life ensures normal intellectual development."
+    },
+    {
+      "id": "ch27_q33",
+      "topic": "Newborn Screening",
+      "difficulty": "Medium",
+      "question": "A newborn with Classical Galactosemia (GALT deficiency) who is inadvertently given lactose-containing infant formula develops jaundice, hepatomegaly, cataracts, and fulminant sepsis caused by:",
+      "options": [
+        "Escherichia coli",
+        "Streptococcus agalactiae (Group B Strep)",
+        "Listeria monocytogenes",
+        "Staphylococcus aureus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galactose-1-phosphate accumulation impairs neutrophil bactericidal killing, creating a classic, well-documented susceptibility to fulminant Escherichia coli neonatal sepsis in infants with untreated galactosemia."
+    },
+    {
+      "id": "ch27_q34",
+      "topic": "Newborn Screening",
+      "difficulty": "Medium",
+      "question": "Infants with Biotinidase Deficiency identified on newborn screening develop seizures, hypotonia, alopecia, and optic atrophy. What is the simple, life-saving treatment?",
+      "options": [
+        "Lifelong oral pharmacological Biotin supplementation (5-10 mg/day)",
+        "Strict fat-free diet",
+        "High-protein medical formula",
+        "Intravenous immunoglobulin infusions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Biotinidase recycles free biotin. Daily oral pharmacological supplementation with free biotin completely prevents all neurological, cutaneous, and visual manifestations."
+    },
+    {
+      "id": "ch27_q35",
+      "topic": "Newborn Screening",
+      "difficulty": "Hard",
+      "question": "Medium-Chain Acyl-CoA Dehydrogenase (MCAD) Deficiency, detected on MS/MS by elevated octanoylcarnitine (C8), can cause sudden infant death triggered by:",
+      "options": [
+        "Prolonged fasting (>8-10 hours) or acute illness, resulting in hypoketotic hypoglycemia and lethargy",
+        "High carbohydrate intake",
+        "Excessive vitamin D intake",
+        "Exposure to cold air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Patients with MCAD deficiency cannot break down medium-chain fatty acids into acetyl-CoA for ketone production during periods of fasting. Fasting leads to severe hypoketotic hypoglycemia, hepatic dysfunction, and sudden death."
+    },
+    {
+      "id": "ch27_q36",
+      "topic": "Inborn Errors of Metabolism",
+      "difficulty": "Medium",
+      "question": "Maple Syrup Urine Disease (MSUD) is caused by a deficiency of which multienzyme complex?",
+      "options": [
+        "Branched-Chain Alpha-Ketoacid Dehydrogenase (BCKDH) complex",
+        "Phenylalanine hydroxylase",
+        "Homogentisate 1,2-dioxygenase",
+        "Methylmalonyl-CoA mutase"
+      ],
+      "correctIndex": 0,
+      "explanation": "MSUD is an autosomal recessive deficiency of the BCKDH complex, causing toxic accumulation of branched-chain amino acids (leucine, isoleucine, valine) and their corresponding ketoacids, characterized by a maple syrup/sweet odor in urine."
+    },
+    {
+      "id": "ch27_q37",
+      "topic": "Microdeletion Syndromes",
+      "difficulty": "Hard",
+      "question": "DiGeorge syndrome (22q11.2 deletion syndrome) is caused by abnormal development of which embryological structures?",
+      "options": [
+        "Third and fourth pharyngeal pouches and arches",
+        "First and second branchial clefts",
+        "Neural tube caudal neuropore",
+        "Mesonephric ducts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Failure of migration of neural crest cells into the third and fourth pharyngeal pouches results in thymic hypoplasia (T-cell immune deficiency), parathyroid hypoplasia (hypocalcemia), and conotruncal cardiac malformations (tetralogy of Fallot)."
+    },
+    {
+      "id": "ch27_q38",
+      "topic": "Microdeletion Syndromes",
+      "difficulty": "Hard",
+      "question": "Williams Syndrome (7q11.23 microdeletion) is characterized by an outgoing, overly friendly 'cocktail party' personality, star-like iris patterns, and which specific cardiovascular defect?",
+      "options": [
+        "Supravalvular Aortic Stenosis (SVAS due to deletion of the Elastin gene)",
+        "Coarctation of the aorta",
+        "Transposition of great vessels",
+        "Tetralogy of Fallot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Haploinsufficiency of the Elastin (ELN) gene located within the 7q11.23 deletion region impairs arterial wall elasticity, leading to supravalvular aortic stenosis and peripheral pulmonary artery stenosis."
+    },
+    {
+      "id": "ch27_q39",
+      "topic": "Neurodevelopmental Genetics",
+      "difficulty": "Medium",
+      "question": "An infant presents with severe generalized hypotonia ('floppy infant'), poor suckling requiring tube feeding, and cryptorchidism in infancy, followed by insatiable hyperphagia and morbid obesity in early childhood. What is the diagnosis?",
+      "options": [
+        "Prader-Willi Syndrome",
+        "Angelman Syndrome",
+        "Down Syndrome",
+        "Fragile X Syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prader-Willi syndrome (loss of paternal 15q11-q13) exhibits a distinct biphasic presentation: severe neonatal hypotonia and failure to thrive in infancy, followed by uncontrollable hyperphagia, lack of satiety, and extreme obesity from age 2-4."
+    },
+    {
+      "id": "ch27_q40",
+      "topic": "Fragile X Syndrome",
+      "difficulty": "Hard",
+      "question": "Older male carriers of the Fragile X Premutation (55 to 200 CGG repeats) are at high risk of developing which late-onset neurodegenerative condition?",
+      "options": [
+        "Fragile X-Associated Tremor/Ataxia Syndrome (FXTAS)",
+        "Huntington chorea",
+        "Amyotrophic lateral sclerosis",
+        "Early-onset Alzheimer disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "FXTAS is a late-onset (age >50) neurodegenerative condition occurring in ~40% of male premutation carriers, caused by toxic mRNA accumulation resulting in intention tremors, progressive cerebellar ataxia, and cognitive decline."
+    },
+    {
+      "id": "ch27_q41",
+      "topic": "Fragile X Syndrome",
+      "difficulty": "Medium",
+      "question": "Female carriers of the Fragile X Premutation (55 to 200 CGG repeats) carry an elevated risk (~20%) of developing:",
+      "options": [
+        "Fragile X-Associated Primary Ovarian Insufficiency (FXPOI / premature menopause before age 40)",
+        "Breast adenocarcinoma",
+        "Polycystic ovary syndrome",
+        "Cervical carcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Female premutation carriers have elevated FMR1 mRNA that induces ovarian granulosa cell toxicity, causing FXPOI—manifesting as irregular menses, early follicle depletion, and premature menopause before age 40."
+    },
+    {
+      "id": "ch27_q42",
+      "topic": "Rett Syndrome",
+      "difficulty": "Medium",
+      "question": "What is the characteristic clinical progression observed in young girls with classic Rett Syndrome (MECP2 mutation)?",
+      "options": [
+        "Apparently normal development for 6-18 months, followed by rapid regression of speech, loss of purposeful hand skills, midline hand-wringing stereotypies, and acquired microcephaly",
+        "Severe motor weakness present immediately at birth with normal cognition",
+        "Progressive blindness without loss of motor skills",
+        "Sudden onset of spastic paraplegia during adolescence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classic Rett syndrome features normal milestones until 6-18 months, followed by rapid loss of acquired purposeful hand skills and speech, deceleration of head growth, social withdrawal, breathing irregularities, and stereotypic midline hand-wringing."
+    },
+    {
+      "id": "ch27_q43",
+      "topic": "Dysmorphology",
+      "difficulty": "Medium",
+      "question": "Which of the following birth defects represents a 'Disruption'—a destructive breakdown of an originally normally developed tissue?",
+      "options": [
+        "Amniotic band syndrome digital amputation",
+        "Cleft palate due to failure of palatal shelf fusion",
+        "Bilateral clubfoot from oligohydramnios constraint",
+        "Achondroplastic dwarfism from FGFR3 mutation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amniotic band syndrome is the classic prototype of a disruption: fibrous strands of amnion tear, wrap around normally formed digits or limbs, and strangulate their blood supply, causing ischemic amputation."
+    },
+    {
+      "id": "ch27_q44",
+      "topic": "Metabolic Emergency",
+      "difficulty": "Hard",
+      "question": "In a neonate presenting with lethargy, vomiting, and severe hyperammonemia (>300 µmol/L) due to a suspected Urea Cycle Disorder, what is the immediate medical management to remove excess nitrogen?",
+      "options": [
+        "Discontinue all dietary protein, infuse IV 10% Dextrose, administer IV Sodium Benzoate and Sodium Phenylacetate, and prepare for emergent hemodialysis",
+        "Administer high-protein feeds to stimulate urea synthesis",
+        "Give oral ammonium chloride",
+        "Restricted IV fluids with zero calories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immediate management of severe hyperammonemia requires halting protein intake, suppressing catabolism with IV dextrose, administering alternative pathway nitrogen scavengers (sodium benzoate and sodium phenylacetate), and hemodialysis if ammonia exceeds 400-500 µmol/L."
+    },
+    {
+      "id": "ch27_q45",
+      "topic": "Cytogenomic Testing",
+      "difficulty": "Medium",
+      "question": "Why is Chromosomal Microarray (CMA) superior to conventional G-banded karyotyping as the first-line test for children with unexplained intellectual disability?",
+      "options": [
+        "CMA detects submicroscopic microdeletions and microduplications (resolution 10-50 kb) with a 15-20% diagnostic yield, compared to 3% for karyotyping",
+        "CMA is faster because it does not require DNA",
+        "CMA can detect balanced inversions",
+        "CMA is a microscopic examination"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conventional karyotyping has a resolution limit of ~5-10 Mb. CMA offers 100-fold higher resolution (10-50 kb), identifying submicroscopic pathogenic copy number variations (CNVs) in 15-20% of children who have completely normal karyotypes."
     }
   ],
   "mindMap": {

@@ -673,6 +673,286 @@ export const ch24: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Meiosis II non-disjunction affects only one sister chromatid pair, producing 50% normal gametes (n, n), 25% with an extra chromosome (n+1), and 25% missing a chromosome (n-1)."
+    },
+    {
+      "id": "ch24_q31",
+      "topic": "Chromosome Biology",
+      "difficulty": "Hard",
+      "question": "Telomeres consist of tandem hexanucleotide repeats (5'-TTAGGG-3') at chromosome ends. How does reactivated Telomerase contribute to malignant neoplastic transformation?",
+      "options": [
+        "It prevents telomere shortening and replicative senescence, conferring cellular immortality to cancer cells",
+        "It accelerates apoptosis in proliferating cells",
+        "It stimulates homologous recombination in mitotic cells",
+        "It degrades ribosomal RNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Telomerase maintains telomeric length and integrity, bypassing the finite Hayflick limit of cellular division and conferring limitless replicative potential (cellular immortality), a defining hallmark in ~90% of human malignancies."
+    },
+    {
+      "id": "ch24_q32",
+      "topic": "Epigenetics",
+      "difficulty": "Hard",
+      "question": "DNA Methylation is an epigenetic modification that occurs almost exclusively at which specific genomic dinucleotide sequences?",
+      "options": [
+        "Cytosine bases in Cytosine-Phosphate-Guanine (CpG) islands",
+        "Adenine bases in poly-A tails",
+        "Thymine bases in TATA boxes",
+        "Uracil bases in intronic loops"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA methyltransferases (DNMTs) catalyze the addition of a methyl group to the 5-carbon position of cytosine rings located in cytosine-guanine dinucleotides (CpG islands) in gene promoter regions, typically inducing transcriptional silencing."
+    },
+    {
+      "id": "ch24_q33",
+      "topic": "Epigenetics",
+      "difficulty": "Medium",
+      "question": "How does Histone Acetylation by Histone Acetyltransferases (HATs) influence gene transcription?",
+      "options": [
+        "It neutralizes positive histone charges, relaxing chromatin into transcriptionally accessible euchromatin",
+        "It condenses chromatin into tightly coiled, silenced heterochromatin",
+        "It removes the nuclear envelope during metaphase",
+        "It prevents RNA polymerase binding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acetylation of lysine residues on histone tails by HATs neutralizes their positive charges, weakening electrostatic interactions with negatively charged DNA phosphate backbones. This relaxes chromatin into accessible euchromatin, facilitating active gene transcription."
+    },
+    {
+      "id": "ch24_q34",
+      "topic": "Genomic Imprinting",
+      "difficulty": "Hard",
+      "question": "Prader-Willi syndrome and Angelman syndrome are classic examples of genomic imprinting involving chromosome 15q11-q13. Prader-Willi syndrome results from:",
+      "options": [
+        "Loss of the paternal expression of 15q11-q13 (via paternal deletion or maternal uniparental disomy)",
+        "Loss of maternal expression of 15q11-q13 (via maternal deletion of UBE3A)",
+        "Trisomy of chromosome 15 in all somatic cells",
+        "Robertsonian translocation of chromosome 15 onto chromosome 21"
+      ],
+      "correctIndex": 0,
+      "explanation": "In normal individuals, maternal 15q11-q13 is silenced (imprinted) and paternal genes are expressed. Prader-Willi occurs when the active paternal copy is missing—either by paternal microdeletion (70%) or maternal uniparental disomy (25%)."
+    },
+    {
+      "id": "ch24_q35",
+      "topic": "Genomic Imprinting",
+      "difficulty": "Hard",
+      "question": "Angelman syndrome ('happy puppet' syndrome with severe intellectual disability, ataxia, and paroxysmal laughter) results from the loss of maternal expression of which specific gene on chromosome 15q11-q13?",
+      "options": [
+        "UBE3A (ubiquitin-protein ligase E3A)",
+        "SNRPN",
+        "FMR1",
+        "MECP2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angelman syndrome is caused by the loss of maternal contribution of the UBE3A gene on 15q11.2-q13, which is imprinted and silenced on the paternal chromosome in neurons of the brain."
+    },
+    {
+      "id": "ch24_q36",
+      "topic": "Uniparental Disomy",
+      "difficulty": "Hard",
+      "question": "Uniparental Disomy (UPD) is defined as:",
+      "options": [
+        "Inheritance of two copies of a chromosome from one parent and no copy from the other parent",
+        "Presence of three distinct haploid sets of chromosomes",
+        "Deletion of both short arms of an acrocentric chromosome",
+        "Random inactivation of maternal chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uniparental Disomy occurs when an individual inherits two copies of a chromosome pair from one parent and zero copies from the other, frequently originating from 'trisomy rescue' during post-zygotic mitosis."
+    },
+    {
+      "id": "ch24_q37",
+      "topic": "Trinucleotide Repeat Disorders",
+      "difficulty": "Medium",
+      "question": "Friedreich Ataxia is an autosomal recessive neurodegenerative disorder caused by which trinucleotide repeat expansion in the FXN gene on chromosome 9?",
+      "options": [
+        "GAA repeat in an intron (causing impaired frataxin transcription and iron overload)",
+        "CAG repeat in an exon",
+        "CGG repeat in a promoter",
+        "CTG repeat in a 3'-UTR"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friedreich ataxia is caused by an unstable GAA trinucleotide repeat expansion in intron 1 of the FXN gene, impairing transcription of mitochondrial frataxin and leading to sensory ataxia, cardiomyopathy, and diabetes."
+    },
+    {
+      "id": "ch24_q38",
+      "topic": "Trinucleotide Repeat Disorders",
+      "difficulty": "Medium",
+      "question": "Myotonic Dystrophy Type 1 is caused by an expanded CTG repeat in the 3'-untranslated region of the DMPK gene on chromosome 19. What is its characteristic clinical feature?",
+      "options": [
+        "Myotonia (delayed muscle relaxation after contraction), muscle wasting, early cataracts, and cardiac arrhythmias",
+        "Rapid progression of choreiform jerking movements",
+        "Macroorchidism with severe obesity",
+        "Extreme skeletal bone brittleness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Myotonic dystrophy Type 1 (DM1) is an autosomal dominant CTG repeat disorder characterized by sustained muscle contraction (e.g., inability to release grip), facial muscle wasting, frontal balding, cataracts, and cardiac conduction blocks."
+    },
+    {
+      "id": "ch24_q39",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "Achondroplasia (the most common cause of human dwarfism) is caused by a gain-of-function mutation in which receptor gene, showing strong correlation with advanced paternal age?",
+      "options": [
+        "FGFR3 (Fibroblast Growth Factor Receptor 3)",
+        "TGF-beta receptor",
+        "Insulin-like growth factor receptor",
+        "Collagen Type I receptor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Achondroplasia is an autosomal dominant condition caused by G380R gain-of-function mutations in FGFR3 on 4p16.3, which constitutively inhibits chondrocyte proliferation in the growth plates of long bones. Over 80% are de novo mutations correlated with advancing paternal age."
+    },
+    {
+      "id": "ch24_q40",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "Marfan syndrome is an autosomal dominant connective tissue disorder caused by mutations in the FBN1 gene on chromosome 15q21. FBN1 encodes which extracellular matrix glycoprotein?",
+      "options": [
+        "Fibrillin-1",
+        "Elastin",
+        "Type I Collagen",
+        "Fibronectin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marfan syndrome is caused by heterozygous mutations in FBN1 encoding fibrillin-1 (essential for elastic fiber microfibrils), causing arachnodactyly, upward lens subluxation (ectopia lentis), and fatal aortic root aneurysm/dissection."
+    },
+    {
+      "id": "ch24_q41",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Hard",
+      "question": "Vascular Ehlers-Danlos Syndrome (Type IV) carries a catastrophic risk of arterial, uterine, and bowel rupture due to a genetic defect in which structural collagen type?",
+      "options": [
+        "Type III Collagen (COL3A1)",
+        "Type I Collagen",
+        "Type II Collagen",
+        "Type IV Collagen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vascular Ehlers-Danlos syndrome is caused by autosomal dominant mutations in COL3A1 (encoding pro-alpha-1 chains of Type III collagen), which provides structural strength to hollow viscera and blood vessels."
+    },
+    {
+      "id": "ch24_q42",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "Neurofibromatosis Type 1 (von Recklinghausen disease) is caused by mutations in the NF1 tumor suppressor gene on chromosome 17q11.2, which encodes neurofibromin. Neurofibromin functions as a negative regulator of:",
+      "options": [
+        "Ras proto-oncogene pathway (GTPase-activating protein)",
+        "Wnt signaling pathway",
+        "TGF-beta receptor pathway",
+        "JAK-STAT pathway"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neurofibromin functions as a GTPase-Activating Protein (GAP) that hydrolyzes active Ras-GTP to inactive Ras-GDP. Loss-of-function NF1 mutations cause constitutive Ras-MAPK hyperactivation and benign/malignant peripheral nerve tumors."
+    },
+    {
+      "id": "ch24_q43",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "What is the most common pathogenic mutation in the CFTR gene responsible for Classic Cystic Fibrosis worldwide?",
+      "options": [
+        "Delta-F508 (three-base-pair deletion of codon for Phenylalanine at position 508)",
+        "Nonsense mutation at codon 12",
+        "Trinucleotide CAG repeat expansion",
+        "Frameshift insertion in exon 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The delta-F508 mutation (deletion of phenylalanine at position 508) accounts for ~70% of CFTR mutant alleles in Caucasians, causing misfolding of the CFTR chloride channel and its degradation in the endoplasmic reticulum."
+    },
+    {
+      "id": "ch24_q44",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "Duchenne Muscular Dystrophy (DMD) and Becker Muscular Dystrophy (BMD) both involve mutations in the DMD gene on Xp21. Why is Duchenne clinically severe while Becker is relatively mild?",
+      "options": [
+        "DMD involves frameshift (out-of-frame) deletions causing complete absence of dystrophin; BMD involves in-frame deletions producing truncated, partially functional dystrophin",
+        "DMD is autosomal dominant while BMD is recessive",
+        "BMD only affects female carriers",
+        "DMD involves mitochondrial DNA deletion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'reading frame hypothesis' explains the difference: out-of-frame mutations in DMD cause premature stop codons and complete dystrophin deficiency, whereas in-frame mutations in BMD maintain the reading frame, synthesizing truncated but partially functional dystrophin."
+    },
+    {
+      "id": "ch24_q45",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Easy",
+      "question": "A 5-year-old boy with Duchenne muscular dystrophy uses his hands to climb up his own thighs to push himself into an erect standing position from the floor. What is this sign called?",
+      "options": [
+        "Gowers sign",
+        "Chvostek sign",
+        "Trousseau sign",
+        "Babinski sign"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gowers sign is characteristic of proximal pelvic girdle muscular weakness (especially gluteus maximus), where the child must 'walk' up his legs with his hands to achieve an upright standing posture."
+    },
+    {
+      "id": "ch24_q46",
+      "topic": "Mendelian Disorders",
+      "difficulty": "Medium",
+      "question": "Hemophilia A and Hemophilia B are classic X-linked recessive bleeding disorders caused by deficiencies of which coagulation factors respectively?",
+      "options": [
+        "Factor VIII (Hemophilia A) and Factor IX (Hemophilia B)",
+        "Factor IX (Hemophilia A) and Factor VIII (Hemophilia B)",
+        "Factor VII and Factor X",
+        "Von Willebrand factor and Fibrinogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemophilia A is an X-linked deficiency of Coagulation Factor VIII (most common, ~80-85%), while Hemophilia B (Christmas disease) is caused by deficiency of Factor IX, both presenting with spontaneous hemarthroses and prolonged aPTT."
+    },
+    {
+      "id": "ch24_q47",
+      "topic": "X-Inactivation",
+      "difficulty": "Medium",
+      "question": "According to the Lyon Hypothesis, when does X-chromosome inactivation occur during mammalian female embryonic development?",
+      "options": [
+        "Randomly in early blastocyst development (day 12-16 post-fertilization), after which the same X remains inactive in all descendant somatic cells",
+        "At the onset of female puberty during menarche",
+        "During Meiosis I oogenesis only",
+        "During maternal labor and delivery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mary Lyon's hypothesis states that one of the two X chromosomes in each somatic cell of a female mammal is randomly and permanently inactivated during early blastocyst development, forming the condensed heterochromatic Barr body."
+    },
+    {
+      "id": "ch24_q48",
+      "topic": "X-Inactivation",
+      "difficulty": "Hard",
+      "question": "Which long non-coding RNA (lncRNA) is master regulator responsible for coating and transcriptionally silencing the inactive X chromosome from the X-inactivation center (XIC)?",
+      "options": [
+        "XIST (X-inactive specific transcript)",
+        "HOTAIR",
+        "miRNA-21",
+        "Tsix"
+      ],
+      "correctIndex": 0,
+      "explanation": "The XIST gene located in the XIC on Xq13 produces a long non-coding RNA that physically coats the future inactive X chromosome in cis, recruiting histone methyltransferases and chromatin compactors to silence it."
+    },
+    {
+      "id": "ch24_q49",
+      "topic": "Chromosome Aberrations",
+      "difficulty": "Hard",
+      "question": "An Isochromosome is a structural chromosomal aberration that forms when:",
+      "options": [
+        "A chromosome divides along a transverse axis instead of a longitudinal axis, resulting in one arm being duplicated and the other deleted",
+        "A segment of a chromosome breaks off and flips 180 degrees",
+        "Two non-homologous chromosomes exchange genetic material",
+        "A chromosome loses both telomeres and fuses into a ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isochromosomes are formed by misdivision along the transverse rather than longitudinal centromeric plane, producing a symmetrical chromosome with two identical short (p) or long (q) arms, e.g., i(Xq) in Turner syndrome variants."
+    },
+    {
+      "id": "ch24_q50",
+      "topic": "Non-Mendelian Genetics",
+      "difficulty": "Medium",
+      "question": "Heteroplasmy in mitochondrial genetics refers to:",
+      "options": [
+        "The co-existence of both mutated and wild-type mitochondrial DNA (mtDNA) molecules within the same cell or tissue",
+        "The loss of paternal mitochondrial transmission",
+        "The presence of two distinct cell lines from two zygotes (chimerism)",
+        "The duplication of nuclear genes into mitochondria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heteroplasmy describes a cellular state containing a mixed population of normal (wild-type) and mutated mitochondrial genomes. The clinical severity of mitochondrial diseases depends on whether the ratio of mutant mtDNA exceeds the critical tissue threshold."
     }
   ]
 };

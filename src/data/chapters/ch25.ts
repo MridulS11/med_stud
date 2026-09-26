@@ -682,6 +682,286 @@ export const ch25: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Recurrent pregnancy loss (recurrent miscarriage) is formally defined as two or more consecutive failed clinical pregnancies confirmed by ultrasound or histology."
+    },
+    {
+      "id": "ch25_q31",
+      "topic": "Congenital Infections",
+      "difficulty": "Hard",
+      "question": "Hutchinson's Triad, which is pathognomonic for late untreated Congenital Syphilis, comprises which three clinical features?",
+      "options": [
+        "Hutchinson notched incisors, Interstitial keratitis, and Sensorineural eighth-nerve deafness",
+        "Microcephaly, Cataracts, and PDA",
+        "Hydrocephalus, Chorioretinitis, and Calcifications",
+        "Blueberry muffin rash, Cleft palate, and Clubfoot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Late congenital syphilis manifests years postnatally with the classic Hutchinson triad: notched peg-shaped central incisors, ocular interstitial keratitis (clouding of cornea), and sensorineural deafness from CN VIII damage."
+    },
+    {
+      "id": "ch25_q32",
+      "topic": "Congenital Infections",
+      "difficulty": "Medium",
+      "question": "Gregg's Triad of Congenital Rubella Syndrome results from maternal rubella infection during the first trimester. What are its three classic components?",
+      "options": [
+        "Congenital Cataracts (microphthalmia), Sensorineural Hearing Loss, and Patent Ductus Arteriosus (PDA)",
+        "Microcephaly, Polydactyly, and Cleft lip",
+        "Hydrocephalus, Calcifications, and Chorioretinitis",
+        "Renal agenesis, Clubfoot, and Spina bifida"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir Norman Gregg first recognized congenital rubella syndrome by its classic triad: cataracts, sensorineural deafness, and congenital cardiac defects (predominantly Patent Ductus Arteriosus and pulmonary artery stenosis)."
+    },
+    {
+      "id": "ch25_q33",
+      "topic": "Congenital Infections",
+      "difficulty": "Medium",
+      "question": "Which maternal infection is the most common cause of non-genetic Congenital Sensorineural Hearing Loss and periventricular intracranial calcifications in newborns worldwide?",
+      "options": [
+        "Cytomegalovirus (CMV)",
+        "Toxoplasma gondii",
+        "Treponema pallidum",
+        "Herpes simplex virus 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Congenital Cytomegalovirus (CMV) is the most prevalent intrauterine viral infection, classically producing microcephaly, periventricular calcifications, and progressive sensorineural hearing loss in infants."
+    },
+    {
+      "id": "ch25_q34",
+      "topic": "Congenital Infections",
+      "difficulty": "Medium",
+      "question": "Sabin's Triad of Congenital Toxoplasmosis consists of:",
+      "options": [
+        "Chorioretinitis, Hydrocephalus, and Diffuse Intracranial Calcifications",
+        "Cataracts, Deafness, and PDA",
+        "Interstitial keratitis, Saddle nose, and Saber shins",
+        "Anencephaly, Omphalocele, and Spina bifida"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classic congenital toxoplasmosis presents with Sabin's triad: chorioretinitis (macular scars causing visual loss), hydrocephalus (due to aqueductal stenosis), and diffuse, scattered intracranial calcifications (unlike periventricular CMV)."
+    },
+    {
+      "id": "ch25_q35",
+      "topic": "Congenital Infections",
+      "difficulty": "Hard",
+      "question": "Maternal Parvovirus B19 infection during the second trimester of pregnancy causes severe fetal morbidity by selectively infecting and lysing:",
+      "options": [
+        "Fetal erythroid progenitor cells, leading to profound aplastic anemia, high-output heart failure, and Non-Immune Hydrops Fetalis",
+        "Fetal neural crest cells, causing spina bifida",
+        "Placental syncytiotrophoblasts, causing choriocarcinoma",
+        "Amniocytes, causing oligohydramnios"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parvovirus B19 binds the P-antigen receptor on erythroid precursors, halting fetal erythropoiesis. In the developing fetus with short RBC half-life, this triggers catastrophic aplastic anemia, congestive heart failure, and hydrops fetalis."
+    },
+    {
+      "id": "ch25_q36",
+      "topic": "Congenital Infections",
+      "difficulty": "Hard",
+      "question": "Congenital Varicella Syndrome, occurring after maternal primary varicella (chickenpox) during early pregnancy, characteristically produces:",
+      "options": [
+        "Cicatricial (zigzag) cutaneous skin scarring in a dermatomal distribution, limb hypoplasia, and rudimentary digits",
+        "Massive hepatosplenomegaly without skin changes",
+        "Cardiac tricuspid atresia alone",
+        "Early hydrocephalus with intact limbs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Congenital varicella syndrome manifests with characteristic dermatomal zigzag cicatricial skin scars, limb hypoplasia (atrophic shortened limbs), rudimentary digits, chorioretinitis, and microcephaly."
+    },
+    {
+      "id": "ch25_q37",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Hard",
+      "question": "Angiotensin-Converting Enzyme (ACE) Inhibitors and ARBs taken during the second and third trimesters of pregnancy cause fetal death and congenital malformations primarily through which mechanism?",
+      "options": [
+        "Fetal renal hypoperfusion and renal dysgenesis, resulting in profound oligohydramnios, pulmonary hypoplasia, and calvarial bone defects (Potter sequence)",
+        "Premature closure of the ductus arteriosus",
+        "Inhibition of limb bud chondrogenesis (phocomelia)",
+        "Severe macroglossia and omphalocele"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fetal renal development requires angiotensin II for perfusion and tubular development. ACE inhibitors block this, causing fetal anuria, severe oligohydramnios, pulmonary hypoplasia, and neonatal renal failure (fetopathy)."
+    },
+    {
+      "id": "ch25_q38",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Medium",
+      "question": "Maternal administration of Valproic Acid during organogenesis carries a 1-2% risk of which specific structural birth defect?",
+      "options": [
+        "Lumbosacral Neural Tube Defects (Spina Bifida)",
+        "Phocomelia",
+        "Transposition of the great vessels",
+        "Duodenal atresia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Valproic acid interferes with folic acid metabolism and inhibits histone deacetylases, causing a 10-20 fold increased risk of open neural tube defects (spina bifida / myelomeningocele) if taken during neural tube closure (day 21-28)."
+    },
+    {
+      "id": "ch25_q39",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Hard",
+      "question": "First-trimester exposure to Lithium for maternal bipolar disorder is classically linked to which congenital cardiovascular malformation?",
+      "options": [
+        "Ebstein Anomaly of the tricuspid valve",
+        "Tetralogy of Fallot",
+        "Coarctation of the aorta",
+        "Hypoplastic left heart syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lithium exposure during early pregnancy carries an increased risk of Ebstein's anomaly: apical displacement of the tricuspid valve leaflets into the right ventricle, causing severe tricuspid regurgitation and 'atrialization' of the right ventricle."
+    },
+    {
+      "id": "ch25_q40",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Medium",
+      "question": "Warfarin taken during the first trimester causes Warfarin Embryopathy. What are its characteristic skeletal and facial features?",
+      "options": [
+        "Severe nasal hypoplasia (depressed bridge) and stippled calcification of the epiphyses (chondrodysplasia punctata)",
+        "Shortened long bones with multiple fractures",
+        "Syndactyly of third and fourth fingers",
+        "Craniosynostosis with cloverleaf skull"
+      ],
+      "correctIndex": 0,
+      "explanation": "Warfarin crosses the placenta (unlike heparin) and inhibits post-translational gamma-carboxylation of osteocalcin, leading to nasal bone hypoplasia, stippled epiphyses, and optic atrophy."
+    },
+    {
+      "id": "ch25_q41",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Easy",
+      "question": "Tetracycline antibiotics are strictly contraindicated in the second and third trimesters of pregnancy and in children under 8 years of age because they cause:",
+      "options": [
+        "Permanent yellow-to-brown discoloration of teeth and enamel hypoplasia",
+        "Aplastic anemia and gray baby syndrome",
+        "Irreversible eighth-nerve vestibular toxicity",
+        "Renal agenesis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tetracyclines chelate with calcium and deposit into developing teeth and bones, causing permanent brownish discoloration, enamel defects, and transient stunting of long bone growth."
+    },
+    {
+      "id": "ch25_q42",
+      "topic": "Maternal Diseases",
+      "difficulty": "Hard",
+      "question": "A woman with poorly controlled Phenylketonuria (PKU) who conceives without dietary phenylalanine restriction will give birth to an infant with Maternal PKU Syndrome, characterized by:",
+      "options": [
+        "Microcephaly, congenital heart disease, and severe intellectual disability (even if the fetus is genetically heterozygous)",
+        "Congenital adrenal hyperplasia",
+        "Cystic fibrosis symptoms",
+        "Normal development as long as infant has normal PAH genes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maternal hyperphenylalaninemia is a potent teratogen that crosses the placenta via active amino acid transporters; high fetal phenylalanine levels cause microcephaly, intellectual disability, and congenital heart defects regardless of fetal genotype."
+    },
+    {
+      "id": "ch25_q43",
+      "topic": "Maternal Diseases",
+      "difficulty": "Hard",
+      "question": "Maternal Systemic Lupus Erythematosus (SLE) with positive anti-Ro/SSA and anti-La/SSB antibodies confers a significant risk of which permanent cardiac condition in the fetus?",
+      "options": [
+        "Congenital Complete (Third-Degree) Atrioventricular Heart Block",
+        "Ventricular septal defect",
+        "Aortic valve stenosis",
+        "Transposition of great arteries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transplacental passage of maternal anti-Ro/SSA and anti-La/SSB antibodies cross-reacts with fetal cardiac conduction tissue, inducing autoimmune myocarditis, fibrosis, and permanent complete AV block."
+    },
+    {
+      "id": "ch25_q44",
+      "topic": "Maternal Diseases",
+      "difficulty": "Medium",
+      "question": "Antiphospholipid Syndrome (APS) in pregnancy is characterized by recurrent miscarriages and fetal death caused by which pathological mechanism?",
+      "options": [
+        "Thrombosis of uteroplacental vessels and multiple placental infarctions",
+        "Direct autoimmune destruction of fetal red cells",
+        "Bacterial chorioamnionitis",
+        "Hyperosmolar hyperglycemic crisis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antiphospholipid antibodies (lupus anticoagulant, anticardiolipin) promote a hypercoagulable state with microvascular thrombosis in the placental decidual vessels, leading to placental ischemia, insufficiency, and recurrent miscarriage."
+    },
+    {
+      "id": "ch25_q45",
+      "topic": "Consanguinity",
+      "difficulty": "Medium",
+      "question": "What proportion of their genes do biological first cousins share on average (Coefficient of Relationship)?",
+      "options": [
+        "1/8 (12.5%)",
+        "1/2 (50%)",
+        "1/4 (25%)",
+        "1/16 (6.25%)"
+      ],
+      "correctIndex": 0,
+      "explanation": "First cousins share 1/8 (12.5%) of their genome in common. Because of this shared ancestry, matings between first cousins double the baseline population risk of autosomal recessive disorders in their offspring from ~2-3% to ~4-6%."
+    },
+    {
+      "id": "ch25_q46",
+      "topic": "Recurrent Miscarriage",
+      "difficulty": "Hard",
+      "question": "What is the most common parental chromosomal abnormality discovered during evaluation of couples with recurrent first-trimester spontaneous abortions?",
+      "options": [
+        "Balanced reciprocal or Robertsonian translocation in one of the parents",
+        "Complete trisomy 21 in both parents",
+        "Turner syndrome 45,X in the mother",
+        "Klinefelter syndrome in the father"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 3-5% of couples with recurrent pregnancy losses (>=2-3 miscarriages), one parent is an asymptomatic carrier of a balanced chromosomal translocation (reciprocal or Robertsonian), which segregates into unbalanced, lethal gametes during meiosis."
+    },
+    {
+      "id": "ch25_q47",
+      "topic": "Radiation Teratology",
+      "difficulty": "Hard",
+      "question": "During which window of gestational development is the fetal central nervous system most vulnerable to ionizing radiation-induced severe intellectual disability and microcephaly?",
+      "options": [
+        "Weeks 8 to 15 post-conception (period of peak neurogenesis and neuronal migration)",
+        "Weeks 1 to 2 (pre-implantation)",
+        "Weeks 28 to 36 (third trimester)",
+        "During active labor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Data from atomic bomb survivors established that weeks 8 to 15 correspond to the peak velocity of forebrain neuroblast proliferation and neuronal migration to the cerebral cortex, representing the period of maximal sensitivity to radiation-induced cognitive damage."
+    },
+    {
+      "id": "ch25_q48",
+      "topic": "Environmental Teratogens",
+      "difficulty": "Medium",
+      "question": "Maternal cigarette smoking during pregnancy is the single most common cause of fetal growth restriction and low birth weight. Which two substances directly mediate this effect?",
+      "options": [
+        "Nicotine (causes uterine vasoconstriction) and Carbon Monoxide (binds fetal hemoglobin, causing chronic tissue hypoxia)",
+        "Tar and cyanide",
+        "Ammonia and lead",
+        "Nitrogen dioxide and formaldehyde"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nicotine induces intense vasoconstriction of uterine and umbilical arteries, decreasing placental perfusion. Carbon monoxide competes with oxygen to form carboxyhemoglobin, shifting the oxygen dissociation curve and causing chronic fetal hypoxia."
+    },
+    {
+      "id": "ch25_q49",
+      "topic": "Teratogenic Exposures",
+      "difficulty": "Medium",
+      "question": "Neonatal Abstinence Syndrome (NAS) in an infant born to an opioid-dependent mother manifests clinically with:",
+      "options": [
+        "High-pitched shrill cry, tremors, hypertonia, poor feeding, frantic fist-sucking, and loose watery stools",
+        "Profound hypotonia and prolonged lethargy",
+        "Severe microcephaly and phocomelia",
+        "Polycythemia and macroorchidism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opioid withdrawal in newborns manifests as central nervous system hyperirritability (high-pitched cry, tremors, hyperreflexia, sleep fragmentation) and gastrointestinal dysfunction (poor feeding, uncoordinated suck, diarrhea, vomiting)."
+    },
+    {
+      "id": "ch25_q50",
+      "topic": "Teratogenic Medications",
+      "difficulty": "Hard",
+      "question": "Fetal Hydantoin Syndrome, resulting from maternal intake of Phenytoin for epilepsy during pregnancy, characteristically causes which digital anomaly?",
+      "options": [
+        "Hypoplasia of the distal phalanges and nails",
+        "Polydactyly",
+        "Syndactyly of all digits",
+        "Arachnodactyly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fetal hydantoin syndrome comprises craniofacial dysmorphism (cleft lip/palate, broad depressed nasal bridge, hypertelorism), microcephaly, growth impairment, and hypoplasia of the distal phalanges and fingernails/toenails."
     }
   ]
 };

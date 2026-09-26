@@ -653,6 +653,146 @@ export const ch18: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "High-dose intravenous Acyclovir (10 mg/kg every 8 hours) started immediately upon clinical suspicion reduces mortality of HSV encephalitis from >70% to <20%."
+    },
+    {
+      "id": "ch18_q31",
+      "topic": "Cerebrovascular Disease",
+      "difficulty": "Medium",
+      "question": "A 45-year-old patient presents to the emergency room with the sudden onset of 'the worst headache of my life' (thunderclap headache) followed by neck stiffness and vomiting. What is the most likely diagnosis?",
+      "options": [
+        "Subarachnoid Hemorrhage (ruptured berry aneurysm)",
+        "Acute Ischemic Lacunar Stroke",
+        "Glioblastoma multiforme",
+        "Multiple sclerosis acute relapse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rupture of an intracranial saccular (berry) aneurysm—most commonly located at bifurcations in the circle of Willis (anterior communicating artery)—causes sudden, severe subarachnoid hemorrhage with meningeal signs and xanthochromic CSF."
+    },
+    {
+      "id": "ch18_q32",
+      "topic": "Traumatic Brain Injury",
+      "difficulty": "Medium",
+      "question": "An Epidural Hematoma is classically caused by a fracture of the temporal bone (pterion) lacerating which blood vessel?",
+      "options": [
+        "Middle Meningeal Artery",
+        "Bridging cortical veins",
+        "Internal Carotid Artery",
+        "Basilar artery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Epidural hematomas result from arterial laceration of the middle meningeal artery beneath the pterion, leading to rapid blood accumulation between the inner skull table and outer dural layer, forming a biconvex (lens-shaped) hematoma on CT."
+    },
+    {
+      "id": "ch18_q33",
+      "topic": "Traumatic Brain Injury",
+      "difficulty": "Medium",
+      "question": "Subdural Hematomas, occurring frequently in elderly individuals following minor falls, arise from tearing of which vessels?",
+      "options": [
+        "Bridging cerebral veins traversing the subdural space to the superior sagittal sinus",
+        "Middle meningeal artery",
+        "Anterior cerebral artery",
+        "Circle of Willis communicating arteries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cortical brain atrophy in elderly patients and infants stretches bridging cerebral veins, making them prone to shear and rupture during deceleration trauma, producing a crescent-shaped hematoma that crosses suture lines."
+    },
+    {
+      "id": "ch18_q34",
+      "topic": "Intracranial Herniation",
+      "difficulty": "Hard",
+      "question": "Transtentorial (Uncal) Herniation causes life-threatening brainstem compression. Which cranial nerve is typically compressed first, producing an ipsilateral fixed, dilated pupil?",
+      "options": [
+        "Oculomotor Nerve (CN III)",
+        "Abducens Nerve (CN VI)",
+        "Facial Nerve (CN VII)",
+        "Optic Nerve (CN II)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The uncus of the temporal lobe herniates downward past the tentorial cerebelli, directly compressing the ipsilateral Oculomotor Nerve (CN III). The superficial parasympathetic pupilloconstrictor fibers fail first, producing an ipsilateral blown, non-reactive pupil."
+    },
+    {
+      "id": "ch18_q35",
+      "topic": "Brain Tumors",
+      "difficulty": "Hard",
+      "question": "Glioblastoma (WHO Grade 4 astrocytoma) exhibits which characteristic histopathological features?",
+      "options": [
+        "Pseudopalisading necrosis and florid microvascular endothelial proliferation",
+        "Whorled concentric sheets of spindle cells with psammoma bodies",
+        "Fried-egg oligodendrocytes with chicken-wire capillaries",
+        "Ependymal rosettes and blepharoplasts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnostic histological criteria for Glioblastoma (Grade 4) include cellular pleomorphism, high mitotic activity, serpentine zones of geographic necrosis lined by crowded tumor cells (pseudopalisading necrosis), and microvascular endothelial glomeruloid proliferation."
+    },
+    {
+      "id": "ch18_q36",
+      "topic": "Brain Tumors",
+      "difficulty": "Medium",
+      "question": "Meningiomas arise from arachnoid cap cells of the meninges and characteristically display which microscopic features?",
+      "options": [
+        "Concentric whorled fascicles of cells and lamellated calcified Psammoma bodies",
+        "Rosenthal fibers and eosinophilic granular bodies",
+        "Small blue cells with Homer Wright rosettes",
+        "Foamy lipid-laden macrophages"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meningiomas are slow-growing, extra-axial benign tumors attached to the dura, demonstrating whorled syncytial cell arrangements and concentric dystrophic calcifications termed Psammoma bodies."
+    },
+    {
+      "id": "ch18_q37",
+      "topic": "Brain Tumors",
+      "difficulty": "Hard",
+      "question": "Vestibular Schwannoma (Acoustic Neuroma) arising at the cerebellopontine angle exhibits alternating cellular areas known as:",
+      "options": [
+        "Antoni A (hypercellular with Verocay bodies) and Antoni B (hypocellular, myxoid areas)",
+        "Grade 1 and Grade 2 stroma",
+        "Blastema and mesenchyme",
+        "Spitz and Reed complexes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Schwannomas demonstrate Antoni A areas (densely cellular with palisading nuclei forming Verocay bodies) alternating with Antoni B areas (loose, hypocellular, microcystic myxoid matrix). Bilateral vestibular schwannomas are pathognomonic for Neurofibromatosis Type 2 (NF2)."
+    },
+    {
+      "id": "ch18_q38",
+      "topic": "Demyelinating Diseases",
+      "difficulty": "Medium",
+      "question": "Multiple Sclerosis is a chronic autoimmune demyelinating disease of the CNS. What is the classic finding on CSF protein electrophoresis?",
+      "options": [
+        "Oligoclonal IgG bands not present in corresponding serum",
+        "Markedly elevated total bilirubin",
+        "Normal myelin basic protein",
+        "Absent albumin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intrathecal immunoglobulin synthesis by plasma cells in CNS plaques produces distinct Oligoclonal IgG Bands on CSF electrophoresis in >85-95% of patients with clinically definite Multiple Sclerosis."
+    },
+    {
+      "id": "ch18_q39",
+      "topic": "Neurodegenerative Diseases",
+      "difficulty": "Hard",
+      "question": "Amyotrophic Lateral Sclerosis (ALS / Lou Gehrig disease) is characterized by progressive degeneration of which neurological structures?",
+      "options": [
+        "Both Upper Motor Neurons (corticospinal tracts) and Lower Motor Neurons (anterior horn cells)",
+        "Sensory dorsal root ganglia alone",
+        "Substantia nigra dopaminergic neurons alone",
+        "Cerebellar Purkinje cells alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "ALS uniquely causes combined degeneration of upper motor neurons in the primary motor cortex and lower motor neurons in the spinal cord anterior horns and brainstem motor nuclei, causing progressive spasticity, fasciculations, muscle atrophy, and fatal respiratory failure while sparing sensory and ocular functions."
+    },
+    {
+      "id": "ch18_q40",
+      "topic": "Peripheral Neuropathy",
+      "difficulty": "Medium",
+      "question": "Guillain-Barré Syndrome (Acute Inflammatory Demyelinating Polyradiculoneuropathy) presents with ascending motor weakness and which classical CSF finding?",
+      "options": [
+        "Albuminocytological dissociation (markedly elevated protein with normal WBC count)",
+        "Marked neutrophilic pleocytosis with low protein",
+        "Massive leukocytosis with hypoglycorrhachia",
+        "Absent protein with low opening pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guillain-Barré Syndrome characteristically displays 'Albuminocytological Dissociation': elevated CSF protein (>100-300 mg/dL) due to nerve root inflammation and blood-nerve barrier breakdown, but with a normal CSF white blood cell count (<5 cells/µL)."
     }
   ]
 };

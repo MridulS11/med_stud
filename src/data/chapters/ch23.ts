@@ -664,6 +664,76 @@ export const ch23: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Female pinworms migrate out through the anal sphincter to deposit eggs on the perianal skin; hence, less than 5-10% of infected individuals have eggs in the fecal stream itself."
+    },
+    {
+      "id": "ch23_q31",
+      "topic": "Stool Biomarkers",
+      "difficulty": "Medium",
+      "question": "Fecal Calprotectin is a neutrophil cytosolic protein widely measured in stool to reliably differentiate which two conditions?",
+      "options": [
+        "Inflammatory Bowel Disease (Crohn/Ulcerative Colitis - elevated) from Irritable Bowel Syndrome (IBS - normal)",
+        "Celiac disease from food allergy",
+        "H. pylori from Campylobacter",
+        "Hemorrhoids from anal fissure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calprotectin is released into the gut lumen by migrating neutrophils during mucosal inflammation. It is markedly elevated in active IBD (Crohn's disease and Ulcerative Colitis) but completely normal in functional disorders like Irritable Bowel Syndrome (IBS)."
+    },
+    {
+      "id": "ch23_q32",
+      "topic": "Stool Biomarkers",
+      "difficulty": "Hard",
+      "question": "Fecal Elastase-1 (FE-1) concentration < 100-200 µg/g stool is the gold standard non-invasive test for diagnosing:",
+      "options": [
+        "Severe Exocrine Pancreatic Insufficiency (e.g., Chronic Pancreatitis, Cystic Fibrosis)",
+        "Celiac sprue",
+        "Small intestinal bacterial overgrowth (SIBO)",
+        "Bile acid malabsorption"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pancreatic elastase-1 passes through the gut without degradation. A low fecal elastase (<200 µg/g, and especially <100 µg/g) confirms exocrine pancreatic insufficiency, identifying patients who require pancreatic enzyme replacement therapy (PERT)."
+    },
+    {
+      "id": "ch23_q33",
+      "topic": "Stool Examination",
+      "difficulty": "Medium",
+      "question": "Which lipid-soluble histochemical dye is utilized for the microscopic demonstration of unabsorbed neutral fat globules in suspected Steatorrhea?",
+      "options": [
+        "Sudan III / Sudan IV (stains orange-red)",
+        "Lugol's iodine",
+        "Methylene blue",
+        "Crystal violet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sudan III or Sudan IV staining binds neutral fats and fatty acids, staining lipid droplets bright orange-red. The presence of >60 large fat droplets per high-power field indicates steatorrhea."
+    },
+    {
+      "id": "ch23_q34",
+      "topic": "Stool Microbiology",
+      "difficulty": "Medium",
+      "question": "In a hospitalized patient who develops profuse watery pseudomembranous colitis 5 days after starting clindamycin, what is the diagnostic test of choice for Clostridioides difficile?",
+      "options": [
+        "Stool testing for C. difficile glutamate dehydrogenase (GDH) antigen and Toxin A/B enzyme immunoassay (or NAAT/PCR)",
+        "Stool Gram stain alone",
+        "Routine aerobic stool culture on blood agar",
+        "Barium enema examination"
+      ],
+      "correctIndex": 0,
+      "explanation": "C. difficile colitis is diagnosed via stool tests combining high-sensitivity screening (GDH antigen or NAAT for toxin genes) with high-specificity enzyme immunoassay (EIA) for active Toxin A and B production."
+    },
+    {
+      "id": "ch23_q35",
+      "topic": "Stool Parasitology",
+      "difficulty": "Hard",
+      "question": "To observe the active, directional, unidirectional pseudopodial motility and ingested red blood cells of Entamoeba histolytica trophozoites, how must fresh stool be handled?",
+      "options": [
+        "Examined as a warm saline wet mount within 15 to 30 minutes of collection without refrigeration",
+        "Refrigerated overnight at 4°C before smear preparation",
+        "Mixed immediately with 10% formalin and boiled",
+        "Dried on filter paper at room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amoebic trophozoites are extremely fragile and rapidly lose motility, encyst, or lyse upon cooling. Freshly passed warm liquid stool must be examined immediately (within 15-30 minutes) on a warm slide to observe active pseudopodial movement and erythrophagocytosis."
     }
   ]
 };

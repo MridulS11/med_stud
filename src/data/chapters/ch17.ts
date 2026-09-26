@@ -648,6 +648,76 @@ export const ch17: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Caffeine and methylxanthines can increase cyclic adenosine monophosphate (cAMP) and worsen hormonal sensitivity; reducing caffeine intake often alleviates breast discomfort."
+    },
+    {
+      "id": "ch17_q31",
+      "topic": "Breast Pathology",
+      "difficulty": "Medium",
+      "question": "Paget disease of the nipple manifests as unilateral erythematous, scaly, eczematous crusted changes of the nipple and areola. What is the underlying pathology?",
+      "options": [
+        "Malignant intraepidermal Paget cells extending along lactiferous ducts from underlying DCIS or invasive carcinoma",
+        "Superficial fungal infection of the epidermis (Tinea corporis)",
+        "Benign allergic contact dermatitis to clothing detergents",
+        "Rupture of Montgomery's tubercles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paget disease of the breast is characterized by large malignant epithelial cells (Paget cells) with pale, clear cytoplasm that invade the epidermis of the nipple-areolar complex, almost always signaling an underlying ductal carcinoma in situ (DCIS) or invasive ductal carcinoma."
+    },
+    {
+      "id": "ch17_q32",
+      "topic": "Breast Pathology",
+      "difficulty": "Medium",
+      "question": "Fat Necrosis of the breast typically follows trauma, surgery, or radiation therapy. What are the key histological and clinical features that can mimic carcinoma?",
+      "options": [
+        "Painless hard mass with skin retraction, displaying foamy lipid-laden macrophages, chalky white deposits, and dystrophic calcification",
+        "Sheets of small round blue cells with glycogen vacuoles",
+        "Extensive papillary branching with fibrovascular cores",
+        "Diffusely dilated lactiferous ducts with green nipple discharge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fat necrosis presents as a painless, firm, ill-defined mass with skin tethering, mimicking carcinoma. Microscopically, necrotic adipocytes, foamy lipid-laden macrophages, multinucleated foreign body giant cells, and dystrophic calcification are observed."
+    },
+    {
+      "id": "ch17_q33",
+      "topic": "Breast Pathology",
+      "difficulty": "Medium",
+      "question": "What is the most common cause of unilateral, spontaneous, serosanguinous or bloody nipple discharge from a single lactiferous duct in a premenopausal woman?",
+      "options": [
+        "Intraductal Papilloma",
+        "Invasive Lobular Carcinoma",
+        "Fat necrosis",
+        "Fibroadenoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intraductal papilloma is a benign neoplastic growth within lactiferous ducts (typically subareolar). Delicate fibrovascular fronds prone to twisting and infarction cause classical unilateral bloody or serous nipple discharge."
+    },
+    {
+      "id": "ch17_q34",
+      "topic": "Breast Pathology",
+      "difficulty": "Hard",
+      "question": "Inflammatory Breast Carcinoma (IBC) presents with rapid diffuse erythema, warmth, breast enlargement, and 'peau d'orange' skin thickening. What is the pathological hallmark?",
+      "options": [
+        "Widespread tumor emboli plugging dermal lymphatic channels, causing cutaneous lymphedema",
+        "Massive neutrophilic abscess formation within the breast parenchyma",
+        "Direct rupture of breast ducts into subcutaneous fat",
+        "Diffuse thrombosis of the internal mammary vein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inflammatory breast cancer (T4d) is a clinical-pathological diagnosis where aggressive carcinoma clusters block dermal lymphatic spaces, obstructing lymph drainage and creating classic 'peau d'orange' (orange peel) pitting edema and erythema."
+    },
+    {
+      "id": "ch17_q35",
+      "topic": "Breast Pathology",
+      "difficulty": "Hard",
+      "question": "Phyllodes Tumor of the breast differs from a benign fibroadenoma by displaying which key morphological and clinical characteristic?",
+      "options": [
+        "Leaf-like stromal architecture with stromal hypercellularity, potential for rapid growth, and risk of malignant recurrence",
+        "Presence of only epithelial cells with zero stroma",
+        "Exclusively calcified necrotic cysts without cellular elements",
+        "Spontaneous regression after menopause without surgery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phyllodes tumors are fibroepithelial tumors with prominent leaf-like clefts lined by epithelium, characterized by distinct stromal hypercellularity, nuclear pleomorphism, and potential for local recurrence or hematogenous sarcomatous metastasis."
     }
   ]
 };

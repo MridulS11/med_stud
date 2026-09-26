@@ -590,6 +590,216 @@ export const ch29: Chapter = {
       ],
       "correctIndex": 0,
       "explanation": "Recurrent pregnancy loss (≥2-3 miscarriages) occurs in 3-5% of couples due to one parent carrying a balanced chromosomal translocation (reciprocal or Robertsonian). Parental karyotyping detects these balanced rearrangements."
+    },
+    {
+      "id": "ch29_q31",
+      "topic": "Pharmacogenomics",
+      "difficulty": "Hard",
+      "question": "Warfarin dosing is significantly influenced by polymorphisms in CYP2C9 and VKORC1. How do CYP2C9*2/*3 and VKORC1-1639G>A variants affect warfarin requirements?",
+      "options": [
+        "They decrease warfarin clearance and increase target enzyme sensitivity, requiring markedly lower therapeutic warfarin doses to avoid hemorrhage",
+        "They require doubling the standard dose",
+        "They cause complete resistance to warfarin",
+        "They produce immediate allergic hives"
+      ],
+      "correctIndex": 0,
+      "explanation": "CYP2C9*2 and *3 variants impair metabolic clearance of active S-warfarin. VKORC1-1639 A-allele carriers express less vitamin K epoxide reductase. Patients with these variants require substantially lower doses and have high bleeding risks."
+    },
+    {
+      "id": "ch29_q32",
+      "topic": "Pharmacogenomics",
+      "difficulty": "Medium",
+      "question": "The FDA issued a Black Box Warning against prescribing Codeine for postoperative pain in children following tonsillectomy because CYP2D6 Ultra-Rapid Metabolizers:",
+      "options": [
+        "Convert codeine into active morphine rapidly and unpredictably, causing life-threatening respiratory depression and fatal opioid overdose",
+        "Develop severe acute liver necrosis",
+        "Experience zero pain relief due to enzyme blockage",
+        "Develop severe generalized myopathy"
+      ],
+      "correctIndex": 0,
+      "explanation": "CYP2D6 converts codeine to morphine. Ultra-rapid metabolizers (harboring CYP2D6 gene duplications) bioactivate codeine excessively fast, producing lethal serum morphine concentrations even at standard recommended pediatric doses."
+    },
+    {
+      "id": "ch29_q33",
+      "topic": "Pharmacogenomics",
+      "difficulty": "Hard",
+      "question": "Clopidogrel (Plavix) is an antiplatelet prodrug that requires bioactivation by which hepatic enzyme? Patients with loss-of-function *2 alleles are at high risk for coronary stent thrombosis.",
+      "options": [
+        "CYP2C19",
+        "CYP3A4",
+        "CYP1A2",
+        "CYP2E1"
+      ],
+      "correctIndex": 0,
+      "explanation": "CYP2C19 converts clopidogrel to its active thiol metabolite. Individuals who are CYP2C19 poor metabolizers (*2 or *3 alleles) have diminished platelet inhibition and higher rates of recurrent ischemic cardiovascular events."
+    },
+    {
+      "id": "ch29_q34",
+      "topic": "Gene Therapy",
+      "difficulty": "Hard",
+      "question": "What is the primary biological packaging size limitation of Adeno-Associated Viral (AAV) vectors that restricts their use for large transgenes like full-length dystrophin?",
+      "options": [
+        "Packaging capacity is strictly capped at approximately 4.7 to 5.0 kilobases (kb) of single-stranded DNA",
+        "AAV vectors can only carry 500 base pairs",
+        "AAV vectors only package RNA",
+        "AAV vectors cannot enter human nuclei"
+      ],
+      "correctIndex": 0,
+      "explanation": "The wild-type AAV capsid physically accommodates a maximum genome size of ~4.7-5.0 kb. Genes exceeding this length (e.g., full-length dystrophin 14 kb, factor VIII 7 kb) cannot be packaged into a single AAV vector."
+    },
+    {
+      "id": "ch29_q35",
+      "topic": "Gene Therapy",
+      "difficulty": "Hard",
+      "question": "Early clinical trials of gamma-retroviral gene therapy for X-linked Severe Combined Immunodeficiency (SCID-X1) were complicated by insertional oncogenesis (T-cell leukemia) because retroviruses:",
+      "options": [
+        "Integrated preferentially near the LMO2 proto-oncogene promoter, causing constitutive oncogene activation",
+        "Directly infected somatic neurons",
+        "Caused massive destruction of normal bone marrow cells",
+        "Induced immediate liver necrosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gamma-retroviral long terminal repeats (LTRs) contain strong viral enhancers that activated the adjacent LMO2 proto-oncogene upon integration, inducing clonal T-ALL. This led to modern self-inactivating (SIN) lentiviral vectors."
+    },
+    {
+      "id": "ch29_q36",
+      "topic": "CAR-T Therapy",
+      "difficulty": "Hard",
+      "question": "Cytokine Release Syndrome (CRS) following Chimeric Antigen Receptor (CAR) T-cell infusion is driven primarily by hyperactivation of macrophages and elevated levels of which key cytokine?",
+      "options": [
+        "Interleukin-6 (IL-6, treated with Tocilizumab)",
+        "Interleukin-2 alone",
+        "Histamine",
+        "Bradykinin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Infused CAR-T cells triggering massive immune responses induce host macrophages to secrete large amounts of IL-6, IL-1, and TNF-alpha, producing fever, vasodilation, and hypotension. Tocilizumab (IL-6 receptor antagonist) is the antidote."
+    },
+    {
+      "id": "ch29_q37",
+      "topic": "Genome Editing",
+      "difficulty": "Hard",
+      "question": "How do newer precision editing platforms like 'Base Editing' and 'Prime Editing' improve upon classical CRISPR-Cas9 nuclease editing?",
+      "options": [
+        "They engineer precise single-nucleotide transitions or insertions WITHOUT creating double-strand DNA breaks, minimizing toxic indels and chromosomal translocations",
+        "They work without any guide RNA",
+        "They do not require Cas enzymes",
+        "They only operate in dead cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base editors and prime editors use catalytically impaired Cas9 nickases fused to deaminases or reverse transcriptases, enabling targeted base conversion without generating dangerous double-strand breaks."
+    },
+    {
+      "id": "ch29_q38",
+      "topic": "Genome Editing",
+      "difficulty": "Medium",
+      "question": "Casgevy (Exagamglogene autotemcel) is the first FDA/EMA-approved CRISPR therapeutic. It cures Sickle Cell Disease by using CRISPR-Cas9 to edit:",
+      "options": [
+        "The erythroid-specific enhancer of the BCL11A gene in autologous hematopoietic stem cells, reactivating fetal hemoglobin (HbF)",
+        "The mutant beta-globin codon 6 directly",
+        "The alpha-globin locus",
+        "The transferrin receptor gene"
+      ],
+      "correctIndex": 0,
+      "explanation": "BCL11A is the master transcriptional repressor that shuts off gamma-globin (fetal hemoglobin) after birth. Casgevy uses CRISPR to disrupt the erythroid enhancer of BCL11A, turning off repression and reactivating massive protective HbF synthesis."
+    },
+    {
+      "id": "ch29_q39",
+      "topic": "Pedigree Analysis",
+      "difficulty": "Medium",
+      "question": "When constructing a standardized medical pedigree, how are Dizygotic (fraternal) Twins represented?",
+      "options": [
+        "Two diagonal lines originating from a single point on the sibship line without a horizontal bar connecting them",
+        "Two squares with a double horizontal line",
+        "A single circle with a dot inside",
+        "Two diamonds connected by a vertical bar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dizygotic (fraternal) twins branch as two separate diagonal lines from a single point on the sibship line. Monozygotic (identical) twins have an additional horizontal bar connecting the two diagonal branches."
+    },
+    {
+      "id": "ch29_q40",
+      "topic": "Pedigree Analysis",
+      "difficulty": "Easy",
+      "question": "On a medical genetic pedigree chart, what does a small dot inside a circle or square symbol designate?",
+      "options": [
+        "An obligate asymptomatic carrier of an X-linked recessive trait",
+        "A deceased family member",
+        "An affected individual with severe disease",
+        "A patient who refused genetic testing"
+      ],
+      "correctIndex": 0,
+      "explanation": "By international pedigree standards, a dot placed in the center of a circle or square indicates an obligate asymptomatic carrier (typically of an X-linked recessive gene)."
+    },
+    {
+      "id": "ch29_q41",
+      "topic": "Genetic Counseling",
+      "difficulty": "Medium",
+      "question": "What is the core meaning of 'Non-Directive Counseling' in medical genetics?",
+      "options": [
+        "The counselor provides objective medical facts, inheritance risks, and available options, supporting the patient's autonomous decision without steering or imposing judgment",
+        "The counselor refuses to answer patient questions",
+        "The counselor directs the patient toward termination of affected fetuses",
+        "The counselor makes the final medical decision on behalf of the family"
+      ],
+      "correctIndex": 0,
+      "explanation": "Non-directive counseling is the philosophical foundation of genetic counseling: clinicians provide clear, unbiased clinical facts and empathetic counseling while empowering families to make voluntary decisions aligned with their personal, moral, and cultural values."
+    },
+    {
+      "id": "ch29_q42",
+      "topic": "GINA Legislation",
+      "difficulty": "Medium",
+      "question": "Under the Genetic Information Nondiscrimination Act of 2008 (GINA), which employer action is strictly illegal?",
+      "options": [
+        "Refusing to hire, terminating, or demoting an employee based on predictive genetic test results or family history of disease",
+        "Requesting a physical drug screening test",
+        "Asking an employee to provide a doctor's sick leave note",
+        "Inquiring about an employee's current active symptoms on the job"
+      ],
+      "correctIndex": 0,
+      "explanation": "GINA Title II strictly prohibits employers (with >=15 employees) from requesting, purchasing, or using genetic information (including family medical history and genetic test results) in hiring, firing, promotions, or terms of employment."
+    },
+    {
+      "id": "ch29_q43",
+      "topic": "GINA Legislation",
+      "difficulty": "Medium",
+      "question": "Under GINA Title I, how are health insurance companies regulated regarding genetic information?",
+      "options": [
+        "They CANNOT use genetic test results to deny coverage, set premium rates, or treat genetic predisposition as a pre-existing condition",
+        "They are permitted to deny coverage if a BRCA mutation is found",
+        "They can mandate genetic testing prior to issuing a policy",
+        "They can cancel insurance policies after an abnormal genetic test"
+      ],
+      "correctIndex": 0,
+      "explanation": "GINA Title I prohibits group and individual health insurers from using genetic information to determine eligibility, adjust premium rates, or impose pre-existing condition exclusions; insurers cannot require genetic testing."
+    },
+    {
+      "id": "ch29_q44",
+      "topic": "GINA Legislation",
+      "difficulty": "Hard",
+      "question": "Which forms of insurance are EXEMPT from GINA protections, meaning underwriters can legally deny coverage or charge higher rates based on genetic test results?",
+      "options": [
+        "Life Insurance, Disability Insurance, and Long-Term Care Insurance",
+        "Comprehensive Health Insurance",
+        "Medicare Part B",
+        "Group health maintenance organization plans"
+      ],
+      "correctIndex": 0,
+      "explanation": "GINA protections apply ONLY to health insurance and employment. It does NOT protect against genetic discrimination in Life Insurance, Disability Insurance, or Long-Term Care Insurance policies."
+    },
+    {
+      "id": "ch29_q45",
+      "topic": "Nursing Advocacy",
+      "difficulty": "Medium",
+      "question": "What is the primary professional role of a registered nurse when assessing a patient's family health history in an outpatient clinic?",
+      "options": [
+        "Identify genomic 'red flags' (e.g., early-onset disease, bilateral cancers, multiple affected generations) and advocate for timely genetic specialist referral",
+        "Personally perform molecular gene sequencing in the clinic",
+        "Advise the patient that genetic conditions are always incurable",
+        "Disclose genetic test results to family members without patient consent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registered nurses serve as vital frontline advocates by constructing accurate 3-generation pedigrees, recognizing red flags that suggest hereditary predisposition, educating patients on testing implications, and coordinating prompt genetic counseling referrals."
     }
   ],
   "mindMap": {

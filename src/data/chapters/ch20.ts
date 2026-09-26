@@ -683,6 +683,216 @@ export const ch20: Chapter = {
       ],
       "correctIndex": 1,
       "explanation": "Sitting upright leaning forward onto an overbed table opens the posterior rib spaces and allows gravity to pool pleural fluid in the dependent posterior costodiaphragmatic recess."
+    },
+    {
+      "id": "ch20_q31",
+      "topic": "CSF Analysis",
+      "difficulty": "Hard",
+      "question": "Spectrophotometric detection of Xanthochromia (yellowish discoloration of centrifuged CSF supernatant) differentiates Subarachnoid Hemorrhage from a traumatic tap due to enzymatic breakdown of hemoglobin into:",
+      "options": [
+        "Bilirubin (absorbance peak at 450-460 nm) and Oxyhemoglobin (415 nm)",
+        "Methemoglobin alone",
+        "Hemosiderin alone",
+        "Myoglobin"
+      ],
+      "correctIndex": 0,
+      "explanation": "In genuine subarachnoid hemorrhage, red blood cells lyse in the subarachnoid space and are converted by macrophages into oxyhemoglobin (absorbance at 415 nm) and bilirubin (absorbance at 450-460 nm) over 6-12 hours, creating xanthochromia that persists after centrifugation."
+    },
+    {
+      "id": "ch20_q32",
+      "topic": "CSF Analysis",
+      "difficulty": "Medium",
+      "question": "Which clinical observation during a lumbar puncture strongly favors a 'Traumatic Tap' rather than a genuine Subarachnoid Hemorrhage?",
+      "options": [
+        "Progressive clearing of blood from tube 1 to tube 4, and clear colorless supernatant after centrifugation",
+        "Uniform gross blood across all 4 collection tubes",
+        "Xanthochromic supernatant immediately after centrifuging tube 1",
+        "Elevated opening pressure >300 mmH2O with erythrocyte crenation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A traumatic tap is caused by accidental puncture of the epidural venous plexus; blood clears progressively between collection tubes 1 and 4, and centrifugation produces a clear, colorless supernatant (no xanthochromia)."
+    },
+    {
+      "id": "ch20_q33",
+      "topic": "CSF Analysis",
+      "difficulty": "Hard",
+      "question": "Elevated CSF Lactate concentration (>35 mg/dL or >3.9 mmol/L) is a rapid, sensitive biomarker used clinically to differentiate which two conditions?",
+      "options": [
+        "Bacterial Meningitis (elevated lactate) from Viral Aseptic Meningitis (normal lactate)",
+        "Multiple Sclerosis from Guillain-Barre",
+        "Subarachnoid hemorrhage from ischemic stroke",
+        "Toxoplasmosis from Cryptococcosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anaerobic metabolism by polymorphonuclear leukocytes and ischemic brain tissue elevates CSF lactate in bacterial and fungal meningitis (>35 mg/dL), whereas viral meningitis characteristically exhibits normal CSF lactate (<20-25 mg/dL)."
+    },
+    {
+      "id": "ch20_q34",
+      "topic": "Pleural Fluid Analysis",
+      "difficulty": "Hard",
+      "question": "A pleural fluid pH below 7.20 in a parapneumonic effusion (associated with bacterial pneumonia) indicates which mandatory clinical action?",
+      "options": [
+        "Prompt placement of a chest tube (tube thoracostomy) for drainage of complicated effusion / empyema",
+        "Discharging the patient on oral antibiotics",
+        "Performing an immediate thoracotomy without drainage",
+        "Administering IV bicarbonate into the pleural space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pleural fluid pH < 7.20 (or pleural glucose < 40-60 mg/dL, or positive Gram stain/culture) defines a complicated parapneumonic effusion that cannot resolve with systemic antibiotics alone and mandates urgent intercostal chest tube drainage."
+    },
+    {
+      "id": "ch20_q35",
+      "topic": "Pleural Fluid Analysis",
+      "difficulty": "Medium",
+      "question": "Milky, opalescent pleural fluid that fails to clear after centrifugation, with a pleural triglyceride level >110 mg/dL, confirms the diagnosis of:",
+      "options": [
+        "Chylothorax (disruption or obstruction of the thoracic duct)",
+        "Pseudochylothorax",
+        "Bacterial empyema",
+        "Malignant mesothelioma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chylothorax occurs when chyle leaks from the thoracic duct (due to trauma, surgery, or lymphoma) into the pleural space, confirmed by elevated pleural fluid triglycerides > 110 mg/dL and presence of chylomicrons."
+    },
+    {
+      "id": "ch20_q36",
+      "topic": "Peritoneal Fluid Analysis",
+      "difficulty": "Hard",
+      "question": "What is the diagnostic threshold on ascitic fluid analysis that confirms Spontaneous Bacterial Peritonitis (SBP) and mandates immediate IV antibiotic therapy?",
+      "options": [
+        "Ascitic fluid absolute polymorphonuclear neutrophil (PMN) count >= 250 cells/mm3",
+        "Total white blood cell count >= 50 cells/mm3",
+        "Presence of visible green bile staining",
+        "Ascitic protein > 3.0 g/dL"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ascitic fluid absolute neutrophil count (total WBC x % neutrophils) >= 250 cells/mm3 (0.25 x 10^9/L) is the established diagnostic gold standard for SBP, warranting immediate empiric broad-spectrum antibiotic therapy (e.g., IV Cefotaxime)."
+    },
+    {
+      "id": "ch20_q37",
+      "topic": "Peritoneal Fluid Analysis",
+      "difficulty": "Medium",
+      "question": "In patients undergoing continuous ambulatory peritoneal dialysis (CAPD), peritonitis is clinically diagnosed when the dialysate effluent is cloudy and contains:",
+      "options": [
+        "WBC count > 100/µL with at least 50% polymorphonuclear neutrophils",
+        "WBC count > 10/µL with 100% eosinophils",
+        "RBC count > 5,000/µL without white cells",
+        "Glucose concentration > 200 mg/dL"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peritoneal dialysis peritonitis is defined by cloudy dialysate effluent containing > 100 WBCs/µL with > 50% PMNs, typically presenting with abdominal pain and fever."
+    },
+    {
+      "id": "ch20_q38",
+      "topic": "Synovial Fluid Analysis",
+      "difficulty": "Hard",
+      "question": "Under polarizing light microscopy with a red compensator filter, Monosodium Urate (MSU) crystals in Gout exhibit which optical properties?",
+      "options": [
+        "Needle-shaped crystals with strong NEGATIVE birefringence (yellow when parallel to the compensator axis)",
+        "Rhomboid-shaped crystals with weak positive birefringence (blue when parallel)",
+        "Bipyramidal crystals with zero birefringence",
+        "Amorphous non-birefringent granules"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monosodium urate crystals in gout are needle-shaped and show strong negative birefringence: they appear yellow when aligned parallel to the slow axis of the red compensator filter, and blue when perpendicular."
+    },
+    {
+      "id": "ch20_q39",
+      "topic": "Synovial Fluid Analysis",
+      "difficulty": "Hard",
+      "question": "Calcium Pyrophosphate Dihydrate (CPPD) crystals in Pseudogout (Chondrocalcinosis) are microscopically identified by which optical properties?",
+      "options": [
+        "Rhomboid or rod-shaped crystals with weak POSITIVE birefringence (blue when parallel to the compensator axis)",
+        "Needle-shaped with strong negative birefringence",
+        "Hexagonal plates with no birefringence",
+        "Envelope-shaped with cross-polarization"
+      ],
+      "correctIndex": 0,
+      "explanation": "CPPD crystals in pseudogout are rhomboid-shaped and exhibit weak positive birefringence: they appear blue when aligned parallel to the compensator axis and yellow when perpendicular."
+    },
+    {
+      "id": "ch20_q40",
+      "topic": "Pericardial Fluid Analysis",
+      "difficulty": "Medium",
+      "question": "Cardiac Tamponade (life-threatening hemodynamic collapse from acute pericardial effusion accumulation) is clinically recognized by Beck's Triad, which consists of:",
+      "options": [
+        "Hypotension, Jugular Venous Distension (JVD), and Muffled Heart Sounds",
+        "Hypertension, Bradycardia, and Irregular respirations (Cushing triad)",
+        "Fever, Pleuritic chest pain, and Friction rub",
+        "Cyanosis, Clubbing, and Polycythemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beck's triad of cardiac tamponade comprises hypotension (due to impaired ventricular diastolic filling), elevated jugular venous pressure (JVD), and distant/muffled heart sounds, frequently accompanied by pulsus paradoxus."
+    },
+    {
+      "id": "ch20_q41",
+      "topic": "Gastric Juice Analysis",
+      "difficulty": "Hard",
+      "question": "In the clinical evaluation of refractory peptic ulcer disease, a Basal Acid Output (BAO) to Maximal Acid Output (MAO) ratio > 0.6 strongly suggests:",
+      "options": [
+        "Zollinger-Ellison Syndrome (Gastrinoma)",
+        "Pernicious anemia",
+        "Atrophic gastritis",
+        "Gastric adenocarcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Zollinger-Ellison syndrome (gastrin-secreting neuroendocrine tumor), autonomous gastrin secretion drives near-maximal basal acid secretion, producing a BAO/MAO ratio > 0.6."
+    },
+    {
+      "id": "ch20_q42",
+      "topic": "Wound Discharge Analysis",
+      "difficulty": "Medium",
+      "question": "Which swab technique is evidence-based and recommended for obtaining wound cultures from chronic ulcers to avoid surface colonizers?",
+      "options": [
+        "Levine technique: Swabbing a clean 1 cm2 area of viable granulation tissue with sufficient pressure to express fluid",
+        "Swabbing the hard dry necrotic eschar on the surface",
+        "Wiping across the intact surrounding periwound skin",
+        "Collecting stagnant exudate pooled at the wound edge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Levine technique (cleansing wound with normal saline, then rotating swab over a 1 cm2 area of clean granulation tissue with enough pressure to express fluid) is the validated gold standard for sampling true deep pathogens rather than superficial skin flora."
+    },
+    {
+      "id": "ch20_q43",
+      "topic": "Sputum Examination",
+      "difficulty": "Medium",
+      "question": "According to Bartlett's and Murray-Washington criteria, a sputum specimen is considered acceptable for microbiological culture if microscopic examination of the Gram stain shows:",
+      "options": [
+        "> 25 Polymorphonuclear Leukocytes (PMNs) and < 10 Squamous Epithelial Cells per 100x field",
+        "> 25 Squamous epithelial cells and < 10 PMNs",
+        "Purely squamous epithelial cells with saliva",
+        "Zero leukocytes and zero bacteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "A high-quality deep productive sputum specimen must have > 25 PMNs and < 10 squamous epithelial cells (indicating minimal oral saliva contamination) under low-power field (100x) examination."
+    },
+    {
+      "id": "ch20_q44",
+      "topic": "Pleural Fluid Analysis",
+      "difficulty": "Medium",
+      "question": "A markedly elevated pleural fluid Amylase concentration (higher than concurrent serum amylase) narrows the differential diagnosis to which two conditions?",
+      "options": [
+        "Acute/chronic pancreatitis and Esophageal rupture (Boerhaave syndrome)",
+        "Congestive heart failure and Cirrhosis",
+        "Rheumatoid pleurisy and Tuberculosis",
+        "Pulmonary embolism and Nephrotic syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elevated pleural fluid amylase indicates either transdiaphragmatic lymphatic tracking from pancreatitis (pancreatic amylase isoform) or salivary amylase leakage from transmural esophageal perforation / Boerhaave syndrome (salivary amylase isoform)."
+    },
+    {
+      "id": "ch20_q45",
+      "topic": "Peritoneal Fluid Analysis",
+      "difficulty": "Medium",
+      "question": "In a patient with cirrhosis undergoing therapeutic paracentesis, what is the mandatory nursing and medical intervention when removing >5 liters of ascitic fluid?",
+      "options": [
+        "Administer intravenous 20% or 25% Albumin (6-8 grams per liter of ascites removed) to prevent Paracentesis-Induced Circulatory Dysfunction (PICD)",
+        "Infuse 2 liters of normal saline rapidly",
+        "Administer high-dose furosemide IV push",
+        "Keep the patient strictly NPO for 48 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Large-volume paracentesis (>5 liters) causes abrupt visceral vasodilation and severe intravascular hypovolemia (PICD). Infusion of 20-25% IV albumin (6-8 g per liter of fluid removed above 5 L) preserves effective arterial volume and renal perfusion."
     }
   ]
 };
