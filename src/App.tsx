@@ -25,6 +25,10 @@ export const App: React.FC = () => {
     return localStorage.getItem('marrow_auth_user') || 'student@marrow.med';
   });
 
+  const [userName, setUserName] = useState<string>(() => {
+    return localStorage.getItem('marrow_auth_name') || '';
+  });
+
   const [currentView, setCurrentView] = useState<'syllabus' | 'hub' | 'notes' | 'quiz' | 'mindmap'>('syllabus');
   const [selectedChapterId, setSelectedChapterId] = useState<string>('ch14');
 
@@ -49,14 +53,17 @@ export const App: React.FC = () => {
     }
   }, [progress]);
 
-  const handleLoginSuccess = (email: string) => {
+  const handleLoginSuccess = (email: string, name?: string) => {
     setUserEmail(email);
+    if (name) setUserName(name);
     setIsAuthenticated(true);
     setCurrentView('syllabus');
   };
 
   const handleLogout = () => {
     localStorage.removeItem('marrow_auth_user');
+    localStorage.removeItem('marrow_auth_name');
+    setUserName('');
     setIsAuthenticated(false);
   };
 
@@ -107,6 +114,7 @@ export const App: React.FC = () => {
     <div className="min-h-screen bg-[#E8ECE7] text-stone-900 flex flex-col font-sans antialiased selection:bg-amber-200">
       <Navbar
         userEmail={userEmail}
+        userName={userName}
         onLogout={handleLogout}
         activeView={currentView}
         currentChapter={currentChapter}

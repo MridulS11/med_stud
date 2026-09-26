@@ -4,6 +4,7 @@ import { Chapter } from '../types';
 
 interface NavbarProps {
   userEmail: string;
+  userName?: string;
   onLogout: () => void;
   activeView: 'syllabus' | 'hub' | 'notes' | 'quiz' | 'mindmap';
   currentChapter?: Chapter;
@@ -15,6 +16,7 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({
   userEmail,
+  userName,
   onLogout,
   activeView,
   currentChapter,
@@ -105,10 +107,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* User profile & Logout */}
           <div className="flex items-center gap-2 border-l border-stone-300/70 pl-3 sm:pl-4">
             <div className="w-8 h-8 rounded-full bg-amber-100 border border-amber-300 flex items-center justify-center text-amber-800 font-bold text-xs">
-              {userEmail ? userEmail.charAt(0).toUpperCase() : 'U'}
+              {userName ? userName.charAt(0).toUpperCase() : userEmail ? userEmail.charAt(0).toUpperCase() : 'U'}
             </div>
-            <span className="text-xs font-medium text-stone-700 hidden xl:inline max-w-[120px] truncate">
-              {userEmail.split('@')[0]}
+            <span className="text-xs font-medium text-stone-700 hidden xl:inline max-w-[140px] truncate">
+              {userName || userEmail.split('@')[0]}
             </span>
             <button
               onClick={onLogout}
