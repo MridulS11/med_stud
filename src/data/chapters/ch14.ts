@@ -300,15 +300,15 @@ export const ch14: Chapter = {
       "id": "ch14_q1",
       "topic": "Glomerulonephritis",
       "difficulty": "Easy",
-      "question": "Which of the following urinary sediment findings is considered pathognomonic for acute glomerulonephritis?",
+      "question": "Which classical clinical presentation defines Acute Nephritic Syndrome resulting from acute glomerular inflammation?",
       "options": [
-        "White blood cell casts",
-        "Red blood cell casts",
-        "Hyaline casts",
-        "Broad waxy casts"
+        "Gross hematuria (smoky/cola-colored urine), hypertension, mild periorbital edema, and oliguria",
+        "Massive proteinuria (>3.5 g/24h), severe generalized anasarca, hyperlipidemia, and lipiduria",
+        "Sudden acute flank pain radiating to the groin with microscopic hematuria and no edema",
+        "Painless gross hematuria in an elderly cigarette smoker with no constitutional symptoms"
       ],
-      "correctIndex": 1,
-      "explanation": "Red blood cell (RBC) casts are pathognomonic of acute glomerulonephritis and nephritic syndrome, confirming that hematuria originates from the glomerular capillaries rather than the lower urinary tract."
+      "correctIndex": 0,
+      "explanation": "Acute Nephritic Syndrome is characterized by the classic constellation of sudden-onset gross hematuria (cola-colored urine), fluid overload with hypertension and periorbital edema, and decreased GFR leading to oliguria."
     },
     {
       "id": "ch14_q2",
@@ -594,15 +594,15 @@ export const ch14: Chapter = {
       "id": "ch14_q22",
       "topic": "Renal Calculi",
       "difficulty": "Medium",
-      "question": "Hexagonal benzene-ring shaped crystals identified in acidic urine are diagnostic for which condition?",
+      "question": "Which type of renal calculus is notoriously radiolucent on conventional plain abdominal radiographs (KUB), requiring non-contrast CT for radiographic visualization?",
       "options": [
-        "Gouty arthritis",
-        "Primary hyperparathyroidism",
-        "Cystinuria",
-        "Ethylene glycol poisoning"
+        "Uric acid calculi",
+        "Calcium oxalate calculi",
+        "Struvite (triple phosphate) calculi",
+        "Calcium phosphate calculi"
       ],
-      "correctIndex": 2,
-      "explanation": "Clear hexagonal plate-like crystals are pathognomonic for cystinuria, an autosomal recessive defect in the dibasic amino acid transporter (COLA: cystine, ornithine, lysine, arginine)."
+      "correctIndex": 0,
+      "explanation": "Uric acid stones are radiolucent on plain X-rays (KUB) because of their low atomic weight, but they are clearly visualized on non-contrast helical CT scans. Calcium oxalate and struvite stones are radio-opaque."
     },
     {
       "id": "ch14_q23",
@@ -971,16 +971,16 @@ export const ch14: Chapter = {
     {
       "id": "ch14_q49",
       "topic": "Glomerular Diseases",
-      "difficulty": "Medium",
-      "question": "Why are patients with heavy Nephrotic Syndrome at markedly elevated risk for deep vein thrombosis and renal vein thrombosis?",
+      "difficulty": "Hard",
+      "question": "Under electron microscopy, which ultrastructural hallmark is characteristically diagnostic of Post-Streptococcal Glomerulonephritis (PSGN)?",
       "options": [
-        "Urinary loss of endogenous Antithrombin III and Protein C/S combined with hepatic fibrinogen synthesis",
-        "Direct toxic damage to vascular endothelial cells by proteinuria",
-        "Profound thrombocytopenia caused by glomerular trapping",
-        "Reduced plasma viscosity from hypoalbuminemia"
+        "Large subepithelial electron-dense immune deposits ('humps') between podocyte foot processes and the GBM",
+        "Extensive subendothelial immune deposits causing 'tram-track' splitting of the GBM",
+        "Thick, continuous, ribbon-like intramembranous dense deposits within the lamina densa",
+        "Complete effacement of visceral epithelial foot processes without any immune deposits"
       ],
       "correctIndex": 0,
-      "explanation": "Nephrotic syndrome is a major hypercoagulable state due to urinary excretion of anticoagulant regulatory proteins (Antithrombin III, Protein C and S) and compensatory hepatic up-regulation of procoagulant factor synthesis (fibrinogen)."
+      "explanation": "Post-infectious (post-streptococcal) glomerulonephritis characteristically demonstrates discrete, dome-shaped subepithelial electron-dense humps representing immune complexes that have migrated across the GBM."
     },
     {
       "id": "ch14_q50",

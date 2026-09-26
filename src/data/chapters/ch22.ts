@@ -28,7 +28,7 @@ export const ch22: Chapter = {
       "nursingManagement": [
         "For clean-catch midstream urine: Cleanse external genitalia with sterile water (wipe front-to-back), void first 30 mL into toilet, collect the middle 30-50 mL into a sterile container, and finish voiding into the toilet.",
         "24-Hour Urine Collection: Instruct patient to void and DISCARD the first morning urine on Day 1 (record exact start time), collect ALL subsequent urine for 24 hours including the first morning urine of Day 2; keep collection jug refrigerated or on ice.",
-        "Examine urine specimens within 1 to 2 hours of collection; if delayed, refrigerate at 4°C to prevent bacterial multiplication, urea decomposition, and cast disintegration."
+        "Examine urine specimens within 1 to 2 hours of collection; if delayed, refrigerate at 4\u00b0C to prevent bacterial multiplication, urea decomposition, and cast disintegration."
       ],
       "examPearls": [
         "Isosthenuria (specific gravity fixed at 1.010, the SG of protein-free glomerular filtrate) indicates advanced chronic kidney disease.",
@@ -44,7 +44,7 @@ export const ch22: Chapter = {
       "summary": "Biochemical testing of urine for protein, glucose, ketones, bilirubin, urobilinogen, occult blood, leukocyte esterase, and nitrite.",
       "pathophysiology": "Glomerular basement membranes normally repel negatively charged albumin and restrict molecules >68 kDa. In disease states, filtration barriers break down or tubular reabsorption is saturated, permitting chemical markers to appear in urine.",
       "clinicalFeatures": [
-        "Proteinuria: Dipstick detects predominantly Albumin via the 'protein error of indicators' (tetrabromphenol blue). Sulfosalicylic Acid (SSA) Precipitation Test detects ALL proteins (albumin, globulins, Bence-Jones light chains). Bence-Jones Protein (Multiple Myeloma): Precipitates at 56°C, redissolves upon boiling at 100°C, and reprecipitates upon cooling.",
+        "Proteinuria: Dipstick detects predominantly Albumin via the 'protein error of indicators' (tetrabromphenol blue). Sulfosalicylic Acid (SSA) Precipitation Test detects ALL proteins (albumin, globulins, Bence-Jones light chains). Bence-Jones Protein (Multiple Myeloma): Precipitates at 56\u00b0C, redissolves upon boiling at 100\u00b0C, and reprecipitates upon cooling.",
         "Glucosuria: Dipstick uses Glucose Oxidase (specific for D-glucose). Benedict's Qualitative Test uses copper reduction (detects all reducing sugars: glucose, galactose, fructose, lactose; forms a green, yellow, orange, or brick-red precipitate). Renal threshold for glucose is ~180 mg/dL.",
         "Ketonuria: Rothera's Nitroprusside Test forms a purple-violet ring detecting acetoacetic acid and acetone (beta-hydroxybutyrate is NOT detected); positive in diabetic ketoacidosis, starvation, prolonged vomiting.",
         "Bilirubin & Bile Salts: Fouchet's Test (barium chloride precipitation + Fouchet's reagent -> emerald green biliverdin) detects conjugated bilirubin in obstructive/hepatocellular jaundice. Hay's Sulphur Test (sulphur powder sinks due to reduced surface tension) detects bile salts in obstructive jaundice.",
@@ -65,7 +65,7 @@ export const ch22: Chapter = {
       ],
       "examPearls": [
         "Urine dipstick tests for protein detect only Albumin; they miss Bence-Jones immunoglobulin light chains, which require the Sulfosalicylic Acid (SSA) test.",
-        "Bence-Jones proteins precipitate at 56°C and redissolve completely at 100°C.",
+        "Bence-Jones proteins precipitate at 56\u00b0C and redissolve completely at 100\u00b0C.",
         "High doses of Vitamin C (ascorbic acid) can cause false-negative dipstick reactions for glucose, blood, and nitrite."
       ],
       "imagePath": "/images/ch22_dipstick_chart.png",
@@ -162,7 +162,7 @@ export const ch22: Chapter = {
         "Common Uropathogens: Escherichia coli (75-85%), Klebsiella pneumoniae, Proteus mirabilis, Enterococcus faecalis, Pseudomonas aeruginosa, and Staphylococcus saprophyticus (common in sexually active young women)."
       ],
       "diagnostics": [
-        "Calibrated Loop Inoculation: 0.001 mL (1 uL) of uncentrifuged urine inoculated onto Blood Agar and MacConkey Agar; incubated at 37°C for 24-48 hours. Number of colonies multiplied by 1,000 gives CFU/mL.",
+        "Calibrated Loop Inoculation: 0.001 mL (1 uL) of uncentrifuged urine inoculated onto Blood Agar and MacConkey Agar; incubated at 37\u00b0C for 24-48 hours. Number of colonies multiplied by 1,000 gives CFU/mL.",
         "Antimicrobial Susceptibility Testing: Kirby-Bauer disk diffusion method or automated VITEK broth microdilution determining Minimum Inhibitory Concentration (MIC).",
         "Rapid Automated Screening: Bioluminescence and flow cytometry detecting bacterial ATP."
       ],
@@ -170,7 +170,7 @@ export const ch22: Chapter = {
       "nursingManagement": [
         "Collect urine for culture BEFORE initiating antibiotic therapy whenever possible.",
         "In catheterized patients, never take culture urine from the drainage bag; aspirate with a sterile needle/syringe from the designated catheter sampling port after wiping with alcohol.",
-        "Transport culture specimens to the microbiology laboratory within 1 hour, or refrigerate at 4°C for a maximum of 24 hours."
+        "Transport culture specimens to the microbiology laboratory within 1 hour, or refrigerate at 4\u00b0C for a maximum of 24 hours."
       ],
       "examPearls": [
         "Kass criterion defines significant bacteriuria as >= 10^5 CFU/mL in a clean-catch midstream urine specimen.",
@@ -206,7 +206,7 @@ export const ch22: Chapter = {
         "id": "u4",
         "label": "Bence-Jones Protein",
         "category": "clinical",
-        "description": "Multiple myeloma protein precipitating at 56°C and redissolving at 100°C"
+        "description": "Multiple myeloma protein precipitating at 56\u00b0C and redissolving at 100\u00b0C"
       },
       {
         "id": "u5",
@@ -311,13 +311,13 @@ export const ch22: Chapter = {
       "difficulty": "Medium",
       "question": "Which unique thermal behavior is characteristic of Bence-Jones proteins in patients with Multiple Myeloma?",
       "options": [
-        "Precipitates at 0°C and dissolves at room temperature",
-        "Precipitates upon heating to 56°C, redissolves completely upon boiling at 100°C, and reprecipitates upon cooling",
+        "Precipitates at 0\u00b0C and dissolves at room temperature",
+        "Precipitates upon heating to 56\u00b0C, redissolves completely upon boiling at 100\u00b0C, and reprecipitates upon cooling",
         "Never precipitates with heat",
-        "Turns bright yellow at 100°C"
+        "Turns bright yellow at 100\u00b0C"
       ],
       "correctIndex": 1,
-      "explanation": "Bence-Jones proteins (monoclonal immunoglobulin light chains) characteristically precipitate between 40-60°C (usually 56°C), redissolve at 100°C, and reappear when cooled."
+      "explanation": "Bence-Jones proteins (monoclonal immunoglobulin light chains) characteristically precipitate between 40-60\u00b0C (usually 56\u00b0C), redissolve at 100\u00b0C, and reappear when cooled."
     },
     {
       "id": "ch22_q3",
@@ -717,27 +717,27 @@ export const ch22: Chapter = {
       "difficulty": "Hard",
       "question": "Bence Jones proteins (free monoclonal immunoglobulin light chains found in Multiple Myeloma) are characterized by which classical thermal behavior in urine?",
       "options": [
-        "Precipitate at 40°C to 60°C, redissolve upon boiling at 100°C, and reprecipitate upon cooling",
-        "Precipitate only at boiling temperatures (>100°C)",
+        "Precipitate at 40\u00b0C to 60\u00b0C, redissolve upon boiling at 100\u00b0C, and reprecipitate upon cooling",
+        "Precipitate only at boiling temperatures (>100\u00b0C)",
         "Remain soluble at all temperatures",
         "Precipitate permanently with hydrochloric acid"
       ],
       "correctIndex": 0,
-      "explanation": "Bence Jones proteins precipitate as a white cloud at 40-60°C and characteristically clear/redissolve when heated to boiling (100°C), reprecipitating as the temperature drops below 60°C."
+      "explanation": "Bence Jones proteins precipitate as a white cloud at 40-60\u00b0C and characteristically clear/redissolve when heated to boiling (100\u00b0C), reprecipitating as the temperature drops below 60\u00b0C."
     },
     {
       "id": "ch22_q32",
       "topic": "Dipstick Analysis",
       "difficulty": "Medium",
-      "question": "Why does a standard dipstick urinalysis frequently yield a FALSE-NEGATIVE protein result in patients with Multiple Myeloma and overflow proteinuria?",
+      "question": "On dipstick urinalysis, which urinary tract pathogen characteristically produces a FALSE-NEGATIVE urine nitrite test because it lacks the nitrate reductase enzyme?",
       "options": [
-        "The dipstick reagent pad utilizes the 'protein error of indicators' which is sensitive almost exclusively to Albumin, NOT to immunoglobulin light chains",
-        "Multiple myeloma light chains neutralize the dipstick pad",
-        "The test pad measures only glucose-bound proteins",
-        "Bence Jones proteins destroy the tetrabromphenol blue dye"
+        "Enterococcus faecalis and Staphylococcus saprophyticus",
+        "Escherichia coli",
+        "Proteus mirabilis",
+        "Klebsiella pneumoniae"
       ],
       "correctIndex": 0,
-      "explanation": "Dipstick protein pads rely on tetrabromphenol blue buffering, which is highly selective for the negative charges on albumin and largely insensitive to Bence Jones free light chains. Sulfosalicylic acid (SSA) precipitation detects ALL urine proteins."
+      "explanation": "Gram-positive bacteria (such as Enterococcus species and Staphylococcus saprophyticus) and Candida do not possess nitrate reductase, resulting in a negative nitrite test despite active, high-titer bacterial cystitis. E. coli and Proteus are nitrate reductase positive."
     },
     {
       "id": "ch22_q33",
@@ -869,15 +869,15 @@ export const ch22: Chapter = {
       "id": "ch22_q42",
       "topic": "Urinary Crystals",
       "difficulty": "Medium",
-      "question": "Hexagonal, flat, colorless benzene-ring-like plate crystals in acidic urine are pathognomonic for which rare inborn error of amino acid transport?",
+      "question": "Which urinary crystal, appearing as colorless 'envelope' or 'dumbbell' shapes, is the most common constituent of nephrolithiasis and frequently observed in hyperoxaluria or ethylene glycol toxicity?",
       "options": [
-        "Cystinuria",
-        "Phenylketonuria",
-        "Alkaptonuria",
-        "Maple syrup urine disease"
+        "Calcium oxalate (monohydrate and dihydrate)",
+        "Uric acid",
+        "Triple phosphate (struvite)",
+        "Amorphous urates"
       ],
       "correctIndex": 0,
-      "explanation": "Hexagonal plate crystals in acidic urine are pathognomonic for Cystinuria (impaired renal reabsorption of cystine, ornithine, lysine, and arginine / COLA transport defect), predisposing to recurrent cystine staghorn calculi."
+      "explanation": "Calcium oxalate dihydrate crystals appear as classic octahedrons (envelopes), while monohydrate forms resemble dumbbells or ovals. They precipitate in acidic-to-neutral urine and are linked to dietary oxalate, hypercalciuria, and antifreeze (ethylene glycol) poisoning."
     },
     {
       "id": "ch22_q43",
@@ -899,27 +899,27 @@ export const ch22: Chapter = {
       "difficulty": "Easy",
       "question": "If a routine urinalysis cannot be analyzed within 1 to 2 hours of voiding, how must the specimen be preserved to prevent bacterial growth and cast lysis?",
       "options": [
-        "Refrigerate at 2°C to 8°C for up to 24 hours",
-        "Store in a dry warming incubator at 37°C",
-        "Freeze solid at -20°C",
+        "Refrigerate at 2\u00b0C to 8\u00b0C for up to 24 hours",
+        "Store in a dry warming incubator at 37\u00b0C",
+        "Freeze solid at -20\u00b0C",
         "Add concentrated hydrochloric acid"
       ],
       "correctIndex": 0,
-      "explanation": "Refrigeration at 2-8°C slows bacterial multiplication, prevents urea breakdown into ammonia (which raises pH and dissolves casts and RBCs), and preserves cellular morphology for up to 24 hours."
+      "explanation": "Refrigeration at 2-8\u00b0C slows bacterial multiplication, prevents urea breakdown into ammonia (which raises pH and dissolves casts and RBCs), and preserves cellular morphology for up to 24 hours."
     },
     {
       "id": "ch22_q45",
       "topic": "Microscopic Urinalysis",
-      "difficulty": "Medium",
-      "question": "Under polarized light microscopy, lipid droplets and 'oval fat bodies' in the urine of a patient with nephrotic syndrome exhibit which optical sign?",
+      "difficulty": "Hard",
+      "question": "What is the defining microscopic characteristic of 'Ghost Cells' (phantom red blood cells) in dilute or alkaline urine specimens?",
       "options": [
-        "Maltese Cross pattern with dark central extinction crosses",
-        "Brilliant green fluorescence",
-        "Birefringent needle shapes",
-        "Hexagonal yellow plates"
+        "RBC membranes that have lost their hemoglobin through osmotic lysis, appearing as faint, hollow rings",
+        "Degenerating renal tubular epithelial cells filled with lipid droplets",
+        "Neutrophils exhibiting Brownian motion of cytoplasmic granules (Glitter cells)",
+        "Desquamated squamous cells with prominent pyknotic nuclei"
       ],
       "correctIndex": 0,
-      "explanation": "Cholesterol and cholesterol esters in degenerated tubular epithelial cells (oval fat bodies) and fatty casts are anisotropic: under crossed polarized filters, they refract light into a distinctive 'Maltese Cross' pattern."
+      "explanation": "In hypotonic (low specific gravity) or alkaline urine, erythrocytes swell and release hemoglobin through osmotic lysis, leaving behind faint, unstained circular outer membranes known as ghost cells or phantom RBCs."
     }
   ]
 };

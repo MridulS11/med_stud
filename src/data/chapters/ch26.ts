@@ -177,7 +177,7 @@ export const ch26: Chapter = {
       "morphology": "Cultured amniocytes grow as adherent colonies of epithelioid and fibroblastic cells.",
       "nursingManagement": [
         "Mandatory Rh-Immune Globulin (RhoGAM): Administer 300 ug of Anti-D to ALL Rh-negative, unsensitized mothers within 72 hours of CVS or amniocentesis.",
-        "Post-procedure instructions: Rest for 24 hours; avoid heavy lifting and strenuous activity; report immediately any vaginal fluid leakage, bleeding, severe cramping, or fever >38°C.",
+        "Post-procedure instructions: Rest for 24 hours; avoid heavy lifting and strenuous activity; report immediately any vaginal fluid leakage, bleeding, severe cramping, or fever >38\u00b0C.",
         "Continuous ultrasound monitoring of fetal heart rate immediately before and after the needle procedure."
       ],
       "examPearls": [
@@ -622,7 +622,7 @@ export const ch26: Chapter = {
       "question": "Following an amniocentesis, which symptom reported by the patient warrants immediate emergency medical evaluation?",
       "options": [
         "Mild fatigue",
-        "Fluid leakage from the vagina, continuous vaginal bleeding, or fever >38°C",
+        "Fluid leakage from the vagina, continuous vaginal bleeding, or fever >38\u00b0C",
         "Increased fetal movement",
         "Increased hunger"
       ],
@@ -759,7 +759,7 @@ export const ch26: Chapter = {
       "id": "ch26_q34",
       "topic": "Chorionic Villus Sampling",
       "difficulty": "Hard",
-      "question": "Confined Placental Mosaicism (CPM)—where chromosomal discrepancy exists between the placenta and the fetus—occurs in ~1-2% of which prenatal procedure?",
+      "question": "Confined Placental Mosaicism (CPM)\u2014where chromosomal discrepancy exists between the placenta and the fetus\u2014occurs in ~1-2% of which prenatal procedure?",
       "options": [
         "Chorionic Villus Sampling (CVS)",
         "Amniocentesis",
@@ -787,15 +787,15 @@ export const ch26: Chapter = {
       "id": "ch26_q36",
       "topic": "Ultrasound Markers",
       "difficulty": "Medium",
-      "question": "On a second-trimester targeted anatomy scan, which ultrasound soft marker is considered the strongest independent predictor for fetal Down syndrome?",
+      "question": "An Echogenic Intracardiac Focus (EIF / 'golf ball' sign) observed in the fetal left ventricle on second-trimester ultrasound represents mineralization of which anatomical structure?",
       "options": [
-        "Increased Nuchal Fold thickness (>= 6 mm) between 15-20 weeks",
-        "Isolated choroid plexus cyst",
-        "Echogenic intracardiac focus (EIF)",
-        "Mild pyelectasis"
+        "Papillary muscle of the mitral valve",
+        "Interventricular septum",
+        "Aortic valve leaflets",
+        "Pericardial membrane"
       ],
       "correctIndex": 0,
-      "explanation": "A thickened nuchal fold (>=6 mm measured between the outer occipital bone and skin surface at 15-20 weeks) has the highest positive likelihood ratio (LR ~11-17) of all ultrasound soft markers for Trisomy 21."
+      "explanation": "An Echogenic Intracardiac Focus (EIF) is a bright pinpoint spot on fetal echocardiography caused by microscopic calcification/mineralization in a papillary muscle of the left ventricle; it is a soft marker that slightly increases the pre-test probability of Trisomy 21."
     },
     {
       "id": "ch26_q37",
@@ -828,16 +828,16 @@ export const ch26: Chapter = {
     {
       "id": "ch26_q39",
       "topic": "Invasive Testing",
-      "difficulty": "Hard",
-      "question": "Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis) involves needle puncture of which vessel under continuous ultrasound guidance?",
+      "difficulty": "Medium",
+      "question": "In addition to fetal karyotyping, what is the primary therapeutic indication for performing Percutaneous Umbilical Blood Sampling (PUBS / Cordocentesis)?",
       "options": [
-        "Umbilical Vein at its placental insertion site",
-        "Umbilical Artery at fetal abdominal wall",
-        "Maternal uterine vein",
-        "Fetal descending aorta"
+        "Direct intravascular fetal blood transfusion for severe fetal anemia (e.g., Rh alloimmunization or Parvovirus B19)",
+        "Decompression of fetal congenital hydronephrosis",
+        "Intra-amniotic surfactant administration",
+        "Removal of polyhydramnios fluid"
       ],
       "correctIndex": 0,
-      "explanation": "PUBS is performed by guiding a needle into the intra-amniotic portion of the umbilical vein near the placental insertion site, allowing direct fetal blood sampling for rapid karyotyping, fetal hemoglobin, or intrauterine transfusions."
+      "explanation": "Beyond diagnostic sampling for rapid fetal hematocrit, platelet counts, or infection, PUBS provides direct vascular access to the umbilical vein for therapeutic intrauterine blood transfusion in fetuses suffering from profound anemia."
     },
     {
       "id": "ch26_q40",

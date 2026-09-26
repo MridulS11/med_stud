@@ -40,7 +40,7 @@ export const ch24: Chapter = {
       "id": "ch24_t2",
       "name": "Sex Determination & Lyonization (X-Inactivation)",
       "summary": "Genetic mechanisms governing chromosomal sex determination and dosage compensation via Lyonization (Barr body formation).",
-      "pathophysiology": "Chromosomal sex is established at fertilization. The SRY gene (Sex-determining Region Y) located on the short arm of the Y chromosome (Yp11.3) encodes the Testis-Determining Factor (TDF). TDF directs primitive bipotential gonads to differentiate into testes; Sertoli cells secrete Anti-Müllerian Hormone (AMH/MIS) causing regression of female paramesonephric (Müllerian) ducts, and Leydig cells secrete testosterone promoting mesonephric (Wolffian) duct development. In females, absence of SRY allows default ovarian differentiation. Dosage Compensation (Lyon Hypothesis): Early in embryonic development (~day 16 post-fertilization), one of the two X chromosomes in each female somatic cell is randomly and permanently inactivated into a condensed heterochromatic Barr body, mediated by the non-coding RNA XIST.",
+      "pathophysiology": "Chromosomal sex is established at fertilization. The SRY gene (Sex-determining Region Y) located on the short arm of the Y chromosome (Yp11.3) encodes the Testis-Determining Factor (TDF). TDF directs primitive bipotential gonads to differentiate into testes; Sertoli cells secrete Anti-M\u00fcllerian Hormone (AMH/MIS) causing regression of female paramesonephric (M\u00fcllerian) ducts, and Leydig cells secrete testosterone promoting mesonephric (Wolffian) duct development. In females, absence of SRY allows default ovarian differentiation. Dosage Compensation (Lyon Hypothesis): Early in embryonic development (~day 16 post-fertilization), one of the two X chromosomes in each female somatic cell is randomly and permanently inactivated into a condensed heterochromatic Barr body, mediated by the non-coding RNA XIST.",
       "clinicalFeatures": [
         "Barr Body (Sex Chromatin): Visible as a small, dense, dark-staining mass attached to the inner nuclear membrane in somatic cells (buccal mucosa smear or neutrophils as a 'drumstick' nuclear appendage).",
         "Number of Barr bodies = Total number of X chromosomes minus 1 (N - 1 Rule).",
@@ -728,7 +728,7 @@ export const ch24: Chapter = {
         "Robertsonian translocation of chromosome 15 onto chromosome 21"
       ],
       "correctIndex": 0,
-      "explanation": "In normal individuals, maternal 15q11-q13 is silenced (imprinted) and paternal genes are expressed. Prader-Willi occurs when the active paternal copy is missing—either by paternal microdeletion (70%) or maternal uniparental disomy (25%)."
+      "explanation": "In normal individuals, maternal 15q11-q13 is silenced (imprinted) and paternal genes are expressed. Prader-Willi occurs when the active paternal copy is missing\u2014either by paternal microdeletion (70%) or maternal uniparental disomy (25%)."
     },
     {
       "id": "ch24_q35",
@@ -944,15 +944,15 @@ export const ch24: Chapter = {
       "id": "ch24_q50",
       "topic": "Non-Mendelian Genetics",
       "difficulty": "Medium",
-      "question": "Heteroplasmy in mitochondrial genetics refers to:",
+      "question": "Leber Hereditary Optic Neuropathy (LHON) and Mitochondrial Encephalomyopathy with Lactic Acidosis and Stroke-like episodes (MELAS) are transmitted strictly through which inheritance pattern?",
       "options": [
-        "The co-existence of both mutated and wild-type mitochondrial DNA (mtDNA) molecules within the same cell or tissue",
-        "The loss of paternal mitochondrial transmission",
-        "The presence of two distinct cell lines from two zygotes (chimerism)",
-        "The duplication of nuclear genes into mitochondria"
+        "Maternal (mitochondrial DNA) transmission to all offspring of an affected female",
+        "Autosomal dominant inheritance with high paternal penetrance",
+        "X-linked dominant inheritance with male lethality",
+        "Uniparental paternal disomy of chromosome 15"
       ],
       "correctIndex": 0,
-      "explanation": "Heteroplasmy describes a cellular state containing a mixed population of normal (wild-type) and mutated mitochondrial genomes. The clinical severity of mitochondrial diseases depends on whether the ratio of mutant mtDNA exceeds the critical tissue threshold."
+      "explanation": "Mitochondrial DNA (mtDNA) is inherited exclusively from the maternal ovum because sperm mitochondria are degraded after fertilization. Thus, an affected mother transmits the mutation to 100% of her offspring, whereas an affected father transmits it to 0%."
     }
   ]
 };

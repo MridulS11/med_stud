@@ -11,7 +11,7 @@ export const ch29: Chapter = {
       "id": "ch29_t1",
       "name": "The Human Genome Project & Genomic Medicine",
       "summary": "Historic milestones of the HGP (1990-2003), genome architecture (3.1 billion bp, ~20,000 genes), single nucleotide polymorphisms (SNPs), and clinical pharmacogenomics.",
-      "pathophysiology": "The Human Genome Project (HGP, 1990-2003) was an international public scientific initiative that successfully deciphered the complete sequence of human euchromatic DNA. Major biological insights established by the HGP include: (1) The human haploid genome contains approximately 3.1 billion base pairs of DNA; (2) There are only ~20,000 to 25,000 protein-coding genes (far fewer than the originally estimated 100,000), meaning alternative RNA splicing and post-translational modifications generate the vast proteomic complexity; (3) Protein-coding sequences (exons) constitute only ~1.5% of the total genome; (4) Any two unrelated human individuals share 99.9% nucleotide sequence identity; the 0.1% variation (~4-5 million variants per individual) accounts for all phenotypic diversity and disease susceptibility, primarily in the form of Single Nucleotide Polymorphisms (SNPs). Genomic medicine integrates this architecture into clinical care through Pharmacogenomics—evaluating how an individual's genetic profile dictates drug response, efficacy, and toxicity.",
+      "pathophysiology": "The Human Genome Project (HGP, 1990-2003) was an international public scientific initiative that successfully deciphered the complete sequence of human euchromatic DNA. Major biological insights established by the HGP include: (1) The human haploid genome contains approximately 3.1 billion base pairs of DNA; (2) There are only ~20,000 to 25,000 protein-coding genes (far fewer than the originally estimated 100,000), meaning alternative RNA splicing and post-translational modifications generate the vast proteomic complexity; (3) Protein-coding sequences (exons) constitute only ~1.5% of the total genome; (4) Any two unrelated human individuals share 99.9% nucleotide sequence identity; the 0.1% variation (~4-5 million variants per individual) accounts for all phenotypic diversity and disease susceptibility, primarily in the form of Single Nucleotide Polymorphisms (SNPs). Genomic medicine integrates this architecture into clinical care through Pharmacogenomics\u2014evaluating how an individual's genetic profile dictates drug response, efficacy, and toxicity.",
       "clinicalFeatures": [
         "Pharmacogenomic Biomarkers in Clinical Practice:",
         "TPMT (Thiopurine S-methyltransferase): Deficiency leads to life-threatening hematopoietic bone marrow aplasia when standard doses of 6-mercaptopurine or azathioprine are administered.",
@@ -106,7 +106,7 @@ export const ch29: Chapter = {
       "id": "ch29_t4",
       "name": "Genetic Counseling Process & Pedigree Analysis",
       "summary": "Core counseling definition, non-directive autonomy, standard pedigree symbols and 3-generation pedigree construction, and empirical vs Mendelian risk calculations.",
-      "pathophysiology": "Genetic counseling is a dynamic, educational, and psychotherapeutic communication process defined by the National Society of Genetic Counselors (NSGC) as helping individuals and families understand and adapt to the medical, psychological, and familial implications of genetic contributions to disease. Core Tenet: Non-Directive Counseling—the counselor provides objective, comprehensive, balanced, and evidence-based clinical information while maintaining unconditional positive regard, never imposing decisions or values, thereby empowering patients to make autonomous, informed reproductive and medical choices aligned with their personal beliefs. The Foundation: The Three-Generation Pedigree. A structured standardized family tree tracing biological relationships, medical conditions, age of onset, and reproductive outcomes across a minimum of three generations (probands, siblings, parents, aunts/uncles, cousins, grandparents). Standard Pedigree Nomenclature: Squares indicate males; circles indicate females; diamonds indicate unspecified sex; filled/shaded symbols indicate clinically affected individuals; half-filled or dot-centered symbols indicate unaffected obligate carriers; diagonal slashes indicate deceased individuals; horizontal mating lines; vertical lines to offspring; double horizontal lines indicate Consanguinity; an arrow with 'P' designates the Proband (the index individual bringing the family to genetic medical attention).",
+      "pathophysiology": "Genetic counseling is a dynamic, educational, and psychotherapeutic communication process defined by the National Society of Genetic Counselors (NSGC) as helping individuals and families understand and adapt to the medical, psychological, and familial implications of genetic contributions to disease. Core Tenet: Non-Directive Counseling\u2014the counselor provides objective, comprehensive, balanced, and evidence-based clinical information while maintaining unconditional positive regard, never imposing decisions or values, thereby empowering patients to make autonomous, informed reproductive and medical choices aligned with their personal beliefs. The Foundation: The Three-Generation Pedigree. A structured standardized family tree tracing biological relationships, medical conditions, age of onset, and reproductive outcomes across a minimum of three generations (probands, siblings, parents, aunts/uncles, cousins, grandparents). Standard Pedigree Nomenclature: Squares indicate males; circles indicate females; diamonds indicate unspecified sex; filled/shaded symbols indicate clinically affected individuals; half-filled or dot-centered symbols indicate unaffected obligate carriers; diagonal slashes indicate deceased individuals; horizontal mating lines; vertical lines to offspring; double horizontal lines indicate Consanguinity; an arrow with 'P' designates the Proband (the index individual bringing the family to genetic medical attention).",
       "clinicalFeatures": [
         "Pedigree Patterns of Inheritance:",
         "Autosomal Dominant: Vertical transmission through every generation without skipping; 50% risk to offspring of an affected parent; equal male-to-female ratio; male-to-male transmission present.",
@@ -147,7 +147,7 @@ export const ch29: Chapter = {
         "Bilateral disease in paired organs (e.g., bilateral breast cancer, bilateral renal cell carcinoma, bilateral retinoblastoma).",
         "Condition occurring in the less commonly affected sex (e.g., male breast cancer).",
         "Presence of intellectual disability, developmental delay, or dysmorphism combined with multiple congenital structural anomalies.",
-        "Recurrent unprovoked pregnancy losses (≥2-3 spontaneous first-trimester miscarriages or stillbirths suggesting balanced parental translocations)."
+        "Recurrent unprovoked pregnancy losses (\u22652-3 spontaneous first-trimester miscarriages or stillbirths suggesting balanced parental translocations)."
       ],
       "diagnostics": [
         "Informed Consent Documentation: Rigorous pre-test counseling covering benefits, risks, limitations, potential for secondary incidental findings, and discrimination laws.",
@@ -589,7 +589,7 @@ export const ch29: Chapter = {
         "Parental Guthrie blood spot screening"
       ],
       "correctIndex": 0,
-      "explanation": "Recurrent pregnancy loss (≥2-3 miscarriages) occurs in 3-5% of couples due to one parent carrying a balanced chromosomal translocation (reciprocal or Robertsonian). Parental karyotyping detects these balanced rearrangements."
+      "explanation": "Recurrent pregnancy loss (\u22652-3 miscarriages) occurs in 3-5% of couples due to one parent carrying a balanced chromosomal translocation (reciprocal or Robertsonian). Parental karyotyping detects these balanced rearrangements."
     },
     {
       "id": "ch29_q31",
@@ -747,17 +747,17 @@ export const ch29: Chapter = {
     },
     {
       "id": "ch29_q42",
-      "topic": "GINA Legislation",
+      "topic": "Genetic Counseling",
       "difficulty": "Medium",
-      "question": "Under the Genetic Information Nondiscrimination Act of 2008 (GINA), which employer action is strictly illegal?",
+      "question": "In clinical genetics, 'Cascade Screening' refers to the systematic process of:",
       "options": [
-        "Refusing to hire, terminating, or demoting an employee based on predictive genetic test results or family history of disease",
-        "Requesting a physical drug screening test",
-        "Asking an employee to provide a doctor's sick leave note",
-        "Inquiring about an employee's current active symptoms on the job"
+        "Identifying and testing at-risk biological relatives of an index patient (proband) who carries an actionable pathogenic genetic variant",
+        "Sequencing the entire human exome in iterative stages",
+        "Testing newborn dried blood spots for consecutive metabolic disorders",
+        "Screening embryos created via IVF in sequential order"
       ],
       "correctIndex": 0,
-      "explanation": "GINA Title II strictly prohibits employers (with >=15 employees) from requesting, purchasing, or using genetic information (including family medical history and genetic test results) in hiring, firing, promotions, or terms of employment."
+      "explanation": "Cascade screening (or cascade testing) is the stepwise process of offering genetic counseling and targeted testing to first-degree relatives of an individual identified with a pathogenic mutation (such as BRCA1/2, Lynch syndrome, or Familial Hypercholesterolemia), followed by testing subsequent relatives if positive."
     },
     {
       "id": "ch29_q43",

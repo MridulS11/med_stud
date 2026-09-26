@@ -11,7 +11,7 @@ export const ch15: Chapter = {
       "id": "ch15_t1",
       "name": "Cryptorchidism & Testicular Torsion",
       "summary": "Cryptorchidism (failure of testicular descent into the scrotum) and testicular torsion (twisting of the spermatic cord obstructing blood supply) represent critical congenital and acute urological conditions.",
-      "pathophysiology": "In cryptorchidism, exposure to higher intra-abdominal or inguinal temperatures (1.5-2°C above scrotal sac) leads to arrest of spermatogenesis, tubular hyalinization, and interstitial Leydig cell prominence. Testicular torsion arises from an abnormally high attachment of the tunica vaginalis ('bell-clapper deformity'), allowing excessive testis mobility; twisting of spermatic cord veins leads to intense venous congestion, hemorrhagic infarction, and gangrene within 6 hours.",
+      "pathophysiology": "In cryptorchidism, exposure to higher intra-abdominal or inguinal temperatures (1.5-2\u00b0C above scrotal sac) leads to arrest of spermatogenesis, tubular hyalinization, and interstitial Leydig cell prominence. Testicular torsion arises from an abnormally high attachment of the tunica vaginalis ('bell-clapper deformity'), allowing excessive testis mobility; twisting of spermatic cord veins leads to intense venous congestion, hemorrhagic infarction, and gangrene within 6 hours.",
       "clinicalFeatures": [
         "Cryptorchidism: Empty hemiscrotum, non-palpable or inguinal palpable testis; asymptomatic in childhood, but causes infertility and carries a 5-10 fold increased risk of seminoma if untreated.",
         "Testicular Torsion: Sudden, excruciating unilateral testicular pain, scrotal swelling, nausea, vomiting, elevation of the affected testis (horizontal lie), and absent cremasteric reflex."
@@ -765,21 +765,21 @@ export const ch15: Chapter = {
         "The left internal iliac vein compresses the prostate"
       ],
       "correctIndex": 0,
-      "explanation": "The left testicular vein drains at a perpendicular right angle into the left renal vein (where it can be compressed between the SMA and aorta—the 'nutcracker' phenomenon), creating higher hydrostatic pressure than the right vein, which drains directly into the IVC."
+      "explanation": "The left testicular vein drains at a perpendicular right angle into the left renal vein (where it can be compressed between the SMA and aorta\u2014the 'nutcracker' phenomenon), creating higher hydrostatic pressure than the right vein, which drains directly into the IVC."
     },
     {
       "id": "ch15_q38",
-      "topic": "Prostate Pathology",
+      "topic": "Scrotal Pathology",
       "difficulty": "Medium",
-      "question": "How is the histological Gleason Score calculated for prostatic adenocarcinoma from biopsy specimens?",
+      "question": "A young adult male presents with a scrotal mass described on physical examination as feeling like a 'bag of worms' that decompresses when recumbent. This condition (Varicocele) is caused by dilatation of which venous structure?",
       "options": [
-        "Summing the numerical grade (1-5) of the most prominent pattern and the second most prominent pattern",
-        "Multiplying the tumor diameter by serum PSA concentration",
-        "Counting mitotic figures per 10 high-power fields",
-        "Assessing the depth of capsular penetration in millimeters"
+        "Pampiniform venous plexus",
+        "Internal pudendal veins",
+        "Dorsal vein of the penis",
+        "Inferior epigastric vein"
       ],
       "correctIndex": 0,
-      "explanation": "The Gleason score sums the primary (most predominant) and secondary (second most prevalent) histological architectural patterns (grades 1 to 5), yielding a score ranging from 6 (Grade Group 1) to 10 (Grade Group 5)."
+      "explanation": "Varicocele is abnormal tortuosity and dilatation of the pampiniform venous plexus of the spermatic cord, occurring predominantly on the left side due to perpendicular insertion into the left renal vein. It is a major reversible cause of male subfertility."
     },
     {
       "id": "ch15_q39",

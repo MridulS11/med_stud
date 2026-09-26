@@ -303,7 +303,7 @@ export const ch16: Chapter = {
         "Reed-Sternberg cells"
       ],
       "correctIndex": 1,
-      "explanation": "Koilocytes—squamous epithelial cells characterized by nuclear enlargement, hyperchromasia, wrinkling, and a prominent perinuclear halo—are pathognomonic for HPV cytopathic effect."
+      "explanation": "Koilocytes\u2014squamous epithelial cells characterized by nuclear enlargement, hyperchromasia, wrinkling, and a prominent perinuclear halo\u2014are pathognomonic for HPV cytopathic effect."
     },
     {
       "id": "ch16_q2",
@@ -653,7 +653,7 @@ export const ch16: Chapter = {
         "Choriocarcinoma"
       ],
       "correctIndex": 2,
-      "explanation": "Call-Exner bodies—small gland-like follicles containing eosinophilic material—are the classic histological hallmark of ovarian Granulosa Cell Tumors."
+      "explanation": "Call-Exner bodies\u2014small gland-like follicles containing eosinophilic material\u2014are the classic histological hallmark of ovarian Granulosa Cell Tumors."
     },
     {
       "id": "ch16_q27",
@@ -751,7 +751,7 @@ export const ch16: Chapter = {
         "Exocervical squamous apex"
       ],
       "correctIndex": 0,
-      "explanation": "The transformation zone—the dynamic squamocolumnar junction where endocervical glandular epithelium undergoes physiological squamous metaplasia—is the vulnerable site where HPV infects immature metaplastic cells, initiating CIN."
+      "explanation": "The transformation zone\u2014the dynamic squamocolumnar junction where endocervical glandular epithelium undergoes physiological squamous metaplasia\u2014is the vulnerable site where HPV infects immature metaplastic cells, initiating CIN."
     },
     {
       "id": "ch16_q34",
@@ -797,17 +797,17 @@ export const ch16: Chapter = {
     },
     {
       "id": "ch16_q37",
-      "topic": "Endometrial Pathology",
+      "topic": "Ovarian Tumors",
       "difficulty": "Hard",
-      "question": "Women with Lynch syndrome (Hereditary Non-Polyposis Colorectal Cancer) carry an extraordinarily high lifetime risk (up to 40-60%) for which gynecological cancer?",
+      "question": "Which uncommon ovarian neoplasm is characterized histologically by nests of transitional-like urothelial epithelium with distinct 'coffee-bean' grooved nuclei embedded in dense fibrous stroma?",
       "options": [
-        "Endometrial Carcinoma",
-        "Cervical Squamous Cell Carcinoma",
-        "Immature Teratoma",
-        "Hydatidiform Mole"
+        "Brenner Tumor",
+        "Granulosa Cell Tumor",
+        "Dysgerminoma",
+        "Struma Ovarii"
       ],
       "correctIndex": 0,
-      "explanation": "After colorectal cancer, endometrial adenocarcinoma is the most common malignancy in women with Lynch syndrome, caused by germline mismatch repair (MMR) gene defects (MLH1, MSH2, MSH6, PMS2)."
+      "explanation": "Brenner tumors of the ovary are rare, usually benign epithelial stromal tumors consisting of transitional (urothelial) epithelial cells with longitudinal nuclear grooves (coffee-bean nuclei) surrounded by dense fibromatous stroma."
     },
     {
       "id": "ch16_q38",
@@ -961,7 +961,7 @@ export const ch16: Chapter = {
         "Tetracycline"
       ],
       "correctIndex": 0,
-      "explanation": "In utero exposure to Diethylstilbestrol (DES)—a synthetic estrogen prescribed from 1940-1971 to prevent miscarriage—caused vaginal adenosis and a heightened risk of vaginal/cervical clear cell adenocarcinoma in female offspring."
+      "explanation": "In utero exposure to Diethylstilbestrol (DES)\u2014a synthetic estrogen prescribed from 1940-1971 to prevent miscarriage\u2014caused vaginal adenosis and a heightened risk of vaginal/cervical clear cell adenocarcinoma in female offspring."
     },
     {
       "id": "ch16_q49",

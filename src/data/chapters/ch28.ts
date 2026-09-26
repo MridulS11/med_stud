@@ -27,11 +27,11 @@ export const ch28: Chapter = {
         "Immediately protect the open myelomeningocele defect at birth: Position newborn prone or side-lying; cover sac with sterile, non-adherent saline-soaked gauze dressings; keep moist in a sterile plastic drape or bowel bag to prevent desiccation and hypothermia.",
         "Institute strict LATEX-FREE precautions from the moment of birth and across the lifespan (gloves, catheters, IV equipment, tourniquets) to prevent life-threatening latex anaphylaxis.",
         "Monitor for signs of elevated intracranial pressure and progressive hydrocephalus: Measure daily occipitofrontal head circumference (OFC), palpate anterior fontanelle, and monitor for high-pitched cry or vomiting.",
-        "Educate all women of childbearing age regarding periconceptional folic acid supplementation: 400 µg (0.4 mg) daily for general risk women starting at least 1 month prior to conception; high-dose 4,000 µg (4.0 mg) daily for women with a previous NTD-affected pregnancy or taking anti-epileptic drugs (valproate, carbamazepine)."
+        "Educate all women of childbearing age regarding periconceptional folic acid supplementation: 400 \u00b5g (0.4 mg) daily for general risk women starting at least 1 month prior to conception; high-dose 4,000 \u00b5g (4.0 mg) daily for women with a previous NTD-affected pregnancy or taking anti-epileptic drugs (valproate, carbamazepine)."
       ],
       "examPearls": [
         "The neural tube closes completely by gestational day 28; therefore, folic acid supplementation must begin BEFORE conception to prevent NTDs.",
-        "Standard dose of folic acid is 400 µg/day for average-risk women, whereas high-risk women (prior affected child) require 4 mg/day (10-fold higher dose).",
+        "Standard dose of folic acid is 400 \u00b5g/day for average-risk women, whereas high-risk women (prior affected child) require 4 mg/day (10-fold higher dose).",
         "Amniotic fluid acetylcholinesterase (AChE) confirms open neural tube defects because AChE is a specific neural enzyme that transudates only when the nervous system is unepithelialized."
       ],
       "imagePath": "/images/ch28_neural_tube_defect_basis.jpeg",
@@ -103,7 +103,7 @@ export const ch28: Chapter = {
       "id": "ch28_t4",
       "name": "Adult Neurogenetic & Complex Psychiatric Conditions",
       "summary": "Autosomal dominant neurodegeneration (Huntington chorea), trinucleotide repeat dynamics and anticipation, Alzheimer genetics (APP, PSEN1/2, APOE), and polygenic psychiatric genetics.",
-      "pathophysiology": "Adult-onset neurogenetic disorders illustrate dynamic non-Mendelian mutations and multifactorial thresholds. Huntington Disease (HD) is a fatal, autosomal dominant neurodegenerative disorder characterized by an unstable CAG trinucleotide repeat expansion in exon 1 of the HTT gene on chromosome 4p16.3 encoding huntingtin protein. Normal alleles possess ≤26 CAG repeats; mutable normal/intermediate alleles 27-35; reduced penetrance 36-39; full penetrance ≥40 CAG repeats. The expanded polyglutamine (polyQ) tract confers a toxic gain-of-function on the mutant huntingtin protein, forming intranuclear aggregates, disrupting mitochondrial function, and triggering apoptotic death of striatal medium spiny GABAergic neurons in the caudate nucleus and putamen. Huntington disease displays Genetic Anticipation: unstable CAG repeats expand further during spermatogenesis; paternal transmission often causes dramatically increased repeat lengths and earlier onset in offspring (juvenile HD, onset <20 years). Alzheimer's Disease (AD) genetics involves: Early-onset familial AD (EOAD, <60 years, autosomal dominant, <5% of cases) caused by mutations in APP (chromosome 21), PSEN1 (presenilin 1, chromosome 14, most common cause of EOAD), or PSEN2 (presenilin 2, chromosome 1). Late-onset AD (LOAD, >65 years, multifactorial) has the apolipoprotein E (APOE) gene on chromosome 19 as the major susceptibility locus: APOE-ε4 allele increases risk dose-dependently (heterozygotes have a 3-fold risk; homozygotes have a 12-fold risk), whereas APOE-ε2 allele confers neuroprotection.",
+      "pathophysiology": "Adult-onset neurogenetic disorders illustrate dynamic non-Mendelian mutations and multifactorial thresholds. Huntington Disease (HD) is a fatal, autosomal dominant neurodegenerative disorder characterized by an unstable CAG trinucleotide repeat expansion in exon 1 of the HTT gene on chromosome 4p16.3 encoding huntingtin protein. Normal alleles possess \u226426 CAG repeats; mutable normal/intermediate alleles 27-35; reduced penetrance 36-39; full penetrance \u226540 CAG repeats. The expanded polyglutamine (polyQ) tract confers a toxic gain-of-function on the mutant huntingtin protein, forming intranuclear aggregates, disrupting mitochondrial function, and triggering apoptotic death of striatal medium spiny GABAergic neurons in the caudate nucleus and putamen. Huntington disease displays Genetic Anticipation: unstable CAG repeats expand further during spermatogenesis; paternal transmission often causes dramatically increased repeat lengths and earlier onset in offspring (juvenile HD, onset <20 years). Alzheimer's Disease (AD) genetics involves: Early-onset familial AD (EOAD, <60 years, autosomal dominant, <5% of cases) caused by mutations in APP (chromosome 21), PSEN1 (presenilin 1, chromosome 14, most common cause of EOAD), or PSEN2 (presenilin 2, chromosome 1). Late-onset AD (LOAD, >65 years, multifactorial) has the apolipoprotein E (APOE) gene on chromosome 19 as the major susceptibility locus: APOE-\u03b54 allele increases risk dose-dependently (heterozygotes have a 3-fold risk; homozygotes have a 12-fold risk), whereas APOE-\u03b52 allele confers neuroprotection.",
       "clinicalFeatures": [
         "Huntington Clinical Triad: (1) Motor dysfunction: Involuntary chorea (dance-like, jerking, non-rhythmic movements), dystonia, dysarthria, and progressive dysphagia; (2) Cognitive decline: Subcortical dementia with executive dysfunction, bradyphrenia, and loss of cognitive flexibility; (3) Psychiatric symptoms: Depression, severe apathy, obsessive-compulsive behaviors, irritability, and high suicide risk (5-10x general population).",
         "Alzheimer Clinical Progression: Insidious loss of short-term episodic memory, followed by progressive aphasia, apraxia, agnosia, executive disorientation, loss of independent ADLs, and vegetative state.",
@@ -125,7 +125,7 @@ export const ch28: Chapter = {
         "Huntington disease is caused by an expanded CAG trinucleotide repeat (>40 repeats) in the HTT gene on chromosome 4p16.3.",
         "Anticipation (earlier onset and more severe disease in successive generations) in Huntington disease occurs almost exclusively during paternal transmission due to CAG expansion in spermatogenesis.",
         "Bilateral caudate nucleus atrophy resulting in ballooning of the frontal horns of the lateral ventricles is the hallmark neuroimaging finding in Huntington disease.",
-        "APOE-ε4 is the primary genetic susceptibility risk factor for late-onset sporadic Alzheimer's disease on chromosome 19."
+        "APOE-\u03b54 is the primary genetic susceptibility risk factor for late-onset sporadic Alzheimer's disease on chromosome 19."
       ],
       "imagePath": "/images/ch28_huntington_caudate_atrophy.jpeg",
       "imageCaption": "Figure 28.11: Huntington disease coronal brain section demonstrating marked bilateral atrophy of the caudate nuclei."
@@ -139,7 +139,7 @@ export const ch28: Chapter = {
         "BRCA1/2 Syndromes: Early-onset premenopausal breast cancer (frequently triple-negative in BRCA1), bilateral breast cancer, high-grade serous ovarian cancer, male breast cancer (BRCA2), and elevated risks of prostate and pancreatic cancers.",
         "Lynch Syndrome: Colorectal cancer diagnosed at young median age (~45 years) without preceding diffuse polyposis, endometrial carcinoma, ovarian cancer, and gastric cancer.",
         "FAP: Profuse carpet-like adenomatous polyposis of the colon (>100 polyps); extraintestinal manifestations (Gardner syndrome: osteomas, desmoid tumors, epidermal cysts; Turcot syndrome: CNS medulloblastoma).",
-        "Sickle Cell Crises: Vaso-occlusive painful crises (bone, abdomen), acute chest syndrome (fever, tachypnea, pulmonary infiltrates—leading cause of mortality), splenic sequestration crisis, aplastic crisis (parvovirus B19), and autosplenectomy by early childhood (increasing risk of encapsulated sepsis: S. pneumoniae, H. influenzae, Salmonella osteomyelitis)."
+        "Sickle Cell Crises: Vaso-occlusive painful crises (bone, abdomen), acute chest syndrome (fever, tachypnea, pulmonary infiltrates\u2014leading cause of mortality), splenic sequestration crisis, aplastic crisis (parvovirus B19), and autosplenectomy by early childhood (increasing risk of encapsulated sepsis: S. pneumoniae, H. influenzae, Salmonella osteomyelitis)."
       ],
       "diagnostics": [
         "Multigene NGS Hereditary Cancer Panels: Comprehensive simultaneous sequencing of BRCA1, BRCA2, MLH1, MSH2, MSH6, PMS2, EPCAM, APC, TP53, PTEN, etc.",
@@ -155,13 +155,13 @@ export const ch28: Chapter = {
         "Implement hereditary cancer genetic counseling: Assist patients in informing at-risk first-degree relatives ('cascade testing')."
       ],
       "examPearls": [
-        "Sickle cell anemia is caused by a point mutation substituting Valine for Glutamic acid at position 6 of the beta-globin chain (β6 Glu->Val).",
+        "Sickle cell anemia is caused by a point mutation substituting Valine for Glutamic acid at position 6 of the beta-globin chain (\u03b26 Glu->Val).",
         "Autosplenectomy due to recurrent infarctions occurs in sickle cell disease by childhood, predisposing patients to fatal encapsulated bacterial infections (encapsulated bacteria: Streptococcus pneumoniae).",
         "BRCA1 and BRCA2 genes function in DNA double-strand break repair via homologous recombination; PARP inhibitors exploit synthetic lethality in BRCA-mutant tumors.",
         "Lynch syndrome is caused by germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2) resulting in microsatellite instability (MSI-H)."
       ],
       "imagePath": "/images/ch28_cancer_sickle_mechanisms.png",
-      "imageCaption": "Molecular genetics: Knudson two-hit hypothesis (BRCA1/2) and Sickle Cell Disease point mutation (β6 Glu->Val)."
+      "imageCaption": "Molecular genetics: Knudson two-hit hypothesis (BRCA1/2) and Sickle Cell Disease point mutation (\u03b26 Glu->Val)."
     }
   ],
   "quiz": [
@@ -185,27 +185,27 @@ export const ch28: Chapter = {
       "difficulty": "Medium",
       "question": "What is the recommended daily periconceptional dose of folic acid for a woman with a previous child affected by a neural tube defect?",
       "options": [
-        "400 µg (0.4 mg) daily",
-        "800 µg (0.8 mg) daily",
-        "1,000 µg (1.0 mg) daily",
-        "4,000 µg (4.0 mg) daily"
+        "400 \u00b5g (0.4 mg) daily",
+        "800 \u00b5g (0.8 mg) daily",
+        "1,000 \u00b5g (1.0 mg) daily",
+        "4,000 \u00b5g (4.0 mg) daily"
       ],
       "correctIndex": 3,
-      "explanation": "Women at high risk (prior pregnancy with an NTD or taking anticonvulsants) must take 4,000 µg (4.0 mg) of folic acid daily starting at least 1-3 months before conception and through the first trimester."
+      "explanation": "Women at high risk (prior pregnancy with an NTD or taking anticonvulsants) must take 4,000 \u00b5g (4.0 mg) of folic acid daily starting at least 1-3 months before conception and through the first trimester."
     },
     {
       "id": "ch28_q3",
-      "topic": "Clinical Genetics",
+      "topic": "Neural Tube Defects",
       "difficulty": "Medium",
-      "question": "Which amniotic fluid enzyme test specifically confirms the presence of an open neural tube defect following elevated maternal serum AFP?",
+      "question": "Which physical finding on cutaneous examination of the lumbosacral spine in an adolescent or adult is a classic clue to underlying Spina Bifida Occulta?",
       "options": [
-        "Acetylcholinesterase (AChE)",
-        "Alkaline phosphatase",
-        "Lactate dehydrogenase (LDH)",
-        "Creatine kinase (CK)"
+        "A localized tuft of hair (hypertrichosis), dimple, hemangioma, or lipoma",
+        "A bulging fluid-filled sac covered by transparent meninges",
+        "An exposed, weeping neural placode with continuous CSF leakage",
+        "An erythematous targetoid bullseye rash"
       ],
       "correctIndex": 0,
-      "explanation": "Amniotic fluid acetylcholinesterase (AChE) is an enzyme specific to neural tissue. When detected in amniotic fluid, it confirms direct open communication between the exposed neural tissue and amniotic fluid."
+      "explanation": "Spina bifida occulta is a failure of posterior vertebral arch fusion without herniation of neural tissue. The overlying skin is intact but frequently displays a cutaneous marker such as a sacral dimple, tuft of hair (hypertrichosis), or dermal lipoma."
     },
     {
       "id": "ch28_q4",
@@ -409,13 +409,13 @@ export const ch28: Chapter = {
       "difficulty": "Medium",
       "question": "What number of CAG repeats in the HTT gene confers full penetrance for Huntington disease?",
       "options": [
-        "≤26 repeats",
+        "\u226426 repeats",
         "27 to 35 repeats",
         "36 to 39 repeats",
-        "≥40 repeats"
+        "\u226540 repeats"
       ],
       "correctIndex": 3,
-      "explanation": "Alleles with ≥40 CAG repeats are fully penetrant, meaning the individual will inevitably develop Huntington disease if they live a normal lifespan."
+      "explanation": "Alleles with \u226540 CAG repeats are fully penetrant, meaning the individual will inevitably develop Huntington disease if they live a normal lifespan."
     },
     {
       "id": "ch28_q19",
@@ -465,13 +465,13 @@ export const ch28: Chapter = {
       "difficulty": "Medium",
       "question": "Which allele of the Apolipoprotein E (APOE) gene on chromosome 19 is the major genetic risk factor for late-onset sporadic Alzheimer's disease?",
       "options": [
-        "APOE-ε1",
-        "APOE-ε2",
-        "APOE-ε3",
-        "APOE-ε4"
+        "APOE-\u03b51",
+        "APOE-\u03b52",
+        "APOE-\u03b53",
+        "APOE-\u03b54"
       ],
       "correctIndex": 3,
-      "explanation": "The APOE-ε4 allele is a dose-dependent major susceptibility risk factor for late-onset Alzheimer's disease, whereas APOE-ε2 is considered neuroprotective."
+      "explanation": "The APOE-\u03b54 allele is a dose-dependent major susceptibility risk factor for late-onset Alzheimer's disease, whereas APOE-\u03b52 is considered neuroprotective."
     },
     {
       "id": "ch28_q23",
@@ -541,7 +541,7 @@ export const ch28: Chapter = {
         "Deletion of phenylalanine at codon 508"
       ],
       "correctIndex": 1,
-      "explanation": "Sickle cell disease is caused by a point mutation in the HBB gene on chromosome 11 (GAG to GTG) replacing hydrophilic glutamic acid with hydrophobic valine at position 6 of the beta-globin chain (β6 Glu->Val)."
+      "explanation": "Sickle cell disease is caused by a point mutation in the HBB gene on chromosome 11 (GAG to GTG) replacing hydrophilic glutamic acid with hydrophobic valine at position 6 of the beta-globin chain (\u03b26 Glu->Val)."
     },
     {
       "id": "ch28_q28",
@@ -826,16 +826,16 @@ export const ch28: Chapter = {
     {
       "id": "ch28_q48",
       "topic": "Sickle Cell Disease",
-      "difficulty": "Medium",
-      "question": "Acute Chest Syndrome (ACS) is the leading cause of mortality in adolescent and adult patients with Sickle Cell Disease. What is its clinical presentation and immediate management?",
+      "difficulty": "Hard",
+      "question": "In an adolescent with Sickle Cell Disease presenting with acute severe pallor, profound fatigue, and a plummeting reticulocyte count (<0.1%), what life-threatening complication caused by Parvovirus B19 should be suspected?",
       "options": [
-        "New pulmonary infiltrate on chest X-ray + fever, tachypnea, chest pain, and hypoxemia; treated with IV antibiotics, hydration, oxygen, analgesia, and urgent exchange blood transfusion",
-        "Isolated hypertension treated with ACE inhibitors",
-        "Hemolytic jaundice requiring splenectomy",
-        "Renal failure requiring immediate dialysis"
+        "Transient Aplastic Crisis (suppression of erythroid precursors)",
+        "Acute Splenic Sequestration crisis",
+        "Vaso-occlusive bone pain crisis",
+        "Hyperhemolytic crisis"
       ],
       "correctIndex": 0,
-      "explanation": "ACS is defined by a new radiographical pulmonary infiltrate accompanied by fever, cough, chest pain, and hypoxemia (driven by pulmonary microvascular sickling and fat embolism). Emergency exchange transfusion prevents fatal respiratory failure."
+      "explanation": "Parvovirus B19 infects and destroys erythroid progenitor cells in bone marrow. In sickle cell patients (who depend on rapid reticulocytosis to survive continuous hemolysis), this produces a cessation of erythropoiesis: Transient Aplastic Crisis with severe anemia and absent reticulocytes."
     },
     {
       "id": "ch28_q49",
@@ -927,7 +927,7 @@ export const ch28: Chapter = {
         "id": "ad10",
         "label": "Sickle Cell Anemia (HbS)",
         "category": "pathophysiology",
-        "description": "β6 Glu->Val point mutation, polymerizes in hypoxia, autosplenectomy"
+        "description": "\u03b26 Glu->Val point mutation, polymerizes in hypoxia, autosplenectomy"
       }
     ],
     "edges": [

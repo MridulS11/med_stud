@@ -729,15 +729,15 @@ export const ch25: Chapter = {
       "id": "ch25_q34",
       "topic": "Congenital Infections",
       "difficulty": "Medium",
-      "question": "Sabin's Triad of Congenital Toxoplasmosis consists of:",
+      "question": "Maternal Zika virus infection during the first and early second trimesters of pregnancy is notoriously associated with which severe congenital anomaly pattern?",
       "options": [
-        "Chorioretinitis, Hydrocephalus, and Diffuse Intracranial Calcifications",
-        "Cataracts, Deafness, and PDA",
-        "Interstitial keratitis, Saddle nose, and Saber shins",
-        "Anencephaly, Omphalocele, and Spina bifida"
+        "Congenital Zika Syndrome characterized by severe microcephaly, subcortical calcifications, and fetal brain disruption sequence",
+        "Gregg triad of cataracts, deafness, and patent ductus arteriosus",
+        "Hutchinson triad of notched incisors, interstitial keratitis, and 8th nerve deafness",
+        "Sabin triad of chorioretinitis, hydrocephalus, and diffuse intracranial calcifications"
       ],
       "correctIndex": 0,
-      "explanation": "Classic congenital toxoplasmosis presents with Sabin's triad: chorioretinitis (macular scars causing visual loss), hydrocephalus (due to aqueductal stenosis), and diffuse, scattered intracranial calcifications (unlike periventricular CMV)."
+      "explanation": "Zika virus exhibits potent neurotropism for neural progenitor cells, leading to Congenital Zika Syndrome: severe fetal microcephaly, partially collapsed skull (fetal brain disruption sequence), macular scarring, arthrogryposis, and subcortical calcifications."
     },
     {
       "id": "ch25_q35",
@@ -770,16 +770,16 @@ export const ch25: Chapter = {
     {
       "id": "ch25_q37",
       "topic": "Teratogenic Medications",
-      "difficulty": "Hard",
-      "question": "Angiotensin-Converting Enzyme (ACE) Inhibitors and ARBs taken during the second and third trimesters of pregnancy cause fetal death and congenital malformations primarily through which mechanism?",
+      "difficulty": "Medium",
+      "question": "Maternal ingestion of Thalidomide during gestational days 20 to 36 is the historic prototype of human teratogenesis, resulting in which severe limb reduction deformity?",
       "options": [
-        "Fetal renal hypoperfusion and renal dysgenesis, resulting in profound oligohydramnios, pulmonary hypoplasia, and calvarial bone defects (Potter sequence)",
-        "Premature closure of the ductus arteriosus",
-        "Inhibition of limb bud chondrogenesis (phocomelia)",
-        "Severe macroglossia and omphalocele"
+        "Phocomelia (seal-like flipper limbs with severe hypoplasia or absence of long bones)",
+        "Polydactyly and syndactyly of digits",
+        "Clubfoot (talipes equinovarus)",
+        "Congenital hip dysplasia"
       ],
       "correctIndex": 0,
-      "explanation": "Fetal renal development requires angiotensin II for perfusion and tubular development. ACE inhibitors block this, causing fetal anuria, severe oligohydramnios, pulmonary hypoplasia, and neonatal renal failure (fetopathy)."
+      "explanation": "Thalidomide exposure during organogenesis (days 20-36 post-conception) causes catastrophic limb reduction defects including phocomelia (absence of proximal limb segments with hands/feet attached directly to the trunk) and amelia (total absence of limbs)."
     },
     {
       "id": "ch25_q38",
